@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Plus View Controller-->
+        <scene sceneID="nyb-QH-iOT">
+            <objects>
+                <viewController storyboardIdentifier="PlusViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="C6C-WF-fFy" customClass="PlusViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4ps-5o-tqu"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Oa-SW-1IA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vAc-wi-K12">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="WHO-3g-Nrf">
+                                <rect key="frame" x="324" y="41" width="120" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="5DM-2H-Aq9"/>
+                                    <constraint firstAttribute="height" constant="100" id="oj8-d4-6n4"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DPP-1h-WeF" customClass="YTPlayerView">
+                                <rect key="frame" x="160" y="161" width="449" height="242"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="449" id="Ulq-GV-Ab4"/>
+                                    <constraint firstAttribute="height" constant="242" id="Vvj-1C-5sQ"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plusmenu_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jmj-wU-J9g">
+                                <rect key="frame" x="89" y="429" width="590" height="503"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="590" id="BSd-21-9Zi"/>
+                                    <constraint firstAttribute="height" constant="503" id="D9Z-x2-7ab"/>
+                                </constraints>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZu-Ax-rfC">
+                                <rect key="frame" x="293" y="934" width="183" height="49"/>
+                                <color key="backgroundColor" red="0.90588235294117647" green="0.14901960784313725" blue="0.098039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="183" id="qwn-8I-ZvX"/>
+                                    <constraint firstAttribute="height" constant="49" id="vfn-bv-yoF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Get it Now">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onGetItNow:" destination="C6C-WF-fFy" eventType="touchUpInside" id="A62-Sg-sWn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8n-0a-YXM">
+                                <rect key="frame" x="39" y="34" width="69" height="45"/>
+                                <state key="normal" backgroundImage="red_back_arrow.png"/>
+                                <connections>
+                                    <action selector="onBack:" destination="C6C-WF-fFy" eventType="touchUpInside" id="NpW-nn-mdd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="aZu-Ax-rfC" secondAttribute="centerX" constant="-0.5" id="2Nt-az-8sW"/>
+                            <constraint firstAttribute="centerX" secondItem="DPP-1h-WeF" secondAttribute="centerX" constant="-0.5" id="8Iq-VA-gac"/>
+                            <constraint firstItem="WHO-3g-Nrf" firstAttribute="top" secondItem="4ps-5o-tqu" secondAttribute="bottom" constant="21" id="FiE-zd-5Ve"/>
+                            <constraint firstAttribute="centerX" secondItem="WHO-3g-Nrf" secondAttribute="centerX" id="ItF-PD-CfN"/>
+                            <constraint firstItem="Jmj-wU-J9g" firstAttribute="top" secondItem="DPP-1h-WeF" secondAttribute="bottom" constant="26" id="hYx-ZR-AhL"/>
+                            <constraint firstItem="DPP-1h-WeF" firstAttribute="top" secondItem="WHO-3g-Nrf" secondAttribute="bottom" constant="20" id="rDt-w7-BTo"/>
+                            <constraint firstItem="aZu-Ax-rfC" firstAttribute="top" secondItem="Jmj-wU-J9g" secondAttribute="bottom" constant="2" id="rwA-Dd-f9c"/>
+                            <constraint firstAttribute="centerX" secondItem="Jmj-wU-J9g" secondAttribute="centerX" id="xnm-Xr-UHE"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="768" height="1024"/>
+                    <connections>
+                        <outlet property="playerView" destination="DPP-1h-WeF" id="Hdf-y7-8nm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Pb-QW-EyN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-835" y="1521"/>
+        </scene>
+        <!--Promo View Controller-->
+        <scene sceneID="OZ2-of-Imh">
+            <objects>
+                <viewController storyboardIdentifier="promoviewcontroller" id="sKY-hH-Iqq" customClass="PromoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t1n-ko-JtK"/>
+                        <viewControllerLayoutGuide type="bottom" id="K0f-g6-T1R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0We-O3-gxE">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kd2-a9-P3L">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szi-6U-kml">
+                                        <rect key="frame" x="300" y="900" width="180" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="6hh-MV-Bqw"/>
+                                            <constraint firstAttribute="height" constant="38" id="VlM-rd-Y66"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="button_getitnow.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getItNow:" destination="sKY-hH-Iqq" eventType="touchUpInside" id="k8Z-dq-Ehd"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="mobilepromo.png" translatesAutoresizingMaskIntoConstraints="NO" id="kak-fZ-cfA">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="kak-fZ-cfA" secondAttribute="bottom" id="J9S-eV-oBM"/>
+                                    <constraint firstAttribute="bottom" secondItem="szi-6U-kml" secondAttribute="bottom" constant="86" id="LSy-AJ-Gfr"/>
+                                    <constraint firstItem="kak-fZ-cfA" firstAttribute="top" secondItem="Kd2-a9-P3L" secondAttribute="top" id="UnZ-Ng-31h"/>
+                                    <constraint firstAttribute="centerX" secondItem="szi-6U-kml" secondAttribute="centerX" constant="-6" id="XMP-YR-Fdu"/>
+                                    <constraint firstItem="kak-fZ-cfA" firstAttribute="leading" secondItem="Kd2-a9-P3L" secondAttribute="leading" id="ys0-QH-ho4"/>
+                                    <constraint firstAttribute="trailing" secondItem="kak-fZ-cfA" secondAttribute="trailing" id="zeO-6d-sJl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Kd2-a9-P3L" secondAttribute="trailing" constant="-16" id="0L7-rc-5sV"/>
+                            <constraint firstItem="Kd2-a9-P3L" firstAttribute="top" secondItem="t1n-ko-JtK" secondAttribute="bottom" constant="-20" id="GUr-2v-S2Z"/>
+                            <constraint firstItem="Kd2-a9-P3L" firstAttribute="leading" secondItem="0We-O3-gxE" secondAttribute="leadingMargin" constant="-16" id="fiv-EM-KKy"/>
+                            <constraint firstItem="K0f-g6-T1R" firstAttribute="top" secondItem="Kd2-a9-P3L" secondAttribute="bottom" id="kWU-EJ-EAU"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="8EA-yX-H9q">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="8xU-Pa-A7S">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9dH-bg-0LD">
+                                <rect key="frame" x="16" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" backgroundImage="red_back_arrow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBack:" destination="sKY-hH-Iqq" eventType="touchUpInside" id="E9L-2v-wcu"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kj9-A6-QNa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1766" y="1521"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button_getitnow.png" width="542" height="101"/>
+        <image name="icon_logo.png" width="248" height="193"/>
+        <image name="mobilepromo.png" width="720" height="1280"/>
+        <image name="plusmenu_back.png" width="720" height="590"/>
+        <image name="red_back_arrow.png" width="128" height="128"/>
+    </resources>
+</document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AppDownloadTableViewCell" rowHeight="52" id="zw1-LK-iqu" customClass="AppDownloadTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zw1-LK-iqu" id="efz-pA-2LT">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="51.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOy-Ip-Sla">
+                        <rect key="frame" x="68" y="6" width="152" height="37"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="147" id="5I9-fd-0RC"/>
+                            <constraint firstAttribute="height" constant="37" id="8VO-Ih-OYZ"/>
+                            <constraint firstAttribute="width" constant="152" id="B7O-lo-gNv"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="37" id="pIm-IH-Zz4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPD-QV-2YK">
+                        <rect key="frame" x="223" y="8" width="93" height="33"/>
+                        <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="cCb-LF-ZPw"/>
+                            <constraint firstAttribute="width" secondItem="nPD-QV-2YK" secondAttribute="height" multiplier="31:11" id="d4Q-eG-Rdd"/>
+                        </constraints>
+                        <state key="normal" title="GET APP">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3tG-CQ-FMj">
+                        <rect key="frame" x="4" y="4" width="60" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="DhZ-J0-DT8"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="df4-6f-ZXj"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="nPD-QV-2YK" firstAttribute="width" secondItem="efz-pA-2LT" secondAttribute="height" multiplier="31:17" id="6mU-bT-eTy"/>
+                    <constraint firstItem="nPD-QV-2YK" firstAttribute="leading" secondItem="XOy-Ip-Sla" secondAttribute="trailing" constant="3" id="8Ew-DL-PeF"/>
+                    <constraint firstItem="3tG-CQ-FMj" firstAttribute="top" secondItem="efz-pA-2LT" secondAttribute="topMargin" constant="-4" id="8ua-3w-U49"/>
+                    <constraint firstItem="3tG-CQ-FMj" firstAttribute="leading" secondItem="efz-pA-2LT" secondAttribute="leading" constant="4" id="G8n-aY-lj5"/>
+                    <constraint firstAttribute="bottom" secondItem="nPD-QV-2YK" secondAttribute="bottom" constant="10" id="HiP-bj-VCY"/>
+                    <constraint firstItem="nPD-QV-2YK" firstAttribute="top" secondItem="efz-pA-2LT" secondAttribute="top" constant="8" id="JkY-D7-t2i"/>
+                    <constraint firstAttribute="bottom" secondItem="XOy-Ip-Sla" secondAttribute="bottom" constant="8" id="RVP-F3-A7u"/>
+                    <constraint firstItem="XOy-Ip-Sla" firstAttribute="top" secondItem="efz-pA-2LT" secondAttribute="top" constant="6" id="bwm-sC-i8M"/>
+                    <constraint firstAttribute="trailing" secondItem="nPD-QV-2YK" secondAttribute="trailing" constant="4" id="kWw-1t-Zgx"/>
+                    <constraint firstAttribute="trailing" secondItem="nPD-QV-2YK" secondAttribute="trailing" constant="4" id="sEC-jc-Qeh"/>
+                    <constraint firstItem="XOy-Ip-Sla" firstAttribute="leading" secondItem="3tG-CQ-FMj" secondAttribute="trailing" constant="4" id="sP7-Rp-9uQ"/>
+                    <constraint firstItem="3tG-CQ-FMj" firstAttribute="centerY" secondItem="efz-pA-2LT" secondAttribute="centerY" id="z6S-Tx-asC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="appImageView" destination="3tG-CQ-FMj" id="ucP-2z-0Uv"/>
+                <outlet property="appTitle" destination="XOy-Ip-Sla" id="q7a-2H-DJ3"/>
+                <outlet property="getAppBtn" destination="nPD-QV-2YK" id="M7S-7z-XMc"/>
+            </connections>
+            <point key="canvasLocation" x="549" y="230"/>
+        </tableViewCell>
+    </objects>
+</document>
