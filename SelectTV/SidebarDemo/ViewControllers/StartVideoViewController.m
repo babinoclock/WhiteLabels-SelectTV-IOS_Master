@@ -56,14 +56,26 @@
     
     [super viewWillAppear:animated];
     
+    
+    CGFloat welcomeFontSize  = 24;
+    
+    if([self isDeviceIpad]==YES){
+        
+        welcomeFontSize  = 20;
+    }
+    
+    
     _splashLogoImage.image =[UIImage imageNamed:splashLogoImageName];
     
     NSString * welcomeStr =[NSString stringWithFormat:@"Welcome to %@",APP_TITLE];
-    
     _introOneWelcomeLabel.text = welcomeStr;
-    _introOneWelcomeLabel.numberOfLines = 0;
-    _introOneWelcomeLabel.font = [COMMON getResizeableFont:Roboto_Bold(26)];
+    _introOneWelcomeLabel.textAlignment = NSTextAlignmentCenter;
+    //_introOneWelcomeLabel.lineBreakMode =NSLineBreakByWordWrapping;
+    //_introOneWelcomeLabel.numberOfLines = 2;
+    _introOneWelcomeLabel.font = [COMMON getResizeableFont:Roboto_Bold(welcomeFontSize)];
     _introOneWelcomeLabel.textColor = [UIColor whiteColor];
+    
+    
     
     [self.navigationController.navigationBar setHidden:YES];
     
@@ -112,6 +124,15 @@
     myTimer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(changePage) userInfo:nil repeats:YES];
     
     
+}
+-(BOOL)isDeviceIpad
+{
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+        
+        return YES;
+    } else {
+        return NO;
+    }
 }
 -(void)viewWillDisappear:(BOOL)animated
 {

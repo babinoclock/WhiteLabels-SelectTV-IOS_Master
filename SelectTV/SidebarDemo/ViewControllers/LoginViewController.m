@@ -124,15 +124,32 @@
     CGFloat topViewWidth;
     CGFloat topViewHeight;
     
-    if([self isDeviceIpad]!=YES){
-        
-        topViewWidth= screenWidth/2.1;//free cast//5
+    NSString *appTitle = APP_TITLE;
+    
+    if([appTitle isEqualToString:@"SmartCity"]){
+        if([self isDeviceIpad]!=YES){
+            
+            topViewWidth= screenWidth/5;
+        }
+        else{
+            
+            topViewWidth= screenWidth/8;
+            
+        }
     }
     else{
-        
-        topViewWidth= screenWidth/4; //free cast//8
-        
+        if([self isDeviceIpad]!=YES){
+            
+            topViewWidth= screenWidth/2.1;//free cast//5
+        }
+        else{
+            
+            topViewWidth= screenWidth/4; //free cast//8
+            
+        }
     }
+    
+   
     topViewXPos = (screenWidth/2)-(topViewWidth/2);
     topViewYPos = 40;
     topViewHeight = 62;//55

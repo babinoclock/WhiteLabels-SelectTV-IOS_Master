@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="sqs-y5-nt4">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="sqs-y5-nt4">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -30,7 +30,7 @@
         <scene sceneID="BrC-cO-hUy">
             <objects>
                 <navigationController id="sqs-y5-nt4" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Md3-3K-ttb">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Md3-3K-ttb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -719,21 +719,22 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pIS-hz-bEC">
-                            <rect key="frame" x="0.0" y="222" width="320" height="123"/>
+                            <rect key="frame" x="0.0" y="209" width="320" height="154"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Arvig" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knW-Fn-bgh">
-                                    <rect key="frame" x="22" y="-6" width="275" height="64"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to RabbitTV Plus" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knW-Fn-bgh">
+                                    <rect key="frame" x="8" y="3" width="303" height="76"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="64" id="aYv-L9-LGe"/>
-                                        <constraint firstAttribute="width" constant="275" id="ocd-Ou-nnH"/>
+                                        <constraint firstAttribute="height" constant="76" id="aYv-L9-LGe"/>
+                                        <constraint firstAttribute="width" constant="303" id="ocd-Ou-nnH"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="26"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The World's Largest Library of FREE Online Entertainment" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aa-xH-wuP">
-                                    <rect key="frame" x="46" y="59" width="239" height="64"/>
-                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <rect key="frame" x="46" y="80" width="239" height="64"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="64" id="fL9-Op-jri"/>
                                         <constraint firstAttribute="width" constant="239" id="fuP-cm-0Yx"/>
@@ -743,13 +744,13 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstAttribute="bottom" secondItem="knW-Fn-bgh" secondAttribute="bottom" constant="65" id="DFQ-kP-utD"/>
+                                <constraint firstAttribute="bottom" secondItem="knW-Fn-bgh" secondAttribute="bottom" constant="75" id="DFQ-kP-utD"/>
                                 <constraint firstAttribute="centerX" secondItem="9aa-xH-wuP" secondAttribute="centerX" constant="-5.5" id="KCA-M2-CRS"/>
                                 <constraint firstAttribute="centerX" secondItem="knW-Fn-bgh" secondAttribute="centerX" constant="0.5" id="MS3-2b-kjQ"/>
-                                <constraint firstAttribute="height" constant="123" id="b2N-XW-Psf"/>
-                                <constraint firstAttribute="bottom" secondItem="9aa-xH-wuP" secondAttribute="bottom" id="xHz-AS-k2U"/>
+                                <constraint firstAttribute="height" constant="154" id="b2N-XW-Psf"/>
+                                <constraint firstAttribute="bottom" secondItem="9aa-xH-wuP" secondAttribute="bottom" constant="10" id="xHz-AS-k2U"/>
                             </constraints>
                         </view>
                     </subviews>
@@ -757,7 +758,7 @@
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="pIS-hz-bEC" secondAttribute="trailing" id="AiN-UQ-x9y"/>
                         <constraint firstItem="pIS-hz-bEC" firstAttribute="leading" secondItem="M9w-xq-df2" secondAttribute="leading" id="Bue-4I-ebA"/>
-                        <constraint firstAttribute="centerY" secondItem="pIS-hz-bEC" secondAttribute="centerY" id="yXY-Eq-vDY"/>
+                        <constraint firstAttribute="centerY" secondItem="pIS-hz-bEC" secondAttribute="centerY" constant="-2" id="yXY-Eq-vDY"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" id="HnA-hQ-jiV">
