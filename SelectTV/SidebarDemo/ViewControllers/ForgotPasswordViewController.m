@@ -101,20 +101,7 @@
     CGFloat topViewWidth;
     CGFloat topViewHeight;
 
-     NSString *appTitle = APP_TITLE;
-    
-    if([appTitle isEqualToString:@"SmartCity"]){
-        if([self isDeviceIpad]!=YES){
-            
-            topViewWidth= screenWidth/5;
-        }
-        else{
-            
-            topViewWidth= screenWidth/8;
-            
-        }
-    }
-    else{
+   
         if([self isDeviceIpad]!=YES){
             
             topViewWidth= screenWidth/2.1;//free cast//5
@@ -124,7 +111,7 @@
             topViewWidth= screenWidth/4; //free cast//8
             
         }
-    }
+    
 
     topViewXPos = (screenWidth/2)-(topViewWidth/2);
     topViewYPos = 40;
