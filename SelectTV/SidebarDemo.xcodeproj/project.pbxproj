@@ -3896,6 +3896,10 @@
 		C9358F8C1E6FCD9700064818 /* New_Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDF6B81CD4899F00495544 /* New_Land_Cell_Ipad.xib */; };
 		C9358F8D1E6FCD9700064818 /* RadioListByGenreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDB0571C71A0B4006C28BB /* RadioListByGenreCell.xib */; };
 		C9358F8E1E6FCD9700064818 /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FD3761B8D328100280C02 /* iPadStoryboard.storyboard */; };
+		C9358F9C1E701CDC00064818 /* 2BuckTV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9358F9B1E701CDC00064818 /* 2BuckTV-Info.plist */; };
+		C9358F9E1E701CE700064818 /* WiseTV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9358F9D1E701CE700064818 /* WiseTV-Info.plist */; };
+		C9358FA01E701CFC00064818 /* SmartCity-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9358F9F1E701CFC00064818 /* SmartCity-Info.plist */; };
+		C9358FA21E701D1300064818 /* SelectTV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9358FA11E701D1300064818 /* SelectTV-Info.plist */; };
 		CFF80D5C1BF668450032A9AD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80D5B1BF668450032A9AD /* Accelerate.framework */; };
 		CFF80D5E1BF6684D0032A9AD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80D5D1BF6684D0032A9AD /* AudioToolbox.framework */; };
 		CFF80D601BF668540032A9AD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80D5F1BF668540032A9AD /* AVFoundation.framework */; };
@@ -4144,7 +4148,6 @@
 		2B1A82E41E6EF392006324AF /* Century-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Century-Info.plist"; path = "SidebarDemo/Century-Info.plist"; sourceTree = "<group>"; };
 		2B1A82E61E6EF397006324AF /* Endeavor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Endeavor-Info.plist"; path = "SidebarDemo/Endeavor-Info.plist"; sourceTree = "<group>"; };
 		2B1A84571E6EFA9E006324AF /* 2BuckTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2BuckTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B1A84581E6EFAAC006324AF /* 2BuckTV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "2BuckTV-Info.plist"; path = "/Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/2BuckTV-Info.plist"; sourceTree = "<absolute>"; };
 		2B1A84591E6EFAF8006324AF /* 2BuckTV-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "2BuckTV-Header.h"; sourceTree = "<group>"; };
 		2B1C873B1C89696B00959838 /* HKKScrollableGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HKKScrollableGridView.h; path = Helper/ScrollGridView/HKKScrollableGridView.h; sourceTree = "<group>"; };
 		2B1C873C1C89696C00959838 /* HKKScrollableGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HKKScrollableGridView.m; path = Helper/ScrollGridView/HKKScrollableGridView.m; sourceTree = "<group>"; };
@@ -4212,11 +4215,8 @@
 		2B43479C1CD1ECB700FE70B7 /* NewShowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewShowDetailViewController.h; path = ViewControllers/NewShowDetailViewController.h; sourceTree = "<group>"; };
 		2B43479E1CD1F21E00FE70B7 /* NewShowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewShowDetailViewController.m; path = ViewControllers/NewShowDetailViewController.m; sourceTree = "<group>"; };
 		2B44A47D1E6FB6A400281B5B /* SmartCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B44A47E1E6FB6A600281B5B /* SmartCity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SmartCity-Info.plist"; path = "/Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SmartCity-Info.plist"; sourceTree = "<absolute>"; };
 		2B44A5EF1E6FB79E00281B5B /* WiseTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiseTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B44A5F01E6FB7A000281B5B /* WiseTV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WiseTV-Info.plist"; path = "/Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/WiseTV-Info.plist"; sourceTree = "<absolute>"; };
 		2B44A7601E6FB7A700281B5B /* SelectTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B44A7611E6FB7A800281B5B /* SelectTV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SelectTV-Info.plist"; path = "/Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SelectTV-Info.plist"; sourceTree = "<absolute>"; };
 		2B44A7621E6FB7F900281B5B /* WiseTV-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WiseTV-Header.h"; sourceTree = "<group>"; };
 		2B44A7631E6FB80A00281B5B /* SelectTV-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SelectTV-Header.h"; sourceTree = "<group>"; };
 		2B44A8D21E6FB9BF00281B5B /* BroadView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroadView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -4514,6 +4514,10 @@
 		C9358F961E6FCD9700064818 /* RabbitTV Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RabbitTV Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9358F971E6FCD9800064818 /* RabbitTVPlus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RabbitTVPlus-Info.plist"; path = "/Users/ocs.mac/Documents/OCLOCKAPPS_MOHAN_RAJ/WhiteLabels-SelectTV-IOS/SelectTV/RabbitTVPlus-Info.plist"; sourceTree = "<absolute>"; };
 		C9358F9A1E6FCF8800064818 /* RabbitTVPlus-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RabbitTVPlus-Header.h"; sourceTree = "<group>"; };
+		C9358F9B1E701CDC00064818 /* 2BuckTV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "2BuckTV-Info.plist"; sourceTree = "<group>"; };
+		C9358F9D1E701CE700064818 /* WiseTV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WiseTV-Info.plist"; sourceTree = "<group>"; };
+		C9358F9F1E701CFC00064818 /* SmartCity-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SmartCity-Info.plist"; sourceTree = "<group>"; };
+		C9358FA11E701D1300064818 /* SelectTV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SelectTV-Info.plist"; sourceTree = "<group>"; };
 		CFF80D5B1BF668450032A9AD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		CFF80D5D1BF6684D0032A9AD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CFF80D5F1BF668540032A9AD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -5745,16 +5749,16 @@
 				F4EECF0F177C99F400778578 /* Products */,
 				8B4EBC6AFA4A35B6F929B57E /* Pods */,
 				2B44A8D71E6FBE8C00281B5B /* Arvig-Info.plist */,
-				2B1A84581E6EFAAC006324AF /* 2BuckTV-Info.plist */,
+				C9358F9B1E701CDC00064818 /* 2BuckTV-Info.plist */,
 				2B1A82E01E6EF384006324AF /* ETV-Info.plist */,
 				2B1A82E21E6EF38D006324AF /* Evolution-Info.plist */,
 				2B1A82E61E6EF397006324AF /* Endeavor-Info.plist */,
 				2B1A82E41E6EF392006324AF /* Century-Info.plist */,
-				2B44A47E1E6FB6A600281B5B /* SmartCity-Info.plist */,
-				2B44A5F01E6FB7A000281B5B /* WiseTV-Info.plist */,
-				2B44A7611E6FB7A800281B5B /* SelectTV-Info.plist */,
 				2B44A8D41E6FBB7C00281B5B /* BroadView-Info.plist */,
 				C9358F971E6FCD9800064818 /* RabbitTVPlus-Info.plist */,
+				C9358F9D1E701CE700064818 /* WiseTV-Info.plist */,
+				C9358F9F1E701CFC00064818 /* SmartCity-Info.plist */,
+				C9358FA11E701D1300064818 /* SelectTV-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -7156,6 +7160,7 @@
 				2B1A83FF1E6EFA9D006324AF /* Montserrat-Regular.ttf in Resources */,
 				2B1A84001E6EFA9D006324AF /* selected.png in Resources */,
 				2B1A84011E6EFA9D006324AF /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
+				C9358F9C1E701CDC00064818 /* 2BuckTV-Info.plist in Resources */,
 				2B1A84021E6EFA9D006324AF /* OnDemandSliderCarouselView.xib in Resources */,
 				2B1A84031E6EFA9D006324AF /* OpenSans-Bold.ttf in Resources */,
 				2B1A84041E6EFA9D006324AF /* Roboto-Bold.ttf in Resources */,
@@ -7253,6 +7258,7 @@
 				2B44A3B31E6FB6A400281B5B /* Epix.png in Resources */,
 				2B44A3B41E6FB6A400281B5B /* CBS-ALL-ACCESS.png in Resources */,
 				2B44A3B51E6FB6A400281B5B /* sho_active.png in Resources */,
+				C9358FA01E701CFC00064818 /* SmartCity-Info.plist in Resources */,
 				2B44A3B61E6FB6A400281B5B /* NBC.png in Resources */,
 				2B44A3B71E6FB6A400281B5B /* ThumbnailVC.xib in Resources */,
 				2B44A3B81E6FB6A400281B5B /* OverTheAirCustomCell.xib in Resources */,
@@ -7606,6 +7612,7 @@
 				2B44A5B31E6FB79D00281B5B /* A_E.png in Resources */,
 				2B44A5B41E6FB79D00281B5B /* AppListGridCell_Iphone.xib in Resources */,
 				2B44A5B51E6FB79D00281B5B /* amazon_active.png in Resources */,
+				C9358F9E1E701CE700064818 /* WiseTV-Info.plist in Resources */,
 				2B44A5B61E6FB79D00281B5B /* icon_fullscreen.png in Resources */,
 				2B44A5B71E6FB79D00281B5B /* 540x960.mp4 in Resources */,
 				2B44A5B81E6FB79D00281B5B /* LoginStoryboard.storyboard in Resources */,
@@ -7808,6 +7815,7 @@
 				2B44A71B1E6FB7A700281B5B /* hulu.webp in Resources */,
 				2B44A71C1E6FB7A700281B5B /* Lock@2x.png in Resources */,
 				2B44A71D1E6FB7A700281B5B /* SearchCell.xib in Resources */,
+				C9358FA21E701D1300064818 /* SelectTV-Info.plist in Resources */,
 				2B44A71E1E6FB7A700281B5B /* RadioGenreTableViewCell.xib in Resources */,
 				2B44A71F1E6FB7A700281B5B /* InfoPlist.strings in Resources */,
 				2B44A7201E6FB7A700281B5B /* Images.xcassets in Resources */,
@@ -11101,10 +11109,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FEAE1E0974B277306AFFDE9A /* Pods-SidebarDemo.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = BroadView_AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BroadView_LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = RabbitTVPlus_AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = RabbitTVPlus_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -11121,8 +11129,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.rabbittvplus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e9a82850-a997-42cd-94b3-249af8109968";
-				PROVISIONING_PROFILE_SPECIFIER = "RabbitTVPlus InHouse";
+				PROVISIONING_PROFILE = "32686c72-1543-4090-9762-180ee9c05136";
+				PROVISIONING_PROFILE_SPECIFIER = "RabbitTvPlus Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -11132,8 +11140,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0F12EB8A4A479C28556383C /* Pods-SidebarDemo.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = BroadView_AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BroadView_LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = RabbitTVPlus_AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = RabbitTVPlus_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
@@ -11229,7 +11237,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -11245,8 +11253,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.arvigapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c3694aeb-ecbf-4c9b-a5b6-644e77f4cc36";
-				PROVISIONING_PROFILE_SPECIFIER = "Arvig InHouse";
+				PROVISIONING_PROFILE = "ee0de050-591f-4c11-b22b-6143bd3b6406";
+				PROVISIONING_PROFILE_SPECIFIER = "Arvig Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
