@@ -200,13 +200,15 @@ BOOL boolLandToPort =false;
     [self loadArraysForOnDemand];
     //[self setMobileLandingScreen];
     
-   
+    _homeSplash_Logo.image =[UIImage imageNamed:splashLogoImageName];
 }
 
 
 
 #pragma mark - viewWillAppear
 -(void)viewWillAppear:(BOOL)animated{
+    
+    _homeSplash_Logo.image =[UIImage imageNamed:splashLogoImageName];
     
     isCableSelected =NO;
     
@@ -340,7 +342,10 @@ BOOL boolLandToPort =false;
 -(void)setNavigationImage{
     
     UIView *myView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, SCREEN_WIDTH/2, 45)];
-    UIImage *image = [UIImage imageNamed:@"splash_logo"];
+   // UIImage *image = [UIImage imageNamed:splashLogoImageName];//@"splash_logo"
+    
+    UIImage *image = [UIImage imageNamed:splashLogoImageName];//@"splash_logo"
+
     CGFloat myImageViewXpos;
     CGFloat myImageViewWidth;
     CGFloat myImageViewHeight;

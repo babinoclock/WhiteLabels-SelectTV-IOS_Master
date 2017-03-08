@@ -55,6 +55,11 @@
         [COMMON removeSideBarStaticArrayList];
     }
     
+    _splashImage.image =[UIImage imageNamed:SplashScreenImageName];
+    
+    
+   // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"SplashScreenImage"]];
+    
     [self.navigationController.navigationBar setHidden:YES];
     progressView = [[LDProgressView alloc] init];
     progressLabel = [[UILabel alloc] init];
@@ -73,6 +78,8 @@
     syncAPIDataCount = 14.0f;
     currentProgress = 0.0f;
     [self.view setUserInteractionEnabled:NO];
+    
+    
     
 }
 -(void)loadArrayTranslations{

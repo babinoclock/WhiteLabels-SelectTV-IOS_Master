@@ -29,5 +29,6 @@
 }
 @property (strong, nonatomic) IBOutlet UILabel *introOneWelcomeLabel;
 -(IBAction)pageChanged:(id)sender;
+@property (strong, nonatomic) IBOutlet UIImageView *splashLogoImage;
 
 @end

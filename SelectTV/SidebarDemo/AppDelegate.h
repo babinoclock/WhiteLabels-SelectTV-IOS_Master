@@ -12,6 +12,9 @@
 #import "AppConfig.h"
 #import "SWRevealViewController.h"
 #import "StartVideoViewController.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <NewRelicAgent/NewRelic.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate,SWRevealViewControllerDelegate>
 {

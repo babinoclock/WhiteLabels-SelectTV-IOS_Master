@@ -19,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    _splashLogoImage.image =[UIImage imageNamed:splashLogoImageName];
+    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hidecontrol)
                                                  name:MPMoviePlayerLoadStateDidChangeNotification
                                                object:theMoviPlayer];
@@ -54,9 +56,12 @@
     
     [super viewWillAppear:animated];
     
-    NSString * welcomeStr =[NSString stringWithFormat:@"@Welcome t0 %@",APP_TITLE];
+    _splashLogoImage.image =[UIImage imageNamed:splashLogoImageName];
+    
+    NSString * welcomeStr =[NSString stringWithFormat:@"Welcome to %@",APP_TITLE];
     
     _introOneWelcomeLabel.text = welcomeStr;
+    _introOneWelcomeLabel.numberOfLines = 0;
     _introOneWelcomeLabel.font = [COMMON getResizeableFont:Roboto_Bold(26)];
     _introOneWelcomeLabel.textColor = [UIColor whiteColor];
     

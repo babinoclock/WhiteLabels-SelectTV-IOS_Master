@@ -183,7 +183,7 @@ BOOL isAppManagerMenuClicked;
 {
    // _freeCastlabel.text= @"FreeCast";
     [_freeCastlabel setFont:[UIFont fontWithName:@"Montserrat-Bold" size:16]];
-    [_freeCastLogo setImage:[UIImage imageNamed:@"splash_logo"]];//toplogo//splash_logo.png
+    [_freeCastLogo setImage:[UIImage imageNamed:splashLogoImageName]];//toplogo//splash_logo.png
     if([self isDeviceIpad]==YES){
         [_fullView setBackgroundColor:[UIColor clearColor]];
         [_topView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]]];

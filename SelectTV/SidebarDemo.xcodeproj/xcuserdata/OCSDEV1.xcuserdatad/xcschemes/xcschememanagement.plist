@@ -4,14 +4,114 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SidebarDemo.xcscheme</key>
+		<key>2BuckTV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>Arvig.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>BroadView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>Century.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>ETV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Endeavor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Evolution.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>SelectTV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>SmartCity.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>WiseTV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2B1A7A271E6EB714006324AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B1A7B961E6EB7C9006324AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B1A7D0D1E6ECB22006324AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B1A7E821E6EDA05006324AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B1A7FF81E6EE152006324AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B1A816A1E6EE344006324AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B1A82E81E6EFA9D006324AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B44A30E1E6FB6A400281B5B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B44A4801E6FB79D00281B5B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B44A5F11E6FB7A700281B5B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B44A7641E6FB9BF00281B5B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F4EECF0D177C99F400778578</key>
 		<dict>
 			<key>primary</key>

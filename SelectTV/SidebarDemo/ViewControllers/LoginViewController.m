@@ -138,6 +138,11 @@
     topViewHeight = 62;//55
     
     [topImageView setFrame:CGRectMake(topViewXPos, topViewYPos, topViewWidth, topViewHeight)];
+    
+    topImageView.image =[UIImage imageNamed:homeLogoImageName];//homeLogo
+    
+    
+
 }
 
 #pragma mark - setUpViews

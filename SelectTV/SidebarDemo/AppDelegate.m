@@ -45,6 +45,11 @@ static AppDelegate * appDelegate;
 {
     // Override point for customization after application launch.
     
+    
+    NSLog(@"isBroadView = %@",APP_TITLE);
+    
+    NSLog(@"isArvig = %@",APP_TITLE);
+    
     _isSubscriptPage = @"NO";
     if([self isMyAppInstalled]) {
         NSLog(@"Found");

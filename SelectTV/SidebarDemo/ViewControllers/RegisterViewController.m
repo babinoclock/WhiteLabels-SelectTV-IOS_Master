@@ -94,7 +94,8 @@
     [scrollView setUserInteractionEnabled:YES];
     scrollView.delegate=self;
     UIImageView * topView = [[UIImageView alloc]initWithFrame:CGRectMake(topViewXPos, topViewYPos, topViewWidth, topViewHeight)];
-    topView.image =[UIImage imageNamed:@"splash_logo"];
+    topView.image =[UIImage imageNamed:splashLogoImageName];//@"splash_logo"
+   // topView.image =[UIImage imageNamed:@"splash_logo"];
     //[self.view addSubview:topView];
     [scrollView addSubview:topView];
     topView.backgroundColor = [UIColor clearColor];

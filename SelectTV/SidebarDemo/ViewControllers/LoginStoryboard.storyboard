@@ -30,7 +30,7 @@
         <scene sceneID="BrC-cO-hUy">
             <objects>
                 <navigationController id="sqs-y5-nt4" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Md3-3K-ttb">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Md3-3K-ttb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -216,7 +216,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z9c-xn-W95" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-271.5" y="-760.5"/>
+            <point key="canvasLocation" x="-285" y="-992"/>
         </scene>
         <!--Forgot Password View Controller-->
         <scene sceneID="HHD-dT-XcL">
@@ -710,6 +710,7 @@
                         <outlet property="introThree" destination="if0-b8-Q9d" id="dvs-mm-VXh"/>
                         <outlet property="introTwo" destination="HnA-hQ-jiV" id="Ha9-Qw-bC7"/>
                         <outlet property="pageControll" destination="ARf-2I-RTy" id="u5Q-XN-e2i"/>
+                        <outlet property="splashLogoImage" destination="hTL-We-T8g" id="nuY-Hi-cTW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kyw-IZ-Pkg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -721,10 +722,10 @@
                             <rect key="frame" x="0.0" y="222" width="320" height="123"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Arvig" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knW-Fn-bgh">
-                                    <rect key="frame" x="37" y="-6" width="252" height="64"/>
+                                    <rect key="frame" x="22" y="-6" width="275" height="64"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="64" id="aYv-L9-LGe"/>
-                                        <constraint firstAttribute="width" constant="252" id="ocd-Ou-nnH"/>
+                                        <constraint firstAttribute="width" constant="275" id="ocd-Ou-nnH"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="26"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -746,7 +747,7 @@
                             <constraints>
                                 <constraint firstAttribute="bottom" secondItem="knW-Fn-bgh" secondAttribute="bottom" constant="65" id="DFQ-kP-utD"/>
                                 <constraint firstAttribute="centerX" secondItem="9aa-xH-wuP" secondAttribute="centerX" constant="-5.5" id="KCA-M2-CRS"/>
-                                <constraint firstAttribute="centerX" secondItem="knW-Fn-bgh" secondAttribute="centerX" constant="-3" id="MS3-2b-kjQ"/>
+                                <constraint firstAttribute="centerX" secondItem="knW-Fn-bgh" secondAttribute="centerX" constant="0.5" id="MS3-2b-kjQ"/>
                                 <constraint firstAttribute="height" constant="123" id="b2N-XW-Psf"/>
                                 <constraint firstAttribute="bottom" secondItem="9aa-xH-wuP" secondAttribute="bottom" id="xHz-AS-k2U"/>
                             </constraints>

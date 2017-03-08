@@ -28,6 +28,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *mainLeftBarButton;
 @property(nonatomic, strong) IBOutlet UIButton *searchButton;
 -(IBAction) searchAction:(id)sender;
+@property (strong, nonatomic) IBOutlet UIImageView *homeSplash_Logo;
 
 @property (assign, nonatomic) BOOL isHomeScreen;
 

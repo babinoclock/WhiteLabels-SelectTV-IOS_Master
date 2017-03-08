@@ -9,6 +9,24 @@
 #ifndef AppConfig_h
 #define AppConfig_h
 
+//Common Files
+
+//#import "BroadView-Header.h"
+//#import "SidebarDemo-Header.h"
+//#import "SidebarDemo-Prefix.pch"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <NewRelicAgent/NewRelic.h>
+
+
+//#define SplashScreenImageName               @"SplashScreenImage"
+//
+//#define homeLogoImageName                   @"homeLogo"
+//
+//#define splashLogoImageName                 @"splash_logo"
+
+
+
 #define APP_NAME [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"]
 
 #define SCREEN_WIDTH                   [[UIScreen mainScreen] bounds].size.width
@@ -49,7 +67,9 @@
 
 #define GOOLGE_APIS_TRANSLATE_KEY           @"AIzaSyCOYvrqzWGA5U-T0Zn_Sj1rw0lMkwbVg8U"
 
-#define APP_TITLE                           @"Arvig"
+//#define APP_TITLE                           @"Arvig"
+
+
 //FONTS
 #pragma mark Fonts
 
@@ -263,5 +283,6 @@
 #define APP_MANAGER_MANUAL_NOTIFICATION        @"APP_MANAGER_MANUAL_NOTIFICATION"
 
 #define ENTER_FOREGROUND                       @"ENTER_FOREGROUND"
+
 
 #endif /* AppConfig_h */

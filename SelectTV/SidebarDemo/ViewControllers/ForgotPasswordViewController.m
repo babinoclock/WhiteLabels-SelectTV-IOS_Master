@@ -115,6 +115,8 @@
     topViewHeight = 62;//55
     
     [topImageView setFrame:CGRectMake(topViewXPos, topViewYPos, topViewWidth, topViewHeight)];
+    
+    topImageView.image =[UIImage imageNamed:splashLogoImageName];//splash_logo
 }
 -(BOOL)isDeviceIpad
 {
