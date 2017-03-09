@@ -165,6 +165,9 @@ void saveContentsToFile (id data, NSString* filename);
 //NEW
 -(UIView*)setBackGroundColor:(UIView*)view;
 
+- (UIColor *)Common_Gray_BG_Color;
+
+- (UIColor *)Common_Light_BG_Color;
 
 #pragma  mark Remove Cache from Local
 -(void)removeFileFromLocalCache;

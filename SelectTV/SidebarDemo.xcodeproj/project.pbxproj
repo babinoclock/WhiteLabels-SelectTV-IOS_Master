@@ -4583,7 +4583,7 @@
 		2B4347921CD1C37E00FE70B7 /* Land_Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Land_Cell.xib; path = Cell/Land_Cell.xib; sourceTree = "<group>"; };
 		2B4347991CD1D2C000FE70B7 /* Season_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Season_Ipad.xib; path = Cell/Season_Ipad.xib; sourceTree = "<group>"; };
 		2B43479C1CD1ECB700FE70B7 /* NewShowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewShowDetailViewController.h; path = ViewControllers/NewShowDetailViewController.h; sourceTree = "<group>"; };
-		2B43479E1CD1F21E00FE70B7 /* NewShowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewShowDetailViewController.m; path = ViewControllers/NewShowDetailViewController.m; sourceTree = "<group>"; };
+		2B43479E1CD1F21E00FE70B7 /* NewShowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = NewShowDetailViewController.m; path = ViewControllers/NewShowDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2B44A47D1E6FB6A400281B5B /* SmartCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B44A5EF1E6FB79E00281B5B /* WiseTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiseTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B44A7601E6FB7A700281B5B /* SelectTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -4644,7 +4644,7 @@
 		2B5A40271C68AF8E0078B251 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgotPasswordViewController.h; path = ViewControllers/ForgotPasswordViewController.h; sourceTree = "<group>"; };
 		2B5A40281C68AF8E0078B251 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgotPasswordViewController.m; path = ViewControllers/ForgotPasswordViewController.m; sourceTree = "<group>"; };
 		2B5A40291C68AF8E0078B251 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ViewControllers/HomeViewController.h; sourceTree = "<group>"; };
-		2B5A402A1C68AF8E0078B251 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ViewControllers/HomeViewController.m; sourceTree = "<group>"; };
+		2B5A402A1C68AF8E0078B251 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = HomeViewController.m; path = ViewControllers/HomeViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2B5A402B1C68AF8E0078B251 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = ViewControllers/IntroViewController.h; sourceTree = "<group>"; };
 		2B5A402C1C68AF8E0078B251 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroViewController.m; path = ViewControllers/IntroViewController.m; sourceTree = "<group>"; };
 		2B5A402D1C68AF8E0078B251 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LoginStoryboard.storyboard; path = ViewControllers/LoginStoryboard.storyboard; sourceTree = "<group>"; };
@@ -4732,7 +4732,7 @@
 		2BCDF6BA1CD4899F00495544 /* New_Land_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = New_Land_Cell.m; path = Cell/New_Land_Cell.m; sourceTree = "<group>"; };
 		2BCDF6BB1CD4899F00495544 /* New_Land_Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = New_Land_Cell.xib; path = Cell/New_Land_Cell.xib; sourceTree = "<group>"; };
 		2BCDF6C01CD4CF2A00495544 /* NewMovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewMovieDetailViewController.h; path = ViewControllers/NewMovieDetailViewController.h; sourceTree = "<group>"; };
-		2BCDF6C11CD4CF2A00495544 /* NewMovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewMovieDetailViewController.m; path = ViewControllers/NewMovieDetailViewController.m; sourceTree = "<group>"; };
+		2BCDF6C11CD4CF2A00495544 /* NewMovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = NewMovieDetailViewController.m; path = ViewControllers/NewMovieDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2BDCE8481CC2728800DDCD7A /* NKArticleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKArticleCollectionViewCell.h; path = Helper/HomePageUtility/NKArticleCollectionViewCell.h; sourceTree = "<group>"; };
 		2BDCE8491CC2728800DDCD7A /* NKArticleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKArticleCollectionViewCell.m; path = Helper/HomePageUtility/NKArticleCollectionViewCell.m; sourceTree = "<group>"; };
 		2BDCE84A1CC2728800DDCD7A /* NKArticleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NKArticleCollectionViewCell.xib; path = Helper/HomePageUtility/NKArticleCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -4765,7 +4765,7 @@
 		2BE536DC1C8B25D300F5C325 /* PWParallaxScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PWParallaxScrollView.m; path = Helper/PWParallaxScrollView/PWParallaxScrollView.m; sourceTree = "<group>"; };
 		2BE63D381C5F1AEF00372BA5 /* AppCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCommon.h; sourceTree = "<group>"; };
 		2BE63D391C5F1AEF00372BA5 /* AppCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCommon.m; sourceTree = "<group>"; };
-		2BE9435F1CD0E00300383991 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovieViewController.m; path = ViewControllers/MovieViewController.m; sourceTree = "<group>"; };
+		2BE9435F1CD0E00300383991 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MovieViewController.m; path = ViewControllers/MovieViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2BEBEC651D8AC0BB00772226 /* PayMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PayMovieViewController.h; path = ViewControllers/PayMovieViewController.h; sourceTree = "<group>"; };
 		2BEC6D7F1D66C009003CA0CB /* OnDemand_Grid_Cell_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OnDemand_Grid_Cell_Ipad.xib; path = Cell/OnDemand_Grid_Cell_Ipad.xib; sourceTree = "<group>"; };
 		2BEC6D801D66C009003CA0CB /* OnDemand_Grid_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnDemand_Grid_Cell.h; path = Cell/OnDemand_Grid_Cell.h; sourceTree = "<group>"; };
@@ -4788,9 +4788,9 @@
 		2BF246B61DA625070004733C /* Cast_Grid_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cast_Grid_Cell.m; path = Cell/Cast_Grid_Cell.m; sourceTree = "<group>"; };
 		2BF441301CAE764900D4D5E2 /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchDetailViewController.h; path = ViewControllers/SearchDetailViewController.h; sourceTree = "<group>"; };
 		2BF441311CAE764900D4D5E2 /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchDetailViewController.m; path = ViewControllers/SearchDetailViewController.m; sourceTree = "<group>"; };
-		2BF55F2B1C59CAF600E9DF8F /* AppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		2BF55F2B1C59CAF600E9DF8F /* AppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppConfig.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		2BF7698E1D1BAB880087179F /* MyInterestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyInterestsViewController.h; path = ViewControllers/MyInterestsViewController.h; sourceTree = "<group>"; };
-		2BF7698F1D1BAB880087179F /* MyInterestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyInterestsViewController.m; path = ViewControllers/MyInterestsViewController.m; sourceTree = "<group>"; };
+		2BF7698F1D1BAB880087179F /* MyInterestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MyInterestsViewController.m; path = ViewControllers/MyInterestsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2BF769911D1BFB920087179F /* myInterestsCell_IPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = myInterestsCell_IPad.xib; path = Cell/myInterestsCell_IPad.xib; sourceTree = "<group>"; };
 		2BF769921D1BFB920087179F /* myInterestsCell_IPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = myInterestsCell_IPhone.xib; path = Cell/myInterestsCell_IPhone.xib; sourceTree = "<group>"; };
 		2BF769931D1BFB920087179F /* myInterestsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myInterestsCell.h; path = Cell/myInterestsCell.h; sourceTree = "<group>"; };
@@ -11851,6 +11851,7 @@
 			baseConfigurationReference = FEAE1E0974B277306AFFDE9A /* Pods-SidebarDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = SelectTV_AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
@@ -11880,6 +11881,7 @@
 			baseConfigurationReference = A0F12EB8A4A479C28556383C /* Pods-SidebarDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = SelectTV_AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;

@@ -168,8 +168,8 @@ UITableView* tableChannelList;
     //[self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
 
     
-    [self.navigationController.navigationBar setBarTintColor:[UIColor whiteColor]];
-    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
+//    [self.navigationController.navigationBar setBarTintColor:[UIColor whiteColor]];
+//    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     
@@ -255,7 +255,10 @@ UITableView* tableChannelList;
     [super viewWillAppear:animated];
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    
+     self.view.backgroundColor = GRAY_BG_COLOR;
+    
     [self.payMovieActivityIndicator setHidden:true];
     bPayMovieNetworkShown= false;
     bPayMovieStaticShown=false;
@@ -363,7 +366,9 @@ UITableView* tableChannelList;
     
     [_payPerSliderView setHidden:NO];
     [_payTableView setHidden:YES];
-    [_payPerSliderView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]]];
+   // [_payPerSliderView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]]];
+    
+    _payPerSliderView.backgroundColor = GRAY_BG_COLOR;
     genreName = @"Movies";
     currentSelectedStr =@"Movies";
     if([COMMON isSpanishLanguage]==YES){

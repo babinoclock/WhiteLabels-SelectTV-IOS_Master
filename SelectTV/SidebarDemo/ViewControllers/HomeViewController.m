@@ -139,6 +139,7 @@ BOOL boolLandToPort =false;
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
     
     self.view = [COMMON setBackGroundColor:self.view];
+    self.view.backgroundColor = GRAY_BG_COLOR;
     
 //    SWRevealViewController *revealviewcontroller = self.revealViewController;
 //    
@@ -224,6 +225,7 @@ BOOL boolLandToPort =false;
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
     
      self.view = [COMMON setBackGroundColor:self.view];
+    self.view.backgroundColor = GRAY_BG_COLOR;
     
     [_searchButton setImage:[UIImage imageNamed:@"Search_Image"] forState:UIControlStateNormal];
     [_searchButton setImage:[UIImage imageNamed:@"Search_Image"] forState:UIControlStateHighlighted];
@@ -644,6 +646,7 @@ BOOL boolLandToPort =false;
     //[subScriptionView setBackgroundColor:[UIColor whiteColor]];
     //subScriptionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
     self.view = [COMMON setBackGroundColor:self.view];
+    subScriptionView.backgroundColor = GRAY_BG_COLOR;
     [self setUpTitleLabels];
     [self.view addSubview:subScriptionView];
 }

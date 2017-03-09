@@ -81,8 +81,9 @@
 
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
     
+    self.view.backgroundColor = GRAY_BG_COLOR;
     genderpickerArray = [[NSArray alloc] init];
     genderpickerArray = [NSArray arrayWithObjects:@"Male",@"Female",nil];
     [_saveAction addTarget:self

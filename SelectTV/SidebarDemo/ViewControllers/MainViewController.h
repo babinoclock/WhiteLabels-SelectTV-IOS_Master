@@ -97,5 +97,6 @@
 
 
 @property (strong, nonatomic) IBOutlet NSLayoutConstraint *onCastTopConstraint;
+@property (strong, nonatomic) IBOutlet UIImageView *mainBackgroundImage;
 
 @end

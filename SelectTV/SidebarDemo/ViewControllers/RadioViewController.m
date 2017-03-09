@@ -199,7 +199,8 @@ int nRadioHeight=160;
 -(void)viewWillAppear:(BOOL)animated{
     
     [super viewWillAppear:animated];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+   // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    self.view.backgroundColor = GRAY_BG_COLOR;
     
     [_searchButton setImage:[UIImage imageNamed:@"Search_Image"] forState:UIControlStateNormal];
     [_searchButton setImage:[UIImage imageNamed:@"Search_Image"] forState:UIControlStateHighlighted];

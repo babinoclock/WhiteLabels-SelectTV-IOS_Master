@@ -114,6 +114,8 @@
 
 #define GRAY_BG_COLOR            [UIColor colorWithRed:59.0f/255.0f green:60.0f/255.0f blue:64.0f/255.0f alpha:1.0f];
 
+#define LIGHT_GRAY_BG_COLOR            [UIColor colorWithRed:139.0f/255.0f green:143.0f/255.0f blue:144.0f/255.0f alpha:1.0f];
+
 //USER DEFAULTS
 
 #define USERDETAILS                            @"UserDetails"

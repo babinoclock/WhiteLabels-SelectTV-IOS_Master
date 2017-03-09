@@ -38,7 +38,8 @@ int nGamesCellHeight = 200;
     
     
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
-    self.view = [COMMON setBackGroundColor:self.view];
+   // self.view = [COMMON setBackGroundColor:self.view];
+    self.view.backgroundColor = GRAY_BG_COLOR;
     
     currentApplanguage = [[NSLocale preferredLanguages] objectAtIndex:0];
     NSString * titleStr;   
@@ -83,6 +84,7 @@ int nGamesCellHeight = 200;
     self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
     self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
     self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
+    
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gamesViewOrientationChanged:) name:UIDeviceOrientationDidChangeNotification object:[UIDevice currentDevice]];
     

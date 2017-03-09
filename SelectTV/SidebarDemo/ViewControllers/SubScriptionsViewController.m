@@ -103,8 +103,8 @@ int nSubCellHeight = 200;
     }
     self.title = titleStr;
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
-    [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
-    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
+//    [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
+//    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
      [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     // [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
@@ -156,7 +156,8 @@ int nSubCellHeight = 200;
 -(void)viewWillAppear:(BOOL)animated{
     
     [super viewWillAppear:animated];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    self.view.backgroundColor = GRAY_BG_COLOR;
     currentCableArray = [NSMutableArray new];
     NSMutableDictionary * currentUserLoginDetails = [NSMutableDictionary new];
     currentUserLoginDetails = [COMMON getLoginDetails];
@@ -597,8 +598,8 @@ int nSubCellHeight = 200;
     
     subScriptionView = [[UIView alloc]initWithFrame:CGRectMake(0, x, SCREEN_WIDTH, SCREEN_HEIGHT)];
     //[subScriptionView setBackgroundColor:[UIColor whiteColor]];
-    subScriptionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
-    
+   // subScriptionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    subScriptionView.backgroundColor = GRAY_BG_COLOR;
     [self setUpTitleLabels];
     [self.view addSubview:subScriptionView];
 }

@@ -7,6 +7,7 @@
 //
 
 #import "PlayerViewController.h"
+#import "AppConfig.h"
 
 @interface PlayerViewController () <YTPlayerViewDelegate>
 
@@ -18,7 +19,10 @@ NSString* m_strVideoUrl;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    
+    self.view.backgroundColor = GRAY_BG_COLOR;
+    
     // Do any additional setup after loading the view.
     self.playerView.delegate = self;
 

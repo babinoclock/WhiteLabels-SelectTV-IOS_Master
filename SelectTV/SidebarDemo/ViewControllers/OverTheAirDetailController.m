@@ -122,8 +122,12 @@
 }
 
 - (void)initialSetUp {
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
-    _ipadView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+   // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+  //  _ipadView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    
+     self.view.backgroundColor = GRAY_BG_COLOR;
+     _ipadView.backgroundColor = GRAY_BG_COLOR;
+    
     [_mainScrollView setBackgroundColor:[UIColor clearColor]];
     [_overTheAirCollectionView setBackgroundColor:[UIColor clearColor]];
     if(_isSling) {
@@ -181,6 +185,8 @@
 
 - (void)initialSetupIpad {
     _ipadView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    _ipadView.backgroundColor = GRAY_BG_COLOR;
+    
     [_overTheAirCollectionView1 setBackgroundColor:[UIColor clearColor]];
     if(_isSling) {
         [_headerLabel1 setText:@"Sling TV"];
