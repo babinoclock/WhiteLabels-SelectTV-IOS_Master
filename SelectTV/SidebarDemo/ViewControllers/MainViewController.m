@@ -460,6 +460,8 @@ CustomIOS7AlertView * mainChannelView;
     //[_contentViewButton setTitleColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1] forState:UIControlStateNormal];
     [_contentViewButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
     
+    
+    
    // [_showViewButton setTitle:@"SHOW VIEW" forState:UIControlStateNormal];
     //[_contentViewButton setTitle:@"CHANNEL VIEW" forState:UIControlStateNormal];
     [_contentViewButton addTarget:self action:@selector(showStreamTable:) forControlEvents:UIControlEventTouchUpInside];
@@ -763,6 +765,8 @@ CustomIOS7AlertView * mainChannelView;
     [self.tableStreams setHidden:false];
     [self.tableContent setHidden:true];
     [newScrollGridView setHidden:YES];
+    self.tableStreams.backgroundColor = GRAY_BG_COLOR;
+    newScrollGridView.backgroundColor =GRAY_BG_COLOR;
 }
 - (void)showContentTable:(id)sender {
 //    [_showViewButton setBackgroundColor:[UIColor whiteColor]];
@@ -779,6 +783,9 @@ CustomIOS7AlertView * mainChannelView;
     [self.tableStreams setHidden:true];
     [self.tableContent setHidden:true];
     [newScrollGridView setHidden:NO];
+    
+    self.tableStreams.backgroundColor = GRAY_BG_COLOR;
+    newScrollGridView.backgroundColor =GRAY_BG_COLOR;
     
     //[self setChannelViewScroll];
 }
@@ -1176,6 +1183,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     for(UIView *view in newScrollGridView.subviews){
         [view removeFromSuperview];
     }
+    self.tableStreams.backgroundColor = GRAY_BG_COLOR;
+    newScrollGridView.backgroundColor =GRAY_BG_COLOR;
 //    CGRect showViewButtonFrame = _showViewButton.frame;
 //    CGFloat showViewButtonFrameMaxY = CGRectGetMaxY(showViewButtonFrame);
 //    
@@ -1498,6 +1507,10 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     scroll.decelerationRate = UIScrollViewDecelerationRateFast;
     scroll.backgroundColor = [UIColor colorWithRed:1.0f/255.0f green:83.0f/255.0f blue:137.0f/255.0f alpha:1.0f];
     newScrollGridView.backgroundColor = [UIColor colorWithRed:1.0f/255.0f green:83.0f/255.0f blue:137.0f/255.0f alpha:1.0f];
+    
+    scroll.backgroundColor = GRAY_BG_COLOR;
+    newScrollGridView.backgroundColor =GRAY_BG_COLOR;
+    
     scroll.pagingEnabled = NO;
     int separationX = 0;
     int separationY = 0;
@@ -1551,6 +1564,9 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     [newScrollGridView addSubview:scroll];
     isTitleAction=NO;
     isResChannelNil = NO;
+    
+    scroll.backgroundColor = GRAY_BG_COLOR;
+    newScrollGridView.backgroundColor =GRAY_BG_COLOR;
 
     
 }

@@ -65,8 +65,8 @@
     progressView = [[LDProgressView alloc] init];
     progressLabel = [[UILabel alloc] init];
     [self setUpProgressBar];
-   //// [self push];        //for quick test
-   [self syncMenuData];
+   [self push];        //for quick test
+  /// [self syncMenuData];
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(introOrientationChanged:) name:UIDeviceOrientationDidChangeNotification object:[UIDevice currentDevice]];
     
@@ -107,7 +107,8 @@
     
     self.progressViews = [NSMutableArray array];
     //progressBAR
-    progressView.color              = [UIColor colorWithRed:0.73f green:0.64f blue:0.00f alpha:1.00f];
+    //progressView.color              = [UIColor colorWithRed:0.73f green:0.64f blue:0.00f alpha:1.00f];
+    progressView.color              = LIGHT_GRAY_BG_COLOR;
     progressView.flat               = @YES;
     progressView.progress           = 0;
     progressView.animate            = @YES;

@@ -647,7 +647,7 @@
     UILabel *viewAllLabel = [[UILabel alloc] initWithFrame:CGRectMake(headerView.frame.size.width-(viewLabelWidth),2,viewLabelWidth,30)];
     viewAllLabel.textAlignment = NSTextAlignmentLeft;
     viewAllLabel.text = viewAllStr;
-    viewAllLabel.textColor = BORDER_BLUE;
+    viewAllLabel.textColor = [UIColor whiteColor];//BORDER_BLUE;
     viewAllLabel.backgroundColor = [UIColor clearColor];
     viewAllLabel.tag = section;//[carouselId intValue];
         

@@ -190,13 +190,16 @@ BOOL isAppManagerMenuClicked;
         _topView.backgroundColor = GRAY_BG_COLOR;
         UIView *freeCastBgView = [[UIView alloc] initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height)];
         // [freeCastBgView setBackgroundColor:[UIColor redColor]];
-        [freeCastBgView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"left_bg"]]];
+     //   [freeCastBgView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"left_bg"]]];
+         freeCastBgView.backgroundColor = GRAY_BG_COLOR;
         [_LeftBgView addSubview:freeCastBgView];
         
     }
     else{
       //  [_topView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]]];
-        [_fullView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"left_bg"]]];
+        //[_fullView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"left_bg"]]];
+        
+        _fullView.backgroundColor = GRAY_BG_COLOR;
          _topView.backgroundColor = GRAY_BG_COLOR;
         
     }
