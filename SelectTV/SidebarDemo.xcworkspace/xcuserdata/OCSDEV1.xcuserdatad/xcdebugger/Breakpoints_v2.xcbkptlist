@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/NewMovieDetailViewController.m"
-            timestampString = "507537972.875958"
+            timestampString = "510758304.755776"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1488"
-            endingLineNumber = "1488"
+            startingLineNumber = "1494"
+            endingLineNumber = "1494"
             landmarkName = "-setMovieDetail"
             landmarkType = "7">
          </BreakpointContent>
@@ -52,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/NewMovieDetailViewController.m"
-            timestampString = "507544708.861666"
+            timestampString = "510758304.755776"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2198"
-            endingLineNumber = "2198"
+            startingLineNumber = "2204"
+            endingLineNumber = "2204"
             landmarkName = "-appAction:"
             landmarkType = "7">
          </BreakpointContent>
@@ -68,11 +68,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1158"
-            endingLineNumber = "1158"
+            startingLineNumber = "1163"
+            endingLineNumber = "1163"
             landmarkName = "-appAction:"
             landmarkType = "7">
          </BreakpointContent>
@@ -84,11 +84,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "215"
-            endingLineNumber = "215"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
             landmarkName = "-setSegmentTitleBar"
             landmarkType = "7">
          </BreakpointContent>
@@ -100,11 +100,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
             landmarkName = "-addCountInTitleArray"
             landmarkType = "7">
          </BreakpointContent>
@@ -116,11 +116,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1121"
-            endingLineNumber = "1121"
+            startingLineNumber = "1126"
+            endingLineNumber = "1126"
             landmarkName = "-searchCombined"
             landmarkType = "7">
          </BreakpointContent>
@@ -132,11 +132,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1116"
-            endingLineNumber = "1116"
+            startingLineNumber = "1121"
+            endingLineNumber = "1121"
             landmarkName = "-searchCombined"
             landmarkType = "7">
             <Locations>
@@ -180,11 +180,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1144"
-            endingLineNumber = "1144"
+            startingLineNumber = "1149"
+            endingLineNumber = "1149"
             landmarkName = "-searchCombined"
             landmarkType = "7">
          </BreakpointContent>
@@ -196,11 +196,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1124"
-            endingLineNumber = "1124"
+            startingLineNumber = "1129"
+            endingLineNumber = "1129"
             landmarkName = "-searchCombined"
             landmarkType = "7">
          </BreakpointContent>
@@ -212,11 +212,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1126"
-            endingLineNumber = "1126"
+            startingLineNumber = "1131"
+            endingLineNumber = "1131"
             landmarkName = "-searchCombined"
             landmarkType = "7">
          </BreakpointContent>
@@ -228,11 +228,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1130"
-            endingLineNumber = "1130"
+            startingLineNumber = "1135"
+            endingLineNumber = "1135"
             landmarkName = "-searchCombined"
             landmarkType = "7">
          </BreakpointContent>
@@ -244,11 +244,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1134"
-            endingLineNumber = "1134"
+            startingLineNumber = "1139"
+            endingLineNumber = "1139"
             landmarkName = "-searchCombined"
             landmarkType = "7">
          </BreakpointContent>
@@ -260,11 +260,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1267"
-            endingLineNumber = "1267"
+            startingLineNumber = "1272"
+            endingLineNumber = "1272"
             landmarkName = "-pushToSearchViewController"
             landmarkType = "7">
          </BreakpointContent>
@@ -276,11 +276,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchDetailViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "463"
-            endingLineNumber = "463"
+            startingLineNumber = "465"
+            endingLineNumber = "465"
             landmarkName = "-addCountInTitleArray"
             landmarkType = "7">
          </BreakpointContent>
@@ -292,11 +292,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchDetailViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "469"
-            endingLineNumber = "469"
+            startingLineNumber = "471"
+            endingLineNumber = "471"
             landmarkName = "-addCountInTitleArray"
             landmarkType = "7">
          </BreakpointContent>
@@ -308,11 +308,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchDetailViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "475"
-            endingLineNumber = "475"
+            startingLineNumber = "477"
+            endingLineNumber = "477"
             landmarkName = "-addCountInTitleArray"
             landmarkType = "7">
          </BreakpointContent>
@@ -324,11 +324,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "260"
-            endingLineNumber = "260"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
             landmarkName = "-segmentedControlChangedValueSearchPage:"
             landmarkType = "7">
          </BreakpointContent>
@@ -340,11 +340,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "263"
-            endingLineNumber = "263"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
             landmarkName = "-segmentedControlChangedValueSearchPage:"
             landmarkType = "7">
          </BreakpointContent>
@@ -356,11 +356,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "445"
-            endingLineNumber = "445"
+            startingLineNumber = "446"
+            endingLineNumber = "446"
             landmarkName = "-gridView:didSelectRowAt:AndColumnAt:currentGridCell:"
             landmarkType = "7">
          </BreakpointContent>
@@ -372,11 +372,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "495"
-            endingLineNumber = "495"
+            startingLineNumber = "496"
+            endingLineNumber = "496"
             landmarkName = "-gridView:didSelectRowAt:AndColumnAt:currentGridCell:"
             landmarkType = "7">
          </BreakpointContent>
@@ -388,11 +388,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "490"
-            endingLineNumber = "490"
+            startingLineNumber = "491"
+            endingLineNumber = "491"
             landmarkName = "-gridView:didSelectRowAt:AndColumnAt:currentGridCell:"
             landmarkType = "7">
          </BreakpointContent>
@@ -404,11 +404,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "505"
-            endingLineNumber = "505"
+            startingLineNumber = "506"
+            endingLineNumber = "506"
             landmarkName = "-gridView:didSelectRowAt:AndColumnAt:currentGridCell:"
             landmarkType = "7">
          </BreakpointContent>
@@ -420,11 +420,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "508"
-            endingLineNumber = "508"
+            startingLineNumber = "509"
+            endingLineNumber = "509"
             landmarkName = "-gridView:didSelectRowAt:AndColumnAt:currentGridCell:"
             landmarkType = "7">
          </BreakpointContent>
@@ -436,11 +436,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "625"
-            endingLineNumber = "625"
+            startingLineNumber = "626"
+            endingLineNumber = "626"
             landmarkName = "-loadStationDetailPage"
             landmarkType = "7">
          </BreakpointContent>
@@ -468,11 +468,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/SearchDetailViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757672.851851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
             landmarkName = "-loadNetworkTableMenu"
             landmarkType = "7">
          </BreakpointContent>
@@ -484,11 +484,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2132"
-            endingLineNumber = "2132"
+            startingLineNumber = "2133"
+            endingLineNumber = "2133"
             landmarkName = "-loadOnDemandDecadeByID:"
             landmarkType = "7">
          </BreakpointContent>
@@ -500,11 +500,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2156"
-            endingLineNumber = "2156"
+            startingLineNumber = "2157"
+            endingLineNumber = "2157"
             landmarkName = "-loadPrimeCarouselData:"
             landmarkType = "7">
          </BreakpointContent>
@@ -516,11 +516,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2194"
-            endingLineNumber = "2194"
+            startingLineNumber = "2195"
+            endingLineNumber = "2195"
             landmarkName = "-loadMoviesData"
             landmarkType = "7">
          </BreakpointContent>
@@ -532,11 +532,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2226"
-            endingLineNumber = "2226"
+            startingLineNumber = "2227"
+            endingLineNumber = "2227"
             landmarkName = "-loadOnDemandWebOriginalData"
             landmarkType = "7">
          </BreakpointContent>
@@ -548,11 +548,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2258"
-            endingLineNumber = "2258"
+            startingLineNumber = "2259"
+            endingLineNumber = "2259"
             landmarkName = "-loadOnDemandKidsData"
             landmarkType = "7">
          </BreakpointContent>
@@ -564,11 +564,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3682"
-            endingLineNumber = "3682"
+            startingLineNumber = "3684"
+            endingLineNumber = "3684"
             landmarkName = "-getAppsListData:forCategory:"
             landmarkType = "7">
          </BreakpointContent>
@@ -580,11 +580,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "4353"
-            endingLineNumber = "4353"
+            startingLineNumber = "4355"
+            endingLineNumber = "4355"
             landmarkName = "-loadWebOriginalData"
             landmarkType = "7">
          </BreakpointContent>
@@ -596,11 +596,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "4404"
-            endingLineNumber = "4404"
+            startingLineNumber = "4406"
+            endingLineNumber = "4406"
             landmarkName = "-loadSportsData"
             landmarkType = "7">
          </BreakpointContent>
@@ -612,11 +612,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "4936"
-            endingLineNumber = "4936"
+            startingLineNumber = "4938"
+            endingLineNumber = "4938"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
@@ -628,11 +628,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5694"
-            endingLineNumber = "5694"
+            startingLineNumber = "5696"
+            endingLineNumber = "5696"
             landmarkName = "-loadMoviesRatingData:"
             landmarkType = "7">
          </BreakpointContent>
@@ -644,11 +644,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5753"
-            endingLineNumber = "5753"
+            startingLineNumber = "5755"
+            endingLineNumber = "5755"
             landmarkName = "-didSelectItemFromCollectionViewForMovie:"
             landmarkType = "7">
          </BreakpointContent>
@@ -660,11 +660,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5790"
-            endingLineNumber = "5790"
+            startingLineNumber = "5792"
+            endingLineNumber = "5792"
             landmarkName = "-didSelectItemInCellAppManager:"
             landmarkType = "7">
          </BreakpointContent>
@@ -676,11 +676,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5851"
-            endingLineNumber = "5851"
+            startingLineNumber = "5853"
+            endingLineNumber = "5853"
             landmarkName = "-didSelectItemFromCollectionViewForOnDemand:"
             landmarkType = "7">
          </BreakpointContent>
@@ -692,11 +692,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5891"
-            endingLineNumber = "5891"
+            startingLineNumber = "5893"
+            endingLineNumber = "5893"
             landmarkName = "-sliderViewAllOption:"
             landmarkType = "7">
          </BreakpointContent>
@@ -708,11 +708,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5972"
-            endingLineNumber = "5972"
+            startingLineNumber = "5974"
+            endingLineNumber = "5974"
             landmarkName = "-sliderViewWatchNowAction:"
             landmarkType = "7">
          </BreakpointContent>
@@ -724,11 +724,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6248"
-            endingLineNumber = "6248"
+            startingLineNumber = "6250"
+            endingLineNumber = "6250"
             landmarkName = "-updateData:status:"
             landmarkType = "7">
          </BreakpointContent>
@@ -740,11 +740,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6309"
-            endingLineNumber = "6309"
+            startingLineNumber = "6311"
+            endingLineNumber = "6311"
             landmarkName = "-updateShowData:"
             landmarkType = "7">
          </BreakpointContent>
@@ -756,11 +756,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6398"
-            endingLineNumber = "6398"
+            startingLineNumber = "6400"
+            endingLineNumber = "6400"
             landmarkName = "-updateNetworkDetailData:"
             landmarkType = "7">
          </BreakpointContent>
@@ -772,11 +772,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6677"
-            endingLineNumber = "6677"
+            startingLineNumber = "6679"
+            endingLineNumber = "6679"
             landmarkName = "-gridView:didSelectRowAt:AndColumnAt:currentGridCell:"
             landmarkType = "7">
          </BreakpointContent>
@@ -852,11 +852,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1981"
-            endingLineNumber = "1981"
+            startingLineNumber = "1982"
+            endingLineNumber = "1982"
             landmarkName = "-getOnDemandFirstCarousels"
             landmarkType = "7">
             <Locations>
@@ -900,11 +900,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2072"
-            endingLineNumber = "2072"
+            startingLineNumber = "2073"
+            endingLineNumber = "2073"
             landmarkName = "-loadTVShowData"
             landmarkType = "7">
          </BreakpointContent>
@@ -916,11 +916,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2101"
-            endingLineNumber = "2101"
+            startingLineNumber = "2102"
+            endingLineNumber = "2102"
             landmarkName = "-loadOnDemandCategoryCarouselsByID:"
             landmarkType = "7">
          </BreakpointContent>
@@ -932,11 +932,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3040"
-            endingLineNumber = "3040"
+            startingLineNumber = "3041"
+            endingLineNumber = "3041"
             landmarkName = "-setUpDownloadAppView"
             landmarkType = "7">
          </BreakpointContent>
@@ -948,11 +948,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3054"
-            endingLineNumber = "3054"
+            startingLineNumber = "3055"
+            endingLineNumber = "3055"
             landmarkName = "-setUpDownloadAppView"
             landmarkType = "7">
          </BreakpointContent>
@@ -964,11 +964,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "7318"
-            endingLineNumber = "7318"
+            startingLineNumber = "7320"
+            endingLineNumber = "7320"
             landmarkName = "-collectionView:didSelectItemAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
@@ -980,11 +980,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "7368"
-            endingLineNumber = "7368"
+            startingLineNumber = "7370"
+            endingLineNumber = "7370"
             landmarkName = "-tapVideoAction"
             landmarkType = "7">
          </BreakpointContent>
@@ -1060,11 +1060,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "7089"
-            endingLineNumber = "7089"
+            startingLineNumber = "7091"
+            endingLineNumber = "7091"
             landmarkName = "-onDemandLeftAndRightMenuList:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1076,11 +1076,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1752"
-            endingLineNumber = "1752"
+            startingLineNumber = "1753"
+            endingLineNumber = "1753"
             landmarkName = "-loadSliderCarouselScreen"
             landmarkType = "7">
          </BreakpointContent>
@@ -1092,11 +1092,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "7095"
-            endingLineNumber = "7095"
+            startingLineNumber = "7097"
+            endingLineNumber = "7097"
             landmarkName = "-onDemandLeftAndRightMenuList:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1108,11 +1108,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1983"
-            endingLineNumber = "1983"
+            startingLineNumber = "1984"
+            endingLineNumber = "1984"
             landmarkName = "-getOnDemandFirstCarousels"
             landmarkType = "7">
          </BreakpointContent>
@@ -1124,11 +1124,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1990"
-            endingLineNumber = "1990"
+            startingLineNumber = "1991"
+            endingLineNumber = "1991"
             landmarkName = "-getOnDemandFirstCarousels"
             landmarkType = "7">
          </BreakpointContent>
@@ -1140,11 +1140,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2037"
-            endingLineNumber = "2037"
+            startingLineNumber = "2038"
+            endingLineNumber = "2038"
             landmarkName = "-getOnDemandFirstSliderImageArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1156,11 +1156,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2041"
-            endingLineNumber = "2041"
+            startingLineNumber = "2042"
+            endingLineNumber = "2042"
             landmarkName = "-getOnDemandFirstSliderImageArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1172,11 +1172,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2058"
-            endingLineNumber = "2058"
+            startingLineNumber = "2059"
+            endingLineNumber = "2059"
             landmarkName = "-loadSliderCarouselDesign:carouselArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1188,11 +1188,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2049"
-            endingLineNumber = "2049"
+            startingLineNumber = "2050"
+            endingLineNumber = "2050"
             landmarkName = "-loadSliderCarouselDesign:carouselArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1204,11 +1204,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1765"
-            endingLineNumber = "1765"
+            startingLineNumber = "1766"
+            endingLineNumber = "1766"
             landmarkName = "-getOnDemandTopMenuList"
             landmarkType = "7">
          </BreakpointContent>
@@ -1220,11 +1220,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1769"
-            endingLineNumber = "1769"
+            startingLineNumber = "1770"
+            endingLineNumber = "1770"
             landmarkName = "-getOnDemandTopMenuList"
             landmarkType = "7">
          </BreakpointContent>
@@ -1284,11 +1284,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2659"
-            endingLineNumber = "2659"
+            startingLineNumber = "2660"
+            endingLineNumber = "2660"
             landmarkName = "-setUpNewStaticDownloadAppView"
             landmarkType = "7">
          </BreakpointContent>
@@ -1300,11 +1300,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2663"
-            endingLineNumber = "2663"
+            startingLineNumber = "2664"
+            endingLineNumber = "2664"
             landmarkName = "-setUpNewStaticDownloadAppView"
             landmarkType = "7">
          </BreakpointContent>
@@ -1316,11 +1316,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2948"
-            endingLineNumber = "2948"
+            startingLineNumber = "2949"
+            endingLineNumber = "2949"
             landmarkName = "-setUpDownloadAppView"
             landmarkType = "7">
          </BreakpointContent>
@@ -1332,11 +1332,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2953"
-            endingLineNumber = "2953"
+            startingLineNumber = "2954"
+            endingLineNumber = "2954"
             landmarkName = "-setUpDownloadAppView"
             landmarkType = "7">
          </BreakpointContent>
@@ -1348,11 +1348,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6940"
-            endingLineNumber = "6940"
+            startingLineNumber = "6942"
+            endingLineNumber = "6942"
             landmarkName = "-onDemandMovieRotateViews:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1364,11 +1364,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6945"
-            endingLineNumber = "6945"
+            startingLineNumber = "6947"
+            endingLineNumber = "6947"
             landmarkName = "-onDemandMovieRotateViews:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1380,11 +1380,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6898"
-            endingLineNumber = "6898"
+            startingLineNumber = "6900"
+            endingLineNumber = "6900"
             landmarkName = "-onDemandMovieRotateViews:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1396,11 +1396,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MovieViewController.m"
-            timestampString = "510748652.290797"
+            timestampString = "510757308.804159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6973"
-            endingLineNumber = "6973"
+            startingLineNumber = "6975"
+            endingLineNumber = "6975"
             landmarkName = "-onDemandLeftAndRightMenuList:"
             landmarkType = "7">
          </BreakpointContent>

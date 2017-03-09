@@ -1017,14 +1017,16 @@ UITableView* tableChannelList;
     [searchBarView setShowsCancelButton:YES];
     searchBarView.delegate = self;
     [searchBarView setTintColor:[UIColor whiteColor]];
-    searchBarView.barTintColor = [UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
+   // searchBarView.barTintColor = [UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
+    searchBarView.backgroundColor = GRAY_BG_COLOR;
     searchBarView.autocorrectionType = UITextAutocorrectionTypeNo;
     for (id subView in ((UIView *)[searchBarView.subviews objectAtIndex:0]).subviews) {
         //UITextField *searchTextField;
         if ([subView isKindOfClass:[UITextField class]]) {
             searchTextField = subView;
             searchTextField.keyboardAppearance = UIKeyboardAppearanceLight;
-            [searchTextField setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:116.0f/255.0f blue:203.0f/255.0f alpha:1]];
+           // [searchTextField setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:116.0f/255.0f blue:203.0f/255.0f alpha:1]];
+            searchTextField.backgroundColor = GRAY_BG_COLOR;
             searchTextField.textColor =[UIColor whiteColor];
             UIColor *color = [UIColor colorWithRed:119.0f/255.0f green:176.0f/255.0f blue:216.0f/255.0f alpha:1];
             searchTextField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"Search title, actor or movie" attributes:@{NSForegroundColorAttributeName: color}];
