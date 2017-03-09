@@ -11,6 +11,7 @@
 #import "LoginViewController.h"
 
 @interface StartVideoViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *startWtng;
 
 @end
 
@@ -18,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    _startWtng.backgroundColor = GRAY_BG_COLOR;
     
     _splashLogoImage.image =[UIImage imageNamed:splashLogoImageName];
     

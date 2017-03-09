@@ -15,5 +15,5 @@
 #define splashLogoImageName                 @"ETV_splash_logo"
 
 
-#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+#define splashNewImage                      @"ETV_CustomLaunchIcon"
 

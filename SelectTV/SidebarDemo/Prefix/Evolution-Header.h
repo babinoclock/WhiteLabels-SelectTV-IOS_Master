@@ -16,5 +16,5 @@
 
 #define splashLogoImageName                 @"Evolution_splash_logo"
 
-#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+#define splashNewImage                      @"Evolution_CustomLaunchIcon"
 

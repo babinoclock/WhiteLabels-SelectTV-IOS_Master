@@ -14,4 +14,4 @@
 
 #define splashLogoImageName           @"RabbitTVPlus_splash_logo"
 
-#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+#define splashNewImage                 @"RabbitTVPlus_CustomLaunchIcon"

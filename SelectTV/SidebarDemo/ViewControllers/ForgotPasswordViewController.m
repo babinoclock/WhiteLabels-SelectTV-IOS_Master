@@ -119,7 +119,7 @@
     
     [topImageView setFrame:CGRectMake(topViewXPos, topViewYPos, topViewWidth, topViewHeight)];
     
-    topImageView.image =[UIImage imageNamed:splashLogoImageName];//splash_logo
+    topImageView.image =[UIImage imageNamed:homeLogoImageName];//splash_logo
 }
 -(BOOL)isDeviceIpad
 {
@@ -165,6 +165,7 @@
     emailTF.autocapitalizationType = UITextAutocapitalizationTypeNone;
     continueBtn.layer.cornerRadius = 4.0f;
     continueBtn.clipsToBounds = YES;
+    continueBtn.backgroundColor = GRAY_BG_COLOR;
     [emailTF setFont:[COMMON getResizeableFont:Roboto_Regular(14)]];
     continueBtn.titleLabel.font= [COMMON getResizeableFont:Roboto_Bold(14)];
     backBtn.titleLabel.font= [COMMON getResizeableFont:Roboto_Regular(14)];

@@ -30,7 +30,7 @@
         <scene sceneID="BrC-cO-hUy">
             <objects>
                 <navigationController id="sqs-y5-nt4" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Md3-3K-ttb">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Md3-3K-ttb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -143,7 +143,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="19"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="LOGIN" backgroundImage="blueBtn.png">
+                                <state key="normal" title="LOGIN">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
@@ -230,7 +230,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroud_BG.png" translatesAutoresizingMaskIntoConstraints="NO" id="SYk-kV-4Gh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginBgNew.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SYk-kV-4Gh">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="lGN-k1-t58">
@@ -247,7 +247,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="CONTINUE" backgroundImage="blueBtn.png">
+                                <state key="normal" title="CONTINUE">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -711,6 +711,7 @@
                         <outlet property="introTwo" destination="HnA-hQ-jiV" id="Ha9-Qw-bC7"/>
                         <outlet property="pageControll" destination="ARf-2I-RTy" id="u5Q-XN-e2i"/>
                         <outlet property="splashLogoImage" destination="hTL-We-T8g" id="nuY-Hi-cTW"/>
+                        <outlet property="startWtng" destination="fPo-HC-gz3" id="1JQ-sz-fex"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kyw-IZ-Pkg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -847,8 +848,6 @@
     <resources>
         <image name="LoginBgNew.jpg" width="1440" height="2560"/>
         <image name="SplashScreenImage" width="320" height="568"/>
-        <image name="backgroud_BG.png" width="2560" height="1406"/>
-        <image name="blueBtn.png" width="459" height="123"/>
         <image name="homeLogo" width="113" height="34"/>
         <image name="loginBg" width="414" height="736"/>
         <image name="selected.png" width="13" height="10"/>

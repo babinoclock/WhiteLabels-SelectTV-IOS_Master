@@ -14,5 +14,5 @@
 
 #define splashLogoImageName                 @"WiseTV_splash_logo"
 
-#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+#define splashNewImage                      @"WiseTV_CustomLaunchIcon"
 

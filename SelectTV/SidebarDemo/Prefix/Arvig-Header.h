@@ -15,7 +15,7 @@
 
 #define splashLogoImageName                 @"splash_logo"
 
-#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+#define splashNewImage                      @"Arvig_CustomLaunchIcon"
 
 //#ifndef SideBarDemo_Header_h
 //#define SideBarDemo_Header_h

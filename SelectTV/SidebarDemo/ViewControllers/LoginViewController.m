@@ -206,6 +206,9 @@
     passwordTF.autocapitalizationType = UITextAutocapitalizationTypeNone;
     loginBtn.layer.cornerRadius = 4.0f;
     loginBtn.clipsToBounds = YES;
+//new
+    loginBtn.backgroundColor = GRAY_BG_COLOR;
+    
     [emailTF setFont:[COMMON getResizeableFont:OpenSans_Regular(14)]];
     [passwordTF setFont:[COMMON getResizeableFont:OpenSans_Regular(14)]];
     //loginBtn.titleLabel.font= [COMMON getResizeableFont:OpenSans_Regular(14)];

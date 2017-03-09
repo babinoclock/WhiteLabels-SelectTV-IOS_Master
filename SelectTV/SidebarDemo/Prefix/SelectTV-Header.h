@@ -14,5 +14,5 @@
 
 #define splashLogoImageName                 @"SelectTV_splash_logo"
 
-#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+#define splashNewImage                      @"SelectTV_CustomLaunchIcon"
 
