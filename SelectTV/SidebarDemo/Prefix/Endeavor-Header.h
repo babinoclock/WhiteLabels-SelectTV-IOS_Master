@@ -14,3 +14,6 @@
 #define homeLogoImageName                   @"Endeavor_homeLogo"
 
 #define splashLogoImageName                 @"Endeavor_splash_logo"
+
+#define splashNewImage                      @"Endeavor_CustomLaunchIcon"
+

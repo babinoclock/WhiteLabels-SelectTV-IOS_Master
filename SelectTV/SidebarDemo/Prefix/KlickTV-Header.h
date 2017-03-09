@@ -13,3 +13,11 @@
 #define homeLogoImageName                   @"KlickTV_homeLogo"
 
 #define splashLogoImageName                 @"KlickTV_splash_logo"
+
+//#define splashLogoImageName1                 @"KlickTV_CustomLaunchIcon"
+
+
+#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+
+
+

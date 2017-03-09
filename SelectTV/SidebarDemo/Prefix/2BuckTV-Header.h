@@ -14,3 +14,6 @@
 #define homeLogoImageName                   @"2BuckTV_homeLogo"
 
 #define splashLogoImageName                 @"2BuckTV_splash_logo"
+
+#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+

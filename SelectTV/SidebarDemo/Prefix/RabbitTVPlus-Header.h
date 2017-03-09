@@ -13,3 +13,5 @@
 #define homeLogoImageName             @"RabbitTVPlus_homeLogo"
 
 #define splashLogoImageName           @"RabbitTVPlus_splash_logo"
+
+#define splashNewImage                      @"KlickTV_CustomLaunchIcon"

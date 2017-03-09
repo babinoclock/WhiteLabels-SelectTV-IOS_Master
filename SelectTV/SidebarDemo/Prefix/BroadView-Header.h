@@ -15,6 +15,9 @@
 
 #define splashLogoImageName                 @"BroadView_splash_logo"
 
+#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+
+
 
 
 //#ifndef BroadView_Header_h

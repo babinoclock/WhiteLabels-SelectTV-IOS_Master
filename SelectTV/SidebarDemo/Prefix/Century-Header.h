@@ -14,3 +14,6 @@
 #define homeLogoImageName                   @"Century_homeLogo"
 
 #define splashLogoImageName                 @"Century_splash_logo"
+
+#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+

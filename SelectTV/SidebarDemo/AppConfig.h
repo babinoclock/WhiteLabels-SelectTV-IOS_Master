@@ -111,6 +111,9 @@
 
 #define SKY_BLUE            [UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
 
+
+#define GRAY_BG_COLOR            [UIColor colorWithRed:59.0f/255.0f green:60.0f/255.0f blue:64.0f/255.0f alpha:1.0f];
+
 //USER DEFAULTS
 
 #define USERDETAILS                            @"UserDetails"

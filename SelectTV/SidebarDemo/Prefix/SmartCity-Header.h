@@ -13,3 +13,6 @@
 #define homeLogoImageName                   @"SmartCity_homeLogo"
 
 #define splashLogoImageName                 @"SmartCity_splash_logo"
+
+#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+
