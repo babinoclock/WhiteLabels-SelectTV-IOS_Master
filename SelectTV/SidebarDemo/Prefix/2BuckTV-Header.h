@@ -15,5 +15,5 @@
 
 #define splashLogoImageName                 @"2BuckTV_splash_logo"
 
-#define splashNewImage                      @"KlickTV_CustomLaunchIcon"
+#define splashNewImage                      @"2BuckTV_CustomLaunchIcon"
 
