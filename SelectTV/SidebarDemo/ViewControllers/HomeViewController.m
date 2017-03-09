@@ -389,6 +389,7 @@ BOOL boolLandToPort =false;
     searchBarView.delegate = self;
     [searchBarView setTintColor:[UIColor whiteColor]];
     searchBarView.barTintColor = [UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
+    searchBarView.backgroundColor = GRAY_BG_COLOR;
     searchBarView.autocorrectionType = UITextAutocorrectionTypeNo;
     for (id subView in ((UIView *)[searchBarView.subviews objectAtIndex:0]).subviews) {
         //UITextField *searchTextField;

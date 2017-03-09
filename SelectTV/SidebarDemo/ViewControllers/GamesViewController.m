@@ -131,7 +131,8 @@ int nGamesCellHeight = 200;
     _gamesHeaderScroll = [[HMSegmentedControl alloc] initWithFrame:CGRectMake(0, 0, commonWidth, _topSegmentView.frame.size.height)];
     [_topSegmentView addSubview:_gamesHeaderScroll];
     
-    [_gamesHeaderScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
+    //[_gamesHeaderScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
+    _gamesHeaderScroll.backgroundColor = GRAY_BG_COLOR;
     
     _gamesHeaderScroll.sectionTitles = titleArray;
     _gamesHeaderScroll.segmentEdgeInset = UIEdgeInsetsMake(0, 10, 0, 10);

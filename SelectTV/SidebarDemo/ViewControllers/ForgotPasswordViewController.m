@@ -184,6 +184,7 @@
     continueBtn.titleLabel.text = continueStr;//blueBtn.png
     backBtn.titleLabel.text = backStr;
     [backBtn addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
+    [backBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     // [continueBtn setImage:[UIImage imageNamed:@"blueBtn.png"] forState:UIControlStateNormal];
 
 //    UIView *bottomEmail  = [[UIView alloc] initWithFrame:CGRectMake(0, emailTF.frame.size.height-1.0f, emailTF.frame.size.width, 1.0)];

@@ -341,13 +341,16 @@ BOOL bFavPopUpViewShown = false;
         commonWidth = [UIScreen mainScreen].bounds.size.width;
     }
      showHeaderView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, commonWidth, 44)];
-    [showHeaderView setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
+    //[showHeaderView setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
+     showHeaderView.backgroundColor = GRAY_BG_COLOR;
     _headerScroll = [[HMSegmentedControl alloc] initWithFrame:CGRectMake(0, 0, commonWidth, showHeaderView.frame.size.height)];
     [showHeaderView addSubview:_headerScroll];
     [self.view addSubview:showHeaderView];
     
     
-    [_headerScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
+   // [_headerScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
+    _headerScroll.backgroundColor = GRAY_BG_COLOR;
+
     
     _headerScroll.sectionTitles = scrollTitleHeaderArray;
     _headerScroll.segmentEdgeInset = UIEdgeInsetsMake(0, 10, 0, 10);
