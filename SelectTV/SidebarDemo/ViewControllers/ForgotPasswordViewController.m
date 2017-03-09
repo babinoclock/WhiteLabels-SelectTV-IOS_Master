@@ -32,6 +32,8 @@
         resetStr =  [COMMON stringTranslatingIntoSpanish:resetStr];
     }
     resetPasswordLabel.text = resetStr;
+    resetPasswordLabel.textColor = GRAY_BG_COLOR;
+    
     
     self.title = resetStr;
     

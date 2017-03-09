@@ -55,11 +55,9 @@
         [COMMON removeSideBarStaticArrayList];
     }
     
-    //_splashImage.image =[UIImage imageNamed:SplashScreenImageName];
+    _splashImage.image =[UIImage imageNamed:SplashScreenImageName];
     
-    [_splashImage setHidden:YES];
     
-    self.view.backgroundColor = GRAY_BG_COLOR;
     
    // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"SplashScreenImage"]];
     
@@ -82,8 +80,6 @@
     currentProgress = 0.0f;
     [self.view setUserInteractionEnabled:NO];
     
-//new
-    [self introductionView];
     
 }
 -(void)loadArrayTranslations{
@@ -717,26 +713,6 @@
 -(UIInterfaceOrientationMask)supportedInterfaceOrientations{
     
     return UIInterfaceOrientationMaskPortrait;
-    
-}
--(void)introductionView
-{
- 
-    UIImageView *introImgView =[[UIImageView alloc]init];
-    
-    CGFloat height = 100;
-    CGFloat width = 100;
-    
-    CGFloat Xpos = SCREEN_WIDTH/2 -(width/2);
-    CGFloat Ypos = SCREEN_HEIGHT/2 -(height/2);
-    
-   // introImgView.frame = CGRectMake(CGRectGetMinX(self.view.frame)+10, (self.view.frame.size.height/2)-100 , self.view.frame.size.width - 20, 100);
-    
-    introImgView.frame = CGRectMake(Xpos, Ypos, width, height);
-    //introImgView.backgroundColor = [UIColor redColor];
-    introImgView.image =[UIImage imageNamed:splashNewImage];
-    [self.view addSubview:introImgView];
-    
     
 }
 
