@@ -1525,10 +1525,6 @@
 		2B1A82D01E6EE344006324AF /* New_Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDF6B81CD4899F00495544 /* New_Land_Cell_Ipad.xib */; };
 		2B1A82D11E6EE344006324AF /* RadioListByGenreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDB0571C71A0B4006C28BB /* RadioListByGenreCell.xib */; };
 		2B1A82D21E6EE344006324AF /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FD3761B8D328100280C02 /* iPadStoryboard.storyboard */; };
-		2B1A82E11E6EF384006324AF /* ETV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A82E01E6EF384006324AF /* ETV-Info.plist */; };
-		2B1A82E31E6EF38D006324AF /* Evolution-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A82E21E6EF38D006324AF /* Evolution-Info.plist */; };
-		2B1A82E51E6EF392006324AF /* Century-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A82E41E6EF392006324AF /* Century-Info.plist */; };
-		2B1A82E71E6EF397006324AF /* Endeavor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A82E61E6EF397006324AF /* Endeavor-Info.plist */; };
 		2B1A82EB1E6EFA9D006324AF /* H5WebKitBugsManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0F7A61BAF599A00BE590B /* H5WebKitBugsManager.h */; };
 		2B1A82EC1E6EFA9D006324AF /* CustomIOS7AlertView.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A7A211E6EAE64006324AF /* CustomIOS7AlertView.h */; };
 		2B1A82ED1E6EFA9D006324AF /* ResgisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A40411C68AF8E0078B251 /* ResgisterTableViewController.m */; };
@@ -1728,7 +1724,6 @@
 		2B1A83B11E6EFA9D006324AF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79921E6EA687006324AF /* logo.png */; };
 		2B1A83B21E6EFA9D006324AF /* film_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79851E6EA687006324AF /* film_icon.png */; };
 		2B1A83B31E6EFA9D006324AF /* MyAccountCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79D31E6EA85D006324AF /* MyAccountCustomCell.xib */; };
-		2B1A83B41E6EFA9D006324AF /* Endeavor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A82E61E6EF397006324AF /* Endeavor-Info.plist */; };
 		2B1A83B51E6EFA9D006324AF /* CRANCKLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D39A1E6D8BE800221307 /* CRANCKLE.png */; };
 		2B1A83B61E6EFA9D006324AF /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1991C3FEE7B006F0992 /* play.png */; };
 		2B1A83B71E6EFA9D006324AF /* AppDownloadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A5A041CCE31EB00584579 /* AppDownloadTableViewCell.xib */; };
@@ -2126,7 +2121,6 @@
 		2B44A3D71E6FB6A400281B5B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79921E6EA687006324AF /* logo.png */; };
 		2B44A3D81E6FB6A400281B5B /* film_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79851E6EA687006324AF /* film_icon.png */; };
 		2B44A3D91E6FB6A400281B5B /* MyAccountCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79D31E6EA85D006324AF /* MyAccountCustomCell.xib */; };
-		2B44A3DA1E6FB6A400281B5B /* Endeavor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A82E61E6EF397006324AF /* Endeavor-Info.plist */; };
 		2B44A3DB1E6FB6A400281B5B /* CRANCKLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D39A1E6D8BE800221307 /* CRANCKLE.png */; };
 		2B44A3DC1E6FB6A400281B5B /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1991C3FEE7B006F0992 /* play.png */; };
 		2B44A3DD1E6FB6A400281B5B /* AppDownloadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A5A041CCE31EB00584579 /* AppDownloadTableViewCell.xib */; };
@@ -2481,7 +2475,6 @@
 		2B44A5491E6FB79D00281B5B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79921E6EA687006324AF /* logo.png */; };
 		2B44A54A1E6FB79D00281B5B /* film_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79851E6EA687006324AF /* film_icon.png */; };
 		2B44A54B1E6FB79D00281B5B /* MyAccountCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79D31E6EA85D006324AF /* MyAccountCustomCell.xib */; };
-		2B44A54C1E6FB79D00281B5B /* Endeavor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A82E61E6EF397006324AF /* Endeavor-Info.plist */; };
 		2B44A54D1E6FB79D00281B5B /* CRANCKLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D39A1E6D8BE800221307 /* CRANCKLE.png */; };
 		2B44A54E1E6FB79D00281B5B /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1991C3FEE7B006F0992 /* play.png */; };
 		2B44A54F1E6FB79D00281B5B /* AppDownloadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A5A041CCE31EB00584579 /* AppDownloadTableViewCell.xib */; };
@@ -2836,7 +2829,6 @@
 		2B44A6BA1E6FB7A700281B5B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79921E6EA687006324AF /* logo.png */; };
 		2B44A6BB1E6FB7A700281B5B /* film_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79851E6EA687006324AF /* film_icon.png */; };
 		2B44A6BC1E6FB7A700281B5B /* MyAccountCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79D31E6EA85D006324AF /* MyAccountCustomCell.xib */; };
-		2B44A6BD1E6FB7A700281B5B /* Endeavor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A82E61E6EF397006324AF /* Endeavor-Info.plist */; };
 		2B44A6BE1E6FB7A700281B5B /* CRANCKLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D39A1E6D8BE800221307 /* CRANCKLE.png */; };
 		2B44A6BF1E6FB7A700281B5B /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1991C3FEE7B006F0992 /* play.png */; };
 		2B44A6C01E6FB7A700281B5B /* AppDownloadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A5A041CCE31EB00584579 /* AppDownloadTableViewCell.xib */; };
@@ -3346,8 +3338,6 @@
 		2B44A8C81E6FB9BF00281B5B /* New_Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDF6B81CD4899F00495544 /* New_Land_Cell_Ipad.xib */; };
 		2B44A8C91E6FB9BF00281B5B /* RadioListByGenreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDB0571C71A0B4006C28BB /* RadioListByGenreCell.xib */; };
 		2B44A8CA1E6FB9BF00281B5B /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FD3761B8D328100280C02 /* iPadStoryboard.storyboard */; };
-		2B44A8D51E6FBB7C00281B5B /* BroadView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B44A8D41E6FBB7C00281B5B /* BroadView-Info.plist */; };
-		2B44A8D81E6FBE8C00281B5B /* Arvig-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B44A8D71E6FBE8C00281B5B /* Arvig-Info.plist */; };
 		2B55AB841E406869004C9A10 /* LoginBgNew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B55AB831E406869004C9A10 /* LoginBgNew.jpg */; };
 		2B59D3871E6D680C00221307 /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B59D38D1E6D6D5C00221307 /* appManagerStaticCustomCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D38C1E6D6D5C00221307 /* appManagerStaticCustomCollectionCell.xib */; };
@@ -3439,6 +3429,18 @@
 		2BA934591D379849008640FF /* AppDownloadListCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA934571D379849008640FF /* AppDownloadListCell_IPad.xib */; };
 		2BA9345A1D379849008640FF /* AppDownloadListCell_IPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA934581D379849008640FF /* AppDownloadListCell_IPhone.xib */; };
 		2BC4277C1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
+		2BC77F171E710F8900E26163 /* 2BuckTV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F161E710F8900E26163 /* 2BuckTV-Info.plist */; };
+		2BC77F191E710F9000E26163 /* BroadView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F181E710F9000E26163 /* BroadView-Info.plist */; };
+		2BC77F1D1E710F9C00E26163 /* KlickTV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F1C1E710F9C00E26163 /* KlickTV-Info.plist */; };
+		2BC77F211E710FAF00E26163 /* SmartCity-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F201E710FAF00E26163 /* SmartCity-Info.plist */; };
+		2BC77F251E710FC200E26163 /* SelectTV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F241E710FC200E26163 /* SelectTV-Info.plist */; };
+		2BC77F291E710FE400E26163 /* WiseTV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F281E710FE400E26163 /* WiseTV-Info.plist */; };
+		2BC77F2B1E710FFB00E26163 /* RabbitTVPlus-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F2A1E710FFB00E26163 /* RabbitTVPlus-Info.plist */; };
+		2BC77F2F1E71124300E26163 /* Century-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F2E1E71124300E26163 /* Century-Info.plist */; };
+		2BC77F311E71125A00E26163 /* Endeavor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F301E71125A00E26163 /* Endeavor-Info.plist */; };
+		2BC77F331E71127900E26163 /* Arvig-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F321E71127900E26163 /* Arvig-Info.plist */; };
+		2BC77F341E7112FD00E26163 /* ETV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F2C1E71123800E26163 /* ETV-Info.plist */; };
+		2BC77F361E71136F00E26163 /* Evolution-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F351E71136F00E26163 /* Evolution-Info.plist */; };
 		2BCCBCCE1CDB1FA8005ED3BB /* AppListGridCell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCCBCCA1CDB1FA8005ED3BB /* AppListGridCell_Ipad.xib */; };
 		2BCCBCCF1CDB1FA8005ED3BB /* AppListGridCell_Iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCCBCCB1CDB1FA8005ED3BB /* AppListGridCell_Iphone.xib */; };
 		2BCCBCD01CDB1FA8005ED3BB /* AppListGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCCBCCD1CDB1FA8005ED3BB /* AppListGridCell.m */; };
@@ -3742,7 +3744,6 @@
 		C9358EF21E6FCD9700064818 /* MyAccountCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79D31E6EA85D006324AF /* MyAccountCustomCell.xib */; };
 		C9358EF31E6FCD9700064818 /* CRANCKLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D39A1E6D8BE800221307 /* CRANCKLE.png */; };
 		C9358EF41E6FCD9700064818 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1991C3FEE7B006F0992 /* play.png */; };
-		C9358EF51E6FCD9700064818 /* BroadView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B44A8D41E6FBB7C00281B5B /* BroadView-Info.plist */; };
 		C9358EF61E6FCD9700064818 /* AppDownloadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A5A041CCE31EB00584579 /* AppDownloadTableViewCell.xib */; };
 		C9358EF71E6FCD9700064818 /* appManagerStaticCustomCollectionCell_IPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A78E21E6E8767006324AF /* appManagerStaticCustomCollectionCell_IPhone.xib */; };
 		C9358EF81E6FCD9700064818 /* track.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD19A1C3FEE7B006F0992 /* track.png */; };
@@ -3896,10 +3897,6 @@
 		C9358F8C1E6FCD9700064818 /* New_Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDF6B81CD4899F00495544 /* New_Land_Cell_Ipad.xib */; };
 		C9358F8D1E6FCD9700064818 /* RadioListByGenreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDB0571C71A0B4006C28BB /* RadioListByGenreCell.xib */; };
 		C9358F8E1E6FCD9700064818 /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FD3761B8D328100280C02 /* iPadStoryboard.storyboard */; };
-		C9358F9C1E701CDC00064818 /* 2BuckTV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9358F9B1E701CDC00064818 /* 2BuckTV-Info.plist */; };
-		C9358F9E1E701CE700064818 /* WiseTV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9358F9D1E701CE700064818 /* WiseTV-Info.plist */; };
-		C9358FA01E701CFC00064818 /* SmartCity-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9358F9F1E701CFC00064818 /* SmartCity-Info.plist */; };
-		C9358FA21E701D1300064818 /* SelectTV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9358FA11E701D1300064818 /* SelectTV-Info.plist */; };
 		C9358FA61E702BAF00064818 /* H5WebKitBugsManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0F7A61BAF599A00BE590B /* H5WebKitBugsManager.h */; };
 		C9358FA71E702BAF00064818 /* CustomIOS7AlertView.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A7A211E6EAE64006324AF /* CustomIOS7AlertView.h */; };
 		C9358FA81E702BAF00064818 /* ResgisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A40411C68AF8E0078B251 /* ResgisterTableViewController.m */; };
@@ -4101,7 +4098,6 @@
 		C935906E1E702BAF00064818 /* MyAccountCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79D31E6EA85D006324AF /* MyAccountCustomCell.xib */; };
 		C935906F1E702BAF00064818 /* CRANCKLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D39A1E6D8BE800221307 /* CRANCKLE.png */; };
 		C93590701E702BAF00064818 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1991C3FEE7B006F0992 /* play.png */; };
-		C93590711E702BAF00064818 /* BroadView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B44A8D41E6FBB7C00281B5B /* BroadView-Info.plist */; };
 		C93590721E702BAF00064818 /* AppDownloadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A5A041CCE31EB00584579 /* AppDownloadTableViewCell.xib */; };
 		C93590731E702BAF00064818 /* appManagerStaticCustomCollectionCell_IPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A78E21E6E8767006324AF /* appManagerStaticCustomCollectionCell_IPhone.xib */; };
 		C93590741E702BAF00064818 /* track.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD19A1C3FEE7B006F0992 /* track.png */; };
@@ -4508,10 +4504,6 @@
 		2B1A82DA1E6EE344006324AF /* Endeavor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Endeavor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1A82DC1E6EE554006324AF /* Century-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Century-Header.h"; sourceTree = "<group>"; };
 		2B1A82DD1E6EE568006324AF /* Endeavor-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Endeavor-Header.h"; sourceTree = "<group>"; };
-		2B1A82E01E6EF384006324AF /* ETV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ETV-Info.plist"; path = "SidebarDemo/ETV-Info.plist"; sourceTree = "<group>"; };
-		2B1A82E21E6EF38D006324AF /* Evolution-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Evolution-Info.plist"; path = "SidebarDemo/Evolution-Info.plist"; sourceTree = "<group>"; };
-		2B1A82E41E6EF392006324AF /* Century-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Century-Info.plist"; path = "SidebarDemo/Century-Info.plist"; sourceTree = "<group>"; };
-		2B1A82E61E6EF397006324AF /* Endeavor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Endeavor-Info.plist"; path = "SidebarDemo/Endeavor-Info.plist"; sourceTree = "<group>"; };
 		2B1A84571E6EFA9E006324AF /* 2BuckTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2BuckTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1A84591E6EFAF8006324AF /* 2BuckTV-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "2BuckTV-Header.h"; sourceTree = "<group>"; };
 		2B1C873B1C89696B00959838 /* HKKScrollableGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HKKScrollableGridView.h; path = Helper/ScrollGridView/HKKScrollableGridView.h; sourceTree = "<group>"; };
@@ -4585,9 +4577,7 @@
 		2B44A7621E6FB7F900281B5B /* WiseTV-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WiseTV-Header.h"; sourceTree = "<group>"; };
 		2B44A7631E6FB80A00281B5B /* SelectTV-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SelectTV-Header.h"; sourceTree = "<group>"; };
 		2B44A8D21E6FB9BF00281B5B /* BroadView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroadView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B44A8D41E6FBB7C00281B5B /* BroadView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BroadView-Info.plist"; sourceTree = "<group>"; };
 		2B44A8D61E6FBE5100281B5B /* Arvig-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Arvig-Header.h"; sourceTree = "<group>"; };
-		2B44A8D71E6FBE8C00281B5B /* Arvig-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Arvig-Info.plist"; sourceTree = "<group>"; };
 		2B44A8D91E6FC12400281B5B /* SmartCity-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartCity-Header.h"; sourceTree = "<group>"; };
 		2B55AB831E406869004C9A10 /* LoginBgNew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoginBgNew.jpg; sourceTree = "<group>"; };
 		2B59D3831E6D680C00221307 /* appManagerStaticCustomCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appManagerStaticCustomCollectionCell.h; sourceTree = "<group>"; };
@@ -4703,6 +4693,19 @@
 		2BA934571D379849008640FF /* AppDownloadListCell_IPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppDownloadListCell_IPad.xib; path = Cell/AppDownloadListCell_IPad.xib; sourceTree = "<group>"; };
 		2BA934581D379849008640FF /* AppDownloadListCell_IPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppDownloadListCell_IPhone.xib; path = Cell/AppDownloadListCell_IPhone.xib; sourceTree = "<group>"; };
 		2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SubscriptionCell_IPad.xib; path = Cell/SubscriptionCell_IPad.xib; sourceTree = "<group>"; };
+		2BC77F141E710F7E00E26163 /* Arvig-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Arvig-Info.plist"; sourceTree = "<group>"; };
+		2BC77F161E710F8900E26163 /* 2BuckTV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "2BuckTV-Info.plist"; sourceTree = "<group>"; };
+		2BC77F181E710F9000E26163 /* BroadView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BroadView-Info.plist"; sourceTree = "<group>"; };
+		2BC77F1C1E710F9C00E26163 /* KlickTV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KlickTV-Info.plist"; sourceTree = "<group>"; };
+		2BC77F201E710FAF00E26163 /* SmartCity-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SmartCity-Info.plist"; sourceTree = "<group>"; };
+		2BC77F241E710FC200E26163 /* SelectTV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SelectTV-Info.plist"; sourceTree = "<group>"; };
+		2BC77F281E710FE400E26163 /* WiseTV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WiseTV-Info.plist"; sourceTree = "<group>"; };
+		2BC77F2A1E710FFB00E26163 /* RabbitTVPlus-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RabbitTVPlus-Info.plist"; sourceTree = "<group>"; };
+		2BC77F2C1E71123800E26163 /* ETV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ETV-Info.plist"; sourceTree = "<group>"; };
+		2BC77F2E1E71124300E26163 /* Century-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Century-Info.plist"; sourceTree = "<group>"; };
+		2BC77F301E71125A00E26163 /* Endeavor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Endeavor-Info.plist"; sourceTree = "<group>"; };
+		2BC77F321E71127900E26163 /* Arvig-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Arvig-Info.plist"; sourceTree = "<group>"; };
+		2BC77F351E71136F00E26163 /* Evolution-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Evolution-Info.plist"; sourceTree = "<group>"; };
 		2BCCBCCA1CDB1FA8005ED3BB /* AppListGridCell_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppListGridCell_Ipad.xib; path = Cell/AppListGridCell_Ipad.xib; sourceTree = "<group>"; };
 		2BCCBCCB1CDB1FA8005ED3BB /* AppListGridCell_Iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppListGridCell_Iphone.xib; path = Cell/AppListGridCell_Iphone.xib; sourceTree = "<group>"; };
 		2BCCBCCC1CDB1FA8005ED3BB /* AppListGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppListGridCell.h; path = Cell/AppListGridCell.h; sourceTree = "<group>"; };
@@ -4877,14 +4880,8 @@
 		BACCE1B71B317A6D00D5F579 /* StreamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StreamTableViewCell.m; path = Cell/StreamTableViewCell.m; sourceTree = "<group>"; };
 		BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StreamTableViewCell.xib; path = Cell/StreamTableViewCell.xib; sourceTree = "<group>"; };
 		C9358F961E6FCD9700064818 /* RabbitTV Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RabbitTV Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9358F971E6FCD9800064818 /* RabbitTVPlus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RabbitTVPlus-Info.plist"; path = "/Users/ocs.mac/Documents/OCLOCKAPPS_MOHAN_RAJ/WhiteLabels-SelectTV-IOS/SelectTV/RabbitTVPlus-Info.plist"; sourceTree = "<absolute>"; };
 		C9358F9A1E6FCF8800064818 /* RabbitTVPlus-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RabbitTVPlus-Header.h"; sourceTree = "<group>"; };
-		C9358F9B1E701CDC00064818 /* 2BuckTV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "2BuckTV-Info.plist"; sourceTree = "<group>"; };
-		C9358F9D1E701CE700064818 /* WiseTV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WiseTV-Info.plist"; sourceTree = "<group>"; };
-		C9358F9F1E701CFC00064818 /* SmartCity-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SmartCity-Info.plist"; sourceTree = "<group>"; };
-		C9358FA11E701D1300064818 /* SelectTV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SelectTV-Info.plist"; sourceTree = "<group>"; };
 		C93591121E702BB000064818 /* KlickTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlickTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C93591131E702BB300064818 /* KlickTV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "KlickTV-Info.plist"; path = "/Users/ocs.mac/Documents/OCLOCKAPPS_MOHAN_RAJ/WhiteLabels-SelectTV-IOS/SelectTV/KlickTV-Info.plist"; sourceTree = "<absolute>"; };
 		C93591141E702CC400064818 /* KlickTV-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KlickTV-Header.h"; sourceTree = "<group>"; };
 		CFF80D5B1BF668450032A9AD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		CFF80D5D1BF6684D0032A9AD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -6156,18 +6153,6 @@
 				F4EECF10177C99F400778578 /* Frameworks */,
 				F4EECF0F177C99F400778578 /* Products */,
 				8B4EBC6AFA4A35B6F929B57E /* Pods */,
-				2B44A8D71E6FBE8C00281B5B /* Arvig-Info.plist */,
-				C9358F9B1E701CDC00064818 /* 2BuckTV-Info.plist */,
-				2B1A82E01E6EF384006324AF /* ETV-Info.plist */,
-				2B1A82E21E6EF38D006324AF /* Evolution-Info.plist */,
-				2B1A82E61E6EF397006324AF /* Endeavor-Info.plist */,
-				2B1A82E41E6EF392006324AF /* Century-Info.plist */,
-				2B44A8D41E6FBB7C00281B5B /* BroadView-Info.plist */,
-				C9358F971E6FCD9800064818 /* RabbitTVPlus-Info.plist */,
-				C9358F9D1E701CE700064818 /* WiseTV-Info.plist */,
-				C9358F9F1E701CFC00064818 /* SmartCity-Info.plist */,
-				C9358FA11E701D1300064818 /* SelectTV-Info.plist */,
-				C93591131E702BB300064818 /* KlickTV-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -6261,6 +6246,19 @@
 				6FF0F7A71BAF599A00BE590B /* H5WebKitBugsManager.m */,
 				2B2DD18E1C3FDC8F006F0992 /* CastImage */,
 				061A75191C3EA71F0090CBEA /* VolumeSliderImage */,
+				2BC77F141E710F7E00E26163 /* Arvig-Info.plist */,
+				2BC77F161E710F8900E26163 /* 2BuckTV-Info.plist */,
+				2BC77F181E710F9000E26163 /* BroadView-Info.plist */,
+				2BC77F1C1E710F9C00E26163 /* KlickTV-Info.plist */,
+				2BC77F201E710FAF00E26163 /* SmartCity-Info.plist */,
+				2BC77F241E710FC200E26163 /* SelectTV-Info.plist */,
+				2BC77F281E710FE400E26163 /* WiseTV-Info.plist */,
+				2BC77F2A1E710FFB00E26163 /* RabbitTVPlus-Info.plist */,
+				2BC77F2C1E71123800E26163 /* ETV-Info.plist */,
+				2BC77F2E1E71124300E26163 /* Century-Info.plist */,
+				2BC77F301E71125A00E26163 /* Endeavor-Info.plist */,
+				2BC77F321E71127900E26163 /* Arvig-Info.plist */,
+				2BC77F351E71136F00E26163 /* Evolution-Info.plist */,
 				F4EECF1A177C99F400778578 /* InfoPlist.strings */,
 				F4EECF1D177C99F400778578 /* main.m */,
 				F4EECF1F177C99F400778578 /* SidebarDemo-Prefix.pch */,
@@ -6626,6 +6624,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC77F341E7112FD00E26163 /* ETV-Info.plist in Resources */,
 				2B1A7DA91E6ECB22006324AF /* OpenSans-Regular.ttf in Resources */,
 				2B1A7DAA1E6ECB22006324AF /* OpenSans-Semibold.ttf in Resources */,
 				2B1A7DAB1E6ECB22006324AF /* OpenSans-Light.ttf in Resources */,
@@ -6648,7 +6647,6 @@
 				2B1A7DBC1E6ECB22006324AF /* vr--app-image.png in Resources */,
 				2B1A7DBD1E6ECB22006324AF /* sho.png in Resources */,
 				2B1A7DBE1E6ECB22006324AF /* CBS.png in Resources */,
-				2B1A82E11E6EF384006324AF /* ETV-Info.plist in Resources */,
 				2B1A7DBF1E6ECB22006324AF /* cbsImage.jpeg in Resources */,
 				2B1A7DC01E6ECB22006324AF /* Feeln.png in Resources */,
 				2B1A7DC11E6ECB22006324AF /* abcImage.jpeg in Resources */,
@@ -6867,7 +6865,6 @@
 				2B1A7F391E6EDA05006324AF /* huluImage.png in Resources */,
 				2B1A7F3A1E6EDA05006324AF /* Nick-Jr.png in Resources */,
 				2B1A7F3B1E6EDA05006324AF /* TBS.png in Resources */,
-				2B1A82E31E6EF38D006324AF /* Evolution-Info.plist in Resources */,
 				2B1A7F3C1E6EDA05006324AF /* bar.png in Resources */,
 				2B1A7F3D1E6EDA05006324AF /* TruTV.png in Resources */,
 				2B1A7F3E1E6EDA05006324AF /* TNT.png in Resources */,
@@ -7034,6 +7031,7 @@
 				2B1A7FE01E6EDA05006324AF /* netflix.png in Resources */,
 				2B1A7FE11E6EDA05006324AF /* New_Land_Cell_IPhone.xib in Resources */,
 				2B1A7FE21E6EDA05006324AF /* refresh-icon.png in Resources */,
+				2BC77F361E71136F00E26163 /* Evolution-Info.plist in Resources */,
 				2B1A7FE31E6EDA05006324AF /* MainStoryboard.storyboard in Resources */,
 				2B1A7FE41E6EDA05006324AF /* USA.png in Resources */,
 				2B1A7FE51E6EDA05006324AF /* potraitLoader_network.jpg in Resources */,
@@ -7117,7 +7115,6 @@
 				2B1A80D61E6EE152006324AF /* icon_logo.png in Resources */,
 				2B1A80D71E6EE152006324AF /* slider-metal-handle-highlighted.png in Resources */,
 				2B1A80D81E6EE152006324AF /* red_back_arrow.png in Resources */,
-				2B1A82E51E6EF392006324AF /* Century-Info.plist in Resources */,
 				2B1A80D91E6EE152006324AF /* slider-metal-handle-highlighted@2x.png in Resources */,
 				2B1A80DA1E6EE152006324AF /* slider-metal-track.png in Resources */,
 				2B1A80DB1E6EE152006324AF /* LoginBgNew.jpg in Resources */,
@@ -7236,6 +7233,7 @@
 				2B1A814E1E6EE152006324AF /* appManagerStaticCustomCollectionCell.xib in Resources */,
 				2B1A814F1E6EE152006324AF /* vudu.png in Resources */,
 				2B1A81501E6EE152006324AF /* IFC.png in Resources */,
+				2BC77F2F1E71124300E26163 /* Century-Info.plist in Resources */,
 				2B1A81511E6EE152006324AF /* AppDownloadListCell_IPad.xib in Resources */,
 				2B1A81521E6EE152006324AF /* CastCustomCell.xib in Resources */,
 				2B1A81531E6EE152006324AF /* imdb-app-image.png in Resources */,
@@ -7307,7 +7305,6 @@
 				2B1A82331E6EE344006324AF /* logo.png in Resources */,
 				2B1A82341E6EE344006324AF /* film_icon.png in Resources */,
 				2B1A82351E6EE344006324AF /* MyAccountCustomCell.xib in Resources */,
-				2B1A82E71E6EF397006324AF /* Endeavor-Info.plist in Resources */,
 				2B1A82361E6EE344006324AF /* CRANCKLE.png in Resources */,
 				2B1A82371E6EE344006324AF /* play.png in Resources */,
 				2B1A82381E6EE344006324AF /* AppDownloadTableViewCell.xib in Resources */,
@@ -7370,6 +7367,7 @@
 				2B1A82731E6EE344006324AF /* ABC.png in Resources */,
 				2B1A82741E6EE344006324AF /* FOX.png in Resources */,
 				2B1A82751E6EE344006324AF /* Default-568h@2x.png in Resources */,
+				2BC77F311E71125A00E26163 /* Endeavor-Info.plist in Resources */,
 				2B1A82761E6EE344006324AF /* potraitPlace.jpg in Resources */,
 				2B1A82771E6EE344006324AF /* mobilepromo.png in Resources */,
 				2B1A82781E6EE344006324AF /* PBS.png in Resources */,
@@ -7518,7 +7516,6 @@
 				2B1A83B11E6EFA9D006324AF /* logo.png in Resources */,
 				2B1A83B21E6EFA9D006324AF /* film_icon.png in Resources */,
 				2B1A83B31E6EFA9D006324AF /* MyAccountCustomCell.xib in Resources */,
-				2B1A83B41E6EFA9D006324AF /* Endeavor-Info.plist in Resources */,
 				2B1A83B51E6EFA9D006324AF /* CRANCKLE.png in Resources */,
 				2B1A83B61E6EFA9D006324AF /* play.png in Resources */,
 				2B1A83B71E6EFA9D006324AF /* AppDownloadTableViewCell.xib in Resources */,
@@ -7596,7 +7593,6 @@
 				2B1A83FF1E6EFA9D006324AF /* Montserrat-Regular.ttf in Resources */,
 				2B1A84001E6EFA9D006324AF /* selected.png in Resources */,
 				2B1A84011E6EFA9D006324AF /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
-				C9358F9C1E701CDC00064818 /* 2BuckTV-Info.plist in Resources */,
 				2B1A84021E6EFA9D006324AF /* OnDemandSliderCarouselView.xib in Resources */,
 				2B1A84031E6EFA9D006324AF /* OpenSans-Bold.ttf in Resources */,
 				2B1A84041E6EFA9D006324AF /* Roboto-Bold.ttf in Resources */,
@@ -7606,6 +7602,7 @@
 				2B1A84081E6EFA9D006324AF /* Roboto-Medium.ttf in Resources */,
 				2B1A84091E6EFA9D006324AF /* Disney-Channel.png in Resources */,
 				2B1A840A1E6EFA9D006324AF /* subscriptionCustomCollectionCell.xib in Resources */,
+				2BC77F171E710F8900E26163 /* 2BuckTV-Info.plist in Resources */,
 				2B1A840B1E6EFA9D006324AF /* Roboto-Regular.ttf in Resources */,
 				2B1A840C1E6EFA9D006324AF /* splash_logo.png in Resources */,
 				2B1A840D1E6EFA9D006324AF /* nbsImage.jpeg in Resources */,
@@ -7694,7 +7691,6 @@
 				2B44A3B31E6FB6A400281B5B /* Epix.png in Resources */,
 				2B44A3B41E6FB6A400281B5B /* CBS-ALL-ACCESS.png in Resources */,
 				2B44A3B51E6FB6A400281B5B /* sho_active.png in Resources */,
-				C9358FA01E701CFC00064818 /* SmartCity-Info.plist in Resources */,
 				2B44A3B61E6FB6A400281B5B /* NBC.png in Resources */,
 				2B44A3B71E6FB6A400281B5B /* ThumbnailVC.xib in Resources */,
 				2B44A3B81E6FB6A400281B5B /* OverTheAirCustomCell.xib in Resources */,
@@ -7731,7 +7727,6 @@
 				2B44A3D71E6FB6A400281B5B /* logo.png in Resources */,
 				2B44A3D81E6FB6A400281B5B /* film_icon.png in Resources */,
 				2B44A3D91E6FB6A400281B5B /* MyAccountCustomCell.xib in Resources */,
-				2B44A3DA1E6FB6A400281B5B /* Endeavor-Info.plist in Resources */,
 				2B44A3DB1E6FB6A400281B5B /* CRANCKLE.png in Resources */,
 				2B44A3DC1E6FB6A400281B5B /* play.png in Resources */,
 				2B44A3DD1E6FB6A400281B5B /* AppDownloadTableViewCell.xib in Resources */,
@@ -7799,6 +7794,7 @@
 				2B44A41B1E6FB6A400281B5B /* PBS.png in Resources */,
 				2B44A41C1E6FB6A400281B5B /* cbs.png in Resources */,
 				2B44A41D1E6FB6A400281B5B /* fontawesome-webfont.ttf in Resources */,
+				2BC77F211E710FAF00E26163 /* SmartCity-Info.plist in Resources */,
 				2B44A41E1E6FB6A400281B5B /* MainContentGridCell.xib in Resources */,
 				2B44A41F1E6FB6A400281B5B /* myInterestsCell_IPhone.xib in Resources */,
 				2B44A4201E6FB6A400281B5B /* hbo_active.png in Resources */,
@@ -7932,6 +7928,7 @@
 				2B44A53F1E6FB79D00281B5B /* FX-Networks.png in Resources */,
 				2B44A5401E6FB79D00281B5B /* Email icon.png in Resources */,
 				2B44A5411E6FB79D00281B5B /* plusmenu_back.png in Resources */,
+				2BC77F291E710FE400E26163 /* WiseTV-Info.plist in Resources */,
 				2B44A5421E6FB79D00281B5B /* Popcorn-Flix.png in Resources */,
 				2B44A5431E6FB79D00281B5B /* reloadButton.png in Resources */,
 				2B44A5441E6FB79D00281B5B /* rewindButton.png in Resources */,
@@ -7942,7 +7939,6 @@
 				2B44A5491E6FB79D00281B5B /* logo.png in Resources */,
 				2B44A54A1E6FB79D00281B5B /* film_icon.png in Resources */,
 				2B44A54B1E6FB79D00281B5B /* MyAccountCustomCell.xib in Resources */,
-				2B44A54C1E6FB79D00281B5B /* Endeavor-Info.plist in Resources */,
 				2B44A54D1E6FB79D00281B5B /* CRANCKLE.png in Resources */,
 				2B44A54E1E6FB79D00281B5B /* play.png in Resources */,
 				2B44A54F1E6FB79D00281B5B /* AppDownloadTableViewCell.xib in Resources */,
@@ -8048,7 +8044,6 @@
 				2B44A5B31E6FB79D00281B5B /* A_E.png in Resources */,
 				2B44A5B41E6FB79D00281B5B /* AppListGridCell_Iphone.xib in Resources */,
 				2B44A5B51E6FB79D00281B5B /* amazon_active.png in Resources */,
-				C9358F9E1E701CE700064818 /* WiseTV-Info.plist in Resources */,
 				2B44A5B61E6FB79D00281B5B /* icon_fullscreen.png in Resources */,
 				2B44A5B71E6FB79D00281B5B /* 540x960.mp4 in Resources */,
 				2B44A5B81E6FB79D00281B5B /* LoginStoryboard.storyboard in Resources */,
@@ -8154,7 +8149,6 @@
 				2B44A6BA1E6FB7A700281B5B /* logo.png in Resources */,
 				2B44A6BB1E6FB7A700281B5B /* film_icon.png in Resources */,
 				2B44A6BC1E6FB7A700281B5B /* MyAccountCustomCell.xib in Resources */,
-				2B44A6BD1E6FB7A700281B5B /* Endeavor-Info.plist in Resources */,
 				2B44A6BE1E6FB7A700281B5B /* CRANCKLE.png in Resources */,
 				2B44A6BF1E6FB7A700281B5B /* play.png in Resources */,
 				2B44A6C01E6FB7A700281B5B /* AppDownloadTableViewCell.xib in Resources */,
@@ -8199,6 +8193,7 @@
 				2B44A6E71E6FB7A700281B5B /* volume_mute.png in Resources */,
 				2B44A6E81E6FB7A700281B5B /* volume_mute@2x.png in Resources */,
 				2B44A6E91E6FB7A700281B5B /* amazon.png in Resources */,
+				2BC77F251E710FC200E26163 /* SelectTV-Info.plist in Resources */,
 				2B44A6EA1E6FB7A700281B5B /* volume_mute@3x.png in Resources */,
 				2B44A6EB1E6FB7A700281B5B /* volume.png in Resources */,
 				2B44A6EC1E6FB7A700281B5B /* cwImage.jpg in Resources */,
@@ -8251,7 +8246,6 @@
 				2B44A71B1E6FB7A700281B5B /* hulu.webp in Resources */,
 				2B44A71C1E6FB7A700281B5B /* Lock@2x.png in Resources */,
 				2B44A71D1E6FB7A700281B5B /* SearchCell.xib in Resources */,
-				C9358FA21E701D1300064818 /* SelectTV-Info.plist in Resources */,
 				2B44A71E1E6FB7A700281B5B /* RadioGenreTableViewCell.xib in Resources */,
 				2B44A71F1E6FB7A700281B5B /* InfoPlist.strings in Resources */,
 				2B44A7201E6FB7A700281B5B /* Images.xcassets in Resources */,
@@ -8368,7 +8362,7 @@
 				2B44A82F1E6FB9BF00281B5B /* MyAccountCustomCell.xib in Resources */,
 				2B44A8301E6FB9BF00281B5B /* CRANCKLE.png in Resources */,
 				2B44A8311E6FB9BF00281B5B /* play.png in Resources */,
-				2B44A8D51E6FBB7C00281B5B /* BroadView-Info.plist in Resources */,
+				2BC77F191E710F9000E26163 /* BroadView-Info.plist in Resources */,
 				2B44A8321E6FB9BF00281B5B /* AppDownloadTableViewCell.xib in Resources */,
 				2B44A8331E6FB9BF00281B5B /* appManagerStaticCustomCollectionCell_IPhone.xib in Resources */,
 				2B44A8341E6FB9BF00281B5B /* track.png in Resources */,
@@ -8541,6 +8535,7 @@
 				C9358ECC1E6FCD9700064818 /* Epix.png in Resources */,
 				C9358ECD1E6FCD9700064818 /* CBS-ALL-ACCESS.png in Resources */,
 				C9358ECE1E6FCD9700064818 /* sho_active.png in Resources */,
+				2BC77F2B1E710FFB00E26163 /* RabbitTVPlus-Info.plist in Resources */,
 				C9358ECF1E6FCD9700064818 /* NBC.png in Resources */,
 				C9358ED01E6FCD9700064818 /* ThumbnailVC.xib in Resources */,
 				C9358ED11E6FCD9700064818 /* OverTheAirCustomCell.xib in Resources */,
@@ -8579,7 +8574,6 @@
 				C9358EF21E6FCD9700064818 /* MyAccountCustomCell.xib in Resources */,
 				C9358EF31E6FCD9700064818 /* CRANCKLE.png in Resources */,
 				C9358EF41E6FCD9700064818 /* play.png in Resources */,
-				C9358EF51E6FCD9700064818 /* BroadView-Info.plist in Resources */,
 				C9358EF61E6FCD9700064818 /* AppDownloadTableViewCell.xib in Resources */,
 				C9358EF71E6FCD9700064818 /* appManagerStaticCustomCollectionCell_IPhone.xib in Resources */,
 				C9358EF81E6FCD9700064818 /* track.png in Resources */,
@@ -8790,7 +8784,6 @@
 				C935906E1E702BAF00064818 /* MyAccountCustomCell.xib in Resources */,
 				C935906F1E702BAF00064818 /* CRANCKLE.png in Resources */,
 				C93590701E702BAF00064818 /* play.png in Resources */,
-				C93590711E702BAF00064818 /* BroadView-Info.plist in Resources */,
 				C93590721E702BAF00064818 /* AppDownloadTableViewCell.xib in Resources */,
 				C93590731E702BAF00064818 /* appManagerStaticCustomCollectionCell_IPhone.xib in Resources */,
 				C93590741E702BAF00064818 /* track.png in Resources */,
@@ -8878,6 +8871,7 @@
 				C93590C61E702BAF00064818 /* Roboto-Regular.ttf in Resources */,
 				C93590C71E702BAF00064818 /* splash_logo.png in Resources */,
 				C93590C81E702BAF00064818 /* nbsImage.jpeg in Resources */,
+				2BC77F1D1E710F9C00E26163 /* KlickTV-Info.plist in Resources */,
 				C93590C91E702BAF00064818 /* icon_apple.png in Resources */,
 				C93590CA1E702BAF00064818 /* Starz.png in Resources */,
 				C93590CB1E702BAF00064818 /* HISTORY.png in Resources */,
@@ -9019,7 +9013,6 @@
 				2B0DB0851C90615800261ECD /* wifi3.png in Resources */,
 				2B1A79B31E6EA687006324AF /* icon_logo.png in Resources */,
 				2B0DB0861C90615800261ECD /* slider-metal-handle-highlighted.png in Resources */,
-				2B44A8D81E6FBE8C00281B5B /* Arvig-Info.plist in Resources */,
 				2B1A79C41E6EA687006324AF /* red_back_arrow.png in Resources */,
 				2B0DB0871C90615800261ECD /* slider-metal-handle-highlighted@2x.png in Resources */,
 				2B0DB0881C90615800261ECD /* slider-metal-track.png in Resources */,
@@ -9136,6 +9129,7 @@
 				2B59D3ED1E6D8BE800221307 /* Sundance-Now.png in Resources */,
 				2B2C94B31DFAE8E9009CE773 /* cbs_active.png in Resources */,
 				2B1A79AA1E6EA687006324AF /* default_safari.png in Resources */,
+				2BC77F331E71127900E26163 /* Arvig-Info.plist in Resources */,
 				2B59D38D1E6D6D5C00221307 /* appManagerStaticCustomCollectionCell.xib in Resources */,
 				2B1A79CA1E6EA687006324AF /* vudu.png in Resources */,
 				2B59D3DC1E6D8BE800221307 /* IFC.png in Resources */,
@@ -11412,7 +11406,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/ETV-Header.h";
-				INFOPLIST_FILE = "SidebarDemo/ETV-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/ETV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.etv;
@@ -11442,7 +11436,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/ETV-Header.h";
-				INFOPLIST_FILE = "SidebarDemo/ETV-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/ETV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.etv;
@@ -11472,7 +11466,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/Evolution-Header.h";
-				INFOPLIST_FILE = "SidebarDemo/Evolution-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/Evolution-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.evolution;
@@ -11502,7 +11496,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/Evolution-Header.h";
-				INFOPLIST_FILE = "SidebarDemo/Evolution-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/Evolution-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.evolution;
@@ -11532,7 +11526,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/Century-Header.h";
-				INFOPLIST_FILE = "SidebarDemo/Century-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/Century-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.century;
@@ -11562,7 +11556,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/Century-Header.h";
-				INFOPLIST_FILE = "SidebarDemo/Century-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/Century-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.century;
@@ -11592,7 +11586,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/Endeavor-Header.h";
-				INFOPLIST_FILE = "SidebarDemo/Endeavor-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/Endeavor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.endeavor;
@@ -11622,7 +11616,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/Endeavor-Header.h";
-				INFOPLIST_FILE = "SidebarDemo/Endeavor-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/Endeavor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.endeavor;
@@ -11652,7 +11646,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/2BuckTV-Header.h";
-				INFOPLIST_FILE = "$(SRCROOT)/2BuckTV-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/2BuckTV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.2BuckTV;
@@ -11682,7 +11676,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/2BuckTV-Header.h";
-				INFOPLIST_FILE = "$(SRCROOT)/2BuckTV-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/2BuckTV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.2BuckTV;
@@ -11712,7 +11706,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/SmartCity-Header.h";
-				INFOPLIST_FILE = "$(SRCROOT)/SmartCity-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/SmartCity-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.smartcity;
@@ -11742,7 +11736,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/SmartCity-Header.h";
-				INFOPLIST_FILE = "$(SRCROOT)/SmartCity-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/SmartCity-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.smartcity;
@@ -11772,7 +11766,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/WiseTV-Header.h";
-				INFOPLIST_FILE = "$(SRCROOT)/WiseTV-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/WiseTV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.wisetv;
@@ -11802,7 +11796,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/WiseTV-Header.h";
-				INFOPLIST_FILE = "$(SRCROOT)/WiseTV-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/WiseTV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.wisetv;
@@ -11832,7 +11826,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/SelectTV-Header.h";
-				INFOPLIST_FILE = "$(SRCROOT)/SelectTV-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/SelectTV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.selecttvapp;
@@ -11862,7 +11856,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/SelectTV-Header.h";
-				INFOPLIST_FILE = "$(SRCROOT)/SelectTV-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/SelectTV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.selecttvapp;
@@ -11893,7 +11887,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/BroadView-Header.h";
 				GENERATE_PKGINFO_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/BroadView-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/BroadView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.broadview;
@@ -11924,7 +11918,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/BroadView-Header.h";
 				GENERATE_PKGINFO_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/BroadView-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/BroadView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.broadview;
@@ -11955,7 +11949,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/RabbitTVPlus-Header.h";
 				GENERATE_PKGINFO_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/RabbitTVPlus-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/RabbitTVPlus-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.rabbittvplus;
@@ -11986,7 +11980,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/RabbitTVPlus-Header.h";
 				GENERATE_PKGINFO_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/RabbitTVPlus-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/RabbitTVPlus-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.rabbittvplus;
@@ -12017,7 +12011,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/KlickTV-Header.h";
 				GENERATE_PKGINFO_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/KlickTV-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/KlickTV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.klicktv;
@@ -12048,7 +12042,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/KlickTV-Header.h";
 				GENERATE_PKGINFO_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/KlickTV-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/KlickTV-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.klicktv;
@@ -12141,7 +12135,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/Arvig-Header.h";
-				INFOPLIST_FILE = "$(SRCROOT)/Arvig-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/Arvig-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.arvigapp;
@@ -12171,7 +12165,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/Arvig-Header.h";
-				INFOPLIST_FILE = "$(SRCROOT)/Arvig-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SidebarDemo/Arvig-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.arvigapp;
