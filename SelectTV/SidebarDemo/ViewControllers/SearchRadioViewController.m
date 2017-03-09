@@ -32,7 +32,9 @@
 
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+   // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    
+    self.view.backgroundColor = GRAY_BG_COLOR;
      self.edgesForExtendedLayout=UIRectEdgeNone;
     //[self loadRadioData];
     
@@ -61,8 +63,8 @@
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
     //[self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
-    [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
-    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
+//    [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
+//    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     

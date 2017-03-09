@@ -244,7 +244,10 @@ int nAppHeight = 120;
     [_overViewBtn setHidden:NO];
     [_castBtn setHidden:NO];
     [_genreBtn setHidden:NO];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    
+     self.view.backgroundColor = GRAY_BG_COLOR;
+    
     //[middleView setBackgroundColor:[UIColor grayColor]];
     //[appListView setBackgroundColor:[UIColor lightGrayColor]];
    // [_detailFullView setBackgroundColor:[UIColor grayColor]];
@@ -299,9 +302,12 @@ int nAppHeight = 120;
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     //self.navigationItem.title = _headerLabelStr;
-    [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
-    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
-    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
+//    [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
+//    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
+//    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
+    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
+    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
 }
 
 #pragma mark - loadMovieLatestAppListScrollViewData

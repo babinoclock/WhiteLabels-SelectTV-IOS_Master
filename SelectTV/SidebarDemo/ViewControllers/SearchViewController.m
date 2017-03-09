@@ -87,7 +87,8 @@ int nSearchHeight=200;
     [self loadNavigation];
     [self setOrientation];
     NSLog(@"visibleSectionWillApp%ld",(long)visibleSection);
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+   // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    self.view.backgroundColor = GRAY_BG_COLOR;
     [MBProgressHUD hideAllHUDsForView:[[UIApplication sharedApplication] keyWindow] animated:YES];
    
 }
@@ -98,8 +99,8 @@ int nSearchHeight=200;
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
   //  [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
-    [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
-    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
+//    [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
+//    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     

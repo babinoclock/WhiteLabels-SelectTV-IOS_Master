@@ -96,6 +96,15 @@ AppCommon *sharedCommon = nil;
     
 }
 
+- (UIColor *)Common_Gray_BG_Color
+{
+    return [UIColor colorWithRed:59.0f/255.0f green:60.0f/255.0f blue:64.0f/255.0f alpha:1.0f];
+}
+
+- (UIColor *)Common_Light_BG_Color
+{
+    return [UIColor colorWithRed:139.0f/255.0f green:143.0f/255.0f blue:144.0f/255.0f alpha:1.0f];
+}
 
 
 +(void)showSimpleAlertWithMessage:(NSString *)message{

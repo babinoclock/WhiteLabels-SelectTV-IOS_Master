@@ -295,6 +295,10 @@ CustomIOS7AlertView * mainChannelView;
 {
     [super viewDidLoad];
     
+    //new color change
+    _mainBackgroundImage.image=nil;
+    _mainBackgroundImage.backgroundColor = GRAY_BG_COLOR;
+    
 
     isLoaded = false;
     isReloadTable = false;
@@ -422,6 +426,8 @@ CustomIOS7AlertView * mainChannelView;
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
     
     self.view.backgroundColor = GRAY_BG_COLOR;
+    _mainBackgroundImage.image=nil;
+    _mainBackgroundImage.backgroundColor = GRAY_BG_COLOR;
     
     
     bTitleCagtegoryShown = false;
@@ -548,7 +554,8 @@ CustomIOS7AlertView * mainChannelView;
     [searchBarView setShowsCancelButton:YES];
     searchBarView.delegate = self;
     [searchBarView setTintColor:[UIColor whiteColor]];
-    searchBarView.barTintColor = [UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
+   // searchBarView.barTintColor = [UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
+    searchBarView.barTintColor =GRAY_BG_COLOR
     searchBarView.autocorrectionType = UITextAutocorrectionTypeNo;
     for (id subView in ((UIView *)[searchBarView.subviews objectAtIndex:0]).subviews) {
         //UITextField *searchTextField;
@@ -864,14 +871,16 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         }
         NSLog(@"titleArrayTEST-->%@",titleArray);
         showHeaderView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, commonWidth, 44)];
-        [showHeaderView setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
+       // [showHeaderView setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
         _headerScroll = [[HMSegmentedControl alloc] initWithFrame:CGRectMake(0, 0, commonWidth, showHeaderView.frame.size.height)];
         [showHeaderView addSubview:_headerScroll];
         [self.view addSubview:showHeaderView];
         
+        //new color change
+       // [_headerScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
         
-
-        [_headerScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
+        showHeaderView.backgroundColor = GRAY_BG_COLOR;
+        _headerScroll.backgroundColor = GRAY_BG_COLOR;
         
         _headerScroll.sectionTitles = titleArray;
         _headerScroll.segmentEdgeInset = UIEdgeInsetsMake(0, 10, 0, 10);
@@ -1400,14 +1409,17 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
                 if(i==0 & j==0){
                     myIndex=0;
                     previousView = ChannelBackgroundView;
-                    ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:15.0f/255.0f green:95.0f/255.0f blue:166.0f/255.0f alpha:1];
-                    
+                    //new clor change
+                    //ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:15.0f/255.0f green:95.0f/255.0f blue:166.0f/255.0f alpha:1];
+                    ChannelBackgroundView.backgroundColor = [UIColor lightGrayColor];
                     //[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
                 }
                 
                 else{
                     //ChannelBackgroundView.backgroundColor=[UIColor blackColor];
-                    ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1];
+                   //ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1];
+                    
+                     ChannelBackgroundView.backgroundColor = GRAY_BG_COLOR;
                 }
                  titleLabel.textAlignment = NSTextAlignmentLeft;
                 
@@ -1438,7 +1450,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
                     k++;
                 }
                 if(StreamTitle == strVideoTitle){
-                    ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
+                    //ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
+                    ChannelBackgroundView.backgroundColor = GRAY_BG_COLOR;
                 }
                 UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapActionVideoTitle:)];
                 tapGestureRecognizer.numberOfTapsRequired = 1;
@@ -1460,7 +1473,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
             [ChannelBackgroundView addSubview:touchLabel];
             [ChannelBackgroundView addSubview:titleImage];
             ChannelBackgroundView.layer.borderWidth =0.8;
-            ChannelBackgroundView.layer.borderColor =[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1.5].CGColor;
+           // ChannelBackgroundView.layer.borderColor =[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1.5].CGColor;
+            ChannelBackgroundView.layer.borderColor =[UIColor colorWithRed:139.0f/255.0f green:143.0f/255.0f blue:144.0f/255.0f alpha:1.0f] .CGColor;
             [views addObject:ChannelBackgroundView];
             
             
@@ -1568,8 +1582,10 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     NSDictionary *selectedChannelTempDict   = [[channelTitleLabelArray objectAtIndex:((UIGestureRecognizer *)tap).view.tag] mutableCopy];
     [self updateShowViewTable:selectedChannelTempDict];
     
+    //new clor change
+   // currentView.backgroundColor=[UIColor colorWithRed:15.0f/255.0f green:95.0f/255.0f blue:166.0f/255.0f alpha:1];
+    currentView.backgroundColor= GRAY_BG_COLOR;
     
-    currentView.backgroundColor=[UIColor colorWithRed:15.0f/255.0f green:95.0f/255.0f blue:166.0f/255.0f alpha:1];
   //  NSLog(@"channelTitleTempArray-->%@",channelTitleTempArray);
    // NSMutableDictionary *selectedTempDict   = [[channelTitleTempArray objectAtIndex:((UIGestureRecognizer *)tap).view.tag] mutableCopy];
     
@@ -2675,6 +2691,9 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     
+    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
+    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
 }
 
 - (void) setItemInformation:(int)nStreamId

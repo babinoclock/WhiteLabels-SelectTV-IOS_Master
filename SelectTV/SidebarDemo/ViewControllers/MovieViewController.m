@@ -435,8 +435,8 @@ UITableView* tableChannelList;
     self.revealViewController.delegate = self;
     
     //[self.view setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
-    
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+     self.view.backgroundColor = GRAY_BG_COLOR;
    
     
 }
@@ -1740,7 +1740,8 @@ UITableView* tableChannelList;
     [onDemandSliderView setHidden:YES];
     [_appDownloadTableView setHidden:YES];
     [_tableView setHidden:YES];
-    [onDemandSliderView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]]];
+    //[onDemandSliderView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]]];
+     onDemandSliderView.backgroundColor = GRAY_BG_COLOR;
     if([COMMON isSpanishLanguage]==YES){
         [self getOnDemandSpanishGenreForMovies];
         [self getOnDemandSpanishGenreForTVShows];
@@ -3233,8 +3234,9 @@ UITableView* tableChannelList;
     
     iPhoneView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, _playerBgView.frame.size.width, _playerBgView.frame.size.height)];
     
-    iPhoneView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+   // iPhoneView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
     
+    iPhoneView.backgroundColor = GRAY_BG_COLOR;
     CGFloat topViewXPos;
     CGFloat topViewYPos;
     CGFloat topViewWidth;
