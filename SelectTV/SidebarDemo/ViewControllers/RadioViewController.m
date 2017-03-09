@@ -168,7 +168,12 @@ int nRadioHeight=160;
     self.title = titleStr;
     self.navigationItem.title = titleStr;
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
+    //[self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
+    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
+    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
+    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
+
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
@@ -489,7 +494,10 @@ int nRadioHeight=160;
     }
     showHeaderView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, commonWidth, 44)];
    
-    [showHeaderView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]]];
+   // [showHeaderView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]]];
+    
+    showHeaderView.backgroundColor = GRAY_BG_COLOR;
+    
     [currentSelectTitle removeFromSuperview];
     currentSelectTitle = [[UILabel alloc]initWithFrame:CGRectMake(0,0, SCREEN_WIDTH, 44)];
     [showHeaderView addSubview:currentSelectTitle];
@@ -503,7 +511,8 @@ int nRadioHeight=160;
             [[NSUserDefaults standardUserDefaults] synchronize];
         }
     }
-    currentSelectTitle.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
+   // currentSelectTitle.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
+    currentSelectTitle.backgroundColor = GRAY_BG_COLOR;
     currentSelectTitle.text = buttonTitle;
     currentSelectTitle.textColor = [UIColor whiteColor];
     currentSelectTitle.textAlignment = NSTextAlignmentCenter ;

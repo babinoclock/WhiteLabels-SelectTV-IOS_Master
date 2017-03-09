@@ -280,13 +280,17 @@ BOOL bFavPopUpViewShown = false;
     self.title = titleStr;
     [self.navigationController.navigationBar setHidden:NO];
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
+   // [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
     [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(myInterestsScrolled:) name:@"myInterestsTableScrolled" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(myInterestsTableFilter:) name:@"myInterestsScrollFromRightView" object:nil];
+    
+    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
+    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
     
 }
 -(void)setOrientation{

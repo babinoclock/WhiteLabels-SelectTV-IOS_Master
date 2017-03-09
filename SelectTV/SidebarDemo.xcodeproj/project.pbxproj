@@ -3441,6 +3441,19 @@
 		2BC77F331E71127900E26163 /* Arvig-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F321E71127900E26163 /* Arvig-Info.plist */; };
 		2BC77F341E7112FD00E26163 /* ETV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F2C1E71123800E26163 /* ETV-Info.plist */; };
 		2BC77F361E71136F00E26163 /* Evolution-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F351E71136F00E26163 /* Evolution-Info.plist */; };
+		2BC77F551E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F561E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F571E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F581E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F591E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F5A1E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F5B1E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F5C1E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F5D1E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F5E1E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F5F1E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F601E71566300E26163 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		2BC77F621E7158F400E26163 /* Klick_LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F611E7158F400E26163 /* Klick_LaunchScreenView.xib */; };
 		2BCCBCCE1CDB1FA8005ED3BB /* AppListGridCell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCCBCCA1CDB1FA8005ED3BB /* AppListGridCell_Ipad.xib */; };
 		2BCCBCCF1CDB1FA8005ED3BB /* AppListGridCell_Iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCCBCCB1CDB1FA8005ED3BB /* AppListGridCell_Iphone.xib */; };
 		2BCCBCD01CDB1FA8005ED3BB /* AppListGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCCBCCD1CDB1FA8005ED3BB /* AppListGridCell.m */; };
@@ -4706,6 +4719,8 @@
 		2BC77F301E71125A00E26163 /* Endeavor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Endeavor-Info.plist"; sourceTree = "<group>"; };
 		2BC77F321E71127900E26163 /* Arvig-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Arvig-Info.plist"; sourceTree = "<group>"; };
 		2BC77F351E71136F00E26163 /* Evolution-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Evolution-Info.plist"; sourceTree = "<group>"; };
+		2BC77F541E71566300E26163 /* LaunchScreenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreenView.xib; path = Views/LaunchScreens/LaunchScreenView.xib; sourceTree = "<group>"; };
+		2BC77F611E7158F400E26163 /* Klick_LaunchScreenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Klick_LaunchScreenView.xib; path = Views/LaunchScreens/Klick_LaunchScreenView.xib; sourceTree = "<group>"; };
 		2BCCBCCA1CDB1FA8005ED3BB /* AppListGridCell_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppListGridCell_Ipad.xib; path = Cell/AppListGridCell_Ipad.xib; sourceTree = "<group>"; };
 		2BCCBCCB1CDB1FA8005ED3BB /* AppListGridCell_Iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppListGridCell_Iphone.xib; path = Cell/AppListGridCell_Iphone.xib; sourceTree = "<group>"; };
 		2BCCBCCC1CDB1FA8005ED3BB /* AppListGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppListGridCell.h; path = Cell/AppListGridCell.h; sourceTree = "<group>"; };
@@ -5676,6 +5691,15 @@
 			path = Helper/Webservices;
 			sourceTree = "<group>";
 		};
+		2BC77F531E71563F00E26163 /* LaunchScreens */ = {
+			isa = PBXGroup;
+			children = (
+				2BC77F541E71566300E26163 /* LaunchScreenView.xib */,
+				2BC77F611E7158F400E26163 /* Klick_LaunchScreenView.xib */,
+			);
+			name = LaunchScreens;
+			sourceTree = "<group>";
+		};
 		2BDCE8471CC2724D00DDCD7A /* HomePageTable */ = {
 			isa = PBXGroup;
 			children = (
@@ -5902,6 +5926,7 @@
 		6F3D59631BE7C2A400545D78 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2BC77F531E71563F00E26163 /* LaunchScreens */,
 				2B1A7A0A1E6EAD40006324AF /* AlertView */,
 				2B1A79EF1E6EAB86006324AF /* ThumbnailView */,
 				2B1A79F31E6EAB86006324AF /* TrailerMovieView */,
@@ -6714,6 +6739,7 @@
 				2B1A7DFF1E6ECB22006324AF /* IQKeyboardManager.bundle in Resources */,
 				2B1A7E001E6ECB22006324AF /* Viceland.png in Resources */,
 				2B1A7E011E6ECB22006324AF /* volume_IconImage.png in Resources */,
+				2BC77F561E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				2B1A7E021E6ECB22006324AF /* volume_mute.png in Resources */,
 				2B1A7E031E6ECB22006324AF /* volume_mute@2x.png in Resources */,
 				2B1A7E041E6ECB22006324AF /* amazon.png in Resources */,
@@ -6925,6 +6951,7 @@
 				2B1A7F751E6EDA05006324AF /* Viceland.png in Resources */,
 				2B1A7F761E6EDA05006324AF /* volume_IconImage.png in Resources */,
 				2B1A7F771E6EDA05006324AF /* volume_mute.png in Resources */,
+				2BC77F571E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				2B1A7F781E6EDA05006324AF /* volume_mute@2x.png in Resources */,
 				2B1A7F791E6EDA05006324AF /* amazon.png in Resources */,
 				2B1A7F7A1E6EDA05006324AF /* volume_mute@3x.png in Resources */,
@@ -7136,6 +7163,7 @@
 				2B1A80EC1E6EE152006324AF /* Viceland.png in Resources */,
 				2B1A80ED1E6EE152006324AF /* volume_IconImage.png in Resources */,
 				2B1A80EE1E6EE152006324AF /* volume_mute.png in Resources */,
+				2BC77F581E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				2B1A80EF1E6EE152006324AF /* volume_mute@2x.png in Resources */,
 				2B1A80F01E6EE152006324AF /* amazon.png in Resources */,
 				2B1A80F11E6EE152006324AF /* volume_mute@3x.png in Resources */,
@@ -7347,6 +7375,7 @@
 				2B1A825E1E6EE344006324AF /* Viceland.png in Resources */,
 				2B1A825F1E6EE344006324AF /* volume_IconImage.png in Resources */,
 				2B1A82601E6EE344006324AF /* volume_mute.png in Resources */,
+				2BC77F591E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				2B1A82611E6EE344006324AF /* volume_mute@2x.png in Resources */,
 				2B1A82621E6EE344006324AF /* amazon.png in Resources */,
 				2B1A82631E6EE344006324AF /* volume_mute@3x.png in Resources */,
@@ -7558,6 +7587,7 @@
 				2B1A83DC1E6EFA9D006324AF /* Viceland.png in Resources */,
 				2B1A83DD1E6EFA9D006324AF /* volume_IconImage.png in Resources */,
 				2B1A83DE1E6EFA9D006324AF /* volume_mute.png in Resources */,
+				2BC77F5A1E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				2B1A83DF1E6EFA9D006324AF /* volume_mute@2x.png in Resources */,
 				2B1A83E01E6EFA9D006324AF /* amazon.png in Resources */,
 				2B1A83E11E6EFA9D006324AF /* volume_mute@3x.png in Resources */,
@@ -7769,6 +7799,7 @@
 				2B44A4021E6FB6A400281B5B /* Viceland.png in Resources */,
 				2B44A4031E6FB6A400281B5B /* volume_IconImage.png in Resources */,
 				2B44A4041E6FB6A400281B5B /* volume_mute.png in Resources */,
+				2BC77F5B1E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				2B44A4051E6FB6A400281B5B /* volume_mute@2x.png in Resources */,
 				2B44A4061E6FB6A400281B5B /* amazon.png in Resources */,
 				2B44A4071E6FB6A400281B5B /* volume_mute@3x.png in Resources */,
@@ -7980,6 +8011,7 @@
 				2B44A5731E6FB79D00281B5B /* IQKeyboardManager.bundle in Resources */,
 				2B44A5741E6FB79D00281B5B /* Viceland.png in Resources */,
 				2B44A5751E6FB79D00281B5B /* volume_IconImage.png in Resources */,
+				2BC77F5C1E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				2B44A5761E6FB79D00281B5B /* volume_mute.png in Resources */,
 				2B44A5771E6FB79D00281B5B /* volume_mute@2x.png in Resources */,
 				2B44A5781E6FB79D00281B5B /* amazon.png in Resources */,
@@ -8191,6 +8223,7 @@
 				2B44A6E51E6FB7A700281B5B /* Viceland.png in Resources */,
 				2B44A6E61E6FB7A700281B5B /* volume_IconImage.png in Resources */,
 				2B44A6E71E6FB7A700281B5B /* volume_mute.png in Resources */,
+				2BC77F5D1E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				2B44A6E81E6FB7A700281B5B /* volume_mute@2x.png in Resources */,
 				2B44A6E91E6FB7A700281B5B /* amazon.png in Resources */,
 				2BC77F251E710FC200E26163 /* SelectTV-Info.plist in Resources */,
@@ -8402,6 +8435,7 @@
 				2B44A8561E6FB9BF00281B5B /* IQKeyboardManager.bundle in Resources */,
 				2B44A8571E6FB9BF00281B5B /* Viceland.png in Resources */,
 				2B44A8581E6FB9BF00281B5B /* volume_IconImage.png in Resources */,
+				2BC77F5E1E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				2B44A8591E6FB9BF00281B5B /* volume_mute.png in Resources */,
 				2B44A85A1E6FB9BF00281B5B /* volume_mute@2x.png in Resources */,
 				2B44A85B1E6FB9BF00281B5B /* amazon.png in Resources */,
@@ -8613,6 +8647,7 @@
 				C9358F1A1E6FCD9700064818 /* IQKeyboardManager.bundle in Resources */,
 				C9358F1B1E6FCD9700064818 /* Viceland.png in Resources */,
 				C9358F1C1E6FCD9700064818 /* volume_IconImage.png in Resources */,
+				2BC77F5F1E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				C9358F1D1E6FCD9700064818 /* volume_mute.png in Resources */,
 				C9358F1E1E6FCD9700064818 /* volume_mute@2x.png in Resources */,
 				C9358F1F1E6FCD9700064818 /* amazon.png in Resources */,
@@ -8816,6 +8851,7 @@
 				C935908F1E702BAF00064818 /* backgroud_BG.png in Resources */,
 				C93590901E702BAF00064818 /* Vudu.png in Resources */,
 				C93590911E702BAF00064818 /* icon_hamburger.png in Resources */,
+				2BC77F621E7158F400E26163 /* Klick_LaunchScreenView.xib in Resources */,
 				C93590921E702BAF00064818 /* slider-metal-trackBackground@2x.png in Resources */,
 				C93590931E702BAF00064818 /* hulu.png in Resources */,
 				C93590941E702BAF00064818 /* volume_icon.png in Resources */,
@@ -8824,6 +8860,7 @@
 				C93590971E702BAF00064818 /* Viceland.png in Resources */,
 				C93590981E702BAF00064818 /* volume_IconImage.png in Resources */,
 				C93590991E702BAF00064818 /* volume_mute.png in Resources */,
+				2BC77F601E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				C935909A1E702BAF00064818 /* volume_mute@2x.png in Resources */,
 				C935909B1E702BAF00064818 /* amazon.png in Resources */,
 				C935909C1E702BAF00064818 /* volume_mute@3x.png in Resources */,
@@ -9035,6 +9072,7 @@
 				2B59D3F31E6D8BE800221307 /* Viceland.png in Resources */,
 				2B0DB08D1C90615800261ECD /* volume_IconImage.png in Resources */,
 				2B0DB08E1C90615800261ECD /* volume_mute.png in Resources */,
+				2BC77F551E71566300E26163 /* LaunchScreenView.xib in Resources */,
 				2B0DB08F1C90615800261ECD /* volume_mute@2x.png in Resources */,
 				2B2C94B01DFAE8E9009CE773 /* amazon.png in Resources */,
 				2B0DB0901C90615800261ECD /* volume_mute@3x.png in Resources */,
@@ -11813,7 +11851,6 @@
 			baseConfigurationReference = FEAE1E0974B277306AFFDE9A /* Pods-SidebarDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = SelectTV_AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = SelectTV_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
@@ -11843,7 +11880,6 @@
 			baseConfigurationReference = A0F12EB8A4A479C28556383C /* Pods-SidebarDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = SelectTV_AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = SelectTV_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;

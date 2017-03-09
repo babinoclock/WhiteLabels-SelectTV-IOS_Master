@@ -135,7 +135,11 @@ BOOL boolLandToPort =false;
 {
 
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    
+    self.view = [COMMON setBackGroundColor:self.view];
+    
 //    SWRevealViewController *revealviewcontroller = self.revealViewController;
 //    
 //    if(revealviewcontroller)
@@ -163,12 +167,16 @@ BOOL boolLandToPort =false;
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(17)];
-    [self.navigationController.navigationBar  setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
     
+    //[self.navigationController.navigationBar  setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setBarTintColor:[UIColor whiteColor]];
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
+    
+    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
+    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
    
     // [self setNavigationImage];
     self.navigationItem.leftBarButtonItem = nil;
@@ -213,8 +221,9 @@ BOOL boolLandToPort =false;
     isCableSelected =NO;
     
     [super viewWillAppear:animated];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
-   // self.view.backgroundColor = [UIColor clearColor];//[UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    
+     self.view = [COMMON setBackGroundColor:self.view];
     
     [_searchButton setImage:[UIImage imageNamed:@"Search_Image"] forState:UIControlStateNormal];
     [_searchButton setImage:[UIImage imageNamed:@"Search_Image"] forState:UIControlStateHighlighted];
@@ -633,8 +642,8 @@ BOOL boolLandToPort =false;
     
     subScriptionView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
     //[subScriptionView setBackgroundColor:[UIColor whiteColor]];
-    subScriptionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
-
+    //subScriptionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    self.view = [COMMON setBackGroundColor:self.view];
     [self setUpTitleLabels];
     [self.view addSubview:subScriptionView];
 }

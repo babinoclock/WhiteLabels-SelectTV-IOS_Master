@@ -186,9 +186,8 @@ BOOL isAppManagerMenuClicked;
     [_freeCastLogo setImage:[UIImage imageNamed:splashLogoImageName]];//toplogo//splash_logo.png
     if([self isDeviceIpad]==YES){
         [_fullView setBackgroundColor:[UIColor clearColor]];
-        [_topView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]]];
-        
-        
+       // [_topView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]]];
+        _topView.backgroundColor = GRAY_BG_COLOR;
         UIView *freeCastBgView = [[UIView alloc] initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height)];
         // [freeCastBgView setBackgroundColor:[UIColor redColor]];
         [freeCastBgView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"left_bg"]]];
@@ -196,11 +195,11 @@ BOOL isAppManagerMenuClicked;
         
     }
     else{
-        [_topView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]]];
+      //  [_topView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]]];
         [_fullView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"left_bg"]]];
+         _topView.backgroundColor = GRAY_BG_COLOR;
         
     }
-    
 }
 -(BOOL)isDeviceIpad
 {

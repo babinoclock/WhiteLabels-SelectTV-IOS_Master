@@ -45,10 +45,11 @@ static AppDelegate * appDelegate;
 {
     // Override point for customization after application launch.
     
+    self.window.backgroundColor = GRAY_BG_COLOR;
     
-    NSLog(@"isBroadView = %@",APP_TITLE);
+    //NSLog(@"isBroadView = %@",APP_TITLE);
     
-    NSLog(@"isArvig = %@",APP_TITLE);
+    //NSLog(@"isArvig = %@",APP_TITLE);
     
     _isSubscriptPage = @"NO";
     if([self isMyAppInstalled]) {

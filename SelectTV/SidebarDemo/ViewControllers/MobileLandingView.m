@@ -38,8 +38,10 @@ int nMobileCellHeight = 200;
 -(void)loadMobileLandingData{
     
     [self setFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
-    self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
-    //self.backgroundColor = [UIColor whiteColor];
+    //self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    
+    
+    self.backgroundColor =GRAY_BG_COLOR;
    
     [self staticArray];
     //[self loadTranslation];
@@ -218,6 +220,10 @@ int nMobileCellHeight = 200;
     supportLabel.textAlignment = NSTextAlignmentCenter;
     supportLabel.textColor = [UIColor colorWithRed:58.0f/255.0f green:156.0f/255.0f blue:219.0f/255.0f alpha:1];
     supportLabel.font = OpenSans_Bold(fontSize);
+    
+    
+    termsLabel.textColor = [UIColor whiteColor];
+    supportLabel.textColor = [UIColor whiteColor];
     
     [footerView addSubview:termsLabel];
     [footerView addSubview:supportLabel];
@@ -412,7 +418,12 @@ int nMobileCellHeight = 200;
     cell.coverViewBtn.layer.mask = maskLayer1;
     
     [cell.coverViewBtn setTitle:iconName forState:UIControlStateNormal];
-    [cell.appImage setImage:[UIImage imageNamed:imageName]];
+   // [cell.appImage setImage:[UIImage imageNamed:imageName]];
+    
+    [cell.appImage setImage: [[UIImage imageNamed:imageName]
+                              imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
+    [cell.appImage setTintColor:[UIColor whiteColor]];
+
     
     [cell.coverViewBtn.titleLabel setFont:[COMMON getResizeableFont:OpenSans_Regular(fontSize)]];
 

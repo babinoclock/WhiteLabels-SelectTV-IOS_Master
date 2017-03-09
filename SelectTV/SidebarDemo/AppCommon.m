@@ -88,6 +88,14 @@ AppCommon *sharedCommon = nil;
 }
 
 
+-(UIView*)setBackGroundColor:(UIView*)view{
+    
+    view.backgroundColor = GRAY_BG_COLOR;
+    
+    return view;
+    
+}
+
 
 
 +(void)showSimpleAlertWithMessage:(NSString *)message{

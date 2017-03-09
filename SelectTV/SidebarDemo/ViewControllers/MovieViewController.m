@@ -485,7 +485,7 @@ UITableView* tableChannelList;
     
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     //    self.navigationItem.title = headerLabelStr;
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
+    //[self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
     
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
     
@@ -493,6 +493,10 @@ UITableView* tableChannelList;
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
+    
+    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
+    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
     
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
         self.edgesForExtendedLayout=UIRectEdgeNone;
@@ -3769,9 +3773,9 @@ UITableView* tableChannelList;
 #pragma mark - setUpViews
 -(void) setUpViews{
     
-     self.tvMovieView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
-    //[_tvMovieView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]]];
+     //self.tvMovieView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
     
+    self.tvMovieView.backgroundColor = GRAY_BG_COLOR;
   
     if ((NSString *)[NSNull null] == tvShowStr) {
         if (tvShowStr == nil) {

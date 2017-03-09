@@ -20,6 +20,7 @@
 {
     NSString* _vcCurrentID;
 }
+@property (strong, nonatomic) IBOutlet UIView *launchScreen;
 
 @property (strong, nonatomic) UIWindow *window;
 

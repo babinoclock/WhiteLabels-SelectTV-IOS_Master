@@ -329,15 +329,23 @@ CustomIOS7AlertView * mainChannelView;
     self.title = titleStr;
     
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
+    
+    
+   [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
     [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
+  
+    //[self.navigationController.navigationBar setBackgroundImage:[UIColor colorWithRed:59.0f/255.0f green:60.0f/255.0f blue:64.0f/255.0f alpha:1.0f] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     revealviewcontroller = [[SWRevealViewController alloc]init];
     revealviewcontroller = self.revealViewController;
      self.revealViewController.delegate = self;
     [self.revealViewController tapGestureRecognizer];
+    
+    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
+    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
     
     [self.revealViewController panGestureRecognizer];
     if(revealviewcontroller)
@@ -411,7 +419,10 @@ CustomIOS7AlertView * mainChannelView;
     [self.containerVideoView setBackgroundColor:[UIColor clearColor]];
     
     //[self.view setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
+    
+    self.view.backgroundColor = GRAY_BG_COLOR;
+    
     
     bTitleCagtegoryShown = false;
     bTitleSubCagtegoryShown =false;

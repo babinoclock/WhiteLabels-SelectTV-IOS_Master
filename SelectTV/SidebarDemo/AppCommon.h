@@ -162,6 +162,10 @@ void saveContentsToFile (id data, NSString* filename);
 - (CGSize)getControlHeight:(NSString *)string withFontName:(NSString *)fontName ofSize:(NSInteger)size withSize:(CGSize)LabelWidth;
 
 
+//NEW
+-(UIView*)setBackGroundColor:(UIView*)view;
+
+
 #pragma  mark Remove Cache from Local
 -(void)removeFileFromLocalCache;
 
