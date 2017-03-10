@@ -483,22 +483,19 @@ UITableView* tableChannelList;
     [[UIApplication sharedApplication] setStatusBarHidden:NO];
     [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
     
-    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];//[UIColor whiteColor];
     //    self.navigationItem.title = headerLabelStr;
     //[self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
     
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
     
-    [self.navigationController.navigationBar setBarTintColor:[UIColor whiteColor]];
-    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
-    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
+   // [self.navigationController.navigationBar setBarTintColor:[UIColor whiteColor]];
+   // [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
+   // [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     
     self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
-
     self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];
-
-self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];
 
     
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
@@ -2696,6 +2693,11 @@ self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Co
                                                                     };
     [self.navigationItem.rightBarButtonItem setTintColor:[UIColor clearColor]];
     [self.navigationItem.rightBarButtonItem setEnabled:NO];
+    
+    self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];
+    
     NSString * str = [[NSUserDefaults standardUserDefaults] objectForKey:@"APPMANAGER"];
     if([str  isEqualToString: @"YES"]){
         [_mainLeftBarButton setHidden:NO];
@@ -3199,7 +3201,11 @@ self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Co
     
      [_playerViewContinueBtn setTitle:@"Continue" forState:UIControlStateNormal];
      //[_playerViewContinueBtn setBackgroundColor:[UIColor colorWithRed:28.0f/255.0f green:134.0f/255.0f blue:238.0f/255.0f alpha:1]];
-     [_playerViewContinueBtn setBackgroundImage:[UIImage imageNamed:@"blueBtn.png"] forState:UIControlStateNormal];
+     //[_playerViewContinueBtn setBackgroundImage:[UIImage imageNamed:@"blueBtn.png"] forState:UIControlStateNormal];
+    _playerViewContinueBtn.layer.borderWidth = 2;
+    _playerViewContinueBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    _playerViewContinueBtn.layer.cornerRadius = 4.0;
+    
     _playerViewContinueBtn.titleLabel.font = [COMMON getResizeableFont:Roboto_Bold(13)];
     [_playerViewContinueBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     _playerViewContinueBtn.layer.cornerRadius = 4.0f;

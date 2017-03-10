@@ -24,7 +24,13 @@
     _startWtng.layer.borderColor = [UIColor whiteColor].CGColor;
     _startWtng.layer.borderWidth = 2;
     _startWtng.layer.cornerRadius = 4.0;
-    _startWtng.titleLabel.font = [UIFont systemFontOfSize:20 weight:UIFontWeightBold];
+    
+    CGFloat fontSize  = 16;
+    if([self isDeviceIpad]==YES){
+        
+        fontSize  = 20;
+    }
+    _startWtng.titleLabel.font = [COMMON getResizeableFont:Roboto_Bold(fontSize)];
 
     
     

@@ -213,7 +213,7 @@
         case kYTPlayerStateEnded:
             //new
              [introPlayer setHidden:YES];
-            [self showProgressView];
+             [self showProgressView];
            
             break;
             
