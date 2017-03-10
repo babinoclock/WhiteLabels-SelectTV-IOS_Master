@@ -86,6 +86,8 @@
     self.view.backgroundColor = GRAY_BG_COLOR;
     genderpickerArray = [[NSArray alloc] init];
     genderpickerArray = [NSArray arrayWithObjects:@"Male",@"Female",nil];
+    
+    _saveAction.backgroundColor = LIGHT_GRAY_BG_COLOR;
     [_saveAction addTarget:self
                     action:@selector(saveClicked:)
           forControlEvents:UIControlEventTouchUpInside];
@@ -131,10 +133,8 @@
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     
-    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
-    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
-    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
-    
+    self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];    self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];
 }
 -(void)setOrientation{
     
