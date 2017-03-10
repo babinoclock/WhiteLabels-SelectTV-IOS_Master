@@ -206,7 +206,6 @@
 		2B1A7D6E1E6ECB22006324AF /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
 		2B1A7D6F1E6ECB22006324AF /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
 		2B1A7D701E6ECB22006324AF /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
-		2B1A7D711E6ECB22006324AF /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		2B1A7D721E6ECB22006324AF /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B1A7D731E6ECB22006324AF /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
 		2B1A7D741E6ECB22006324AF /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
@@ -560,7 +559,6 @@
 		2B1A7EE31E6EDA05006324AF /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
 		2B1A7EE41E6EDA05006324AF /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
 		2B1A7EE51E6EDA05006324AF /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
-		2B1A7EE61E6EDA05006324AF /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		2B1A7EE71E6EDA05006324AF /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B1A7EE81E6EDA05006324AF /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
 		2B1A7EE91E6EDA05006324AF /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
@@ -914,7 +912,6 @@
 		2B1A80591E6EE152006324AF /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
 		2B1A805A1E6EE152006324AF /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
 		2B1A805B1E6EE152006324AF /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
-		2B1A805C1E6EE152006324AF /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		2B1A805D1E6EE152006324AF /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B1A805E1E6EE152006324AF /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
 		2B1A805F1E6EE152006324AF /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
@@ -1268,7 +1265,6 @@
 		2B1A81CB1E6EE344006324AF /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
 		2B1A81CC1E6EE344006324AF /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
 		2B1A81CD1E6EE344006324AF /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
-		2B1A81CE1E6EE344006324AF /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		2B1A81CF1E6EE344006324AF /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B1A81D01E6EE344006324AF /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
 		2B1A81D11E6EE344006324AF /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
@@ -1622,7 +1618,6 @@
 		2B1A83491E6EFA9D006324AF /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
 		2B1A834A1E6EFA9D006324AF /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
 		2B1A834B1E6EFA9D006324AF /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
-		2B1A834C1E6EFA9D006324AF /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		2B1A834D1E6EFA9D006324AF /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B1A834E1E6EFA9D006324AF /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
 		2B1A834F1E6EFA9D006324AF /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
@@ -2019,7 +2014,6 @@
 		2B44A36F1E6FB6A400281B5B /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
 		2B44A3701E6FB6A400281B5B /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
 		2B44A3711E6FB6A400281B5B /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
-		2B44A3721E6FB6A400281B5B /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		2B44A3731E6FB6A400281B5B /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B44A3741E6FB6A400281B5B /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
 		2B44A3751E6FB6A400281B5B /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
@@ -2373,7 +2367,6 @@
 		2B44A4E11E6FB79D00281B5B /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
 		2B44A4E21E6FB79D00281B5B /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
 		2B44A4E31E6FB79D00281B5B /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
-		2B44A4E41E6FB79D00281B5B /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		2B44A4E51E6FB79D00281B5B /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B44A4E61E6FB79D00281B5B /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
 		2B44A4E71E6FB79D00281B5B /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
@@ -2727,7 +2720,6 @@
 		2B44A6521E6FB7A700281B5B /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
 		2B44A6531E6FB7A700281B5B /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
 		2B44A6541E6FB7A700281B5B /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
-		2B44A6551E6FB7A700281B5B /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		2B44A6561E6FB7A700281B5B /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B44A6571E6FB7A700281B5B /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
 		2B44A6581E6FB7A700281B5B /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
@@ -3081,7 +3073,6 @@
 		2B44A7C51E6FB9BF00281B5B /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
 		2B44A7C61E6FB9BF00281B5B /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
 		2B44A7C71E6FB9BF00281B5B /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
-		2B44A7C81E6FB9BF00281B5B /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		2B44A7C91E6FB9BF00281B5B /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B44A7CA1E6FB9BF00281B5B /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
 		2B44A7CB1E6FB9BF00281B5B /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
@@ -3404,7 +3395,6 @@
 		2B5E78681C58F3790053051C /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
 		2B5F2F021E6D95D000A6531E /* Disney-Channel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F2F011E6D95D000A6531E /* Disney-Channel.png */; };
 		2B5F2F041E6D95DE00A6531E /* Epix.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F2F031E6D95DE00A6531E /* Epix.png */; };
-		2B6F3B0B1E4489B300C4348C /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		2B76E6971E3B722E00F97FF8 /* NKContainerCellView_Subscription.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B76E6961E3B722E00F97FF8 /* NKContainerCellView_Subscription.xib */; };
 		2B78434A1D92C98800297F5C /* MobileLandingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7843481D92C98800297F5C /* MobileLandingView.m */; };
 		2B78434B1D92C98800297F5C /* MobileLandingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843491D92C98800297F5C /* MobileLandingView.xib */; };
@@ -3653,7 +3643,6 @@
 		C9358E881E6FCD9700064818 /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
 		C9358E891E6FCD9700064818 /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
 		C9358E8A1E6FCD9700064818 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
-		C9358E8B1E6FCD9700064818 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		C9358E8C1E6FCD9700064818 /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		C9358E8D1E6FCD9700064818 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
 		C9358E8E1E6FCD9700064818 /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
@@ -4007,7 +3996,6 @@
 		C93590041E702BAF00064818 /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
 		C93590051E702BAF00064818 /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
 		C93590061E702BAF00064818 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
-		C93590071E702BAF00064818 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F3B0A1E4489B300C4348C /* WebService.m */; };
 		C93590081E702BAF00064818 /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		C93590091E702BAF00064818 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
 		C935900A1E702BAF00064818 /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
@@ -4674,9 +4662,6 @@
 		2B5E78661C58F3790053051C /* Season.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Season.xib; path = Cell/Season.xib; sourceTree = "<group>"; };
 		2B5F2F011E6D95D000A6531E /* Disney-Channel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Disney-Channel.png"; sourceTree = "<group>"; };
 		2B5F2F031E6D95DE00A6531E /* Epix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Epix.png; sourceTree = "<group>"; };
-		2B6F3B091E4489B300C4348C /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
-		2B6F3B0A1E4489B300C4348C /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
-		2B6F3B0C1E448A0200C4348C /* WebserviceConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebserviceConfig.h; sourceTree = "<group>"; };
 		2B76E6961E3B722E00F97FF8 /* NKContainerCellView_Subscription.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NKContainerCellView_Subscription.xib; path = Helper/HomePageUtility/NKContainerCellView_Subscription.xib; sourceTree = "<group>"; };
 		2B7843471D92C98800297F5C /* MobileLandingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobileLandingView.h; path = ViewControllers/MobileLandingView.h; sourceTree = "<group>"; };
 		2B7843481D92C98800297F5C /* MobileLandingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MobileLandingView.m; path = ViewControllers/MobileLandingView.m; sourceTree = "<group>"; };
@@ -5680,17 +5665,6 @@
 			path = staticManagerImages;
 			sourceTree = "<group>";
 		};
-		2B6F3B081E4489B300C4348C /* Webservices */ = {
-			isa = PBXGroup;
-			children = (
-				2B6F3B091E4489B300C4348C /* WebService.h */,
-				2B6F3B0A1E4489B300C4348C /* WebService.m */,
-				2B6F3B0C1E448A0200C4348C /* WebserviceConfig.h */,
-			);
-			name = Webservices;
-			path = Helper/Webservices;
-			sourceTree = "<group>";
-		};
 		2BC77F531E71563F00E26163 /* LaunchScreens */ = {
 			isa = PBXGroup;
 			children = (
@@ -5784,7 +5758,6 @@
 			children = (
 				2B1A7A021E6EAC4F006324AF /* MBProgressHUD */,
 				2B1A79D51E6EA893006324AF /* iCarousel_File */,
-				2B6F3B081E4489B300C4348C /* Webservices */,
 				51FF69601D2BC1AD004D03BD /* HMSegmentedControl */,
 				2B06EF251D27A22600E345C6 /* Stringvalidation */,
 				2BE008871D24FFEE00974EB2 /* TTTAttributedLabel */,
@@ -9993,7 +9966,6 @@
 				2B1A7D6E1E6ECB22006324AF /* MainContentGridCell.m in Sources */,
 				2B1A7D6F1E6ECB22006324AF /* A3GridTableViewCell.m in Sources */,
 				2B1A7D701E6ECB22006324AF /* MenuView.m in Sources */,
-				2B1A7D711E6ECB22006324AF /* WebService.m in Sources */,
 				2B1A7D721E6ECB22006324AF /* appManagerStaticCustomCollectionCell.m in Sources */,
 				2B1A7D731E6ECB22006324AF /* UIImage+Tint.m in Sources */,
 				2B1A7D741E6ECB22006324AF /* PromoViewController.m in Sources */,
@@ -10119,7 +10091,6 @@
 				2B1A7EE31E6EDA05006324AF /* MainContentGridCell.m in Sources */,
 				2B1A7EE41E6EDA05006324AF /* A3GridTableViewCell.m in Sources */,
 				2B1A7EE51E6EDA05006324AF /* MenuView.m in Sources */,
-				2B1A7EE61E6EDA05006324AF /* WebService.m in Sources */,
 				2B1A7EE71E6EDA05006324AF /* appManagerStaticCustomCollectionCell.m in Sources */,
 				2B1A7EE81E6EDA05006324AF /* UIImage+Tint.m in Sources */,
 				2B1A7EE91E6EDA05006324AF /* PromoViewController.m in Sources */,
@@ -10245,7 +10216,6 @@
 				2B1A80591E6EE152006324AF /* MainContentGridCell.m in Sources */,
 				2B1A805A1E6EE152006324AF /* A3GridTableViewCell.m in Sources */,
 				2B1A805B1E6EE152006324AF /* MenuView.m in Sources */,
-				2B1A805C1E6EE152006324AF /* WebService.m in Sources */,
 				2B1A805D1E6EE152006324AF /* appManagerStaticCustomCollectionCell.m in Sources */,
 				2B1A805E1E6EE152006324AF /* UIImage+Tint.m in Sources */,
 				2B1A805F1E6EE152006324AF /* PromoViewController.m in Sources */,
@@ -10371,7 +10341,6 @@
 				2B1A81CB1E6EE344006324AF /* MainContentGridCell.m in Sources */,
 				2B1A81CC1E6EE344006324AF /* A3GridTableViewCell.m in Sources */,
 				2B1A81CD1E6EE344006324AF /* MenuView.m in Sources */,
-				2B1A81CE1E6EE344006324AF /* WebService.m in Sources */,
 				2B1A81CF1E6EE344006324AF /* appManagerStaticCustomCollectionCell.m in Sources */,
 				2B1A81D01E6EE344006324AF /* UIImage+Tint.m in Sources */,
 				2B1A81D11E6EE344006324AF /* PromoViewController.m in Sources */,
@@ -10497,7 +10466,6 @@
 				2B1A83491E6EFA9D006324AF /* MainContentGridCell.m in Sources */,
 				2B1A834A1E6EFA9D006324AF /* A3GridTableViewCell.m in Sources */,
 				2B1A834B1E6EFA9D006324AF /* MenuView.m in Sources */,
-				2B1A834C1E6EFA9D006324AF /* WebService.m in Sources */,
 				2B1A834D1E6EFA9D006324AF /* appManagerStaticCustomCollectionCell.m in Sources */,
 				2B1A834E1E6EFA9D006324AF /* UIImage+Tint.m in Sources */,
 				2B1A834F1E6EFA9D006324AF /* PromoViewController.m in Sources */,
@@ -10623,7 +10591,6 @@
 				2B44A36F1E6FB6A400281B5B /* MainContentGridCell.m in Sources */,
 				2B44A3701E6FB6A400281B5B /* A3GridTableViewCell.m in Sources */,
 				2B44A3711E6FB6A400281B5B /* MenuView.m in Sources */,
-				2B44A3721E6FB6A400281B5B /* WebService.m in Sources */,
 				2B44A3731E6FB6A400281B5B /* appManagerStaticCustomCollectionCell.m in Sources */,
 				2B44A3741E6FB6A400281B5B /* UIImage+Tint.m in Sources */,
 				2B44A3751E6FB6A400281B5B /* PromoViewController.m in Sources */,
@@ -10749,7 +10716,6 @@
 				2B44A4E11E6FB79D00281B5B /* MainContentGridCell.m in Sources */,
 				2B44A4E21E6FB79D00281B5B /* A3GridTableViewCell.m in Sources */,
 				2B44A4E31E6FB79D00281B5B /* MenuView.m in Sources */,
-				2B44A4E41E6FB79D00281B5B /* WebService.m in Sources */,
 				2B44A4E51E6FB79D00281B5B /* appManagerStaticCustomCollectionCell.m in Sources */,
 				2B44A4E61E6FB79D00281B5B /* UIImage+Tint.m in Sources */,
 				2B44A4E71E6FB79D00281B5B /* PromoViewController.m in Sources */,
@@ -10875,7 +10841,6 @@
 				2B44A6521E6FB7A700281B5B /* MainContentGridCell.m in Sources */,
 				2B44A6531E6FB7A700281B5B /* A3GridTableViewCell.m in Sources */,
 				2B44A6541E6FB7A700281B5B /* MenuView.m in Sources */,
-				2B44A6551E6FB7A700281B5B /* WebService.m in Sources */,
 				2B44A6561E6FB7A700281B5B /* appManagerStaticCustomCollectionCell.m in Sources */,
 				2B44A6571E6FB7A700281B5B /* UIImage+Tint.m in Sources */,
 				2B44A6581E6FB7A700281B5B /* PromoViewController.m in Sources */,
@@ -11001,7 +10966,6 @@
 				2B44A7C51E6FB9BF00281B5B /* MainContentGridCell.m in Sources */,
 				2B44A7C61E6FB9BF00281B5B /* A3GridTableViewCell.m in Sources */,
 				2B44A7C71E6FB9BF00281B5B /* MenuView.m in Sources */,
-				2B44A7C81E6FB9BF00281B5B /* WebService.m in Sources */,
 				2B44A7C91E6FB9BF00281B5B /* appManagerStaticCustomCollectionCell.m in Sources */,
 				2B44A7CA1E6FB9BF00281B5B /* UIImage+Tint.m in Sources */,
 				2B44A7CB1E6FB9BF00281B5B /* PromoViewController.m in Sources */,
@@ -11127,7 +11091,6 @@
 				C9358E881E6FCD9700064818 /* MainContentGridCell.m in Sources */,
 				C9358E891E6FCD9700064818 /* A3GridTableViewCell.m in Sources */,
 				C9358E8A1E6FCD9700064818 /* MenuView.m in Sources */,
-				C9358E8B1E6FCD9700064818 /* WebService.m in Sources */,
 				C9358E8C1E6FCD9700064818 /* appManagerStaticCustomCollectionCell.m in Sources */,
 				C9358E8D1E6FCD9700064818 /* UIImage+Tint.m in Sources */,
 				C9358E8E1E6FCD9700064818 /* PromoViewController.m in Sources */,
@@ -11253,7 +11216,6 @@
 				C93590041E702BAF00064818 /* MainContentGridCell.m in Sources */,
 				C93590051E702BAF00064818 /* A3GridTableViewCell.m in Sources */,
 				C93590061E702BAF00064818 /* MenuView.m in Sources */,
-				C93590071E702BAF00064818 /* WebService.m in Sources */,
 				C93590081E702BAF00064818 /* appManagerStaticCustomCollectionCell.m in Sources */,
 				C93590091E702BAF00064818 /* UIImage+Tint.m in Sources */,
 				C935900A1E702BAF00064818 /* PromoViewController.m in Sources */,
@@ -11379,7 +11341,6 @@
 				2B3C6F7B1C88517000ED991C /* MainContentGridCell.m in Sources */,
 				2BE536D71C8AF92B00F5C325 /* A3GridTableViewCell.m in Sources */,
 				2B1A79CE1E6EA7B0006324AF /* MenuView.m in Sources */,
-				2B6F3B0B1E4489B300C4348C /* WebService.m in Sources */,
 				2B59D3871E6D680C00221307 /* appManagerStaticCustomCollectionCell.m in Sources */,
 				2BFB3DB91C6B2D9300A63B65 /* UIImage+Tint.m in Sources */,
 				2B5A40591C68AF8E0078B251 /* PromoViewController.m in Sources */,
