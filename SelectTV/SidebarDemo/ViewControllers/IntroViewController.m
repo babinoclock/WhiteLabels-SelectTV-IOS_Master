@@ -65,8 +65,8 @@
     progressView = [[LDProgressView alloc] init];
     progressLabel = [[UILabel alloc] init];
     [self setUpProgressBar];
-   [self push];        //for quick test
-  /// [self syncMenuData];
+ ///  [self push];        //for quick test
+    [self syncMenuData];
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(introOrientationChanged:) name:UIDeviceOrientationDidChangeNotification object:[UIDevice currentDevice]];
     

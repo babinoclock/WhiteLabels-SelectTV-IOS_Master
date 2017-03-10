@@ -95,7 +95,7 @@ BOOL bFavPopUpViewShown = false;
     [super viewWillAppear:animated];
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
     
-     self.view.backgroundColor = GRAY_BG_COLOR;
+    self.view.backgroundColor = GRAY_BG_COLOR;
     [self loadNavigation];
     [self setOrientation];
     UIImageView *imageView1 = [[UIImageView alloc] init];

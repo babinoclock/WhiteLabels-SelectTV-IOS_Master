@@ -116,6 +116,8 @@
 
 #define LIGHT_GRAY_BG_COLOR            [UIColor colorWithRed:139.0f/255.0f green:143.0f/255.0f blue:144.0f/255.0f alpha:1.0f];
 
+#define LIGHT_GRAY_TOP_NAVIGATION_COLOR            [UIColor colorWithRed:44.0f/255.0f green:45.0f/255.0f blue:49.0f/255.0f alpha:1.0f];
+
 //USER DEFAULTS
 
 #define USERDETAILS                            @"UserDetails"
