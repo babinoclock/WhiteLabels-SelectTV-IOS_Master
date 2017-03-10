@@ -831,7 +831,8 @@ NSArray* arraySubItems = nil;
         return cell;
         
     }
-    [_tableMenu setSeparatorColor:[UIColor colorWithRed:49.0/255.0f green:73.0/255.0f blue:97.0/255.0f alpha:1]];
+   // [_tableMenu setSeparatorColor:[UIColor colorWithRed:139.0f/255.0f green:143.0f/255.0f blue:144.0f/255.0f alpha:1.0f]];
+    [_tableMenu setSeparatorColor:[COMMON Common_Light_BG_Color]];
     _tableMenu.separatorStyle = UITableViewCellSelectionStyleNone;
     
     return nil;
