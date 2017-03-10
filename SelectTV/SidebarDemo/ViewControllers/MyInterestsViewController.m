@@ -289,9 +289,10 @@ BOOL bFavPopUpViewShown = false;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(myInterestsScrolled:) name:@"myInterestsTableScrolled" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(myInterestsTableFilter:) name:@"myInterestsScrollFromRightView" object:nil];
     
-    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
-    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
-    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];
+;
+    self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];;
     
 }
 -(void)setOrientation{
@@ -349,7 +350,7 @@ BOOL bFavPopUpViewShown = false;
     
     
    // [_headerScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
-    _headerScroll.backgroundColor = GRAY_BG_COLOR;
+    _headerScroll.backgroundColor = [COMMON Common_Gray_BG_Color];;
 
     
     _headerScroll.sectionTitles = scrollTitleHeaderArray;
@@ -367,7 +368,7 @@ BOOL bFavPopUpViewShown = false;
         
         if (selected) {
         
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor yellowColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
             segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
            
@@ -375,7 +376,7 @@ BOOL bFavPopUpViewShown = false;
             
             return attString;
         } else {
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Light_BG_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
             segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
             

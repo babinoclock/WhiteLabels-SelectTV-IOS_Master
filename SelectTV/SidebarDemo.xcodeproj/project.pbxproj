@@ -11814,7 +11814,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = SelectTV_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = SelectTV_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -11830,8 +11830,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.selecttvapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3d0bfe76-0f16-4656-ac84-96da0309aac3";
-				PROVISIONING_PROFILE_SPECIFIER = "SelectTV In House";
+				PROVISIONING_PROFILE = "4eae38ac-7e70-42b4-97f3-a929ffb5335d";
+				PROVISIONING_PROFILE_SPECIFIER = "SelectTV Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -11936,7 +11936,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = RabbitTVPlus_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = RabbitTVPlus_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -11953,8 +11953,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.rabbittvplus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e9a82850-a997-42cd-94b3-249af8109968";
-				PROVISIONING_PROFILE_SPECIFIER = "RabbitTVPlus InHouse";
+				PROVISIONING_PROFILE = "32686c72-1543-4090-9762-180ee9c05136";
+				PROVISIONING_PROFILE_SPECIFIER = "RabbitTvPlus Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

@@ -81,9 +81,9 @@ int nGamesCellHeight = 200;
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     //[self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
-    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
-    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
-    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.backgroundColor=[COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];;
+    self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];;
     
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gamesViewOrientationChanged:) name:UIDeviceOrientationDidChangeNotification object:[UIDevice currentDevice]];
@@ -132,7 +132,7 @@ int nGamesCellHeight = 200;
     [_topSegmentView addSubview:_gamesHeaderScroll];
     
     //[_gamesHeaderScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
-    _gamesHeaderScroll.backgroundColor = GRAY_BG_COLOR;
+    _gamesHeaderScroll.backgroundColor = [COMMON Common_Gray_BG_Color];;
     
     _gamesHeaderScroll.sectionTitles = titleArray;
     _gamesHeaderScroll.segmentEdgeInset = UIEdgeInsetsMake(0, 10, 0, 10);
@@ -150,11 +150,11 @@ int nGamesCellHeight = 200;
         
         if (selected) {
             
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor yellowColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             
             return attString;
         } else {
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Light_BG_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             
             return attString;
         }
@@ -319,7 +319,7 @@ int nGamesCellHeight = 200;
         }
     }
      viewAllLabel.text = viewAllStr;
-    viewAllLabel.textColor = BORDER_BLUE;
+    viewAllLabel.textColor =[UIColor whiteColor]; //BORDER_BLUE;
     viewAllLabel.backgroundColor = [UIColor clearColor];
     viewAllLabel.tag = section;//[carouselId intValue];
     
