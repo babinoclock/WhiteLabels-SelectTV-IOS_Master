@@ -99,7 +99,7 @@ BOOL bFavPopUpViewShown = false;
     [self loadNavigation];
     [self setOrientation];
     UIImageView *imageView1 = [[UIImageView alloc] init];
-    [imageView1 setTintColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]];
+    [imageView1 setTintColor:[COMMON Common_Light_BG_Color]];
     imageView1.image =[[UIImage imageNamed:@"settingIcon"]imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     
     [_personalizeBtnImage setBackgroundImage:imageView1.image  forState:UIControlStateNormal];

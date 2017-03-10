@@ -174,7 +174,11 @@
     }
     
     UIImageView *buttonImageTop = [[UIImageView alloc]initWithFrame:CGRectMake(buttonImageTopXPos, buttonImageTopYPos, buttonImageTopWidth, buttonImageTopHeight)];
-    buttonImageTop.image = [UIImage imageNamed:@"wifi_Icon"];
+   // buttonImageTop.image = [UIImage imageNamed:@"wifi_Icon"];
+    
+    [buttonImageTop setImage: [[UIImage imageNamed:@"wifi_Icon"]
+                                  imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
+    [buttonImageTop setTintColor:[UIColor whiteColor]];
    
     CGFloat titleLabelYPos;
     if([self isDeviceIpad]==YES){
@@ -287,8 +291,13 @@
     
     UILabel *orLabelLine2 = [[UILabel alloc]initWithFrame:CGRectMake(orLabelLine2XPos,orLabelLine2YPos, centreLabelLineCommonWidth, centreLabelLineCommonHeight)];
     
-    orLabelLine1.backgroundColor = [UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
-    orLabelLine2.backgroundColor = [UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
+   // orLabelLine1.backgroundColor = [UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
+   // orLabelLine2.backgroundColor = [UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
+    
+    
+    orLabelLine1.backgroundColor = [UIColor whiteColor];
+    orLabelLine2.backgroundColor = [UIColor whiteColor];
+
     
     [centreOkView addSubview:orLabel];
     [centreOkView addSubview:orLabelLine1];
@@ -358,7 +367,11 @@
 //    UIImageView *buttonImageBottom = [[UIImageView alloc]initWithFrame:CGRectMake(buttonViewBottom.frame.size.width/4, 10, buttonViewBottom.frame.size.width/2, buttonViewBottom.frame.size.height/2)];
     UIImageView *buttonImageBottom = [[UIImageView alloc]initWithFrame:CGRectMake(buttonImageBottomXPos, buttonImageBottomYPos, buttonImageBottomWidth, buttonImageBottomHeight)];
     
-    buttonImageBottom.image = [UIImage imageNamed:@"tv_Icon"];
+    //buttonImageBottom.image = [UIImage imageNamed:@"tv_Icon"];
+    
+    [buttonImageBottom setImage: [[UIImage imageNamed:@"tv_Icon"]
+                              imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
+    [buttonImageBottom setTintColor:[UIColor whiteColor]];
     
     CGFloat titleLabelBottomYPos;
     if([self isDeviceIpad]==YES){

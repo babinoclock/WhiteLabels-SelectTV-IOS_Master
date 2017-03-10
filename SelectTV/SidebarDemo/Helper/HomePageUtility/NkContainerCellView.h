@@ -22,5 +22,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *headerImageButton;
 @property (strong, nonatomic) IBOutlet UIButton *viewAllBtn;
 @property ( nonatomic)  NSArray *imagesArray;
+@property (strong, nonatomic) IBOutlet UIButton *leftBtnArrow;
+@property (strong, nonatomic) IBOutlet UIButton *rightBtnArrow;
 - (void)setCollectionImageData:(NSArray *)collectionData currentViewStr:(NSString *)currentViewStr;
 @end

@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -17,16 +20,18 @@
                     <subviews>
                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0AG-Q6-Hl5">
                             <rect key="frame" x="13" y="43" width="53" height="47"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="playIcon" translatesAutoresizingMaskIntoConstraints="NO" id="cop-Ei-42w">
                                     <rect key="frame" x="14" y="11" width="25" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </subviews>
-                            <color key="backgroundColor" red="0.035294117649999998" green="0.090196078430000007" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.035294117649999998" green="0.090196078430000007" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hli-3c-8Aw">
                             <rect key="frame" x="0.0" y="25" width="80" height="85"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="80" id="8yg-gF-kpG"/>
                                 <constraint firstAttribute="height" constant="85" id="v3C-c5-6Po"/>
@@ -34,7 +39,7 @@
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJD-XC-WsY">
                             <rect key="frame" x="0.0" y="25" width="80" height="85"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9i-Ze-9Zz">
                             <rect key="frame" x="0.0" y="115" width="80" height="30"/>
@@ -42,11 +47,11 @@
                                 <constraint firstAttribute="height" constant="30" id="eTU-Id-Swb"/>
                             </constraints>
                             <state key="normal">
-                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="hli-3c-8Aw" secondAttribute="trailing" id="2Ud-vk-4tD"/>
                         <constraint firstItem="hli-3c-8Aw" firstAttribute="top" secondItem="jfh-dX-LuE" secondAttribute="top" constant="25" id="8FQ-ZO-XMd"/>
@@ -71,13 +76,13 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ie6-jV-tlT">
                     <rect key="frame" x="103" y="72" width="24" height="27"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="27" id="ShM-7X-M6Z"/>
                         <constraint firstAttribute="width" constant="24" id="ZKv-to-MN8"/>
                     </constraints>
-                    <state key="normal" backgroundImage="previousImage">
-                        <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
                         <action selector="actionLeft:" destination="iN0-l3-epB" eventType="touchUpInside" id="vuy-t8-Nq7"/>
@@ -90,7 +95,7 @@
                         <constraint firstAttribute="width" constant="70" id="tmX-cX-4ws"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <color key="tintColor" red="0.0078431372549019607" green="0.57647058823529407" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="0.0078431372549019607" green="0.57647058823529407" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0k2-aD-qTM">
                     <rect key="frame" x="399" y="0.0" width="24" height="136"/>
@@ -103,13 +108,13 @@
                 </button>
                 <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJm-OI-EtB">
                     <rect key="frame" x="400" y="72" width="24" height="25"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="24" id="Aco-oX-9rV"/>
                         <constraint firstAttribute="height" constant="25" id="OZx-FZ-6cH"/>
                     </constraints>
-                    <state key="normal" backgroundImage="nextImage">
-                        <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
                         <action selector="actionRight:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ll0-ow-XhH"/>
@@ -117,8 +122,8 @@
                 </button>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="suJ-16-mkd">
                     <rect key="frame" x="128" y="28" width="270" height="115"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="QP2-rd-b9Q">
                         <size key="itemSize" width="101" height="122"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -131,8 +136,8 @@
                     </connections>
                 </collectionView>
             </subviews>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="suJ-16-mkd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="8" id="01u-pr-DaR"/>
                 <constraint firstItem="45h-V9-arB" firstAttribute="baseline" secondItem="n59-Ka-rV9" secondAttribute="baseline" id="1XV-tQ-fF0"/>
@@ -167,14 +172,19 @@
                 <outlet property="appNameButton" destination="u9i-Ze-9Zz" id="Qby-8b-Byb"/>
                 <outlet property="collectionView" destination="suJ-16-mkd" id="xWE-27-1Ex"/>
                 <outlet property="headerImageButton" destination="GJD-XC-WsY" id="Web-NC-ViD"/>
+                <outlet property="leftBtnArrow" destination="Ie6-jV-tlT" id="C8z-ac-jvN"/>
+                <outlet property="rightBtnArrow" destination="xJm-OI-EtB" id="3JI-zR-BWG"/>
                 <outlet property="viewAllBtn" destination="45h-V9-arB" id="tQM-Ne-5b7"/>
             </connections>
             <point key="canvasLocation" x="184.5" y="91.5"/>
         </view>
     </objects>
     <resources>
-        <image name="nextImage" width="23" height="23"/>
         <image name="playIcon" width="30" height="30"/>
-        <image name="previousImage" width="23" height="23"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
 </document>

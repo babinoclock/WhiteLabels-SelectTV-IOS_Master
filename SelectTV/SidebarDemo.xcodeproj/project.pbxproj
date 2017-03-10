@@ -3329,6 +3329,18 @@
 		2B44A8C81E6FB9BF00281B5B /* New_Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDF6B81CD4899F00495544 /* New_Land_Cell_Ipad.xib */; };
 		2B44A8C91E6FB9BF00281B5B /* RadioListByGenreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDB0571C71A0B4006C28BB /* RadioListByGenreCell.xib */; };
 		2B44A8CA1E6FB9BF00281B5B /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FD3761B8D328100280C02 /* iPadStoryboard.storyboard */; };
+		2B4D03321E72D9E100BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		2B4D03331E72D9E100BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		2B4D03341E72D9E100BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		2B4D03351E72D9E100BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		2B4D03361E72D9E100BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		2B4D03371E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		2B4D03381E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		2B4D03391E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		2B4D033A1E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		2B4D033B1E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		2B4D033C1E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		2B4D033D1E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
 		2B55AB841E406869004C9A10 /* LoginBgNew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B55AB831E406869004C9A10 /* LoginBgNew.jpg */; };
 		2B59D3871E6D680C00221307 /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B59D38D1E6D6D5C00221307 /* appManagerStaticCustomCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D38C1E6D6D5C00221307 /* appManagerStaticCustomCollectionCell.xib */; };
@@ -4580,6 +4592,7 @@
 		2B44A8D21E6FB9BF00281B5B /* BroadView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroadView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B44A8D61E6FBE5100281B5B /* Arvig-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Arvig-Header.h"; sourceTree = "<group>"; };
 		2B44A8D91E6FC12400281B5B /* SmartCity-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartCity-Header.h"; sourceTree = "<group>"; };
+		2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IntroBackGroundImage.png; sourceTree = "<group>"; };
 		2B55AB831E406869004C9A10 /* LoginBgNew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoginBgNew.jpg; sourceTree = "<group>"; };
 		2B59D3831E6D680C00221307 /* appManagerStaticCustomCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appManagerStaticCustomCollectionCell.h; sourceTree = "<group>"; };
 		2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appManagerStaticCustomCollectionCell.m; sourceTree = "<group>"; };
@@ -5415,6 +5428,7 @@
 		2B1A797A1E6EA687006324AF /* SelectTV_Images_Folder */ = {
 			isa = PBXGroup;
 			children = (
+				2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */,
 				2B1A797B1E6EA687006324AF /* abcImage.jpeg */,
 				2B1A797C1E6EA687006324AF /* AddButton.png */,
 				2B1A797D1E6EA687006324AF /* backgroud_BG.png */,
@@ -6638,6 +6652,7 @@
 				2B1A7DB51E6ECB22006324AF /* NBC.png in Resources */,
 				2B1A7DB61E6ECB22006324AF /* ThumbnailVC.xib in Resources */,
 				2B1A7DB71E6ECB22006324AF /* OverTheAirCustomCell.xib in Resources */,
+				2B4D03331E72D9E100BACB4B /* IntroBackGroundImage.png in Resources */,
 				2B1A7DB81E6ECB22006324AF /* bg.png in Resources */,
 				2B1A7DB91E6ECB22006324AF /* netflix_active.png in Resources */,
 				2B1A7DBA1E6ECB22006324AF /* Disney-Junior.png in Resources */,
@@ -6850,6 +6865,7 @@
 				2B1A7F2B1E6EDA05006324AF /* ThumbnailVC.xib in Resources */,
 				2B1A7F2C1E6EDA05006324AF /* OverTheAirCustomCell.xib in Resources */,
 				2B1A7F2D1E6EDA05006324AF /* bg.png in Resources */,
+				2B4D03341E72D9E100BACB4B /* IntroBackGroundImage.png in Resources */,
 				2B1A7F2E1E6EDA05006324AF /* netflix_active.png in Resources */,
 				2B1A7F2F1E6EDA05006324AF /* Disney-Junior.png in Resources */,
 				2B1A7F301E6EDA05006324AF /* HBO-Now.png in Resources */,
@@ -7062,6 +7078,7 @@
 				2B1A80A11E6EE152006324AF /* ThumbnailVC.xib in Resources */,
 				2B1A80A21E6EE152006324AF /* OverTheAirCustomCell.xib in Resources */,
 				2B1A80A31E6EE152006324AF /* bg.png in Resources */,
+				2B4D03351E72D9E100BACB4B /* IntroBackGroundImage.png in Resources */,
 				2B1A80A41E6EE152006324AF /* netflix_active.png in Resources */,
 				2B1A80A51E6EE152006324AF /* Disney-Junior.png in Resources */,
 				2B1A80A61E6EE152006324AF /* HBO-Now.png in Resources */,
@@ -7274,6 +7291,7 @@
 				2B1A82131E6EE344006324AF /* ThumbnailVC.xib in Resources */,
 				2B1A82141E6EE344006324AF /* OverTheAirCustomCell.xib in Resources */,
 				2B1A82151E6EE344006324AF /* bg.png in Resources */,
+				2B4D03361E72D9E100BACB4B /* IntroBackGroundImage.png in Resources */,
 				2B1A82161E6EE344006324AF /* netflix_active.png in Resources */,
 				2B1A82171E6EE344006324AF /* Disney-Junior.png in Resources */,
 				2B1A82181E6EE344006324AF /* HBO-Now.png in Resources */,
@@ -7486,6 +7504,7 @@
 				2B1A83911E6EFA9D006324AF /* ThumbnailVC.xib in Resources */,
 				2B1A83921E6EFA9D006324AF /* OverTheAirCustomCell.xib in Resources */,
 				2B1A83931E6EFA9D006324AF /* bg.png in Resources */,
+				2B4D03371E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */,
 				2B1A83941E6EFA9D006324AF /* netflix_active.png in Resources */,
 				2B1A83951E6EFA9D006324AF /* Disney-Junior.png in Resources */,
 				2B1A83961E6EFA9D006324AF /* HBO-Now.png in Resources */,
@@ -7698,6 +7717,7 @@
 				2B44A3B71E6FB6A400281B5B /* ThumbnailVC.xib in Resources */,
 				2B44A3B81E6FB6A400281B5B /* OverTheAirCustomCell.xib in Resources */,
 				2B44A3B91E6FB6A400281B5B /* bg.png in Resources */,
+				2B4D03381E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */,
 				2B44A3BA1E6FB6A400281B5B /* netflix_active.png in Resources */,
 				2B44A3BB1E6FB6A400281B5B /* Disney-Junior.png in Resources */,
 				2B44A3BC1E6FB6A400281B5B /* HBO-Now.png in Resources */,
@@ -7910,6 +7930,7 @@
 				2B44A5291E6FB79D00281B5B /* ThumbnailVC.xib in Resources */,
 				2B44A52A1E6FB79D00281B5B /* OverTheAirCustomCell.xib in Resources */,
 				2B44A52B1E6FB79D00281B5B /* bg.png in Resources */,
+				2B4D03391E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */,
 				2B44A52C1E6FB79D00281B5B /* netflix_active.png in Resources */,
 				2B44A52D1E6FB79D00281B5B /* Disney-Junior.png in Resources */,
 				2B44A52E1E6FB79D00281B5B /* HBO-Now.png in Resources */,
@@ -8122,6 +8143,7 @@
 				2B44A69A1E6FB7A700281B5B /* ThumbnailVC.xib in Resources */,
 				2B44A69B1E6FB7A700281B5B /* OverTheAirCustomCell.xib in Resources */,
 				2B44A69C1E6FB7A700281B5B /* bg.png in Resources */,
+				2B4D033A1E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */,
 				2B44A69D1E6FB7A700281B5B /* netflix_active.png in Resources */,
 				2B44A69E1E6FB7A700281B5B /* Disney-Junior.png in Resources */,
 				2B44A69F1E6FB7A700281B5B /* HBO-Now.png in Resources */,
@@ -8334,6 +8356,7 @@
 				2B44A80D1E6FB9BF00281B5B /* ThumbnailVC.xib in Resources */,
 				2B44A80E1E6FB9BF00281B5B /* OverTheAirCustomCell.xib in Resources */,
 				2B44A80F1E6FB9BF00281B5B /* bg.png in Resources */,
+				2B4D033B1E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */,
 				2B44A8101E6FB9BF00281B5B /* netflix_active.png in Resources */,
 				2B44A8111E6FB9BF00281B5B /* Disney-Junior.png in Resources */,
 				2B44A8121E6FB9BF00281B5B /* HBO-Now.png in Resources */,
@@ -8546,6 +8569,7 @@
 				C9358ECF1E6FCD9700064818 /* NBC.png in Resources */,
 				C9358ED01E6FCD9700064818 /* ThumbnailVC.xib in Resources */,
 				C9358ED11E6FCD9700064818 /* OverTheAirCustomCell.xib in Resources */,
+				2B4D033C1E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */,
 				C9358ED21E6FCD9700064818 /* bg.png in Resources */,
 				C9358ED31E6FCD9700064818 /* netflix_active.png in Resources */,
 				C9358ED41E6FCD9700064818 /* Disney-Junior.png in Resources */,
@@ -8945,6 +8969,7 @@
 				C93591051E702BAF00064818 /* USA.png in Resources */,
 				C93591061E702BAF00064818 /* potraitLoader_network.jpg in Resources */,
 				C93591071E702BAF00064818 /* RentCell.xib in Resources */,
+				2B4D033D1E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */,
 				C93591081E702BAF00064818 /* New_Land_Cell_Ipad.xib in Resources */,
 				C93591091E702BAF00064818 /* RadioListByGenreCell.xib in Resources */,
 				C935910A1E702BAF00064818 /* iPadStoryboard.storyboard in Resources */,
@@ -8971,6 +8996,7 @@
 				2B1A79F81E6EAB86006324AF /* ThumbnailVC.xib in Resources */,
 				51CDACBB1D9521D700942839 /* OverTheAirCustomCell.xib in Resources */,
 				2B0DB06E1C90615800261ECD /* bg.png in Resources */,
+				2B4D03321E72D9E100BACB4B /* IntroBackGroundImage.png in Resources */,
 				2B2C94B91DFAE8E9009CE773 /* netflix_active.png in Resources */,
 				2B59D3D11E6D8BE800221307 /* Disney-Junior.png in Resources */,
 				2B59D3D81E6D8BE800221307 /* HBO-Now.png in Resources */,

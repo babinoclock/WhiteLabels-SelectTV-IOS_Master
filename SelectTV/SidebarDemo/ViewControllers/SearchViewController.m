@@ -224,6 +224,8 @@ int nSearchHeight=200;
     _headerScroll.selectionIndicatorColor = [UIColor whiteColor];
     _headerScroll.selectedSegmentIndex = visibleSection;
     
+    showHeaderView.backgroundColor = [COMMON Common_Gray_BG_Color];
+    _headerScroll.backgroundColor = [COMMON Common_Gray_BG_Color];
     
     [_headerScroll addTarget:self action:@selector(segmentedControlChangedValueSearchPage:) forControlEvents:UIControlEventValueChanged];
     
@@ -232,7 +234,7 @@ int nSearchHeight=200;
         
         if (selected) {
             
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor yellowColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
             segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
             
@@ -240,7 +242,7 @@ int nSearchHeight=200;
             
             return attString;
         } else {
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Light_BG_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
             segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
             

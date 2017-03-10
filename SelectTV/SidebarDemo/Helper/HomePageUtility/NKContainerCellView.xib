@@ -59,7 +59,7 @@
                         <constraint firstAttribute="height" constant="25" id="OZx-FZ-6cH"/>
                     </constraints>
                     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal" backgroundImage="nextImage">
+                    <state key="normal">
                         <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
@@ -74,7 +74,7 @@
                         <constraint firstAttribute="width" constant="24" id="ZKv-to-MN8"/>
                     </constraints>
                     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal" backgroundImage="previousImage">
+                    <state key="normal">
                         <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
@@ -103,14 +103,12 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="collectionView" destination="suJ-16-mkd" id="xWE-27-1Ex"/>
+                <outlet property="leftBtnArrow" destination="Ie6-jV-tlT" id="8gG-cR-EMS"/>
+                <outlet property="rightBtnArrow" destination="xJm-OI-EtB" id="Fxm-t0-pdl"/>
             </connections>
             <point key="canvasLocation" x="295.5" y="72.5"/>
         </view>
     </objects>
-    <resources>
-        <image name="nextImage" width="23" height="23"/>
-        <image name="previousImage" width="23" height="23"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

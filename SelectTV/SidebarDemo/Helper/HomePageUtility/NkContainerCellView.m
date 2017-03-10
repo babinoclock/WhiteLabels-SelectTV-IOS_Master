@@ -46,6 +46,20 @@
         [weakSelf _edgeInsetsToFit];
     });
     
+    //nextImage
+    //previousImage
+    
+    //[_leftBtnArrow setImage:@"" forState:UIControlStateNormal];
+   // [_rightBtnArrow setImage:@"" forState:UIControlStateNormal];
+    
+    [_leftBtnArrow setImage:[[UIImage imageNamed:@"previousImage"]
+                             imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
+    [_rightBtnArrow setImage:[[UIImage imageNamed:@"nextImage"]
+                             imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
+    
+    [_leftBtnArrow setTintColor:[UIColor whiteColor]];
+    [_rightBtnArrow setTintColor:[UIColor whiteColor]];
+    
 }
 
 - (void)_edgeInsetsToFit {

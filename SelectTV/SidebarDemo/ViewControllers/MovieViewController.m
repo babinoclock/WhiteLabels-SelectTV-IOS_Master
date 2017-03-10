@@ -280,7 +280,7 @@ UITableView* tableChannelList;
     isAddActionCalled=NO;
     
     //new chnage hidding for the static app manager
-   // [self getAppsCategoryData];
+    [self getAppsCategoryData];
    
     [self setUpManualArray];
     
@@ -641,7 +641,9 @@ UITableView* tableChannelList;
 //    }
     allLabel.text = AllStr;
     //[allLabel setBackgroundColor:[UIColor grayColor]];
-    [allLabel setTextColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]];
+    //[allLabel setTextColor:[COMMON Common_Light_BG_Color]];
+    //new
+    [allLabel setTextColor:[COMMON Common_Light_BG_Color]];
     //[allLabel setTextColor:[UIColor colorWithRed:28.0f/255.0f green:134.0f/255.0f blue:238.0f/255.0f alpha:1]];
     CGRect allLabelFrame = allLabel.frame;
     CGFloat allLabelFrameMaxX = CGRectGetMaxX(allLabelFrame);
@@ -719,14 +721,19 @@ UITableView* tableChannelList;
    
     if (onoff.on){
         //FREE
-        [allLabel setTextColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]];
+       // [allLabel setTextColor:[COMMON Common_Light_BG_Color]];
+        
+        //new
+        [allLabel setTextColor:[COMMON Common_Light_BG_Color]];
         [freeLabel setTextColor:[UIColor whiteColor]];
         commonPPV = PAY_MODE_FREE;
         
     }
     else {
         //ALL
-        [freeLabel setTextColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]];
+        //[freeLabel setTextColor:[COMMON Common_Light_BG_Color]];
+        //new
+        [freeLabel setTextColor:[COMMON Common_Light_BG_Color]];
         [allLabel setTextColor:[UIColor whiteColor]];
         commonPPV = PAY_MODE_ALL;
     }
@@ -735,7 +742,10 @@ UITableView* tableChannelList;
 }
 - (void)tapFreeAction:(id)sender {
     isAllFreeSwitch=YES;
-    [allLabel setTextColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]];
+    //[allLabel setTextColor:[COMMON Common_Light_BG_Color]];
+    
+    //new
+    [allLabel setTextColor:[COMMON Common_Light_BG_Color]];
     [freeLabel setTextColor:[UIColor whiteColor]];
     [freeSwitch setOn:YES animated:YES];
     commonPPV = PAY_MODE_FREE;
@@ -744,7 +754,8 @@ UITableView* tableChannelList;
 }
 - (void)tapAllAction:(id)sender {
     isAllFreeSwitch=YES;
-    [freeLabel setTextColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]];
+    //[freeLabel setTextColor:[COMMON Common_Light_BG_Color]];
+     [freeLabel setTextColor:[COMMON Common_Light_BG_Color]];
     [allLabel setTextColor:[UIColor whiteColor]];
     [freeSwitch setOn:NO animated:YES];
     commonPPV = PAY_MODE_ALL;
@@ -2659,9 +2670,9 @@ UITableView* tableChannelList;
         NSString *videoPlayed = [COMMON getDemoVideoPlayed];
         if(![videoPlayed isEqualToString:@"isVideoPlayed"]||videoPlayed==nil){
             [downloadView setHidden:YES];
-            if(isVideoClosed==YES && isiPhoneViewPage==YES){
-                [self getOnDemandAppsForUser];
-            }
+//            if(isVideoClosed==YES && isiPhoneViewPage==YES){
+//                [self getOnDemandAppsForUser];
+//            }
         }
         else{
             [downloadView setHidden:NO];
@@ -2958,9 +2969,9 @@ UITableView* tableChannelList;
         NSString *videoPlayed = [COMMON getDemoVideoPlayed];
         if(![videoPlayed isEqualToString:@"isVideoPlayed"]||videoPlayed==nil){
             [downloadView setHidden:YES];
-            if(isVideoClosed==YES && isiPhoneViewPage==YES){
-                [self getOnDemandAppsForUser];
-            }
+//            if(isVideoClosed==YES && isiPhoneViewPage==YES){
+//                [self getOnDemandAppsForUser];
+//            }
         }
         else{
             [downloadView setHidden:NO];
@@ -3214,14 +3225,26 @@ UITableView* tableChannelList;
    
 
 }
+//new code
 -(void)continueBtnHideAction{
    
-    [self getOnDemandAppsForUser];
+   // [self getOnDemandAppsForUser];
     
     //[_playerBgView removeFromSuperview];
 //    [downloadView setBackgroundColor:[UIColor whiteColor]];
    // [[NSUserDefaults standardUserDefaults] setObject:@"isVideoPlayed" forKey:DEMO_VIDEO_PLAYED];
   //  [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    
+    [self.playerView stopVideo];
+    
+    [_playerBgView setHidden:YES];
+    [_playerBgView removeFromSuperview];
+    [downloadView setHidden:NO];
+    //    [downloadView setBackgroundColor:[UIColor whiteColor]];
+    [[NSUserDefaults standardUserDefaults] setObject:@"isVideoPlayed" forKey:DEMO_VIDEO_PLAYED];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+
 }
 -(void)continueActionForAppPage{
     
@@ -3515,7 +3538,9 @@ UITableView* tableChannelList;
         [_appDownloadTableView reloadData];
 //        [_appDownloadCollectionView reloadData];
         [installedLabel setTextColor:[UIColor colorWithRed:28.0f/255.0f green:134.0f/255.0f blue:238.0f/255.0f alpha:1]];
-        [notIntalledLabel setTextColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]];
+       // [notIntalledLabel setTextColor:[COMMON Common_Light_BG_Color]];
+        [notIntalledLabel setTextColor:[COMMON Common_Light_BG_Color]];
+
     }
     else {
         //installed
@@ -3523,7 +3548,9 @@ UITableView* tableChannelList;
         //installedArray=appTitleArray;
         //[self loadAppInstalledListArrayBundleIdentifier];
         
-        [installedLabel setTextColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]];
+        [installedLabel setTextColor:[COMMON Common_Light_BG_Color]];
+
+       // [installedLabel setTextColor:[COMMON Common_Light_BG_Color]];
         [notIntalledLabel setTextColor:[UIColor colorWithRed:28.0f/255.0f green:134.0f/255.0f blue:238.0f/255.0f alpha:1]];
        // [sender setThumbTintColor:[UIColor colorWithRed:28.0f/255.0f green:134.0f/255.0f blue:238.0f/255.0f alpha:1]];
     }
@@ -6082,7 +6109,7 @@ UITableView* tableChannelList;
     searchBarView.delegate = self;
     [searchBarView setTintColor:[UIColor whiteColor]];
    // searchBarView.barTintColor = [UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
-    searchBarView.backgroundColor = GRAY_BG_COLOR;
+   // searchBarView.backgroundColor = GRAY_BG_COLOR;
     searchBarView.autocorrectionType = UITextAutocorrectionTypeNo;
     for (id subView in ((UIView *)[searchBarView.subviews objectAtIndex:0]).subviews) {
         //UITextField *searchTextField;
@@ -6090,9 +6117,13 @@ UITableView* tableChannelList;
             searchTextField = subView;
             searchTextField.keyboardAppearance = UIKeyboardAppearanceLight;
             //[searchTextField setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:116.0f/255.0f blue:203.0f/255.0f alpha:1]];
-            searchTextField.backgroundColor = GRAY_BG_COLOR;
+            //searchTextField.backgroundColor = GRAY_BG_COLOR;
+            //searchTextField.textColor =[UIColor whiteColor];
+           // UIColor *color = [UIColor colorWithRed:119.0f/255.0f green:176.0f/255.0f blue:216.0f/255.0f alpha:1];
+            
             searchTextField.textColor =[UIColor whiteColor];
-            UIColor *color = [UIColor colorWithRed:119.0f/255.0f green:176.0f/255.0f blue:216.0f/255.0f alpha:1];
+            searchTextField.backgroundColor = [COMMON Common_Screen_BG_Color];
+            UIColor *color = [UIColor whiteColor];
             searchTextField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"Search title, actor or movie" attributes:@{NSForegroundColorAttributeName: color}];
             break;
         }
@@ -6969,10 +7000,10 @@ UITableView* tableChannelList;
     
     if(isDownloadAppViewHidden==NO){
         
-       // [self setUpDownloadAppView];
+        [self setUpDownloadAppView];
         
         //new change
-        [self setUpNewStaticDownloadAppView];
+        //[self setUpNewStaticDownloadAppView];
     }
     if(isDownloadAppViewHidden==YES){
         //[self hideDownloadView];
@@ -7113,10 +7144,12 @@ UITableView* tableChannelList;
     else{
         [_searchButton setHidden:NO];
         [_searchButton removeFromSuperview];
-        if(appManagerDoneClicked==YES){
-            [self setUpSearchBarInNavigation];
-            [self setScrollHeader];
-        }
+        
+        //new code
+//        if(appManagerDoneClicked==YES){
+//            [self setUpSearchBarInNavigation];
+//            [self setScrollHeader];
+//        }
     }
     
     if(portraitBool==YES){

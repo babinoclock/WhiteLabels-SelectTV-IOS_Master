@@ -26,6 +26,9 @@
 #import <Availability.h>
 #import <objc/runtime.h>
 
+#import "AppCommon.h"
+#import "AppConfig.h"
+
 #define kTTTLineBreakWordWrapTextWidthScalingFactor (M_PI / M_E)
 
 static CGFloat const TTTFLOAT_MAX = 100000;
@@ -364,13 +367,13 @@ static inline CGSize CTFramesetterSuggestFrameSizeForAttributedStringWithConstra
     NSMutableDictionary *mutableInactiveLinkAttributes = [NSMutableDictionary dictionary];
     [mutableInactiveLinkAttributes setObject:[NSNumber numberWithBool:NO] forKey:(NSString *)kCTUnderlineStyleAttributeName];
 
-    //blue color is changed to [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]
+    //blue color is changed to [COMMON Common_Light_BG_Color]
     if ([NSMutableParagraphStyle class]) {
-        [mutableLinkAttributes setObject:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forKey:(NSString *)kCTForegroundColorAttributeName];
+        [mutableLinkAttributes setObject:[COMMON Common_Light_BG_Color] forKey:(NSString *)kCTForegroundColorAttributeName];
         [mutableActiveLinkAttributes setObject:[UIColor redColor] forKey:(NSString *)kCTForegroundColorAttributeName];
         [mutableInactiveLinkAttributes setObject:[UIColor grayColor] forKey:(NSString *)kCTForegroundColorAttributeName];
     } else {
-        [mutableLinkAttributes setObject:(__bridge id)[[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] CGColor] forKey:(NSString *)kCTForegroundColorAttributeName];
+        [mutableLinkAttributes setObject:(__bridge id)[[COMMON Common_Light_BG_Color] CGColor] forKey:(NSString *)kCTForegroundColorAttributeName];
         [mutableActiveLinkAttributes setObject:(__bridge id)[[UIColor redColor] CGColor] forKey:(NSString *)kCTForegroundColorAttributeName];
         [mutableInactiveLinkAttributes setObject:(__bridge id)[[UIColor grayColor] CGColor] forKey:(NSString *)kCTForegroundColorAttributeName];
     }

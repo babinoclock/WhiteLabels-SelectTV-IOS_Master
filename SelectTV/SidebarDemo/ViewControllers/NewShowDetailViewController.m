@@ -710,7 +710,10 @@ CustomIOS7AlertView *appListFullPopUpView;
     {
         CALayer *TopBorder2 = [CALayer layer];
         TopBorder2.frame = CGRectMake(0.0f,  _addedExtraView.frame.size.height-1.0f, _addedExtraView.frame.size.width, 1.5f);
-        TopBorder2.backgroundColor = [[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]CGColor];
+       // TopBorder2.backgroundColor = [[COMMON Common_Light_BG_Color]CGColor];
+        
+        TopBorder2.backgroundColor = [[COMMON Common_Light_BG_Color]CGColor];
+
         [_addedExtraView.layer addSublayer:TopBorder2];
         [_addedExtraView setBackgroundColor:[UIColor clearColor]];
     }
@@ -1274,7 +1277,8 @@ CustomIOS7AlertView *appListFullPopUpView;
     
     if(![strRating isEqualToString:@""]){
         [self.runtimeLabel setText:[NSString stringWithFormat:@"%@", strRating]];
-        [_runtimeLabel setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:186.0/255.0f alpha:1]];
+       // [_runtimeLabel setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:186.0/255.0f alpha:1]];
+        [_runtimeLabel setBackgroundColor:[COMMON Common_Light_BG_Color]];
 
     }
     [self.runtimeDataLabel setText:ratingNetworkStr];
@@ -1413,7 +1417,7 @@ CustomIOS7AlertView *appListFullPopUpView;
     [self.despLabel setFont:[COMMON getResizeableFont:Roboto_Regular(11)]];
     self.despLabel.numberOfLines = 2;
     NSAttributedString *showMore = [[NSAttributedString alloc] initWithString:@" more..." attributes:@{
-                                                                                                       NSForegroundColorAttributeName:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1],NSFontAttributeName : [COMMON getResizeableFont:Roboto_Regular(11)],NSLinkAttributeName : [NSURL URLWithString:@"more..."]}];
+                                                                                                       NSForegroundColorAttributeName:[COMMON Common_Light_BG_Color],NSFontAttributeName : [COMMON getResizeableFont:Roboto_Regular(11)],NSLinkAttributeName : [NSURL URLWithString:@"more..."]}];
     
     [despLabel setAttributedTruncationToken:showMore];
     if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ){
@@ -1503,7 +1507,7 @@ CustomIOS7AlertView *appListFullPopUpView;
             //code
             NSRange linkRange = [[mutableAttributedString string] rangeOfString:@"less..." options:NSCaseInsensitiveSearch];
     //less...
-            [mutableAttributedString addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] range:linkRange];
+            [mutableAttributedString addAttribute:NSForegroundColorAttributeName value:[COMMON Common_Light_BG_Color] range:linkRange];
             [mutableAttributedString addAttribute:NSFontAttributeName value:[COMMON getResizeableFont:Roboto_Regular(11)] range:linkRange];
             [mutableAttributedString addAttribute:NSLinkAttributeName value:[NSURL URLWithString:@"less..."] range:linkRange];//less...
             
@@ -1512,7 +1516,7 @@ CustomIOS7AlertView *appListFullPopUpView;
         
        //less...
         NSAttributedString *showMore = [[NSAttributedString alloc] initWithString:@"less..." attributes:@{
-                                                                                                           NSForegroundColorAttributeName:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1],
+                                                                                                           NSForegroundColorAttributeName:[COMMON Common_Light_BG_Color],
                                                                                                            NSFontAttributeName : [COMMON getResizeableFont:Roboto_Regular(11)],
                                                                                                            NSLinkAttributeName : [NSURL URLWithString:@"less..."]
                                                                                                            }];//less...
@@ -1530,7 +1534,7 @@ CustomIOS7AlertView *appListFullPopUpView;
     despLabel.numberOfLines = 2;
     
     NSAttributedString *showMore = [[NSAttributedString alloc] initWithString:@" more..." attributes:@{
-                                                                                                       NSForegroundColorAttributeName:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1],
+                                                                                                       NSForegroundColorAttributeName:[COMMON Common_Light_BG_Color],
                                                                                                        NSFontAttributeName : [COMMON getResizeableFont:Roboto_Regular(11)],
                                                                                                        NSLinkAttributeName : [NSURL URLWithString:@"more..."]
                                                                                                        }];
@@ -1642,8 +1646,9 @@ CustomIOS7AlertView *appListFullPopUpView;
     [self.runtimeDataLabel setText:ratingNetworkStr];
     if(![strRating isEqualToString:@""]){
         [self.runtimeLabel setText:[NSString stringWithFormat:@"%@", strRating]];
-        [_runtimeLabel setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:186.0/255.0f alpha:1]];
-   
+       // [_runtimeLabel setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:186.0/255.0f alpha:1]];
+        [_runtimeLabel setBackgroundColor:[COMMON Common_Light_BG_Color]];
+
     }
     _runtimeDataLabel.numberOfLines=0;
     _runtimeLabel.textColor = [UIColor whiteColor];
@@ -2004,7 +2009,7 @@ CustomIOS7AlertView *appListFullPopUpView;
     //CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
     UIView *appListTopBorder;
     appListTopBorder = [[UIView alloc] initWithFrame:CGRectMake(1, 0,appListTopBorderWidth,1.5)];
-    appListTopBorder.backgroundColor = [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1];
+    appListTopBorder.backgroundColor = [COMMON Common_Light_BG_Color];
     [appListTopBorder setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin];
     //[appListView addSubview:appListTopBorder];
     
@@ -2054,7 +2059,7 @@ CustomIOS7AlertView *appListFullPopUpView;
     rentLabel.text = @"BUY/RENT";
     [rentLabel setTextAlignment:NSTextAlignmentLeft];
     [rentLabel setBackgroundColor:[UIColor clearColor]];
-    [rentLabel setTextColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]];
+    [rentLabel setTextColor:[COMMON Common_Light_BG_Color]];
     
     CGFloat btnViewXPos = (freeRentView.frame.origin.x + freeRentView.frame.size.width);
     CGFloat btnViewWidth = 0.0f;
@@ -2075,7 +2080,7 @@ CustomIOS7AlertView *appListFullPopUpView;
     sdBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     sdBtn.layer.cornerRadius = 2.0f;
     sdBtn.clipsToBounds = YES;
-    [sdBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [sdBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     sdBtn.titleLabel.font = [COMMON getResizeableFont:Roboto_Bold(12)];
     sdBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
     [sdBtn addTarget:self action:@selector(SDShowAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -2084,7 +2089,7 @@ CustomIOS7AlertView *appListFullPopUpView;
     hdBtn = [[UIButton alloc]initWithFrame:CGRectMake(hdBtnXPos, 10, commonSDBtnWidth, commonSDBtnHeight)];
     [hdBtn setTitle:@"HD" forState:UIControlStateNormal];
     hdBtn.layer.borderWidth = 2.0f;
-    hdBtn.layer.borderColor = [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1].CGColor;
+    hdBtn.layer.borderColor = [COMMON Common_Light_BG_Color].CGColor;
     hdBtn.layer.cornerRadius = 2.0f;
     hdBtn.clipsToBounds = YES;
     [hdBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -2099,7 +2104,7 @@ CustomIOS7AlertView *appListFullPopUpView;
     hdxBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     hdxBtn.layer.cornerRadius = 2.0f;
     hdxBtn.clipsToBounds = YES;
-    [hdxBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [hdxBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     hdxBtn.titleLabel.font = [COMMON getResizeableFont:Roboto_Bold(12)];
     hdxBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
     [hdxBtn addTarget:self action:@selector(HDXAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -2609,13 +2614,13 @@ CustomIOS7AlertView *appListFullPopUpView;
 }
 #pragma  mark - SDShowAction-HDShowAction-HDXAction
 -(void)SDShowAction:(id)sender{
-    [sdBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [sdBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     sdBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     
     [hdBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    hdBtn.layer.borderColor = [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1].CGColor;
+    hdBtn.layer.borderColor = [COMMON Common_Light_BG_Color].CGColor;
     
-    [hdxBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [hdxBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     hdxBtn.layer.borderColor = [UIColor whiteColor].CGColor;
         
     isSDClicked  = YES;
@@ -2625,12 +2630,12 @@ CustomIOS7AlertView *appListFullPopUpView;
 }
 -(void)HDShowAction:(id)sender{
     [sdBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    sdBtn.layer.borderColor = [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1].CGColor;
+    sdBtn.layer.borderColor = [COMMON Common_Light_BG_Color].CGColor;
     
     [hdBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     hdBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     
-    [hdxBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [hdxBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     hdxBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     isSDClicked  = NO;
     isHDClicked  = YES;
@@ -2638,14 +2643,14 @@ CustomIOS7AlertView *appListFullPopUpView;
     [self loadLatestAppListScrollViewData:appShowAllItems];
 }
 -(void)HDXAction:(id)sender{
-    [sdBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [sdBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     sdBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     
-    [hdBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [hdBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     hdBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     
     [hdxBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    hdxBtn.layer.borderColor = [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1].CGColor;
+    hdxBtn.layer.borderColor = [COMMON Common_Light_BG_Color].CGColor;
     isSDClicked  = NO;
     isHDClicked  = NO;
     isHDXClicked = YES;

@@ -543,6 +543,10 @@ NSString *THUMBNAIL_STATION_URL = @"http://img.youtube.com/vi/";
     _headerScroll.selectedSegmentIndex = detailPageVisibleSection;
     
     
+    showHeaderView.backgroundColor = [COMMON Common_Gray_BG_Color];
+    _headerScroll.backgroundColor = [COMMON Common_Gray_BG_Color];
+    
+    
     [_headerScroll addTarget:self action:@selector(segmentedControlChangedValueSearchPage:) forControlEvents:UIControlEventValueChanged];
     
     [_headerScroll setTitleFormatter:^NSAttributedString *(HMSegmentedControl *segmentedControl, NSString *title, NSUInteger index, BOOL selected) {
@@ -550,7 +554,7 @@ NSString *THUMBNAIL_STATION_URL = @"http://img.youtube.com/vi/";
         
         if (selected) {
             
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor yellowColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
             segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
             
@@ -558,7 +562,7 @@ NSString *THUMBNAIL_STATION_URL = @"http://img.youtube.com/vi/";
             
             return attString;
         } else {
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Light_BG_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
             segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
             

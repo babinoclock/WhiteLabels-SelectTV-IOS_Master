@@ -773,7 +773,11 @@ int nAppHeight = 120;
     //CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
     UIView *appListTopBorder;
     appListTopBorder = [[UIView alloc] initWithFrame:CGRectMake(1, 0,appListView.frame.size.width,1.5)];
-    appListTopBorder.backgroundColor = [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1];//blue
+   // appListTopBorder.backgroundColor = [COMMON Common_Light_BG_Color];//blue
+    
+    appListTopBorder.backgroundColor =[COMMON Common_Light_BG_Color];
+
+    
     [appListTopBorder setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin];
     //[appListView addSubview:appListTopBorder];
     
@@ -836,7 +840,7 @@ int nAppHeight = 120;
     rentLabel.text = @"BUY/RENT";
     [rentLabel setTextAlignment:NSTextAlignmentLeft];
     [rentLabel setBackgroundColor:[UIColor clearColor]];
-    [rentLabel setTextColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1]];
+    [rentLabel setTextColor:[COMMON Common_Light_BG_Color]];//[COMMON Common_Light_BG_Color]];
     [rentLabel setFont:[COMMON getResizeableFont:Roboto_Bold(5)]];
     
     CGFloat btnViewXPos = (freeRentView.frame.origin.x + freeRentView.frame.size.width);
@@ -845,10 +849,13 @@ int nAppHeight = 120;
     sdBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 10, commonSDBtnWidth, commonSDBtnHeight)];
     [sdBtn setTitle:@"SD" forState:UIControlStateNormal];
     sdBtn.layer.borderWidth = 2.0f;
-    sdBtn.layer.borderColor = [UIColor whiteColor].CGColor;//[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1].CGColor;
+    sdBtn.layer.borderColor = [UIColor whiteColor].CGColor;//[COMMON Common_Light_BG_Color].CGColor;
     sdBtn.layer.cornerRadius = 2.0f;
     sdBtn.clipsToBounds = YES;
-    [sdBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    //[sdBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
+     [sdBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
+    
+    
     sdBtn.titleLabel.font = [COMMON getResizeableFont:Roboto_Bold(12)];
     sdBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
     [sdBtn addTarget:self action:@selector(SDAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -857,7 +864,7 @@ int nAppHeight = 120;
     hdBtn = [[UIButton alloc]initWithFrame:CGRectMake(hdBtnXPos, 10, commonSDBtnWidth, commonSDBtnHeight)];
     [hdBtn setTitle:@"HD" forState:UIControlStateNormal];
     hdBtn.layer.borderWidth = 2.0f;
-    hdBtn.layer.borderColor =[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1].CGColor;
+    hdBtn.layer.borderColor =[COMMON Common_Light_BG_Color].CGColor;
     hdBtn.layer.cornerRadius = 2.0f;
     hdBtn.clipsToBounds = YES;
     [hdBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -872,7 +879,7 @@ int nAppHeight = 120;
     hdxBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     hdxBtn.layer.cornerRadius = 2.0f;
     hdxBtn.clipsToBounds = YES;
-    [hdxBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [hdxBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     hdxBtn.titleLabel.font = [COMMON getResizeableFont:Roboto_Bold(12)];
     hdxBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
     [hdxBtn addTarget:self action:@selector(HDXAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -959,13 +966,13 @@ int nAppHeight = 120;
 }
 
 -(void)SDAction:(id)sender{
-    [sdBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [sdBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     sdBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     
     [hdBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    hdBtn.layer.borderColor = [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1].CGColor;
+    hdBtn.layer.borderColor = [COMMON Common_Light_BG_Color].CGColor;
     
-    [hdxBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [hdxBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     hdxBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     isSDClicked  = YES;
     isHDClicked  = NO;
@@ -974,12 +981,12 @@ int nAppHeight = 120;
 }
 -(void)HDAction:(id)sender{
     [sdBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    sdBtn.layer.borderColor = [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1].CGColor;
+    sdBtn.layer.borderColor = [COMMON Common_Light_BG_Color].CGColor;
     
-    [hdBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [hdBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     hdBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     
-    [hdxBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [hdxBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     hdxBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     isSDClicked  = NO;
     isHDClicked  = YES;
@@ -987,14 +994,14 @@ int nAppHeight = 120;
     [self loadMovieLatestAppListScrollViewData:appShowAllItems];
 }
 -(void)HDXAction:(id)sender{
-    [sdBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [sdBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     sdBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     
-    [hdBtn setTitleColor:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] forState:UIControlStateNormal];
+    [hdBtn setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
     hdBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     
     [hdxBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    hdxBtn.layer.borderColor = [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1].CGColor;
+    hdxBtn.layer.borderColor = [COMMON Common_Light_BG_Color].CGColor;
     isSDClicked  = NO;
     isHDClicked  = NO;
     isHDXClicked = YES;
@@ -1526,7 +1533,9 @@ int nAppHeight = 120;
     
     if(![strRating isEqualToString:@""]){
         [self.ratingLabel setText:[NSString stringWithFormat:@"%@", strRating]];
-        [_ratingLabel setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:186.0/255.0f alpha:1]];
+       // [_ratingLabel setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:186.0/255.0f alpha:1]];
+        [_ratingLabel setBackgroundColor:[COMMON Common_Light_BG_Color]];
+        
     }
     _runTimeLabel.textColor = [UIColor whiteColor];
     _ratingLabel.textColor = [UIColor whiteColor];
@@ -1633,7 +1642,8 @@ int nAppHeight = 120;
     
     if(![strRating isEqualToString:@""]){
         [self.ratingLabel setText:[NSString stringWithFormat:@"%@", strRating]];
-        [_ratingLabel setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:186.0/255.0f alpha:1]];
+        //[_ratingLabel setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:186.0/255.0f alpha:1]];
+        [_ratingLabel setBackgroundColor:[COMMON Common_Light_BG_Color]];
     }
     [_ratingLabel setTextAlignment:NSTextAlignmentCenter];
     [_ratingLabel setFont:[COMMON getResizeableFont:Roboto_Regular(13)]];
@@ -1685,7 +1695,7 @@ int nAppHeight = 120;
     [self.despLabel setFont:[COMMON getResizeableFont:Roboto_Regular(11)]];
     self.despLabel.numberOfLines = 2;
     NSAttributedString *showMore = [[NSAttributedString alloc] initWithString:@" more..." attributes:@{
-                                                                                                       NSForegroundColorAttributeName:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1],NSFontAttributeName : [COMMON getResizeableFont:Roboto_Regular(11)],NSLinkAttributeName : [NSURL URLWithString:@"more..."]}];
+                                                                                                       NSForegroundColorAttributeName:[COMMON Common_Light_BG_Color],NSFontAttributeName : [COMMON getResizeableFont:Roboto_Regular(11)],NSLinkAttributeName : [NSURL URLWithString:@"more..."]}];
     
     [despLabel setAttributedTruncationToken:showMore];
      if([self isDeviceIpad]==YES) {
@@ -1767,7 +1777,7 @@ int nAppHeight = 120;
             //code
             NSRange linkRange = [[mutableAttributedString string] rangeOfString:@" less..." options:NSCaseInsensitiveSearch];
             
-            [mutableAttributedString addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1] range:linkRange];
+            [mutableAttributedString addAttribute:NSForegroundColorAttributeName value:[COMMON Common_Light_BG_Color] range:linkRange];
             [mutableAttributedString addAttribute:NSFontAttributeName value:[COMMON getResizeableFont:Roboto_Regular(11)] range:linkRange];
             [mutableAttributedString addAttribute:NSLinkAttributeName value:[NSURL URLWithString:@"less..."] range:linkRange];
             
@@ -1777,7 +1787,7 @@ int nAppHeight = 120;
         
         
         NSAttributedString *showMore = [[NSAttributedString alloc] initWithString:@" less..." attributes:@{
-                                                                                                           NSForegroundColorAttributeName:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1],
+                                                                                                           NSForegroundColorAttributeName:[COMMON Common_Light_BG_Color],
                                                                                                            NSFontAttributeName : [COMMON getResizeableFont:Roboto_Regular(11)],
                                                                                                            NSLinkAttributeName : [NSURL URLWithString:@"less..."]
                                                                                                            }];
@@ -1795,7 +1805,7 @@ int nAppHeight = 120;
 -(void)addLessToString{
     despLabel.numberOfLines = 2;
     NSAttributedString *showMore = [[NSAttributedString alloc] initWithString:@" more..." attributes:@{
-                                                                                                       NSForegroundColorAttributeName:[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1],
+                                                                                                       NSForegroundColorAttributeName:[COMMON Common_Light_BG_Color],
                                                                                                        NSFontAttributeName : [COMMON getResizeableFont:Roboto_Regular(11)],
                                                                                                        NSLinkAttributeName : [NSURL URLWithString:@"more..."]
                                                                                                        }];

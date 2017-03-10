@@ -366,9 +366,12 @@ int nSubCellHeight = 200;
             searchTextField = subView;
             searchTextField.keyboardAppearance = UIKeyboardAppearanceLight;
             //[searchTextField setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:116.0f/255.0f blue:203.0f/255.0f alpha:1]];
-            searchTextField.backgroundColor = GRAY_BG_COLOR;
+           // searchTextField.backgroundColor = GRAY_BG_COLOR;
+            ///searchTextField.textColor =[UIColor whiteColor];
+           // UIColor *color = [UIColor colorWithRed:119.0f/255.0f green:176.0f/255.0f blue:216.0f/255.0f alpha:1];
             searchTextField.textColor =[UIColor whiteColor];
-            UIColor *color = [UIColor colorWithRed:119.0f/255.0f green:176.0f/255.0f blue:216.0f/255.0f alpha:1];
+            searchTextField.backgroundColor = [COMMON Common_Screen_BG_Color];
+            UIColor *color = [UIColor whiteColor];
             searchTextField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"Search title, actor or movie" attributes:@{NSForegroundColorAttributeName: color}];
             break;
         }
@@ -664,7 +667,7 @@ int nSubCellHeight = 200;
     [subScriptionView addSubview:switchView];
     
     UIView *topBorder = [[UIView alloc] initWithFrame:CGRectMake(15, CGRectGetMaxY(satelliteView.frame),SCREEN_WIDTH-5,1.0)];
-    topBorder.backgroundColor = [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1];
+    topBorder.backgroundColor = [COMMON Common_Light_BG_Color];
     [topBorder setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin];
     [subScriptionView addSubview:topBorder];
     

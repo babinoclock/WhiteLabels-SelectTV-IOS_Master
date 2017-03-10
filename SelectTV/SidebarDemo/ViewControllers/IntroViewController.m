@@ -58,7 +58,7 @@
         [COMMON removeSideBarStaticArrayList];
     }
      [_splashImage setHidden:YES];
-    _splashImage.image =[UIImage imageNamed:SplashScreenImageName];
+    //_splashImage.image =[UIImage imageNamed:SplashScreenImageName];
     
     syncAPIDataCount = 14.0f;
     currentProgress = 0.0f;
@@ -66,15 +66,16 @@
     
    // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"SplashScreenImage"]];
     
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"IntroBackGroundImage.png"]];
+    
+    _splashImage.image =[UIImage imageNamed:@"IntroBackGroundImage.png"];
+    
+    
     [self.navigationController.navigationBar setHidden:YES];
     [self.view setUserInteractionEnabled:YES];
     
-    
-    
-    
     NSString *videoPlayed = [COMMON getIntroVideoPlayed];
     
-    videoPlayed =nil;
     
     if(![videoPlayed isEqualToString:@"introPlayed"]||videoPlayed==nil){
         [_splashImage setHidden:YES];
@@ -111,10 +112,13 @@
     CGFloat fontSize = 10;
     CGFloat doneBtnHeight = 40;
     CGFloat BtnXPos= CGRectGetMaxX(currentVideoView.frame)-50;
+    CGFloat btnWidth = 110;
+    
     if([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad){
         fontSize =14;
         BtnXPos= CGRectGetMaxX(currentVideoView.frame)-80;
         doneBtnHeight = 50;
+        btnWidth = 140;
     }
     
     UILabel *welcomeLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 10, SCREEN_WIDTH-40, 30)];
@@ -125,7 +129,7 @@
     welcomeLabel.font = [COMMON getResizeableFont:Roboto_Bold(fontSize)];
     
     
-    CGFloat btnWidth = 110;
+    
     CGFloat btnXPos = SCREEN_WIDTH/2-50;
     CGFloat btnYPos = SCREEN_HEIGHT-(doneBtnHeight*2);
     
@@ -190,10 +194,31 @@
     progressView = [[LDProgressView alloc] init];
     progressLabel = [[UILabel alloc] init];
     [self setUpProgressBar];
-    [self push];        //for quick test
-    // [self syncMenuData];
+   // [self push];        //for quick test
+    [self syncMenuData];
     
     [COMMON isIntroVideoPlayed:@"introPlayed"];
+    [self setLogoImageInCentre];
+}
+
+-(void)setLogoImageInCentre{
+    
+    CGFloat imageHeight = SCREEN_HEIGHT/2;
+    CGFloat imageWidth = SCREEN_WIDTH/2;
+    CGFloat imageXPos = SCREEN_WIDTH/2-(imageWidth*2);
+    CGFloat imageYPos = SCREEN_HEIGHT/2-(imageHeight*2);
+    
+    
+    if([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad){
+         
+    }
+    UIImageView *logoImage = [[UIImageView alloc] initWithFrame:CGRectMake(imageXPos, imageYPos, imageWidth, imageHeight)];
+    
+    logoImage.image = [UIImage imageNamed:homeLogoImageName];
+    
+    [self.view addSubview:logoImage];
+    
+    
 }
 
 - (void) playerViewDidBecomeReady:(YTPlayerView *)playerView{

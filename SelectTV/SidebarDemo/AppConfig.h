@@ -108,7 +108,7 @@
 #define BORDER_BLUE     [UIColor colorWithRed:139.0f/255.0f green:143.0f/255.0f blue:144.0f/255.0f alpha:1.0f];
 
 //OLD BLUE
-//[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1];
+//[COMMON Common_Light_BG_Color];
 
 #define FREE_GREEN             [UIColor colorWithRed:19.0f/255.0f green:127.0f/255.0f blue:23.0f/255.0f alpha:1];
 
