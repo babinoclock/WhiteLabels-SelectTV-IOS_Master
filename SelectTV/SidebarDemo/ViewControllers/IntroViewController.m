@@ -58,7 +58,7 @@
         [COMMON removeSideBarStaticArrayList];
     }
      [_splashImage setHidden:YES];
-    //_splashImage.image =[UIImage imageNamed:SplashScreenImageName];
+    _splashImage.image =[UIImage imageNamed:SplashScreenImageName];
     
     syncAPIDataCount = 14.0f;
     currentProgress = 0.0f;
@@ -66,9 +66,12 @@
     
    // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"SplashScreenImage"]];
     
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"IntroBackGroundImage.png"]];
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"IntroBackGroundImage.png"]];
     
-    _splashImage.image =[UIImage imageNamed:@"IntroBackGroundImage.png"];
+    //_splashImage.image =[UIImage imageNamed:@"IntroBackGroundImage.png"];
+    
+    //_introCentreImage.image = [UIImage imageNamed:homeLogoImageName];
+    [_introCentreImage setHidden:YES];
     
     
     [self.navigationController.navigationBar setHidden:YES];
@@ -198,7 +201,7 @@
     [self syncMenuData];
     
     [COMMON isIntroVideoPlayed:@"introPlayed"];
-    [self setLogoImageInCentre];
+    //[self setLogoImageInCentre];
 }
 
 -(void)setLogoImageInCentre{

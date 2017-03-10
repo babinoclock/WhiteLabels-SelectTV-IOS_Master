@@ -22,6 +22,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *splashImage;
 @property (strong, nonatomic) IBOutlet UIView *additionalView;
 
+@property (strong, nonatomic) IBOutlet UIImageView *introCentreImage;
 
 
 

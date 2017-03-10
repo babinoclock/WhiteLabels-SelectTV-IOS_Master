@@ -1076,7 +1076,7 @@ UITableView* tableChannelList;
     isClickedCollectionSlider=NO;
     [COMMON LoadIcon:self.view];
     //[MBProgressHUD showHUDAddedTo:[[UIApplication sharedApplication] keyWindow] animated:YES];
-    if(isVideoClosed==NO)
+   // if(isVideoClosed==NO)
         [self getOnDemandFirstCarousels];
 }
 #pragma mark - getTopTitleAllData

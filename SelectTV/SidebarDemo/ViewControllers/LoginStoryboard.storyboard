@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="sqs-y5-nt4">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="sqs-y5-nt4">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -345,14 +345,23 @@
                                     <constraint firstAttribute="height" constant="77" id="R3O-Ns-xhC"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kht-OV-js7">
+                                <rect key="frame" x="51" y="214" width="272" height="149"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="149" id="36v-U9-KYe"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kht-OV-js7" secondAttribute="trailing" constant="52" id="1gQ-q1-1L1"/>
+                            <constraint firstItem="kht-OV-js7" firstAttribute="leading" secondItem="Ug6-k0-F45" secondAttribute="leading" constant="51" id="2QT-aA-Tza"/>
                             <constraint firstAttribute="trailing" secondItem="NSn-Tm-I7S" secondAttribute="trailing" id="Gvf-AZ-9xW"/>
                             <constraint firstAttribute="trailing" secondItem="vrM-wn-stb" secondAttribute="trailing" constant="9" id="Vkl-zw-rCg"/>
                             <constraint firstItem="151-51-oiv" firstAttribute="top" secondItem="vrM-wn-stb" secondAttribute="bottom" constant="47" id="ioB-TN-udh"/>
                             <constraint firstItem="151-51-oiv" firstAttribute="top" secondItem="NSn-Tm-I7S" secondAttribute="bottom" id="jbh-gG-zSw"/>
                             <constraint firstItem="NSn-Tm-I7S" firstAttribute="top" secondItem="Ug6-k0-F45" secondAttribute="top" id="jjs-qM-EZy"/>
+                            <constraint firstItem="kht-OV-js7" firstAttribute="top" secondItem="2E0-NR-OO1" secondAttribute="bottom" constant="194" id="q5R-QY-fzz"/>
                             <constraint firstItem="NSn-Tm-I7S" firstAttribute="leading" secondItem="Ug6-k0-F45" secondAttribute="leading" id="t3e-wK-kJ9"/>
                             <constraint firstItem="vrM-wn-stb" firstAttribute="leading" secondItem="Ug6-k0-F45" secondAttribute="leading" constant="8" id="uTL-Le-1pq"/>
                         </constraints>
@@ -361,12 +370,13 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="additionalView" destination="vrM-wn-stb" id="sUp-Bl-VHE"/>
+                        <outlet property="introCentreImage" destination="kht-OV-js7" id="AtB-UY-UOC"/>
                         <outlet property="splashImage" destination="NSn-Tm-I7S" id="RAS-2M-lUk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Acp-Bg-8Ld" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1838" y="-818"/>
+            <point key="canvasLocation" x="1837.5" y="-818.5"/>
         </scene>
         <!--Resgister Table View Controller-->
         <scene sceneID="4QE-tl-dXD">
