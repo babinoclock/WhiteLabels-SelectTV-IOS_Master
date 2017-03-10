@@ -336,8 +336,6 @@ CustomIOS7AlertView * mainChannelView;
     
     
   // [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
-  //  [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
-  //  [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
   //  [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
   
     //[self.navigationController.navigationBar setBackgroundImage:[UIColor colorWithRed:59.0f/255.0f green:60.0f/255.0f blue:64.0f/255.0f alpha:1.0f] forBarMetrics:UIBarMetricsDefault];
@@ -347,9 +345,9 @@ CustomIOS7AlertView * mainChannelView;
      self.revealViewController.delegate = self;
     [self.revealViewController tapGestureRecognizer];
     
-    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
-    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
-    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];
     
     [self.revealViewController panGestureRecognizer];
     if(revealviewcontroller)
@@ -425,9 +423,9 @@ CustomIOS7AlertView * mainChannelView;
     //[self.view setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
     
-    self.view.backgroundColor = GRAY_BG_COLOR;
+    self.view.backgroundColor = [COMMON Common_Screen_BG_Color];
     _mainBackgroundImage.image=nil;
-    _mainBackgroundImage.backgroundColor = GRAY_BG_COLOR;
+    _mainBackgroundImage.backgroundColor = [COMMON Common_Screen_BG_Color];
     
     
     bTitleCagtegoryShown = false;
@@ -458,8 +456,9 @@ CustomIOS7AlertView * mainChannelView;
     
     [_showViewButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     //[_contentViewButton setTitleColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1] forState:UIControlStateNormal];
-    [_contentViewButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
-    
+   // [_contentViewButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
+     [_contentViewButton setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
+  
     
     
    // [_showViewButton setTitle:@"SHOW VIEW" forState:UIControlStateNormal];
@@ -557,7 +556,7 @@ CustomIOS7AlertView * mainChannelView;
     searchBarView.delegate = self;
     [searchBarView setTintColor:[UIColor whiteColor]];
    // searchBarView.barTintColor = [UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
-    searchBarView.barTintColor =GRAY_BG_COLOR
+    searchBarView.barTintColor =[COMMON Common_Top_Navigation_Color];
     searchBarView.autocorrectionType = UITextAutocorrectionTypeNo;
     for (id subView in ((UIView *)[searchBarView.subviews objectAtIndex:0]).subviews) {
         //UITextField *searchTextField;
@@ -566,7 +565,7 @@ CustomIOS7AlertView * mainChannelView;
             searchTextField.keyboardAppearance = UIKeyboardAppearanceLight;
            // [searchTextField setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:116.0f/255.0f blue:203.0f/255.0f alpha:1]];
             searchTextField.textColor =[UIColor whiteColor];
-             searchTextField.backgroundColor = GRAY_BG_COLOR;
+             searchTextField.backgroundColor = [COMMON Common_Top_Navigation_Color];
             UIColor *color = [UIColor colorWithRed:119.0f/255.0f green:176.0f/255.0f blue:216.0f/255.0f alpha:1];
             searchTextField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"Search title, actor or movie" attributes:@{NSForegroundColorAttributeName: color}];
             break;
@@ -748,8 +747,8 @@ CustomIOS7AlertView * mainChannelView;
     [_contentViewButton setBackgroundColor:[UIColor colorWithRed:1.0f/255.0f green:57.0f/255.0f blue:94.0f/255.0f alpha:1.0f]];
     [_showViewButton setBackgroundColor:[UIColor colorWithRed:8.0f/255.0f green:30.0f/255.0f blue:43.0f/255.0f alpha:1.0f]];
     
-    
-    [_showViewButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
+    //[_showViewButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
+    [_showViewButton setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal] ;
     [_contentViewButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     
 //    if([arrayStreams count]==0){
@@ -765,8 +764,8 @@ CustomIOS7AlertView * mainChannelView;
     [self.tableStreams setHidden:false];
     [self.tableContent setHidden:true];
     [newScrollGridView setHidden:YES];
-    self.tableStreams.backgroundColor = GRAY_BG_COLOR;
-    newScrollGridView.backgroundColor =GRAY_BG_COLOR;
+    self.tableStreams.backgroundColor = [COMMON Common_Screen_BG_Color];
+    newScrollGridView.backgroundColor =[COMMON Common_Screen_BG_Color];
 }
 - (void)showContentTable:(id)sender {
 //    [_showViewButton setBackgroundColor:[UIColor whiteColor]];
@@ -776,7 +775,10 @@ CustomIOS7AlertView * mainChannelView;
     [_showViewButton setBackgroundColor:[UIColor colorWithRed:1.0f/255.0f green:57.0f/255.0f blue:94.0f/255.0f alpha:1.0f]];
     
     [_showViewButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [_contentViewButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
+   // [_contentViewButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
+    
+    [_contentViewButton setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
+
     
     
     
@@ -784,8 +786,8 @@ CustomIOS7AlertView * mainChannelView;
     [self.tableContent setHidden:true];
     [newScrollGridView setHidden:NO];
     
-    self.tableStreams.backgroundColor = GRAY_BG_COLOR;
-    newScrollGridView.backgroundColor =GRAY_BG_COLOR;
+    self.tableStreams.backgroundColor = [COMMON Common_Screen_BG_Color];
+    newScrollGridView.backgroundColor =[COMMON Common_Screen_BG_Color];
     
     //[self setChannelViewScroll];
 }
@@ -887,8 +889,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         //new color change
        // [_headerScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
         
-        showHeaderView.backgroundColor = GRAY_BG_COLOR;
-        _headerScroll.backgroundColor = GRAY_BG_COLOR;
+        showHeaderView.backgroundColor = [COMMON Common_Gray_BG_Color];
+        _headerScroll.backgroundColor = [COMMON Common_Gray_BG_Color];
         
         _headerScroll.sectionTitles = titleArray;
         _headerScroll.segmentEdgeInset = UIEdgeInsetsMake(0, 10, 0, 10);
@@ -913,7 +915,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 //                    segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
 //                }
 //                else{
-                    attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Top_Navigation_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+                    attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Light_BG_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
                     segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
                     segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
                 //}
@@ -1028,6 +1030,9 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         [COMMON removeLoading];
         [MBProgressHUD hideHUDForView:[[UIApplication sharedApplication] keyWindow] animated:YES];
         [self.mainActivityIndicator setHidden:true];
+           
+        
+       
         NSLog(@"check here loadDataArray");
     }
 }
@@ -1183,8 +1188,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     for(UIView *view in newScrollGridView.subviews){
         [view removeFromSuperview];
     }
-    self.tableStreams.backgroundColor = GRAY_BG_COLOR;
-    newScrollGridView.backgroundColor =GRAY_BG_COLOR;
+    self.tableStreams.backgroundColor = [COMMON Common_Screen_BG_Color];
+    newScrollGridView.backgroundColor = [COMMON Common_Screen_BG_Color];
 //    CGRect showViewButtonFrame = _showViewButton.frame;
 //    CGFloat showViewButtonFrameMaxY = CGRectGetMaxY(showViewButtonFrame);
 //    
@@ -1474,7 +1479,9 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
             titleLabel.numberOfLines = 0;
             startTimeLabel.numberOfLines = 0;
             titleLabel.textColor = [UIColor whiteColor];
-            startTimeLabel.textColor = [UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
+            //startTimeLabel.textColor = [UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
+            //new change [UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] to Common_Light_BG_Color
+            startTimeLabel.textColor = [COMMON Common_Light_BG_Color];
            
             touchLabel.textColor = [UIColor clearColor];
             [touchLabel setBackgroundColor:[UIColor clearColor]];
@@ -1582,7 +1589,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     NSInteger selectedIndex = currentView.tag;
     
     if(prevTappedTag!=selectedIndex){
-         previousView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1];
+        // previousView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1];
+         previousView.backgroundColor = GRAY_BG_COLOR;
         
     }
     
@@ -1601,7 +1609,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     
     //new clor change
    // currentView.backgroundColor=[UIColor colorWithRed:15.0f/255.0f green:95.0f/255.0f blue:166.0f/255.0f alpha:1];
-    currentView.backgroundColor= GRAY_BG_COLOR;
+    currentView.backgroundColor= [COMMON Common_Top_Navigation_Color];
     
   //  NSLog(@"channelTitleTempArray-->%@",channelTitleTempArray);
    // NSMutableDictionary *selectedTempDict   = [[channelTitleTempArray objectAtIndex:((UIGestureRecognizer *)tap).view.tag] mutableCopy];
@@ -2703,14 +2711,11 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 {
     self.title = strTitle;
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
-   // [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
-   // [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
    // [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
-    
-    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
-    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
-    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];
 }
 
 - (void) setItemInformation:(int)nStreamId
@@ -2793,12 +2798,12 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         NSString* startLabel = @"Start Time: ";
         UIFont *startFont = [COMMON getResizeableFont:Roboto_Light(12)];
         //UIColor *startColor = [UIColor colorWithRed:109.0f/255.0f green:109.0f/255.0f blue:109.0f/255.0f alpha:1.0];
-        UIColor *startColor = [UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
+        UIColor *startColor = [COMMON Common_Light_BG_Color];//[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
         NSDictionary *startAttributes = @{NSFontAttributeName:startFont, NSForegroundColorAttributeName:startColor};
         NSMutableAttributedString *stAttrString = [[NSMutableAttributedString alloc] initWithString:startLabel attributes: startAttributes];
         
         UIFont *timeFont = [COMMON getResizeableFont:Roboto_Light(11)];
-        UIColor *timeColor = [UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
+        UIColor *timeColor = [COMMON Common_Light_BG_Color];//[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
         NSDictionary *timeAttributes = @{NSFontAttributeName:timeFont, NSForegroundColorAttributeName:timeColor};
         NSMutableAttributedString *timeAttrString = [[NSMutableAttributedString alloc]initWithString:strTime attributes:timeAttributes];
         
@@ -4071,20 +4076,20 @@ didReceiveStatusForApplication:(GCKApplicationMetadata *)applicationMetadata {
     if (position == FrontViewPositionLeftSide) {               // Menu will get revealed
         self.tapGestureRecognizer.enabled = YES;                 // Enable the tap gesture Recognizer
 //        self.interactivePopGestureRecognizer.enabled = NO;        // Prevents the iOS7's pan gesture
-        self.view.userInteractionEnabled = NO;       // Disable the topViewController's interaction
+       // self.view.userInteractionEnabled = NO;       // Disable the topViewController's interaction
     }
     else if (position == FrontViewPositionLeft){      // Menu will close
         self.tapGestureRecognizer.enabled = NO;
 //        self.interactivePopGestureRecognizer.enabled = YES;
-        self.view.userInteractionEnabled = YES;
+       // self.view.userInteractionEnabled = YES;
     }
 }
 - (void)revealController:(SWRevealViewController *)revealController didMoveToPosition:(FrontViewPosition)position
 {
     if(position == FrontViewPositionLeft) {
-        self.view.userInteractionEnabled = YES;
+       // self.view.userInteractionEnabled = YES;
     } else {
-        self.view.userInteractionEnabled = NO;
+       // self.view.userInteractionEnabled = NO;
     }
 }
 //TESTING
