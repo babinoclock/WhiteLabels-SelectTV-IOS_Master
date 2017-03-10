@@ -20,7 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _startWtng.backgroundColor = GRAY_BG_COLOR;
+    _startWtng.backgroundColor = [UIColor clearColor];
+    _startWtng.layer.borderColor = [UIColor whiteColor].CGColor;
+    _startWtng.layer.borderWidth = 2;
+    _startWtng.layer.cornerRadius = 4.0;
+    _startWtng.titleLabel.font = [UIFont systemFontOfSize:20 weight:UIFontWeightBold];
+
+    
     
     _splashLogoImage.image =[UIImage imageNamed:splashLogoImageName];
     

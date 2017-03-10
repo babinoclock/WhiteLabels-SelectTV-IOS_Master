@@ -436,7 +436,7 @@ UITableView* tableChannelList;
     
     //[self.view setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
-     self.view.backgroundColor = GRAY_BG_COLOR;
+     self.view.backgroundColor = [COMMON Common_Screen_BG_Color];
    
     
 }
@@ -483,7 +483,7 @@ UITableView* tableChannelList;
     [[UIApplication sharedApplication] setStatusBarHidden:NO];
     [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
     
-    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];//[UIColor whiteColor];
     //    self.navigationItem.title = headerLabelStr;
     //[self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
     
@@ -494,9 +494,12 @@ UITableView* tableChannelList;
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     
-    self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;
-    self.navigationController.navigationBar.tintColor = GRAY_BG_COLOR;
-    self.navigationController.navigationBar.barTintColor = GRAY_BG_COLOR;
+    self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
+
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];
+
+self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];
+
     
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
         self.edgesForExtendedLayout=UIRectEdgeNone;
@@ -944,7 +947,7 @@ UITableView* tableChannelList;
         [_tvMovieView addSubview:_headerScroll];
     
     //[_headerScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
-    _headerScroll.backgroundColor = GRAY_BG_COLOR;
+    _headerScroll.backgroundColor = [COMMON Common_Gray_BG_Color];
 
      _headerScroll.sectionTitles = titleArray;
     _headerScroll.segmentEdgeInset = UIEdgeInsetsMake(0, 10, 0, 10);
@@ -962,11 +965,11 @@ UITableView* tableChannelList;
 
         if (selected) {
             
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor yellowColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             
             return attString;
         } else {
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Light_BG_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             
             return attString;
         }
@@ -2592,7 +2595,7 @@ UITableView* tableChannelList;
     
    // [appHeaderScrollView setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
     
-    appHeaderScrollView.backgroundColor = GRAY_BG_COLOR;
+    appHeaderScrollView.backgroundColor = [COMMON Common_Gray_BG_Color];
     
     
     appHeaderScrollView.sectionTitles = headerTitleArray;//menuArray;
@@ -2611,11 +2614,11 @@ UITableView* tableChannelList;
         
         if (selected) {
             
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor yellowColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             
             return attString;
         } else {
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Light_BG_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             
             return attString;
         }
@@ -2857,7 +2860,10 @@ UITableView* tableChannelList;
     [doneBtn setTitle:@"DONE" forState:UIControlStateNormal];
     doneBtn.titleLabel.font = [COMMON getResizeableFont:Roboto_Regular(latelFontSize)];
     [doneBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [doneBtn setBackgroundImage:[UIImage imageNamed:@"blueBtn.png"] forState:UIControlStateNormal];
+   // [doneBtn setBackgroundImage:[UIImage imageNamed:@"blueBtn.png"] forState:UIControlStateNormal];
+    doneBtn.layer.borderWidth = 2;
+    doneBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    doneBtn.layer.cornerRadius = 4.0;
     [doneBtn addTarget:self action:@selector(hideStaticView) forControlEvents:UIControlEventTouchUpInside];
     [collectionFooter addSubview:doneBtn];
     [collectionFooter addSubview:footerLabel];
@@ -3781,7 +3787,7 @@ UITableView* tableChannelList;
     
      //self.tvMovieView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
     
-    self.tvMovieView.backgroundColor = GRAY_BG_COLOR;
+    self.tvMovieView.backgroundColor = [COMMON Common_Screen_BG_Color];
   
     if ((NSString *)[NSNull null] == tvShowStr) {
         if (tvShowStr == nil) {
@@ -7291,7 +7297,7 @@ UITableView* tableChannelList;
     isSelectedItem = NO;//[[dictItem valueForKey:@"isSelectedItem"]boolValue];
     [cell.installBtn setHidden:NO];
     
-    [cell.installBtn setTitle:@"Install" forState:UIControlStateNormal];
+    [cell.installBtn setTitle:@"Download" forState:UIControlStateNormal];
     [cell.installBtn setBackgroundImage:[UIImage imageNamed:@"AddButton.png"] forState:UIControlStateNormal];
     
     

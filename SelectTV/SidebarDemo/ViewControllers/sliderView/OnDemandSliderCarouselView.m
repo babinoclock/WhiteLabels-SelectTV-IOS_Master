@@ -77,7 +77,7 @@
     [self setFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
      //self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
     
-    self.backgroundColor= GRAY_BG_COLOR;
+    self.backgroundColor= [COMMON Common_Screen_BG_Color];
     //self.backgroundColor = [UIColor clearColor];
     appListArrayItems =[NSMutableArray new];
     appListArrayItems= carouselArray;
