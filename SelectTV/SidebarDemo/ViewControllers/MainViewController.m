@@ -458,24 +458,23 @@ CustomIOS7AlertView * mainChannelView;
     //[_contentViewButton setTitleColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1] forState:UIControlStateNormal];
    // [_contentViewButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
      [_contentViewButton setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
-  
     
     
-   // [_showViewButton setTitle:@"SHOW VIEW" forState:UIControlStateNormal];
-    //[_contentViewButton setTitle:@"CHANNEL VIEW" forState:UIControlStateNormal];
     [_contentViewButton addTarget:self action:@selector(showStreamTable:) forControlEvents:UIControlEventTouchUpInside];
     [_showViewButton addTarget:self action:@selector(showContentTable:) forControlEvents:UIControlEventTouchUpInside];
     
-    //[_contentViewButton setBackgroundColor:[UIColor colorWithRed:190.0f/255.0f green:190.0f/255.0f blue:190.0f/255.0f alpha:1.0f]];
-   // [_showViewButton setBackgroundColor:[UIColor whiteColor]];
-    
-    
-    [_contentViewButton setBackgroundColor:[UIColor colorWithRed:8.0f/255.0f green:30.0f/255.0f blue:43.0f/255.0f alpha:1.0f]];
-    [_showViewButton setBackgroundColor:[UIColor colorWithRed:1.0f/255.0f green:57.0f/255.0f blue:94.0f/255.0f alpha:1.0f]];
+    //old change
+    //[_contentViewButton setBackgroundColor:[UIColor colorWithRed:8.0f/255.0f green:30.0f/255.0f blue:43.0f/255.0f alpha:1.0f]];
+    //[_showViewButton setBackgroundColor:[UIColor colorWithRed:1.0f/255.0f green:57.0f/255.0f blue:94.0f/255.0f alpha:1.0f]];
 
+    //new change
+    [_contentViewButton setBackgroundColor:[COMMON Common_Gray_BG_Color]];
+    [_showViewButton setBackgroundColor:[COMMON Common_Screen_BG_Color]];
     
     [newScrollGridView setBackgroundColor:[UIColor clearColor]];
-    [self.tableStreams setBackgroundColor:[UIColor colorWithRed:1.0f/255.0f green:83.0f/255.0f blue:137.0f/255.0f alpha:1.0f]];
+    //[self.tableStreams setBackgroundColor:[UIColor colorWithRed:1.0f/255.0f green:83.0f/255.0f blue:137.0f/255.0f alpha:1.0f]];
+    
+    [self.tableStreams setBackgroundColor:[COMMON Common_Screen_BG_Color]];
     
     [self.tableStreams setHidden:true];
     [self.tableContent setHidden:true];
@@ -556,7 +555,7 @@ CustomIOS7AlertView * mainChannelView;
     searchBarView.delegate = self;
     [searchBarView setTintColor:[UIColor whiteColor]];
    // searchBarView.barTintColor = [UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
-    searchBarView.barTintColor =[COMMON Common_Top_Navigation_Color];
+    
     searchBarView.autocorrectionType = UITextAutocorrectionTypeNo;
     for (id subView in ((UIView *)[searchBarView.subviews objectAtIndex:0]).subviews) {
         //UITextField *searchTextField;
@@ -565,8 +564,9 @@ CustomIOS7AlertView * mainChannelView;
             searchTextField.keyboardAppearance = UIKeyboardAppearanceLight;
            // [searchTextField setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:116.0f/255.0f blue:203.0f/255.0f alpha:1]];
             searchTextField.textColor =[UIColor whiteColor];
-             searchTextField.backgroundColor = [COMMON Common_Top_Navigation_Color];
-            UIColor *color = [UIColor colorWithRed:119.0f/255.0f green:176.0f/255.0f blue:216.0f/255.0f alpha:1];
+             searchTextField.backgroundColor = [COMMON Common_Screen_BG_Color];
+          //  UIColor *color = [UIColor colorWithRed:119.0f/255.0f green:176.0f/255.0f blue:216.0f/255.0f alpha:1];
+            UIColor *color = [UIColor whiteColor];
             searchTextField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"Search title, actor or movie" attributes:@{NSForegroundColorAttributeName: color}];
             break;
         }
@@ -744,8 +744,13 @@ CustomIOS7AlertView * mainChannelView;
 //    [_contentViewButton setBackgroundColor:[UIColor whiteColor]];
 //    [_showViewButton setBackgroundColor:[UIColor colorWithRed:190.0f/255.0f green:190.0f/255.0f blue:190.0f/255.0f alpha:1.0f]];
     
-    [_contentViewButton setBackgroundColor:[UIColor colorWithRed:1.0f/255.0f green:57.0f/255.0f blue:94.0f/255.0f alpha:1.0f]];
-    [_showViewButton setBackgroundColor:[UIColor colorWithRed:8.0f/255.0f green:30.0f/255.0f blue:43.0f/255.0f alpha:1.0f]];
+    //new
+    [_contentViewButton setBackgroundColor:[COMMON Common_Screen_BG_Color]];
+    [_showViewButton setBackgroundColor:[COMMON Common_Gray_BG_Color]];
+    
+    //old
+    //[_contentViewButton setBackgroundColor:[UIColor colorWithRed:1.0f/255.0f green:57.0f/255.0f blue:94.0f/255.0f alpha:1.0f]];
+   // [_showViewButton setBackgroundColor:[UIColor colorWithRed:8.0f/255.0f green:30.0f/255.0f blue:43.0f/255.0f alpha:1.0f]];
     
     //[_showViewButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
     [_showViewButton setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal] ;
@@ -771,8 +776,15 @@ CustomIOS7AlertView * mainChannelView;
 //    [_showViewButton setBackgroundColor:[UIColor whiteColor]];
 //    [_contentViewButton setBackgroundColor:[UIColor colorWithRed:190.0f/255.0f green:190.0f/255.0f blue:190.0f/255.0f alpha:1.0f]];
     
-    [_contentViewButton setBackgroundColor:[UIColor colorWithRed:8.0f/255.0f green:30.0f/255.0f blue:43.0f/255.0f alpha:1.0f]];
-    [_showViewButton setBackgroundColor:[UIColor colorWithRed:1.0f/255.0f green:57.0f/255.0f blue:94.0f/255.0f alpha:1.0f]];
+    //old
+  //  [_contentViewButton setBackgroundColor:[UIColor colorWithRed:8.0f/255.0f green:30.0f/255.0f blue:43.0f/255.0f alpha:1.0f]];
+  //  [_showViewButton setBackgroundColor:[UIColor colorWithRed:1.0f/255.0f green:57.0f/255.0f blue:94.0f/255.0f alpha:1.0f]];
+    
+    
+    //new
+    [_contentViewButton setBackgroundColor:[COMMON Common_Gray_BG_Color]];
+    [_showViewButton setBackgroundColor:[COMMON Common_Screen_BG_Color]];
+    
     
     [_showViewButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
    // [_contentViewButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
@@ -915,7 +927,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 //                    segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
 //                }
 //                else{
-                    attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Light_BG_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+                    attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
                     segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
                     segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
                 //}
@@ -923,7 +935,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
                 
                 return attString;
             } else {
-                attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+                attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Light_BG_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
                 segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
                 segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
                 
@@ -1425,8 +1437,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
                     myIndex=0;
                     previousView = ChannelBackgroundView;
                     //new clor change
-                    //ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:15.0f/255.0f green:95.0f/255.0f blue:166.0f/255.0f alpha:1];
-                    ChannelBackgroundView.backgroundColor = [UIColor lightGrayColor];
+                    ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:15.0f/255.0f green:95.0f/255.0f blue:166.0f/255.0f alpha:1];
+                    //ChannelBackgroundView.backgroundColor = [UIColor lightGrayColor];
                     //[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
                 }
                 
@@ -1465,8 +1477,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
                     k++;
                 }
                 if(StreamTitle == strVideoTitle){
-                    //ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
-                    ChannelBackgroundView.backgroundColor = GRAY_BG_COLOR;
+                    ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
+                    //ChannelBackgroundView.backgroundColor = GRAY_BG_COLOR;
                 }
                 UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapActionVideoTitle:)];
                 tapGestureRecognizer.numberOfTapsRequired = 1;
@@ -1491,7 +1503,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
             [ChannelBackgroundView addSubview:titleImage];
             ChannelBackgroundView.layer.borderWidth =0.8;
            // ChannelBackgroundView.layer.borderColor =[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1.5].CGColor;
-            ChannelBackgroundView.layer.borderColor =[UIColor colorWithRed:139.0f/255.0f green:143.0f/255.0f blue:144.0f/255.0f alpha:1.0f] .CGColor;
+            ChannelBackgroundView.layer.borderColor =[COMMON Common_Light_BG_Color].CGColor;
             [views addObject:ChannelBackgroundView];
             
             
@@ -1512,10 +1524,10 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
    // UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(newScrollGridView.frame.origin.x, 0, SCREEN_WIDTH, (SCREEN_HEIGHT/2))];
 
     scroll.decelerationRate = UIScrollViewDecelerationRateFast;
-    scroll.backgroundColor = [UIColor colorWithRed:1.0f/255.0f green:83.0f/255.0f blue:137.0f/255.0f alpha:1.0f];
-    newScrollGridView.backgroundColor = [UIColor colorWithRed:1.0f/255.0f green:83.0f/255.0f blue:137.0f/255.0f alpha:1.0f];
+    //scroll.backgroundColor = [UIColor colorWithRed:1.0f/255.0f green:83.0f/255.0f blue:137.0f/255.0f alpha:1.0f];
+    //newScrollGridView.backgroundColor = [UIColor colorWithRed:1.0f/255.0f green:83.0f/255.0f blue:137.0f/255.0f alpha:1.0f];
     
-    scroll.backgroundColor = GRAY_BG_COLOR;
+    scroll.backgroundColor = [COMMON Common_Light_BG_Color];
     newScrollGridView.backgroundColor =GRAY_BG_COLOR;
     
     scroll.pagingEnabled = NO;
@@ -1589,8 +1601,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     NSInteger selectedIndex = currentView.tag;
     
     if(prevTappedTag!=selectedIndex){
-        // previousView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1];
-         previousView.backgroundColor = GRAY_BG_COLOR;
+         previousView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1];
+        // previousView.backgroundColor = GRAY_BG_COLOR;
         
     }
     
@@ -1608,8 +1620,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     [self updateShowViewTable:selectedChannelTempDict];
     
     //new clor change
-   // currentView.backgroundColor=[UIColor colorWithRed:15.0f/255.0f green:95.0f/255.0f blue:166.0f/255.0f alpha:1];
-    currentView.backgroundColor= [COMMON Common_Top_Navigation_Color];
+    currentView.backgroundColor=[UIColor colorWithRed:15.0f/255.0f green:95.0f/255.0f blue:166.0f/255.0f alpha:1];
+    //currentView.backgroundColor= [COMMON Common_Screen_BG_Color];
     
   //  NSLog(@"channelTitleTempArray-->%@",channelTitleTempArray);
    // NSMutableDictionary *selectedTempDict   = [[channelTitleTempArray objectAtIndex:((UIGestureRecognizer *)tap).view.tag] mutableCopy];

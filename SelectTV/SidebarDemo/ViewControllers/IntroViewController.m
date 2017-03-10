@@ -15,7 +15,7 @@
 #import "AppCommon.h"
 #import "AppConfig.h"
 
-@interface IntroViewController ()<UIGestureRecognizerDelegate>{//SWRevealViewControllerDelegate
+@interface IntroViewController ()<UIGestureRecognizerDelegate,YTPlayerViewDelegate>{//SWRevealViewControllerDelegate
     
     LDProgressView  *progressView;
     NSString        * progressString;
@@ -32,6 +32,9 @@
     float syncAPIDataCount;
     float currentProgress;
     
+    UIView *currentVideoView;
+    YTPlayerView *  introPlayer;
+    
     
 }
 @property (nonatomic, strong) UITapGestureRecognizer *tapGestureRecognizer;
@@ -43,7 +46,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-
+    
     isPortraitFirst=true;
     isLandScapeFirst=true;
 
@@ -54,19 +57,36 @@
         [COMMON removeHomeStaticArrayList];
         [COMMON removeSideBarStaticArrayList];
     }
-    
+     [_splashImage setHidden:YES];
     _splashImage.image =[UIImage imageNamed:SplashScreenImageName];
     
+    syncAPIDataCount = 14.0f;
+    currentProgress = 0.0f;
     
     
    // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"SplashScreenImage"]];
     
     [self.navigationController.navigationBar setHidden:YES];
-    progressView = [[LDProgressView alloc] init];
-    progressLabel = [[UILabel alloc] init];
-    [self setUpProgressBar];
- ///  [self push];        //for quick test
-    [self syncMenuData];
+    [self.view setUserInteractionEnabled:YES];
+    
+    
+    
+    
+    NSString *videoPlayed = [COMMON getIntroVideoPlayed];
+    
+    videoPlayed =nil;
+    
+    if(![videoPlayed isEqualToString:@"introPlayed"]||videoPlayed==nil){
+        [_splashImage setHidden:YES];
+        [self loadVideoForFirstTime];
+    }
+    else{
+        
+        [self showProgressView];
+    }
+   
+    //
+    
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(introOrientationChanged:) name:UIDeviceOrientationDidChangeNotification object:[UIDevice currentDevice]];
     
@@ -76,12 +96,134 @@
     }else{
         [self rotateViews:true];
     }
-    syncAPIDataCount = 14.0f;
-    currentProgress = 0.0f;
-    [self.view setUserInteractionEnabled:NO];
+}
+
+#pragma mark - loadVideoForFirstTime
+- (void)loadVideoForFirstTime{
     
+    [currentVideoView removeFromSuperview];
+    [introPlayer removeFromSuperview];
+    
+    currentVideoView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+    
+    currentVideoView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.4];
+    
+    CGFloat fontSize = 10;
+    CGFloat doneBtnHeight = 40;
+    CGFloat BtnXPos= CGRectGetMaxX(currentVideoView.frame)-50;
+    if([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad){
+        fontSize =14;
+        BtnXPos= CGRectGetMaxX(currentVideoView.frame)-80;
+        doneBtnHeight = 50;
+    }
+    
+    UILabel *welcomeLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 10, SCREEN_WIDTH-40, 30)];
+    [welcomeLabel setText:@"WELOME"];
+    welcomeLabel .textAlignment= NSTextAlignmentCenter;
+    [welcomeLabel setTextColor:[UIColor whiteColor]];
+    [welcomeLabel setBackgroundColor:[UIColor clearColor]];
+    welcomeLabel.font = [COMMON getResizeableFont:Roboto_Bold(fontSize)];
+    
+    
+    CGFloat btnWidth = 110;
+    CGFloat btnXPos = SCREEN_WIDTH/2-50;
+    CGFloat btnYPos = SCREEN_HEIGHT-(doneBtnHeight*2);
+    
+    
+    UIButton *doneBtn = [[UIButton alloc] initWithFrame:CGRectMake(btnXPos, btnYPos, btnWidth, doneBtnHeight)];
+    [doneBtn setTitle:@"CONTINUE" forState:UIControlStateNormal];
+    doneBtn.titleLabel.font = [COMMON getResizeableFont:Roboto_Regular(fontSize)];
+    [doneBtn.layer setCornerRadius:4.0];
+    doneBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    doneBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    doneBtn.layer.borderWidth = 2.0f;
+    [doneBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [doneBtn addTarget:self action:@selector(showProgressView) forControlEvents:UIControlEventTouchUpInside];
+
+    
+    CGFloat itemDetailViewYPos = CGRectGetMaxY(welcomeLabel.frame)+5;
+    
+    
+    UIView *itemDetailsView = [[UIView alloc] initWithFrame:CGRectMake(0, itemDetailViewYPos, currentVideoView.frame.size.width, currentVideoView.frame.size.height-((itemDetailViewYPos*2)+doneBtnHeight+10))];
+    
+    introPlayer = [[YTPlayerView alloc]initWithFrame:CGRectMake(0, 0, itemDetailsView.frame.size.width, itemDetailsView.frame.size.height)];
+    introPlayer.delegate = self;
+    
+    [introPlayer setBackgroundColor:[UIColor blackColor]];
+    [itemDetailsView setBackgroundColor:[UIColor grayColor]];
+    [currentVideoView setUserInteractionEnabled:YES];
+    
+    NSString* m_strVideoUrl = @"mIqzgd0yse0";
+    
+    NSDictionary *playerVars = @{
+                                 @"playsinline" : @1,
+                                 @"autoplay":@1,
+                                 @"showinfo" : @0,//raji
+                                 @"rel" : @0,
+                                 @"controls" : @0,
+                                 @"origin" : @"https://www.example.com", // this is critical
+                                 @"modestbranding" : @1
+                                 };
+    //[self. playerView loadWithPlaylistId:@"PLNT1r49jsn3niUNZcxO1Vyj86oxuxmi7R"];//playlist id
+    
+    [introPlayer loadWithVideoId:m_strVideoUrl playerVars:playerVars];
+    [introPlayer playVideo];
+    
+    //  UIButton* closeBtn = [[UIButton alloc] initWithFrame:CGRectMake(itemDetailsView.frame.origin.x + (itemDetailsView.frame.size.width-25), itemDetailsView.frame.origin.y - 25, 40, 40)];
+    
+    
+    [itemDetailsView addSubview:introPlayer];
+    [currentVideoView addSubview:welcomeLabel];
+    [currentVideoView addSubview:doneBtn];
+    [currentVideoView addSubview:itemDetailsView];
+   
+    
+    [self.view addSubview:currentVideoView];
     
 }
+
+-(void)showProgressView{
+    [_splashImage setHidden:NO];
+    [self.view setUserInteractionEnabled:NO];
+    [currentVideoView removeFromSuperview];
+    [introPlayer removeFromSuperview];
+    progressView = [[LDProgressView alloc] init];
+    progressLabel = [[UILabel alloc] init];
+    [self setUpProgressBar];
+    [self push];        //for quick test
+    // [self syncMenuData];
+    
+    [COMMON isIntroVideoPlayed:@"introPlayed"];
+}
+
+- (void) playerViewDidBecomeReady:(YTPlayerView *)playerView{
+    
+    [introPlayer playVideo];
+    
+}
+
+- (void) playerView:(YTPlayerView *)playerView didChangeToState:(YTPlayerState)state
+{
+    switch (state) {
+            
+        case kYTPlayerStatePlaying:
+            
+            break;
+            
+        case kYTPlayerStateEnded:
+            //new
+             [introPlayer setHidden:YES];
+            [self showProgressView];
+           
+            break;
+            
+        default:
+            break;
+            
+    }
+    
+}
+
 -(void)loadArrayTranslations{
     [COMMON removeHomeStaticArrayList];
     [COMMON removeSideBarStaticArrayList];

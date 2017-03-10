@@ -148,7 +148,7 @@
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/PayMovieViewController.m"
-                  timestampString = "510820186.570338"
+                  timestampString = "510837874.655221"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "1124"
@@ -163,7 +163,7 @@
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/PayMovieViewController.m"
-                  timestampString = "510820186.572645"
+                  timestampString = "510837874.657733"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "1124"
@@ -868,7 +868,7 @@
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "510820186.741289"
+                  timestampString = "510837874.828672"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "1983"
@@ -883,7 +883,7 @@
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "510820186.743408"
+                  timestampString = "510837874.830961"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "1984"
@@ -1412,11 +1412,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2644"
-            endingLineNumber = "2644"
+            startingLineNumber = "2655"
+            endingLineNumber = "2655"
             landmarkName = "-setInformation:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1428,11 +1428,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2691"
-            endingLineNumber = "2691"
+            startingLineNumber = "2702"
+            endingLineNumber = "2702"
             landmarkName = "-setInformation:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1444,11 +1444,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3355"
-            endingLineNumber = "3355"
+            startingLineNumber = "3366"
+            endingLineNumber = "3366"
             landmarkName = "-loadVideoWhenAppInLandscapeModeForFirstTime"
             landmarkType = "7">
          </BreakpointContent>
@@ -1460,11 +1460,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510818100.114435"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1005"
-            endingLineNumber = "1005"
+            startingLineNumber = "1016"
+            endingLineNumber = "1016"
             landmarkName = "-loadLatestChannelData"
             landmarkType = "7">
          </BreakpointContent>
@@ -1476,11 +1476,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510818103.836767"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1011"
-            endingLineNumber = "1011"
+            startingLineNumber = "1022"
+            endingLineNumber = "1022"
             landmarkName = "-loadLatestChannelData"
             landmarkType = "7">
          </BreakpointContent>
@@ -1492,11 +1492,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1126"
-            endingLineNumber = "1126"
+            startingLineNumber = "1137"
+            endingLineNumber = "1137"
             landmarkName = "-syncChannelDataArtist:withResponse:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1508,11 +1508,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1112"
-            endingLineNumber = "1112"
+            startingLineNumber = "1123"
+            endingLineNumber = "1123"
             landmarkName = "-syncChannelDataArtist:withResponse:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1524,11 +1524,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1098"
-            endingLineNumber = "1098"
+            startingLineNumber = "1109"
+            endingLineNumber = "1109"
             landmarkName = "-syncChannelData:withResponse:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1540,11 +1540,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3434"
-            endingLineNumber = "3434"
+            startingLineNumber = "3445"
+            endingLineNumber = "3445"
             landmarkName = "-onChannelViewTopMenuList:"
             landmarkType = "7">
             <Locations>
@@ -1556,11 +1556,11 @@
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "510820186.907661"
+                  timestampString = "510837875.002215"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "3434"
-                  endingLineNumber = "3434"
+                  startingLineNumber = "3433"
+                  endingLineNumber = "3433"
                   offsetFromSymbolStart = "1698">
                </Location>
                <Location
@@ -1571,11 +1571,11 @@
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "510820186.910179"
+                  timestampString = "510837875.004767"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "3434"
-                  endingLineNumber = "3434"
+                  startingLineNumber = "3433"
+                  endingLineNumber = "3433"
                   offsetFromSymbolStart = "23">
                </Location>
                <Location
@@ -1586,11 +1586,11 @@
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "510820186.912452"
+                  timestampString = "510837875.007234"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "3434"
-                  endingLineNumber = "3434"
+                  startingLineNumber = "3433"
+                  endingLineNumber = "3433"
                   offsetFromSymbolStart = "39">
                </Location>
                <Location
@@ -1601,11 +1601,11 @@
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "510820186.914783"
+                  timestampString = "510837875.009929"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "3434"
-                  endingLineNumber = "3434"
+                  startingLineNumber = "3433"
+                  endingLineNumber = "3433"
                   offsetFromSymbolStart = "102">
                </Location>
                <Location
@@ -1616,71 +1616,71 @@
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "510820186.917132"
+                  timestampString = "510837875.012065"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "3434"
-                  endingLineNumber = "3434"
+                  startingLineNumber = "3433"
+                  endingLineNumber = "3433"
                   offsetFromSymbolStart = "715">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__copy_helper_block_.1227"
+                  symbolName = "__copy_helper_block_.1220"
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "510820186.91942"
+                  timestampString = "510837875.014255"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "3434"
-                  endingLineNumber = "3434"
+                  startingLineNumber = "3433"
+                  endingLineNumber = "3433"
                   offsetFromSymbolStart = "51">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_.1228"
+                  symbolName = "__destroy_helper_block_.1221"
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "510820186.921562"
+                  timestampString = "510837875.016415"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "3434"
-                  endingLineNumber = "3434"
+                  startingLineNumber = "3433"
+                  endingLineNumber = "3433"
                   offsetFromSymbolStart = "29">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__copy_helper_block_.1230"
+                  symbolName = "__copy_helper_block_.1223"
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "510820186.92353"
+                  timestampString = "510837875.018233"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "3434"
-                  endingLineNumber = "3434"
+                  startingLineNumber = "3433"
+                  endingLineNumber = "3433"
                   offsetFromSymbolStart = "51">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_.1231"
+                  symbolName = "__destroy_helper_block_.1224"
                   moduleName = "SelectTV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "510820186.925425"
+                  timestampString = "510837875.020312"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "3434"
-                  endingLineNumber = "3434"
+                  startingLineNumber = "3433"
+                  endingLineNumber = "3433"
                   offsetFromSymbolStart = "29">
                </Location>
             </Locations>
@@ -1693,23 +1693,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3438"
-            endingLineNumber = "3438"
-            landmarkName = "-onChannelViewTopMenuList:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "3449"
@@ -1725,11 +1709,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1159"
-            endingLineNumber = "1159"
+            startingLineNumber = "3460"
+            endingLineNumber = "3460"
+            landmarkName = "-onChannelViewTopMenuList:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/MainViewController.m"
+            timestampString = "510838584.886734"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1170"
+            endingLineNumber = "1170"
             landmarkName = "-syncChannelDataSubCategories:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1741,11 +1741,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1030"
-            endingLineNumber = "1030"
+            startingLineNumber = "1040"
+            endingLineNumber = "1040"
             landmarkName = "-loadLatestChannelData"
             landmarkType = "7">
          </BreakpointContent>
@@ -1757,11 +1757,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2779"
-            endingLineNumber = "2779"
+            startingLineNumber = "2790"
+            endingLineNumber = "2790"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1773,11 +1773,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2894"
-            endingLineNumber = "2894"
+            startingLineNumber = "2905"
+            endingLineNumber = "2905"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1789,11 +1789,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/MainViewController.m"
-            timestampString = "510820185.275764"
+            timestampString = "510838584.886734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2213"
-            endingLineNumber = "2213"
+            startingLineNumber = "2224"
+            endingLineNumber = "2224"
             landmarkName = "-loadStream:"
             landmarkType = "7">
          </BreakpointContent>

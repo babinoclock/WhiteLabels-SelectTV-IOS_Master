@@ -173,6 +173,10 @@ void saveContentsToFile (id data, NSString* filename);
 
 - (UIColor *)Common_Screen_BG_Color;
 
+#pragma mark - getIntroVideoPlayed
+-(NSString *)getIntroVideoPlayed;
+-(void)isIntroVideoPlayed:(NSString *)played;
+
 
 #pragma  mark Remove Cache from Local
 -(void)removeFileFromLocalCache;

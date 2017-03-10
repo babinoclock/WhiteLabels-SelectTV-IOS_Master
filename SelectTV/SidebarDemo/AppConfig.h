@@ -104,8 +104,11 @@
 
 #define TITLE_FONT_SIZE                      15
 
-// COLOR
-#define BORDER_BLUE             [UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1];
+// COLOR   //new color gray
+#define BORDER_BLUE     [UIColor colorWithRed:139.0f/255.0f green:143.0f/255.0f blue:144.0f/255.0f alpha:1.0f];
+
+//OLD BLUE
+//[UIColor colorWithRed:2.0f/255.0f green:147.0f/255.0f blue:255.0f/255.0f alpha:1];
 
 #define FREE_GREEN             [UIColor colorWithRed:19.0f/255.0f green:127.0f/255.0f blue:23.0f/255.0f alpha:1];
 
@@ -141,6 +144,8 @@
 #define USER_PROFILEDETAILS                    @"UserProfileDetails"
 
 #define DEMO_VIDEO_PLAYED                      @"isDemoVideoPlayed"
+
+#define DEMO_INTRO_VIDEO_PLAYED                @"DEMO_INTRO_VIDEO_PLAYED"
 
 //SAVE CONTENT FILE NAME
 

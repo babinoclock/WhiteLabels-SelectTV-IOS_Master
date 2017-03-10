@@ -116,6 +116,21 @@ AppCommon *sharedCommon = nil;
     return [UIColor colorWithRed:44.0f/255.0f green:45.0f/255.0f blue:49.0f/255.0f alpha:1.0f];
 }
 
+#pragma mark - getIntroVideoPlayed
+-(NSString *)getIntroVideoPlayed
+{
+    NSString *getIntroVideoPlayed =[[NSUserDefaults standardUserDefaults]valueForKey:DEMO_INTRO_VIDEO_PLAYED];
+    return getIntroVideoPlayed;
+    
+}
+-(void)isIntroVideoPlayed:(NSString *)played {
+    [[NSUserDefaults standardUserDefaults] setObject:played forKey:DEMO_INTRO_VIDEO_PLAYED];
+    
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+}
+
+
 
 +(void)showSimpleAlertWithMessage:(NSString *)message{
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle: APP_TITLE
