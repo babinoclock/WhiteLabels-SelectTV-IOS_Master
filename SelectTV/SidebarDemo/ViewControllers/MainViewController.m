@@ -335,10 +335,10 @@ CustomIOS7AlertView * mainChannelView;
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
     
     
-   [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
-    [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
-    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
-    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
+  // [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation"] forBarMetrics:UIBarMetricsDefault];
+  //  [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
+  //  [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
+  //  [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
   
     //[self.navigationController.navigationBar setBackgroundImage:[UIColor colorWithRed:59.0f/255.0f green:60.0f/255.0f blue:64.0f/255.0f alpha:1.0f] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
@@ -913,7 +913,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 //                    segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
 //                }
 //                else{
-                    attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor yellowColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+                    attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Top_Navigation_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
                     segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
                     segmentedControl.selectionIndicatorColor = [UIColor whiteColor];
                 //}
@@ -2703,9 +2703,9 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 {
     self.title = strTitle;
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
-    [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
-    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
-    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
+   // [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
+   // [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
+   // [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     
     self.navigationController.navigationBar.backgroundColor= GRAY_BG_COLOR;

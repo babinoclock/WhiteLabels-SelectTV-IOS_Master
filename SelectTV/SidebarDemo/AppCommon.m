@@ -106,6 +106,11 @@ AppCommon *sharedCommon = nil;
     return [UIColor colorWithRed:139.0f/255.0f green:143.0f/255.0f blue:144.0f/255.0f alpha:1.0f];
 }
 
+- (UIColor *)Common_Top_Navigation_Color
+{
+    return [UIColor colorWithRed:44.0f/255.0f green:45.0f/255.0f blue:49.0f/255.0f alpha:1.0f];
+}
+
 
 +(void)showSimpleAlertWithMessage:(NSString *)message{
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle: APP_TITLE

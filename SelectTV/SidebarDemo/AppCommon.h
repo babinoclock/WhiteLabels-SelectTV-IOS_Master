@@ -169,6 +169,9 @@ void saveContentsToFile (id data, NSString* filename);
 
 - (UIColor *)Common_Light_BG_Color;
 
+- (UIColor *)Common_Top_Navigation_Color;
+
+
 #pragma  mark Remove Cache from Local
 -(void)removeFileFromLocalCache;
 
