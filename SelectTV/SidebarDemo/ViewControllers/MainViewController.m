@@ -2320,7 +2320,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         [self fullScreenTouched:nil];
     }
     
-    //NSString* strID = [NSString stringWithFormat:@"%d", nChannelID];
+    NSString* strID = [NSString stringWithFormat:@"%d", nChannelID];
     if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
     {
         [self.mainActivityIndicator setHidden:true];
@@ -4092,20 +4092,20 @@ didReceiveStatusForApplication:(GCKApplicationMetadata *)applicationMetadata {
     if (position == FrontViewPositionLeftSide) {               // Menu will get revealed
         self.tapGestureRecognizer.enabled = YES;                 // Enable the tap gesture Recognizer
 //        self.interactivePopGestureRecognizer.enabled = NO;        // Prevents the iOS7's pan gesture
-       // self.view.userInteractionEnabled = NO;       // Disable the topViewController's interaction
+        self.view.userInteractionEnabled = NO;       // Disable the topViewController's interaction
     }
     else if (position == FrontViewPositionLeft){      // Menu will close
         self.tapGestureRecognizer.enabled = NO;
 //        self.interactivePopGestureRecognizer.enabled = YES;
-       // self.view.userInteractionEnabled = YES;
+        self.view.userInteractionEnabled = YES;
     }
 }
 - (void)revealController:(SWRevealViewController *)revealController didMoveToPosition:(FrontViewPosition)position
 {
     if(position == FrontViewPositionLeft) {
-       // self.view.userInteractionEnabled = YES;
+        self.view.userInteractionEnabled = YES;
     } else {
-       // self.view.userInteractionEnabled = NO;
+        self.view.userInteractionEnabled = NO;
     }
 }
 //TESTING

@@ -647,7 +647,7 @@ int nSubCellHeight = 200;
     
     UILabel * titleSubLabel = [[UILabel alloc]initWithFrame:CGRectMake(15, CGRectGetMaxY(titleLabel.frame),satelliteView.frame.size.width-10, satelliewViewLabelHeight)];
     titleSubLabel.text = @"(We'll use this to customize your viewing options)";
-    titleSubLabel.textColor = SKY_BLUE;
+    titleSubLabel.textColor = BORDER_BLUE;///SKY_BLUE
     titleSubLabel.font = [COMMON getResizeableFont:Roboto_Regular(titleFontSize)];
     titleSubLabel.textAlignment = NSTextAlignmentLeft;
     [titleSubLabel setBackgroundColor:[UIColor clearColor]];
@@ -685,7 +685,7 @@ int nSubCellHeight = 200;
     
     UILabel * premiumSubLabel = [[UILabel alloc]initWithFrame:CGRectMake(15, CGRectGetMaxY(premiumTitleLabel.frame),premiumView.frame.size.width-10, satelliewViewLabelHeight)];
     premiumSubLabel.text = @"Select any that apply.";
-    premiumSubLabel.textColor = SKY_BLUE;
+    premiumSubLabel.textColor = BORDER_BLUE;///SKY_BLUE
     premiumSubLabel.font = [COMMON getResizeableFont:Roboto_Regular(premiumSubLabelFontSize)];
     premiumSubLabel.textAlignment = NSTextAlignmentCenter;
     [premiumSubLabel setBackgroundColor:[UIColor clearColor]];

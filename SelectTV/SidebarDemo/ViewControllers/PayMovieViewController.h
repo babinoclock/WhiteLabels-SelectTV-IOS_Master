@@ -32,6 +32,7 @@
     UIView *upperBottomBorder1;
     UIView *upperBottomBorder2;
     UIView *manageLabel;
+    UIButton *manageButton;
     BOOL isLandscape;
     NSUInteger selectedCaurosalIndex;
     BOOL isShowsClicked;
@@ -75,4 +76,9 @@
 @property (assign, nonatomic) BOOL isPushedFromSubscriptView;
 
 @property(nonatomic, strong)  NSArray *subcsArray;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *payTableViewHeightConstraint;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *payTableViewXPosConstraint;
+
+@property (strong, nonatomic) IBOutlet UITableView *payPerGridView;
+
 @end

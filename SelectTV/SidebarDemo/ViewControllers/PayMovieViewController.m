@@ -139,6 +139,9 @@ UITableView* tableChannelList;
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    bPayMovieNetworkShown = true;
+    
+    //_payTableView.uiGridViewDelegate =self;
+    
     appDelegate.isSubscriptPage = @"NO";
     isLandscape = NO;
     isShowsClicked = YES;
@@ -233,7 +236,18 @@ UITableView* tableChannelList;
 //        [self loadMovieLatestAppListScrollViewData];
          [payLabel setUserInteractionEnabled:NO];
         [self getSubscription:0];
-        [_payTableView reloadData];
+        if(isPayPerView==YES){
+            [_payTableView setHidden:YES];
+            [_payPerGridView setHidden:NO];
+            [self.payPerGridView reloadData];
+            [self.payPerGridView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+        }
+        else{
+            [_payTableView setHidden:NO];
+            [_payPerGridView setHidden:YES];
+            [self.payTableView reloadData];
+            [self.payTableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+        }
     } else {
         [payLabel setUserInteractionEnabled:YES];
         UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(myLeftSelector:)];
@@ -255,6 +269,18 @@ UITableView* tableChannelList;
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    [_payTableView setHidden:YES];
+    [_payPerGridView setHidden:YES];
+    if(isPayPerView==YES){
+         [_payTableView setHidden:YES];
+         [_payPerGridView setHidden:NO];
+    }
+    else{
+         [_payTableView setHidden:NO];
+         [_payPerGridView setHidden:YES];
+    }
+   
     UIFont *titleFont = [COMMON getResizeableFont:Roboto_Bold(TITLE_FONT_SIZE)];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
@@ -368,6 +394,7 @@ UITableView* tableChannelList;
     
     [_payPerSliderView setHidden:NO];
     [_payTableView setHidden:YES];
+    [_payPerGridView setHidden:YES];
    // [_payPerSliderView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]]];
     
     _payPerSliderView.backgroundColor = GRAY_BG_COLOR;
@@ -423,6 +450,7 @@ UITableView* tableChannelList;
     }
     [_payPerSliderView setHidden:NO];
     [_payTableView setHidden:YES];
+    [_payPerGridView setHidden:YES];
     
     OnDemandSliderCarouselView *slider = [OnDemandSliderCarouselView loadView];
     [slider loadSliderShowImages:sliderArrayForImages carouselArray:topTitleCarouselListArray currentViewStr:@"PayPerView" currentTitleStr:currentSelectedStr];
@@ -889,7 +917,9 @@ UITableView* tableChannelList;
         }
         [_payPerSliderView setHidden:NO];
         [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:YES];
         [payPerRightMenuLabel setHidden:YES];
+        [payPerRightMenuLabel setUserInteractionEnabled:NO];
         [self getPayPerViewFirstMovieCarousels];
         
     }
@@ -902,11 +932,21 @@ UITableView* tableChannelList;
          isPerPerViewShows=NO;
         isMovieType=YES;
         [_payPerSliderView setHidden:YES];
-        [_payTableView setHidden:NO];
-        if(isPayPerView==NO) {
-            [payPerRightMenuLabel setHidden:YES];
-        }else
+        [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:YES];
+        if(isPayPerView==YES){
+            [_payTableView setHidden:YES];
+            [_payPerGridView setHidden:NO];
             [payPerRightMenuLabel setHidden:NO];
+            [payPerRightMenuLabel setUserInteractionEnabled:YES];
+        }
+        else{
+            [_payTableView setHidden:NO];
+            [_payPerGridView setHidden:YES];
+            [payPerRightMenuLabel setHidden:YES];
+            [payPerRightMenuLabel setUserInteractionEnabled:NO];
+        }
+        
         NSDictionary *dictItem =  dropDownNSArray[0];
         NSString *genreStr  = dictItem[@"label"];
         if([COMMON isSpanishLanguage]==YES){
@@ -937,11 +977,21 @@ UITableView* tableChannelList;
         isPerPerViewShows=NO;
         isMovieType=YES;
         [_payPerSliderView setHidden:YES];
-        [_payTableView setHidden:NO];
-         if(isPayPerView==NO)
-             [payPerRightMenuLabel setHidden:YES];
-        else
+        [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:YES];
+        if(isPayPerView==YES){
+            [_payTableView setHidden:YES];
+            [_payPerGridView setHidden:NO];
             [payPerRightMenuLabel setHidden:NO];
+            [payPerRightMenuLabel setUserInteractionEnabled:YES];
+        }
+        else{
+            [_payTableView setHidden:NO];
+            [_payPerGridView setHidden:YES];
+            [payPerRightMenuLabel setHidden:YES];
+            [payPerRightMenuLabel setUserInteractionEnabled:NO];
+        }
+        
         NSDictionary *dictItem =  perPerViewRatingArray[0];
         NSString *slug  = dictItem[@"slug"];
         NSString *ratingStr  = dictItem[@"name"];
@@ -978,6 +1028,7 @@ UITableView* tableChannelList;
         }
         [_payPerSliderView setHidden:YES];
         [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:YES];
         [payPerRightMenuLabel setHidden:YES];
         [self getPayPerViewShowsCarousels];
     }
@@ -990,10 +1041,22 @@ UITableView* tableChannelList;
         arrayPayItems = [responseObject mutableCopy];
          nPayCategory = CATEGORY_MOVIES_PAY;
         [_payPerSliderView setHidden:YES];
-        [_payTableView setHidden:NO];
-        [self.payTableView reloadData];
+        [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:YES];
+        if(isPayPerView==YES){
+            [_payTableView setHidden:YES];
+            [_payPerGridView setHidden:NO];
+            [_payPerGridView reloadData];
+            [_payPerGridView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+        }
+        else{
+            [_payTableView setHidden:NO];
+            [_payPerGridView setHidden:YES];
+            [self.payTableView reloadData];
+            [self.payTableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+        }
+       
         [COMMON removeLoading];
-        [self.payTableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
         [MBProgressHUD hideHUDForView:[[UIApplication sharedApplication] keyWindow] animated:YES];
         [self.payMovieActivityIndicator setHidden:true];
     } failureBlock:^(AFHTTPRequestOperation *request,NSError *error) {
@@ -1225,7 +1288,19 @@ UITableView* tableChannelList;
         isCarouselImage =NO;
         isNetworkUrl = NO;
         isMovieType=NO;
-        [_payTableView reloadData];
+        if(isPayPerView==YES){
+            [_payTableView setHidden:YES];
+            [_payPerGridView setHidden:NO];
+            [_payPerGridView reloadData];
+            [_payPerGridView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+        }
+        else{
+            [_payTableView setHidden:NO];
+            [_payPerGridView setHidden:YES];
+            [self.payTableView reloadData];
+            [self.payTableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+        }
+
         [self performSelector:@selector(reloadGridData) withObject:nil afterDelay:1.0];
         [COMMON removeProgressHud];
     } failureBlock:^(AFHTTPRequestOperation *operation, id Error) {
@@ -1234,7 +1309,19 @@ UITableView* tableChannelList;
 }
 
 - (void)reloadGridData {
-    [_payTableView reloadData];
+    if(isPayPerView==YES){
+        [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:NO];
+        [_payPerGridView reloadData];
+        [_payPerGridView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+    }
+    else{
+        [_payTableView setHidden:NO];
+        [_payPerGridView setHidden:YES];
+        [self.payTableView reloadData];
+        [self.payTableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+    }
+
 }
 -(void) searchByType{
     [[RabbitTVManager sharedManager] getSearchFindByType:^(AFHTTPRequestOperation * operation, id responseObject) {
@@ -1301,9 +1388,22 @@ UITableView* tableChannelList;
         [COMMON removeLoading];
         isMovieType=YES;
         [_payPerSliderView setHidden:YES];
-        [_payTableView setHidden:NO];
+        [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:YES];
         arrayPayItems = [[NSMutableArray alloc]initWithArray:responseObject];
-        [self.payTableView reloadData];
+        if(isPayPerView==YES){
+            [_payTableView setHidden:YES];
+            [_payPerGridView setHidden:NO];
+            [_payPerGridView reloadData];
+            [_payPerGridView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+        }
+        else{
+            [_payTableView setHidden:NO];
+            [_payPerGridView setHidden:YES];
+            [self.payTableView reloadData];
+            [self.payTableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+        }
+       
         [self.payMovieActivityIndicator setHidden:true];
     } nID:nChannelID nStatus:nStatus nPPV:nPPV];
     
@@ -1320,8 +1420,19 @@ UITableView* tableChannelList;
         arrayPayItems = [[NSMutableArray alloc]initWithArray:responseObject];
         isMovieType=NO;
         [_payPerSliderView setHidden:YES];
-        [_payTableView setHidden:NO];
-        [self.payTableView reloadData];
+        [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:YES];
+        if(isPayPerView==YES){
+            [_payTableView setHidden:YES];
+            [_payPerGridView setHidden:NO];
+            [self.payPerGridView reloadData];
+        }
+        else{
+            [_payTableView setHidden:NO];
+            [_payPerGridView setHidden:YES];
+            [self.payTableView reloadData];
+        }
+        
         [COMMON removeLoading];
         NSLog(@"showresponseObject%@",responseObject);
         
@@ -1338,7 +1449,16 @@ UITableView* tableChannelList;
     [self.payMovieActivityIndicator setHidden:false];
     [[RabbitTVManager sharedManager] getShowSeasons:^(AFHTTPRequestOperation * request, id responseObject) {
         arraySeasons = [[NSMutableArray alloc] initWithArray:responseObject];
-        [self.payTableView reloadData];
+        if(isPayPerView==YES){
+            [_payTableView setHidden:YES];
+            [_payPerGridView setHidden:NO];
+            [self.payPerGridView reloadData];
+        }
+        else{
+            [_payTableView setHidden:NO];
+            [_payPerGridView setHidden:YES];
+            [self.payTableView reloadData];
+        }
         [self.payMovieActivityIndicator setHidden:true];
         NSLog(@"arraySeasons%@",responseObject);
         isSeasonArray=YES;
@@ -1353,8 +1473,18 @@ UITableView* tableChannelList;
     isNetworkUrl =YES;
     isCarouselImage=NO;
     [_payPerSliderView setHidden:YES];
-    [_payTableView setHidden:NO];
-    [self.payTableView reloadData];
+    [_payTableView setHidden:YES];
+    [_payPerGridView setHidden:YES];
+    if(isPayPerView==YES){
+        [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:NO];
+        [self.payPerGridView reloadData];
+    }
+    else{
+        [_payTableView setHidden:NO];
+        [_payPerGridView setHidden:YES];
+        [self.payTableView reloadData];
+    }
 }
 
 #pragma mark - updateNetworkDetailData
@@ -1379,7 +1509,16 @@ UITableView* tableChannelList;
         if([arrayPayItems count] ==0) {
             nPayCategory = CATEGORY_NETWORK_PAY;
             [_payPerSliderView setHidden:YES];
-            [_payTableView setHidden:NO];
+            [_payTableView setHidden:YES];
+            [_payPerGridView setHidden:YES];
+            if(isPayPerView==YES){
+                [_payTableView setHidden:YES];
+                [_payPerGridView setHidden:NO];
+            }
+            else{
+                [_payTableView setHidden:NO];
+                [_payPerGridView setHidden:YES];
+            }
             [self updateData:nNetworkID status:4];
             [self.payMovieActivityIndicator setHidden:true];
              [COMMON removeLoading];
@@ -1388,8 +1527,18 @@ UITableView* tableChannelList;
             isNetworkUrl = NO;
             isCarouselImage=NO;
             [_payPerSliderView setHidden:YES];
-            [_payTableView setHidden:NO];
-            [self.payTableView reloadData];
+            [_payTableView setHidden:YES];
+            [_payPerGridView setHidden:YES];
+            if(isPayPerView==YES){
+                [_payTableView setHidden:YES];
+                [_payPerGridView setHidden:NO];
+                [self.payPerGridView reloadData];
+            }
+            else{
+                [_payTableView setHidden:NO];
+                [_payPerGridView setHidden:YES];
+                [self.payTableView reloadData];
+            }
            [self.payMovieActivityIndicator setHidden:true];
              [COMMON removeLoading];
         }
@@ -1464,11 +1613,22 @@ UITableView* tableChannelList;
         [sliderImageArray removeAllObjects];
         [topTitleCarouselArray removeAllObjects];
         [_payPerSliderView setHidden:YES];
-        [_payTableView setHidden:NO];
+       
         isCarouselImage=YES;
         arrayPayItems = [responseObject mutableCopy];
-        [self.payTableView reloadData];
-        [_payTableView setHidden:NO];
+        [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:YES];
+        if(isPayPerView==YES){
+            [_payTableView setHidden:YES];
+            [_payPerGridView setHidden:NO];
+            [self.payPerGridView reloadData];
+        }
+        else{
+            [_payTableView setHidden:NO];
+            [_payPerGridView setHidden:YES];
+             [self.payTableView reloadData];
+        }
+       
         
         [self.payMovieActivityIndicator setHidden:true];
         NSLog(@"PRIME%@-->",responseObject);
@@ -1589,8 +1749,8 @@ UITableView* tableChannelList;
 }
 - (NSInteger) numberOfCellsOfGridView:(UIGridView *) grid
 {
-    if([_subcsArray count]==0)
-        return 0;
+    //if([_subcsArray count]==0)
+     //   return 0;
     return [arrayPayItems count];
 
 }
@@ -1892,8 +2052,18 @@ UITableView* tableChannelList;
         }
         
     }
-    [self.payTableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
-    [self.payTableView reloadData];
+    if(isPayPerView==YES){
+        [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:NO];
+        [self.payPerGridView reloadData];
+        [self.payPerGridView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+    }
+    else{
+        [_payTableView setHidden:NO];
+        [_payPerGridView setHidden:YES];
+        [self.payTableView reloadData];
+        [self.payTableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+    }
 }
 -(void)onPayPerViewLeftMenuList:(BOOL)portraitBool{
     if(bPayMovieNetworkShown) {
@@ -1951,12 +2121,16 @@ UITableView* tableChannelList;
     [manageLabel setUserInteractionEnabled:YES];
     [movieShowView setUserInteractionEnabled:YES];
     [_caurosalView setUserInteractionEnabled:YES];
-    UIButton *manageButton = [UIButton  buttonWithType:UIButtonTypeCustom];
+    [manageButton removeFromSuperview];
+    manageButton = [UIButton  buttonWithType:UIButtonTypeCustom];
     [manageButton setFrame:CGRectMake(X1Pos, CGRectGetMaxY(_caurosalView.frame)-50, 150, 50)];
     [manageButton.titleLabel setFont:[COMMON getResizeableFont:Roboto_Regular(16)]];
     [manageButton setTitle:@"Manage +" forState:UIControlStateNormal];
 //    [manageButton setBackgroundColor:[UIColor redColor]];
-    [manageButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
+    //[manageButton setTitleColor:[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f] forState:UIControlStateNormal];
+    
+     [manageButton setTitleColor:[COMMON Common_Light_BG_Color] forState:UIControlStateNormal];
+    
 //    [manageButton setUserInteractionEnabled:YES];
 //    UITapGestureRecognizer *letterTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(subscriptionAction:)];
 //    letterTapRecognizer.numberOfTapsRequired = 1;
@@ -2014,8 +2188,8 @@ UITableView* tableChannelList;
     else
         [self performSelector:@selector(movieAction) withObject:nil afterDelay:1.0];
 
-if([self isDeviceIpad])
-    [HeaderScroll setContentSize:CGSizeMake((episodeImage.frame.size.width)*[_subcsArray count], HeaderScroll.frame.size.height)];
+    if([self isDeviceIpad])
+        [HeaderScroll setContentSize:CGSizeMake((episodeImage.frame.size.width)*[_subcsArray count], HeaderScroll.frame.size.height)];
     else
         [HeaderScroll setContentSize:CGSizeMake((episodeImage.frame.size.width)*[_subcsArray count]+200, HeaderScroll.frame.size.height)];
  
@@ -2073,7 +2247,18 @@ if([self isDeviceIpad])
     [movieButton.titleLabel setFont:[COMMON getResizeableFont:Roboto_Bold(12)]];
     [showButton.titleLabel setFont:[COMMON getResizeableFont:Roboto_Bold(12)]];
     arrayPayItems = [movieArray mutableCopy];
-    [_payTableView reloadData];
+    if(isPayPerView==YES){
+        [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:NO];
+        [self.payPerGridView reloadData];
+        [self.payPerGridView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+    }
+    else{
+        [_payTableView setHidden:NO];
+        [_payPerGridView setHidden:YES];
+        [self.payTableView reloadData];
+        [self.payTableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+    }
 }
 
 -(void) autoMaskingForUpperButtonBorder{
@@ -2134,7 +2319,18 @@ if([self isDeviceIpad])
     [showButton.titleLabel setFont:[COMMON getResizeableFont:Roboto_Bold(12)]];
 
     arrayPayItems = [showArray mutableCopy];
-    [_payTableView reloadData];
+    if(isPayPerView==YES){
+        [_payTableView setHidden:YES];
+        [_payPerGridView setHidden:NO];
+        [self.payPerGridView reloadData];
+        [self.payPerGridView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+    }
+    else{
+        [_payTableView setHidden:NO];
+        [_payPerGridView setHidden:YES];
+        [self.payTableView reloadData];
+        [self.payTableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+    }
 }
 - (void) subscriptionAction:(id)sender {
     appDelegate.isSubscriptPage = @"NO";
