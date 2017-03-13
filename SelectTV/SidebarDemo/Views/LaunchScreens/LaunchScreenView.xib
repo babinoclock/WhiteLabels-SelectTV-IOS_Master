@@ -14,19 +14,17 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Endeavor_CustomLaunchIcon" translatesAutoresizingMaskIntoConstraints="NO" id="YSz-TQ-S3k">
-                    <rect key="frame" x="43" y="276.5" width="298" height="82"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kGK-GZ-SwQ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YSz-TQ-S3k">
+                    <rect key="frame" x="43" y="232" width="298" height="150"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" red="0.23137254901960785" green="0.23529411764705882" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <constraints>
-                <constraint firstItem="YSz-TQ-S3k" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-16" id="ZFo-EM-Mb1"/>
-                <constraint firstItem="YSz-TQ-S3k" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="4.5" id="neM-Ql-SJH"/>
-            </constraints>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <point key="canvasLocation" x="24.5" y="52.5"/>
         </view>
     </objects>
-    <resources>
-        <image name="Endeavor_CustomLaunchIcon" width="298" height="82"/>
-    </resources>
 </document>

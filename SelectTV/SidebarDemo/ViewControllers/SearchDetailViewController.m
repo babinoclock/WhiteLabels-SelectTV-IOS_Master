@@ -1172,7 +1172,7 @@ NSString *THUMBNAIL_STATION_URL = @"http://img.youtube.com/vi/";
     
     
     viewContainer = [[UIView alloc]initWithFrame:CGRectMake(0, 0, viewInnerContainer.frame.size.width, viewInnerContainer.frame.size.height)];
-    [viewInnerContainer setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+    [viewInnerContainer setBackgroundColor:[COMMON Common_Screen_BG_Color]];
     
     labelTitle = [[UILabel alloc] initWithFrame:CGRectMake(10, labelTitleXPos, viewContainer.frame.size.width-20, labelTitleHeight)];
     [labelTitle setText:@"VIDEO ON-DEMAND"];

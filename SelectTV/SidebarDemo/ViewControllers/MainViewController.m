@@ -2830,13 +2830,15 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
             [self.tableStreams setContentInset:UIEdgeInsetsMake(0,0,3,0)];
         }
         
-       [cell.contentView setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
-        [cell setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+    //[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1] into [COMMON Common_Screen_BG_Color];
+        
+        
+        [cell.contentView setBackgroundColor:[COMMON Common_Screen_BG_Color]];
+        [cell setBackgroundColor:[COMMON Common_Screen_BG_Color]];
         //[self.tableStreams setSeparatorColor:[UIColor colorWithRed:33.0/255.0f green:33.0/255.0f blue:33.0/255.0f alpha:1]];
-         [self.tableStreams setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+         [self.tableStreams setBackgroundColor:[COMMON Common_Screen_BG_Color]];
         //[self.tableStreams setSeparatorColor:[UIColor colorWithRed:0.0/255.0f green:74.0/255.0f blue:125.0/255.0f alpha:1]];
         [self.tableStreams setSeparatorColor:[UIColor colorWithRed:9.0f/255.0f green:63.0f/255.0f blue:104.0f/255.0f alpha:1]];
-        
         
         
         return cell;
@@ -2997,7 +2999,9 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     
     
     viewContainer = [[UIView alloc]initWithFrame:CGRectMake(0, 0, viewInnerContainer.frame.size.width, viewInnerContainer.frame.size.height)];
-    [viewInnerContainer setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+    //[viewInnerContainer setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+    
+    [viewInnerContainer setBackgroundColor:[COMMON Common_Screen_BG_Color]];
     
     labelTitle = [[UILabel alloc] initWithFrame:CGRectMake(10, labelTitleXPos, viewContainer.frame.size.width-20, labelTitleHeight)];
     [labelTitle setText:@"VIDEO ON-DEMAND"];

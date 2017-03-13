@@ -143,8 +143,10 @@ UITableView* tableChannelList;
     isLandscape = NO;
     isShowsClicked = YES;
     selectedCaurosalIndex = 0;
-     payPerViewStaticArray = [[NSMutableArray alloc] initWithObjects:@"Movies", @"By Genre",@"By Rating",@"TV Shows", nil];
-     currentAppLanguage = [[NSLocale preferredLanguages] objectAtIndex:0];
+    //payPerViewStaticArray = [[NSMutableArray alloc] initWithObjects:@"Movies", @"By Genre",@"By Rating",@"TV Shows",nil];
+    
+    payPerViewStaticArray = [[NSMutableArray alloc] initWithObjects:@"Movies",@"TV Shows",@"By Genre",@"By Rating",nil];
+    currentAppLanguage = [[NSLocale preferredLanguages] objectAtIndex:0];
     movieArray = [NSMutableArray new];
     showArray = [NSMutableArray new];
     if([COMMON isSpanishLanguage]==YES){

@@ -2036,22 +2036,24 @@ CustomIOS7AlertView *appListFullPopUpView;
     }
     
     
+    // freelabel [UIColor colorWithRed:28.0f/255.0f green:134.0f/255.0f blue:238.0f/255.0f alpha:1]
+    
     freeLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, commonLabelYpos, freeLabelWidth, 20)];
     freeLabel.text = @"FREE";
     [freeLabel setTextAlignment:NSTextAlignmentRight];
     [freeLabel setBackgroundColor:[UIColor clearColor]];
-    [freeLabel setTextColor:[UIColor colorWithRed:28.0f/255.0f green:134.0f/255.0f blue:238.0f/255.0f alpha:1]];
+    [freeLabel setTextColor:[COMMON Common_Light_BG_Color]];
     
     freeRentLabel = [[UILabel alloc]initWithFrame:CGRectMake(5, commonLabelYpos, freeRentView.frame.size.width-20, 25)];
     [freeRentLabel setTextAlignment:NSTextAlignmentLeft];
     [freeRentLabel setBackgroundColor:[UIColor clearColor]];
-    [freeRentLabel setTextColor:[UIColor colorWithRed:28.0f/255.0f green:134.0f/255.0f blue:238.0f/255.0f alpha:1]];
+    [freeRentLabel setTextColor:[COMMON Common_Light_BG_Color]];
     
     
     int installSwitchXPos = (freeLabel.frame.origin.x+freeLabel.frame.size.width);
     freeSwitch = [[UISwitch alloc] initWithFrame:CGRectMake(installSwitchXPos, freeSwitchYPos, 30, 40)];
     [freeSwitch addTarget: self action: @selector(flipShowSwitch:) forControlEvents:UIControlEventTouchUpInside];
-    [freeSwitch setOnTintColor:[UIColor colorWithRed:28.0f/255.0f green:134.0f/255.0f blue:238.0f/255.0f alpha:1]];
+    [freeSwitch setOnTintColor:[COMMON Common_Light_BG_Color]];
     [freeSwitch setOn:NO];
     
     int rentLabelXPos = (freeSwitch.frame.origin.x+freeSwitch.frame.size.width);
@@ -2367,7 +2369,8 @@ CustomIOS7AlertView *appListFullPopUpView;
         maskLayer.path = maskPath.CGPath;
         watchNowLabel.layer.mask = maskLayer;
         [watchNowLabel setText:@"watchnow"];
-        watchNowLabel.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"watchNowAppIcon"]];
+       // watchNowLabel.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"watchNowAppIcon"]];
+        watchNowLabel.backgroundColor = [COMMON Common_Gray_BG_Color];
 
         [watchNowLabel setTextAlignment:NSTextAlignmentCenter];
         [watchNowLabel setFont:[COMMON getResizeableFont:Roboto_Bold(10)]];
@@ -2385,7 +2388,8 @@ CustomIOS7AlertView *appListFullPopUpView;
         }
         //CGFloat  episodeBgImageYPos = 15;//watchNowLabel.frame.origin.y+watchNowLabel.frame.size.height;
         UIImageView *episodeBgImage = [[UIImageView alloc]initWithFrame:CGRectMake(10, episodeBgImageYPos, episodeBgImageHeightWidth, episodeBgImageHeightWidth)];
-        [episodeBgImage setImage:[UIImage imageNamed:@"appBgIcon"]];
+        //[episodeBgImage setImage:[UIImage imageNamed:@"appBgIcon"]];
+        episodeBgImage.backgroundColor = [COMMON Common_Light_BG_Color];
         
         CGFloat episodeImageHeightWidth;
         if([self isDeviceIpad]==YES){
@@ -3231,7 +3235,9 @@ CustomIOS7AlertView *appListFullPopUpView;
         }
     }
     appListFullPopUpView.delegate = self;
-    [appListInnerPopUpView setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+    //[appListInnerPopUpView setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+    
+    [appListInnerPopUpView setBackgroundColor:[COMMON Common_Screen_BG_Color]];
     [self setUpAppListViewContainer];
     
     

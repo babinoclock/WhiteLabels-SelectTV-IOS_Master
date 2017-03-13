@@ -170,6 +170,8 @@
     UIView * itemDetailBgView;
     
     BOOL appManagerDoneClicked;
+    
+    UIColor *currentViewBgColor;
 
 }
 //AppInfo
@@ -261,7 +263,11 @@ UITableView* tableChannelList;
     [super viewDidLoad];
     
     [self loadStaticArrayForAppManager];
-
+    
+   // currentViewBgColor = [UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1];
+    
+    currentViewBgColor = [COMMON Common_Screen_BG_Color];
+ 
     
     visibleSection =0;
     appVisibleSection=0;
@@ -434,9 +440,11 @@ UITableView* tableChannelList;
     }
     self.revealViewController.delegate = self;
     
-    //[self.view setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
-     self.view.backgroundColor = [COMMON Common_Screen_BG_Color];
+     self.view.backgroundColor = currentViewBgColor;
+    self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];
    
     
 }
@@ -490,7 +498,7 @@ UITableView* tableChannelList;
     
    // [self.navigationController.navigationBar setBarTintColor:[UIColor whiteColor]];
    // [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
-   // [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
+    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:titleFont}];
     
     self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
@@ -584,7 +592,11 @@ UITableView* tableChannelList;
         [_playerBgView setHidden:YES];
         [_playerBgView removeFromSuperview];
         [downloadView setHidden:NO];
+       
     }
+    self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];
     
 }
 #pragma mark - setArrayforSpainsh
@@ -2651,7 +2663,7 @@ UITableView* tableChannelList;
     appHeaderLabel.text = appHeaderLabelStr ;
     [appHeaderLabel setFont:[COMMON getResizeableFont:Roboto_Regular(19)]];
     appHeaderLabel.textColor=[UIColor whiteColor];
-    [appHeaderLabel  setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+    [appHeaderLabel  setBackgroundColor:currentViewBgColor];
     
     
     [downloadView addSubview:appHeaderLabel];
@@ -2781,7 +2793,7 @@ UITableView* tableChannelList;
     
     [downloadView addSubview:collectionHeader];
     
-    [downloadView setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+    [downloadView setBackgroundColor:currentViewBgColor];
     
     subScriptionView = [[UIView alloc]init];
     
@@ -2932,11 +2944,11 @@ UITableView* tableChannelList;
         
         if (selected) {
             
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor yellowColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             
             return attString;
         } else {
-            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
+            attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [COMMON Common_Light_BG_Color],NSFontAttributeName:[COMMON getResizeableFont:Roboto_Bold(14)]}];
             
             return attString;
         }
@@ -2961,7 +2973,7 @@ UITableView* tableChannelList;
     appHeaderLabel.text = appHeaderLabelStr ;
     [appHeaderLabel setFont:[COMMON getResizeableFont:Roboto_Regular(12)]];
     appHeaderLabel.textColor=[UIColor whiteColor];
-    [appHeaderLabel  setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+    [appHeaderLabel  setBackgroundColor:currentViewBgColor];
     [downloadView addSubview:appHeaderLabel];
     
     NSString * appManagerStr = [[NSUserDefaults standardUserDefaults] objectForKey:@"APPMANAGER"];
@@ -3003,7 +3015,11 @@ UITableView* tableChannelList;
                                                                     };
     [self.navigationItem.rightBarButtonItem setTintColor:[UIColor clearColor]];
     [self.navigationItem.rightBarButtonItem setEnabled:NO];
+    self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];
     NSString * str = [[NSUserDefaults standardUserDefaults] objectForKey:@"APPMANAGER"];
+    
     if([str  isEqualToString: @"YES"]){
         [_mainLeftBarButton setHidden:NO];
         [_searchButton setHidden:NO];
@@ -3013,7 +3029,7 @@ UITableView* tableChannelList;
     }
     
     
-    [downloadView setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+    downloadView.backgroundColor = currentViewBgColor;
     _appDownloadTableView.tag = 111;
     _appDownloadTableView.backgroundColor = [UIColor clearColor];
     _appDownloadTableView.delegate = self;
@@ -3504,6 +3520,9 @@ UITableView* tableChannelList;
                                                                     NSForegroundColorAttributeName: [UIColor whiteColor]
                                                                     };
     [self.navigationItem.rightBarButtonItem setEnabled:YES];
+    self.navigationController.navigationBar.backgroundColor= [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.tintColor = [COMMON Common_Gray_BG_Color];
+    self.navigationController.navigationBar.barTintColor = [COMMON Common_Gray_BG_Color];
    
     //_tableView.tag = 100;
     isAppListFirstTimeHidden =YES;
@@ -3998,7 +4017,7 @@ UITableView* tableChannelList;
         }
     }
     
-    [showPopUpInnerView setBackgroundColor:[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+    [showPopUpInnerView setBackgroundColor:currentViewBgColor];
     [self setUpAppListViewContainer];
 }
 

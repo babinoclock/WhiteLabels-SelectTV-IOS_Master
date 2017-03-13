@@ -1251,7 +1251,7 @@ int nRadioHeight=160;
     //[label setBackgroundColor :[UIColor redColor]];
     //[view setBackgroundColor:[UIColor colorWithRed:24.0/255.0f green:25.0/255.0f blue:28.0/255.0f alpha:1]];
     if(listTitle == nil){
-        [view setBackgroundColor :[UIColor colorWithRed:1.0/255.0f green:83.0/255.0f blue:137.0/255.0f alpha:1]];
+        [view setBackgroundColor :[COMMON Common_Light_BG_Color]];
     }
     else{
             [view setBackgroundColor :[UIColor clearColor]];

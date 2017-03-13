@@ -57,7 +57,8 @@
         [COMMON removeHomeStaticArrayList];
         [COMMON removeSideBarStaticArrayList];
     }
-     [_splashImage setHidden:YES];
+    
+     [_splashImage setHidden:NO];
     _splashImage.image =[UIImage imageNamed:SplashScreenImageName];
     
     syncAPIDataCount = 14.0f;
@@ -68,9 +69,9 @@
     
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"IntroBackGroundImage.png"]];
     
-    //_splashImage.image =[UIImage imageNamed:@"IntroBackGroundImage.png"];
+   // _splashImage.image =[UIImage imageNamed:@"IntroBackGroundImage.png"];
     
-    //_introCentreImage.image = [UIImage imageNamed:homeLogoImageName];
+   // _introCentreImage.image = [UIImage imageNamed:homeLogoImageName];
     [_introCentreImage setHidden:YES];
     
     
@@ -78,7 +79,6 @@
     [self.view setUserInteractionEnabled:YES];
     
     NSString *videoPlayed = [COMMON getIntroVideoPlayed];
-    
     
     if(![videoPlayed isEqualToString:@"introPlayed"]||videoPlayed==nil){
         [_splashImage setHidden:YES];
@@ -110,21 +110,23 @@
     
     currentVideoView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
     
-    currentVideoView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.4];
+    //currentVideoView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.4];
     
-    CGFloat fontSize = 10;
+     currentVideoView.backgroundColor = [UIColor clearColor];
+    
+    CGFloat fontSize = 12;
     CGFloat doneBtnHeight = 40;
     CGFloat BtnXPos= CGRectGetMaxX(currentVideoView.frame)-50;
     CGFloat btnWidth = 110;
     
     if([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad){
-        fontSize =14;
+        fontSize =16;
         BtnXPos= CGRectGetMaxX(currentVideoView.frame)-80;
         doneBtnHeight = 50;
         btnWidth = 140;
     }
     
-    UILabel *welcomeLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 10, SCREEN_WIDTH-40, 30)];
+    UILabel *welcomeLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 15, SCREEN_WIDTH-40, 40)];
     [welcomeLabel setText:@"WELOME"];
     welcomeLabel .textAlignment= NSTextAlignmentCenter;
     [welcomeLabel setTextColor:[UIColor whiteColor]];
@@ -148,16 +150,17 @@
     [doneBtn addTarget:self action:@selector(showProgressView) forControlEvents:UIControlEventTouchUpInside];
 
     
-    CGFloat itemDetailViewYPos = CGRectGetMaxY(welcomeLabel.frame)+5;
+    CGFloat itemDetailViewYPos = CGRectGetMaxY(welcomeLabel.frame)+10;
     
     
-    UIView *itemDetailsView = [[UIView alloc] initWithFrame:CGRectMake(0, itemDetailViewYPos, currentVideoView.frame.size.width, currentVideoView.frame.size.height-((itemDetailViewYPos*2)+doneBtnHeight+10))];
+    UIView *itemDetailsView = [[UIView alloc] initWithFrame:CGRectMake(0, itemDetailViewYPos, currentVideoView.frame.size.width, currentVideoView.frame.size.height-((itemDetailViewYPos*2)+doneBtnHeight+20))];
     
     introPlayer = [[YTPlayerView alloc]initWithFrame:CGRectMake(0, 0, itemDetailsView.frame.size.width, itemDetailsView.frame.size.height)];
     introPlayer.delegate = self;
     
-    [introPlayer setBackgroundColor:[UIColor blackColor]];
-    [itemDetailsView setBackgroundColor:[UIColor grayColor]];
+    
+    [introPlayer setBackgroundColor:[UIColor clearColor]];
+    [itemDetailsView setBackgroundColor:[UIColor clearColor]];
     [currentVideoView setUserInteractionEnabled:YES];
     
     NSString* m_strVideoUrl = @"mIqzgd0yse0";
@@ -197,8 +200,10 @@
     progressView = [[LDProgressView alloc] init];
     progressLabel = [[UILabel alloc] init];
     [self setUpProgressBar];
-   // [self push];        //for quick test
+    
     [self syncMenuData];
+    
+    // [self push];        //for quick test
     
     [COMMON isIntroVideoPlayed:@"introPlayed"];
     //[self setLogoImageInCentre];
