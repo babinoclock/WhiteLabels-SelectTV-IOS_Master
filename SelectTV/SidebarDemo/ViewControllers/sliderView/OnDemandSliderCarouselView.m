@@ -238,7 +238,7 @@
         [sliderWatchBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [sliderWatchBtn setTitle:@"WATCH NOW" forState:UIControlStateNormal];
         sliderWatchBtn.titleLabel.font = [COMMON getResizeableFont:Roboto_Regular(sliderWatchBtnSize)];
-        sliderWatchBtn.backgroundColor = BORDER_BLUE;
+        sliderWatchBtn.backgroundColor = FREE_GREEN;//FREE_GREEN
         sliderWatchBtn.tag=i;
         [sliderWatchBtn addTarget:self action:@selector(watchBtnAction:) forControlEvents:UIControlEventTouchUpInside];
         [infoImage addSubview:sliderWatchBtn];
