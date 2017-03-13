@@ -68,11 +68,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "511080657.351209"
+            timestampString = "511102946.003179"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1170"
-            endingLineNumber = "1170"
+            startingLineNumber = "1233"
+            endingLineNumber = "1233"
             landmarkName = "-appAction:"
             landmarkType = "7">
          </BreakpointContent>
@@ -116,155 +116,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "511080657.351209"
+            timestampString = "511102946.003179"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1133"
-            endingLineNumber = "1133"
-            landmarkName = "-searchCombined"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "511080657.351209"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1128"
-            endingLineNumber = "1128"
-            landmarkName = "-searchCombined"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[PayMovieViewController searchCombined]"
-                  moduleName = "SmartCity"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/PayMovieViewController.m"
-                  timestampString = "511081091.47737"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1129"
-                  endingLineNumber = "1129"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__40-[PayMovieViewController searchCombined]_block_invoke"
-                  moduleName = "SmartCity"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/PayMovieViewController.m"
-                  timestampString = "511081091.480156"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1129"
-                  endingLineNumber = "1129"
-                  offsetFromSymbolStart = "19">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "511080657.351209"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1156"
-            endingLineNumber = "1156"
-            landmarkName = "-searchCombined"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "511080657.351209"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1136"
-            endingLineNumber = "1136"
-            landmarkName = "-searchCombined"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "511080657.351209"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1138"
-            endingLineNumber = "1138"
-            landmarkName = "-searchCombined"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "511080657.351209"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1142"
-            endingLineNumber = "1142"
-            landmarkName = "-searchCombined"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "511080657.351209"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1146"
-            endingLineNumber = "1146"
-            landmarkName = "-searchCombined"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
-            timestampString = "511080657.351209"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1279"
-            endingLineNumber = "1279"
+            startingLineNumber = "1366"
+            endingLineNumber = "1366"
             landmarkName = "-pushToSearchViewController"
             landmarkType = "7">
          </BreakpointContent>
@@ -1108,7 +964,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "511081103.868655"
+                  timestampString = "511098782.947455"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "2013"
@@ -1123,7 +979,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "511081103.871288"
+                  timestampString = "511098782.949723"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "2013"
@@ -1138,7 +994,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "511081103.873566"
+                  timestampString = "511098782.952172"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "2013"
@@ -1153,7 +1009,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "511081103.875706"
+                  timestampString = "511098782.954488"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "2013"
@@ -1168,7 +1024,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "511081103.878027"
+                  timestampString = "511098782.95671"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "2013"
@@ -1217,7 +1073,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "511081103.977272"
+                  timestampString = "511098782.97137"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "2064"
@@ -1232,7 +1088,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "511081103.979792"
+                  timestampString = "511098782.973548"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "2064"
@@ -1247,7 +1103,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "511081103.982185"
+                  timestampString = "511098782.97612"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "2064"
@@ -1262,7 +1118,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "511081103.984558"
+                  timestampString = "511098782.978578"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "2064"
@@ -1277,7 +1133,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MovieViewController.m"
-                  timestampString = "511081103.987004"
+                  timestampString = "511098782.980821"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "2064"
@@ -1678,7 +1534,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "511081104.378178"
+                  timestampString = "511098783.164364"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "3450"
@@ -1693,7 +1549,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "511081104.38048"
+                  timestampString = "511098783.166786"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "3450"
@@ -1708,7 +1564,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "511081104.382635"
+                  timestampString = "511098783.169601"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "3450"
@@ -1723,7 +1579,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "511081104.38508"
+                  timestampString = "511098783.172114"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "3450"
@@ -1738,7 +1594,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "511081104.387321"
+                  timestampString = "511098783.173981"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "3450"
@@ -1753,7 +1609,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "511081104.389548"
+                  timestampString = "511098783.176038"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "3450"
@@ -1768,7 +1624,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "511081104.391741"
+                  timestampString = "511098783.178262"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "3450"
@@ -1783,7 +1639,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "511081104.394103"
+                  timestampString = "511098783.180883"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "3450"
@@ -1798,7 +1654,7 @@
                   moduleName = "SmartCity"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/MainViewController.m"
-                  timestampString = "511081104.396389"
+                  timestampString = "511098783.183268"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "3450"
@@ -1942,13 +1798,525 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SidebarDemo/ViewControllers/IntroViewController.m"
-            timestampString = "511081080.356625"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "1040"
+            endingLineNumber = "1040"
+            landmarkName = "-loadMoviesRatingData:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PayMovieViewController loadMoviesRatingData:]"
+                  moduleName = "SmartCity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/PayMovieViewController.m"
+                  timestampString = "511098783.235413"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1014"
+                  endingLineNumber = "1014"
+                  offsetFromSymbolStart = "263">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__47-[PayMovieViewController loadMoviesRatingData:]_block_invoke"
+                  moduleName = "SmartCity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/PayMovieViewController.m"
+                  timestampString = "511098783.237861"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1014"
+                  endingLineNumber = "1014"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1271"
+            endingLineNumber = "1271"
+            landmarkName = "-getSubscription:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PayMovieViewController getSubscription:]"
+                  moduleName = "SmartCity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/PayMovieViewController.m"
+                  timestampString = "511098783.24383"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1233"
+                  endingLineNumber = "1233"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__42-[PayMovieViewController getSubscription:]_block_invoke"
+                  moduleName = "SmartCity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/OCSDEV1/OCLOCKAPP/WhiteLabels-SelectTV-IOS/SelectTV/SidebarDemo/ViewControllers/PayMovieViewController.m"
+                  timestampString = "511098783.24622"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1233"
+                  endingLineNumber = "1233"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/MainViewController.m"
+            timestampString = "511083027.903062"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3461"
+            endingLineNumber = "3461"
+            landmarkName = "-onChannelViewTopMenuList:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "904"
+            endingLineNumber = "904"
+            landmarkName = "-tableSeletedStaticActions:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "964"
+            endingLineNumber = "964"
+            landmarkName = "-tableSeletedStaticActions:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1389"
+            endingLineNumber = "1389"
+            landmarkName = "-updateData:status:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1384"
+            endingLineNumber = "1384"
+            landmarkName = "-updateData:status:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "620"
+            endingLineNumber = "620"
+            landmarkName = "-loadPayMovieNetworkMenuData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "608"
+            endingLineNumber = "608"
+            landmarkName = "-myRightSelector:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "605"
+            endingLineNumber = "605"
+            landmarkName = "-myRightSelector:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "592"
+            endingLineNumber = "592"
+            landmarkName = "-myLeftSelector:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511098115.928396"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
             landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1702"
+            endingLineNumber = "1702"
+            landmarkName = "-gridView:heightForRowAt:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1743"
+            endingLineNumber = "1743"
+            landmarkName = "-numberOfColumnsOfGridView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1766"
+            endingLineNumber = "1766"
+            landmarkName = "-gridView:cellForRowAt:AndColumnAt:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "926"
+            endingLineNumber = "926"
+            landmarkName = "-tableSeletedStaticActions:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "972"
+            endingLineNumber = "972"
+            landmarkName = "-tableSeletedStaticActions:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "647"
+            endingLineNumber = "647"
+            landmarkName = "-loadPayPerGenreMenuData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1265"
+            endingLineNumber = "1265"
+            landmarkName = "-getSubscription:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1274"
+            endingLineNumber = "1274"
+            landmarkName = "-getSubscription:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1291"
+            endingLineNumber = "1291"
+            landmarkName = "-getSubscription:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1312"
+            endingLineNumber = "1312"
+            landmarkName = "-reloadGridData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1696"
+            endingLineNumber = "1696"
+            landmarkName = "-gridView:widthForColumnAt:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1722"
+            endingLineNumber = "1722"
+            landmarkName = "-gridView:heightForRowAt:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511102946.003179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2008"
+            endingLineNumber = "2008"
+            landmarkName = "-payPerViewRotateViews:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/SubScriptionsViewController.m"
+            timestampString = "511092539.305976"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1339"
+            endingLineNumber = "1339"
+            landmarkName = "-pushToNetworkView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/SubScriptionsViewController.m"
+            timestampString = "511092543.24982"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1322"
+            endingLineNumber = "1322"
+            landmarkName = "-pushToNetworkView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511098115.928396"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SidebarDemo/ViewControllers/PayMovieViewController.m"
+            timestampString = "511100431.354646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
+            landmarkName = "-viewWillAppear:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
