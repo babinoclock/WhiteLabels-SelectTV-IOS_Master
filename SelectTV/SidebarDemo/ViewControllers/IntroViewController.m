@@ -63,6 +63,9 @@
     
     syncAPIDataCount = 14.0f;
     currentProgress = 0.0f;
+    progressView = [[LDProgressView alloc] init];
+    progressLabel = [[UILabel alloc] init];
+    [self setUpProgressBar];
     
     
    // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"SplashScreenImage"]];
@@ -83,9 +86,10 @@
     if(![videoPlayed isEqualToString:@"introPlayed"]||videoPlayed==nil){
         [_splashImage setHidden:YES];
         [self loadVideoForFirstTime];
+        [self.additionalView setHidden:YES];
     }
     else{
-        
+        [self.additionalView setHidden:YES];
         [self showProgressView];
     }
    
@@ -193,13 +197,14 @@
 }
 
 -(void)showProgressView{
+    [self.additionalView setHidden:NO];
+    [introPlayer setHidden:YES];
     [_splashImage setHidden:NO];
+    [currentVideoView setHidden:YES];
     [self.view setUserInteractionEnabled:NO];
-    [currentVideoView removeFromSuperview];
-    [introPlayer removeFromSuperview];
-    progressView = [[LDProgressView alloc] init];
-    progressLabel = [[UILabel alloc] init];
-    [self setUpProgressBar];
+       // [currentVideoView removeFromSuperview];
+   // [introPlayer removeFromSuperview];
+   
     
     [self syncMenuData];
     
@@ -245,6 +250,7 @@
             
         case kYTPlayerStateEnded:
             //new
+             [currentVideoView setHidden:YES];
              [introPlayer setHidden:YES];
              [self showProgressView];
            

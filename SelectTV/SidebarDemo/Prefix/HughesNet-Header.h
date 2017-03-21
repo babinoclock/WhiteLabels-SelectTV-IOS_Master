@@ -14,8 +14,5 @@
 
 #define splashLogoImageName                 @"HughesNet_splash_logo"
 
-//#define splashLogoImageName1                 @"KlickTV_CustomLaunchIcon"
-
-
 #define splashNewImage                      @"HughesNet_CustomLaunchIcon"
 

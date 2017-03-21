@@ -493,15 +493,18 @@
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"LoginStoryboard" bundle:nil];
     IntroViewController *viewController = (IntroViewController *)[storyboard instantiateViewControllerWithIdentifier:@"IntroViewController"];
     
-    CATransition* transition = [CATransition animation];
-    transition.duration = 2.5;
+   // CATransition* transition = [CATransition animation];
+    //transition.duration = 0.5;//2.5
     //        transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-    transition.type = kCATransitionPush;
-    transition.subtype = kCATransitionFromRight;
-    [self.view.layer addAnimation:transition forKey:kCATransition];
+    //transition.type = kCATransitionPush;
+    //transition.subtype = kCATransitionFromRight;
+    //[self.view.layer addAnimation:transition forKey:kCATransition];
     
-    [self presentViewController:viewController animated:NO completion:nil];
+    //[self presentViewController:viewController animated:NO completion:nil];
     
+    //raji changed present to push on 21 march 2017
+    [self.navigationController pushViewController:viewController animated:NO];
+
     // NSMutableDictionary *dictItem = [[NSMutableDictionary alloc]init];
     //NSString *start =@"YES";
     //[dictItem setValue:start forKey:LOGGEDIN];
@@ -511,6 +514,8 @@
     
     //        [self.navigationController pushViewController:viewController animated:NO];
 }
+
+
 
 -(void)pushToStartViewController:(id)responseObject{
     StartScreenViewController * startScreenVC = nil;

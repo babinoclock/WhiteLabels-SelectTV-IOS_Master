@@ -33,8 +33,9 @@
     _startWtng.titleLabel.font = [COMMON getResizeableFont:Roboto_Bold(fontSize)];
 
     
-    
-    _splashLogoImage.image =[UIImage imageNamed:splashLogoImageName];
+    //    _splashLogoImage.image =[UIImage imageNamed:splashLogoImageName];
+
+    [self setImageViewFrame];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hidecontrol)
                                                  name:MPMoviePlayerLoadStateDidChangeNotification
@@ -42,6 +43,54 @@
     
     
     // Do any additional setup after loading the view.
+}
+#pragma mark - setImageViewFrame
+-(void)setImageViewFrame{
+    
+    CGFloat screenWidth = SCREEN_WIDTH;
+    
+    [_splashLogoImage setTranslatesAutoresizingMaskIntoConstraints:YES];
+    CGFloat topViewXPos;
+    CGFloat topViewYPos;
+    CGFloat topViewWidth;
+    CGFloat topViewHeight;
+    
+    NSString *appTitle = APP_TITLE;
+    
+    if([appTitle isEqualToString:@"SmartCity"]){
+        if([self isDeviceIpad]!=YES){
+            
+            topViewWidth= screenWidth/5;
+        }
+        else{
+            
+            topViewWidth= screenWidth/8;
+            
+        }
+    }
+    else{
+        if([self isDeviceIpad]!=YES){
+            
+            topViewWidth= screenWidth/2.1;//free cast//5
+        }
+        else{
+            
+            topViewWidth= screenWidth/4; //free cast//8
+            
+        }
+    }
+    
+    
+    topViewXPos = (screenWidth/2)-(topViewWidth/2);
+    topViewYPos = 40;
+    topViewHeight = 62;//55
+    
+    [_splashLogoImage setFrame:CGRectMake(topViewXPos, topViewYPos, topViewWidth, topViewHeight)];
+    
+    _splashLogoImage.image =[UIImage imageNamed:splashLogoImageName];
+    
+    
+    
 }
 
 
