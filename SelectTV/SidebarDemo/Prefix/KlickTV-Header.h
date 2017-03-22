@@ -19,5 +19,5 @@
 
 #define splashNewImage                      @"KlickTV_CustomLaunchIcon"
 
-
+#define Link                                @"https://arvig.freecast.com/support_selection/"
 

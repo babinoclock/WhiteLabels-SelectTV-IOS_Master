@@ -16,3 +16,4 @@
 
 #define splashNewImage                      @"WiseTV_CustomLaunchIcon"
 
+#define Link                                @"https://wisetv.freecast.com/support_selection/"

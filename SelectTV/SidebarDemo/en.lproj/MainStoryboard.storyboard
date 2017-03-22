@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="FUu-XX-1jG">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="FUu-XX-1jG">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -122,7 +122,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="41C0ADAC-4932-4D75-BCC0-9B7E0E7F1A45" translatesAutoresizingMaskIntoConstraints="NO" id="jNi-L8-l0p">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A7CEAA18-838F-41E2-93E8-C5DBC93096D3" translatesAutoresizingMaskIntoConstraints="NO" id="jNi-L8-l0p">
                                                     <rect key="frame" x="20" y="19" width="27" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -622,7 +622,7 @@
                 <navigationController storyboardIdentifier="mainNavController" id="5D7-fp-3iF" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="FWD-4U-Nnd"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="vZe-S4-iQp">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="vZe-S4-iQp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -664,7 +664,7 @@
         <scene sceneID="LmO-ro-lpp">
             <objects>
                 <navigationController storyboardIdentifier="subnavcontroller" id="mit-LW-4tT" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ajk-8M-Pp6">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Ajk-8M-Pp6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -946,7 +946,7 @@
         <scene sceneID="6ta-nd-Ghe">
             <objects>
                 <navigationController id="job-Gx-TRr" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qhP-hR-sIq">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="qhP-hR-sIq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -970,7 +970,7 @@
             <objects>
                 <navigationController storyboardIdentifier="movieNavController" id="oV9-VV-kQe" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="7pD-zf-zUc"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nYm-Bf-see">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="nYm-Bf-see">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1467,7 +1467,7 @@
             <objects>
                 <navigationController storyboardIdentifier="homeNavController" id="a2A-uF-jiU" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="NjS-K4-ssg">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="NjS-K4-ssg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -1857,7 +1857,7 @@
             <objects>
                 <navigationController storyboardIdentifier="radioNavController" id="iiC-WT-qdv" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Xjc-jX-25r">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="Xjc-jX-25r">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -1878,7 +1878,7 @@
             <objects>
                 <navigationController storyboardIdentifier="payMovieNavController" id="otN-RY-kfg" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Vzp-Lh-S4m"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XGC-Mr-yjK">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="XGC-Mr-yjK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -2046,7 +2046,7 @@
             <objects>
                 <navigationController storyboardIdentifier="searchNavController" id="xj2-PM-w3S" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="k3M-N5-DXi">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="k3M-N5-DXi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -4330,7 +4330,7 @@
             <objects>
                 <navigationController storyboardIdentifier="myAccountNavController" id="NR8-EO-7lg" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="aFK-Uc-Ikv">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="aFK-Uc-Ikv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -4522,7 +4522,7 @@
             <objects>
                 <navigationController storyboardIdentifier="myInterestsNavController" id="fb6-d5-70X" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="vEf-Du-g9z">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="vEf-Du-g9z">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -4543,7 +4543,7 @@
             <objects>
                 <navigationController storyboardIdentifier="overTheAirNavController" id="ZcO-QJ-KyG" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="uAE-x3-kSN">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="uAE-x3-kSN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -5032,7 +5032,7 @@
             <objects>
                 <navigationController storyboardIdentifier="gamesNavController" id="ro1-bH-t0l" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="fdW-UC-wLH">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="fdW-UC-wLH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -5133,7 +5133,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="41C0ADAC-4932-4D75-BCC0-9B7E0E7F1A45" width="27" height="27">
+        <image name="A7CEAA18-838F-41E2-93E8-C5DBC93096D3" width="27" height="27">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA

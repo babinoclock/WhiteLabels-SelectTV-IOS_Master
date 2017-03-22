@@ -289,7 +289,7 @@ BOOL boolLandToPort =false;
 }
 #pragma mark - supportAction
 - (void)supportAction:(UITapGestureRecognizer *)tap {
-    NSString *url= @"http://support.selecttv.com/";
+    NSString *url= @"http://support.freecast.com/";//http://support.selecttv.com/
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
     
 }

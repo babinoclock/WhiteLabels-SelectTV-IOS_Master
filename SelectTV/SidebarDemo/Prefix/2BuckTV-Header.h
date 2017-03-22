@@ -17,3 +17,4 @@
 
 #define splashNewImage                      @"2BuckTV_CustomLaunchIcon"
 
+#define Link                                @"https://2bucktv.freecast.com/support_selection/"

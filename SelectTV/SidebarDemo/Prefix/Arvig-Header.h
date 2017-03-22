@@ -17,6 +17,8 @@
 
 #define splashNewImage                      @"Arvig_CustomLaunchIcon"
 
+#define Link                                @"https://arvig.freecast.com/support_selection/"
+
 //#ifndef SideBarDemo_Header_h
 //#define SideBarDemo_Header_h
 //#endif /* SideBarDemo_Header_h */

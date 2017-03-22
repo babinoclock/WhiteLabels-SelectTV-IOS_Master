@@ -16,3 +16,4 @@
 
 #define splashNewImage                      @"SelectTV_CustomLaunchIcon"
 
+#define Link                                @"https://smartcity.freecast.com/support_selection/"

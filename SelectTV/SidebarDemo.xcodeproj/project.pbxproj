@@ -4264,6 +4264,379 @@
 		C93591081E702BAF00064818 /* New_Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDF6B81CD4899F00495544 /* New_Land_Cell_Ipad.xib */; };
 		C93591091E702BAF00064818 /* RadioListByGenreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDB0571C71A0B4006C28BB /* RadioListByGenreCell.xib */; };
 		C935910A1E702BAF00064818 /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FD3761B8D328100280C02 /* iPadStoryboard.storyboard */; };
+		C9404ADB1E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404ADC1E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404ADD1E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404ADE1E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404ADF1E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404AE01E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404AE11E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404AE21E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404AE31E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404AE41E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404AE51E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404AE61E82A9CE00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404AE71E82A9CF00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404AE81E82A9CF00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404AEC1E82E19D00BAE0FA /* H5WebKitBugsManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0F7A61BAF599A00BE590B /* H5WebKitBugsManager.h */; };
+		C9404AED1E82E19D00BAE0FA /* CustomIOS7AlertView.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A7A211E6EAE64006324AF /* CustomIOS7AlertView.h */; };
+		C9404AEE1E82E19D00BAE0FA /* ResgisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A40411C68AF8E0078B251 /* ResgisterTableViewController.m */; };
+		C9404AEF1E82E19D00BAE0FA /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB711D24DEB600B858EF /* IQUIWindow+Hierarchy.m */; };
+		C9404AF01E82E19D00BAE0FA /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B35DB291CCF4BDA00683CC5 /* UIImage+WebP.m */; };
+		C9404AF11E82E19D00BAE0FA /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB691D24DEB600B858EF /* IQNSArray+Sort.m */; };
+		C9404AF21E82E19D00BAE0FA /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403B1C68AF8E0078B251 /* PlayerViewController.m */; };
+		C9404AF31E82E19D00BAE0FA /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB7F1D24DEB600B858EF /* IQBarButtonItem.m */; };
+		C9404AF41E82E19D00BAE0FA /* FTWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A7A081E6EACC3006324AF /* FTWCache.m */; };
+		C9404AF51E82E19D00BAE0FA /* UIGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1B89A11B3DD72900120B3A /* UIGridView.m */; };
+		C9404AF61E82E19D00BAE0FA /* SubScriptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A404B1C68AF8E0078B251 /* SubScriptionsViewController.m */; };
+		C9404AF71E82E19D00BAE0FA /* UIGridViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1B89A61B3DD72900120B3A /* UIGridViewRow.m */; };
+		C9404AF81E82E19D00BAE0FA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A402F1C68AF8E0078B251 /* LoginViewController.m */; };
+		C9404AF91E82E19D00BAE0FA /* MyInterestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7698F1D1BAB880087179F /* MyInterestsViewController.m */; };
+		C9404AFA1E82E19D00BAE0FA /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B43478D1CD1C37E00FE70B7 /* Cell.m */; };
+		C9404AFB1E82E19D00BAE0FA /* myInterestsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF769941D1BFB920087179F /* myInterestsCell.m */; };
+		C9404AFC1E82E19D00BAE0FA /* NkContainerCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE84E1CC2728800DDCD7A /* NkContainerCellView.m */; };
+		C9404AFD1E82E19D00BAE0FA /* UIImage+ImageResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB11C6B2D9300A63B65 /* UIImage+ImageResize.m */; };
+		C9404AFE1E82E19D00BAE0FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EECF1D177C99F400778578 /* main.m */; };
+		C9404AFF1E82E19D00BAE0FA /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB6D1D24DEB600B858EF /* IQUIView+Hierarchy.m */; };
+		C9404B001E82E19D00BAE0FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EECF21177C99F400778578 /* AppDelegate.m */; };
+		C9404B011E82E19D00BAE0FA /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A40391C68AF8E0078B251 /* PhotoViewController.m */; };
+		C9404B021E82E19D00BAE0FA /* MobileLandingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7843481D92C98800297F5C /* MobileLandingView.m */; };
+		C9404B031E82E19D00BAE0FA /* PWParallaxScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536DC1C8B25D300F5C325 /* PWParallaxScrollView.m */; };
+		C9404B041E82E19D00BAE0FA /* PayMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEC85841C80763A00FB75DB /* PayMovieViewController.m */; };
+		C9404B051E82E19D00BAE0FA /* StreamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BACCE1B71B317A6D00D5F579 /* StreamTableViewCell.m */; };
+		C9404B061E82E19D00BAE0FA /* AppListGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCCBCCD1CDB1FA8005ED3BB /* AppListGridCell.m */; };
+		C9404B071E82E19D00BAE0FA /* Cast_Grid_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF246B61DA625070004733C /* Cast_Grid_Cell.m */; };
+		C9404B081E82E19D00BAE0FA /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79E71E6EAAD7006324AF /* Category.m */; };
+		C9404B091E82E19D00BAE0FA /* CastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BABC49491B472F9700696382 /* CastCell.m */; };
+		C9404B0A1E82E19D00BAE0FA /* New_Land_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDF6BA1CD4899F00495544 /* New_Land_Cell.m */; };
+		C9404B0B1E82E19D00BAE0FA /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB831D24DEB600B858EF /* IQToolbar.m */; };
+		C9404B0C1E82E19D00BAE0FA /* CastCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79DA1E6EA928006324AF /* CastCustomCell.m */; };
+		C9404B0D1E82E19D00BAE0FA /* SearchRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B02E0211CAFBA97007188C7 /* SearchRadioViewController.m */; };
+		C9404B0E1E82E19D00BAE0FA /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB851D24DEB600B858EF /* IQUIView+IQKeyboardToolbar.m */; };
+		C9404B0F1E82E19D00BAE0FA /* SearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B93525F1CAD560C0027BF8A /* SearchCell.m */; };
+		C9404B101E82E19D00BAE0FA /* MainContentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F741C88104400ED991C /* MainContentViewCell.m */; };
+		C9404B111E82E19D00BAE0FA /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB791D24DEB600B858EF /* IQSegmentedNextPrevious.m */; };
+		C9404B121E82E19D00BAE0FA /* ChanelObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79EB1E6EAAD7006324AF /* ChanelObj.m */; };
+		C9404B131E82E19D00BAE0FA /* OnDemand_Grid_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEC6D811D66C009003CA0CB /* OnDemand_Grid_Cell.m */; };
+		C9404B141E82E19D00BAE0FA /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE224591CAB997A00FA65F0 /* SearchViewController.m */; };
+		C9404B151E82E19D00BAE0FA /* MyScrollableGridRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C87401C89696C00959838 /* MyScrollableGridRowView.m */; };
+		C9404B161E82E19D00BAE0FA /* StartScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79D11E6EA7DC006324AF /* StartScreenViewController.m */; };
+		C9404B171E82E19D00BAE0FA /* OverTheAirDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CDACBD1D95220D00942839 /* OverTheAirDetailController.m */; };
+		C9404B181E82E19D00BAE0FA /* UIImage+ProportionalFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB31C6B2D9300A63B65 /* UIImage+ProportionalFill.m */; };
+		C9404B191E82E19D00BAE0FA /* subscriptionCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2099791DF965290039B019 /* subscriptionCustomCollectionCell.m */; };
+		C9404B1A1E82E19D00BAE0FA /* NSString+validations.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B06EF271D27A22600E345C6 /* NSString+validations.m */; };
+		C9404B1B1E82E19D00BAE0FA /* AppCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE63D391C5F1AEF00372BA5 /* AppCommon.m */; };
+		C9404B1C1E82E19D00BAE0FA /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF441311CAE764900D4D5E2 /* SearchDetailViewController.m */; };
+		C9404B1D1E82E19D00BAE0FA /* RadioListByGenreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDB0561C71A0B4006C28BB /* RadioListByGenreCell.m */; };
+		C9404B1E1E82E19D00BAE0FA /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A40371C68AF8E0078B251 /* NetworkViewController.m */; };
+		C9404B1F1E82E19D00BAE0FA /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB6B1D24DEB600B858EF /* IQUITextFieldView+Additions.m */; };
+		C9404B201E82E19D00BAE0FA /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1E48E1CB40653007D1904 /* NIDropDown.m */; };
+		C9404B211E82E19D00BAE0FA /* AppDownloadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A5A031CCE31EB00584579 /* AppDownloadTableViewCell.m */; };
+		C9404B221E82E19D00BAE0FA /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE50F201CC74819007CBAC1 /* Queue.m */; };
+		C9404B231E82E19D00BAE0FA /* SubscriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BABC49501B49CF6C00696382 /* SubscriptionCell.m */; };
+		C9404B241E82E19D00BAE0FA /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9435F1CD0E00300383991 /* MovieViewController.m */; };
+		C9404B251E82E19D00BAE0FA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A7A041E6EAC4F006324AF /* MBProgressHUD.m */; };
+		C9404B261E82E19D00BAE0FA /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE008891D24FFEE00974EB2 /* TTTAttributedLabel.m */; };
+		C9404B271E82E19D00BAE0FA /* PlusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403D1C68AF8E0078B251 /* PlusViewController.m */; };
+		C9404B281E82E19D00BAE0FA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A402A1C68AF8E0078B251 /* HomeViewController.m */; };
+		C9404B291E82E19D00BAE0FA /* NKArticleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE8491CC2728800DDCD7A /* NKArticleCollectionViewCell.m */; };
+		C9404B2A1E82E19D00BAE0FA /* StartVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79E41E6EAA06006324AF /* StartVideoViewController.m */; };
+		C9404B2B1E82E19D00BAE0FA /* OverTheAirCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CDACB81D9521D700942839 /* OverTheAirCustomCell.m */; };
+		C9404B2C1E82E19D00BAE0FA /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDB0621C72084D006C28BB /* NSString+FontAwesome.m */; };
+		C9404B2D1E82E19D00BAE0FA /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A40491C68AF8E0078B251 /* SidebarViewController.m */; };
+		C9404B2E1E82E19D00BAE0FA /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BACCE1B41B30975600D5F579 /* SimpleTableCell.m */; };
+		C9404B2F1E82E19D00BAE0FA /* HKKScrollableGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C873C1C89696C00959838 /* HKKScrollableGridView.m */; };
+		C9404B301E82E19D00BAE0FA /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB6F1D24DEB600B858EF /* IQUIViewController+Additions.m */; };
+		C9404B311E82E19D00BAE0FA /* AppDownloadListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA934531D3797B6008640FF /* AppDownloadListCell.m */; };
+		C9404B321E82E19D00BAE0FA /* RentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A9B7631BA362B90005232C /* RentCell.m */; };
+		C9404B331E82E19D00BAE0FA /* NewShowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B43479E1CD1F21E00FE70B7 /* NewShowDetailViewController.m */; };
+		C9404B341E82E19D00BAE0FA /* ThumbnailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79F11E6EAB86006324AF /* ThumbnailVC.m */; };
+		C9404B351E82E19D00BAE0FA /* RadioListByGenreGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDB05B1C71A4C2006C28BB /* RadioListByGenreGridCell.m */; };
+		C9404B361E82E19D00BAE0FA /* FavTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B378E711D21566F0001ADE3 /* FavTableViewCell.m */; };
+		C9404B371E82E19D00BAE0FA /* ChanelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79E91E6EAAD7006324AF /* ChanelManager.m */; };
+		C9404B381E82E19D00BAE0FA /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE524341D9507CB006202FB /* GamesViewController.m */; };
+		C9404B391E82E19D00BAE0FA /* TrailerMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79F51E6EAB86006324AF /* TrailerMovieView.m */; };
+		C9404B3A1E82E19D00BAE0FA /* AsyncImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DAF1C6B2D9300A63B65 /* AsyncImage.m */; };
+		C9404B3B1E82E19D00BAE0FA /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79D71E6EA893006324AF /* iCarousel.m */; };
+		C9404B3C1E82E19D00BAE0FA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDC8861D154B7200E901D4 /* RegisterViewController.m */; };
+		C9404B3D1E82E19D00BAE0FA /* LDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE3B171C7733B50052F409 /* LDProgressView.m */; };
+		C9404B3E1E82E19D00BAE0FA /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BACCE1AE1B2F419A00D5F579 /* MenuCell.m */; };
+		C9404B3F1E82E19D00BAE0FA /* CustomIOS7AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A7A221E6EAE64006324AF /* CustomIOS7AlertView.m */; };
+		C9404B401E82E19D00BAE0FA /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A402C1C68AF8E0078B251 /* IntroViewController.m */; };
+		C9404B411E82E19D00BAE0FA /* RabbitTVManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BACCE1A81B2EC09C00D5F579 /* RabbitTVManager.m */; };
+		C9404B421E82E19D00BAE0FA /* A3GridTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D31C8AF92B00F5C325 /* A3GridTableView.m */; };
+		C9404B431E82E19D00BAE0FA /* UIColor+RGBValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE3B191C7733B50052F409 /* UIColor+RGBValues.m */; };
+		C9404B441E82E19D00BAE0FA /* OnDemandSliderCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE012F1D6AB9D900709AD7 /* OnDemandSliderCarouselView.m */; };
+		C9404B451E82E19D00BAE0FA /* RadioGenreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D79121C6DC164005B54A1 /* RadioGenreTableViewCell.m */; };
+		C9404B461E82E19D00BAE0FA /* UIGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1B89A31B3DD72900120B3A /* UIGridViewCell.m */; };
+		C9404B471E82E19D00BAE0FA /* OverTheAirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEFB0E01D93B06E00063B0C /* OverTheAirViewController.m */; };
+		C9404B481E82E19D00BAE0FA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DBC1C6B2DE500A63B65 /* SWRevealViewController.m */; };
+		C9404B491E82E19D00BAE0FA /* SubscriptTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79DF1E6EA9A0006324AF /* SubscriptTableViewCell.m */; };
+		C9404B4A1E82E19D00BAE0FA /* MainContentGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C6F791C88517000ED991C /* MainContentGridCell.m */; };
+		C9404B4B1E82E19D00BAE0FA /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE536D51C8AF92B00F5C325 /* A3GridTableViewCell.m */; };
+		C9404B4C1E82E19D00BAE0FA /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A79CC1E6EA7B0006324AF /* MenuView.m */; };
+		C9404B4D1E82E19D00BAE0FA /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
+		C9404B4E1E82E19D00BAE0FA /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB3DB51C6B2D9300A63B65 /* UIImage+Tint.m */; };
+		C9404B4F1E82E19D00BAE0FA /* PromoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A403F1C68AF8E0078B251 /* PromoViewController.m */; };
+		C9404B501E82E19D00BAE0FA /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2424F41C7B19BF001E20EF /* RadioViewController.m */; };
+		C9404B511E82E19D00BAE0FA /* NKContainerCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE84C1CC2728800DDCD7A /* NKContainerCellTableViewCell.m */; };
+		C9404B521E82E19D00BAE0FA /* NewMovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDF6C11CD4CF2A00495544 /* NewMovieDetailViewController.m */; };
+		C9404B531E82E19D00BAE0FA /* H5WebKitBugsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0F7A71BAF599A00BE590B /* H5WebKitBugsManager.m */; };
+		C9404B541E82E19D00BAE0FA /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB761D24DEB600B858EF /* IQKeyboardReturnKeyHandler.m */; };
+		C9404B551E82E19D00BAE0FA /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FF69621D2BC1BA004D03BD /* HMSegmentedControl.m */; };
+		C9404B561E82E19D00BAE0FA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A40311C68AF8E0078B251 /* MainViewController.m */; };
+		C9404B571E82E19D00BAE0FA /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB741D24DEB600B858EF /* IQKeyboardManager.m */; };
+		C9404B581E82E19D00BAE0FA /* Land_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4347911CD1C37E00FE70B7 /* Land_Cell.m */; };
+		C9404B591E82E19D00BAE0FA /* Packet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE50F1E1CC74819007CBAC1 /* Packet.m */; };
+		C9404B5A1E82E19D00BAE0FA /* MyScrollableGridHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C873E1C89696C00959838 /* MyScrollableGridHeaderView.m */; };
+		C9404B5B1E82E19D00BAE0FA /* MyAccountCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB611D24DE5000B858EF /* MyAccountCustomCell.m */; };
+		C9404B5C1E82E19D00BAE0FA /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A40281C68AF8E0078B251 /* ForgotPasswordViewController.m */; };
+		C9404B5D1E82E19D00BAE0FA /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB811D24DEB600B858EF /* IQTitleBarButtonItem.m */; };
+		C9404B5E1E82E19D00BAE0FA /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B144C281D1ABB3F000C8EEA /* MyAccountViewController.m */; };
+		C9404B5F1E82E19D00BAE0FA /* Season.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E78651C58F3790053051C /* Season.m */; };
+		C9404B601E82E19D00BAE0FA /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DCB7C1D24DEB600B858EF /* IQTextView.m */; };
+		C9404B611E82E19D00BAE0FA /* Radio.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE50F221CC74819007CBAC1 /* Radio.m */; };
+		C9404B631E82E19D00BAE0FA /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2E622E1C3E5B710035593C /* GoogleMobileAds.framework */; };
+		C9404B641E82E19D00BAE0FA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFAA2461D7866D400EB7792 /* libz.tbd */; };
+		C9404B651E82E19D00BAE0FA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFAA2441D7866C900EB7792 /* libc++.tbd */; };
+		C9404B661E82E19D00BAE0FA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2E621E1C3E4C6D0035593C /* CoreTelephony.framework */; };
+		C9404B671E82E19D00BAE0FA /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9F151A1D473CB50094B8F0 /* CoreMotion.framework */; };
+		C9404B681E82E19D00BAE0FA /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9F15181D473CAD0094B8F0 /* GLKit.framework */; };
+		C9404B691E82E19D00BAE0FA /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9F15161D473BC30094B8F0 /* SafariServices.framework */; };
+		C9404B6A1E82E19D00BAE0FA /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B35DB2B1CCF4C2700683CC5 /* WebP.framework */; };
+		C9404B6B1E82E19D00BAE0FA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2E62261C3E4C8C0035593C /* StoreKit.framework */; };
+		C9404B6C1E82E19D00BAE0FA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2E62241C3E4C820035593C /* MessageUI.framework */; };
+		C9404B6D1E82E19D00BAE0FA /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2E62211C3E4C7A0035593C /* EventKitUI.framework */; };
+		C9404B6E1E82E19D00BAE0FA /* NewRelicAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFAA2421D78664A00EB7792 /* NewRelicAgent.framework */; };
+		C9404B6F1E82E19D00BAE0FA /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2E62201C3E4C7A0035593C /* EventKit.framework */; };
+		C9404B701E82E19D00BAE0FA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2E621C1C3E4C5B0035593C /* CoreMedia.framework */; };
+		C9404B711E82E19D00BAE0FA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2E621A1C3E4C440035593C /* AdSupport.framework */; };
+		C9404B721E82E19D00BAE0FA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80D691BF6697E0032A9AD /* SystemConfiguration.framework */; };
+		C9404B731E82E19D00BAE0FA /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80D671BF669480032A9AD /* MediaToolbox.framework */; };
+		C9404B741E82E19D00BAE0FA /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80D651BF669400032A9AD /* MediaAccessibility.framework */; };
+		C9404B751E82E19D00BAE0FA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80D631BF668620032A9AD /* CoreText.framework */; };
+		C9404B761E82E19D00BAE0FA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80D611BF6685C0032A9AD /* CoreBluetooth.framework */; };
+		C9404B771E82E19D00BAE0FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80D5F1BF668540032A9AD /* AVFoundation.framework */; };
+		C9404B781E82E19D00BAE0FA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80D5D1BF6684D0032A9AD /* AudioToolbox.framework */; };
+		C9404B791E82E19D00BAE0FA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF80D5B1BF668450032A9AD /* Accelerate.framework */; };
+		C9404B7A1E82E19D00BAE0FA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D5C2F21B8D136D009F2127 /* MediaPlayer.framework */; };
+		C9404B7B1E82E19D00BAE0FA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EECF71177FE9BA00778578 /* MapKit.framework */; };
+		C9404B7C1E82E19D00BAE0FA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EECF6F177FE9B400778578 /* CoreLocation.framework */; };
+		C9404B7D1E82E19D00BAE0FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EECF11177C99F400778578 /* UIKit.framework */; };
+		C9404B7E1E82E19D00BAE0FA /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDE5ED71BB2F1E1009A3A96 /* libc++.dylib */; };
+		C9404B7F1E82E19D00BAE0FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EECF13177C99F400778578 /* Foundation.framework */; };
+		C9404B801E82E19D00BAE0FA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDE5ED61BB2F1E1009A3A96 /* libz.dylib */; };
+		C9404B811E82E19D00BAE0FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EECF15177C99F400778578 /* CoreGraphics.framework */; };
+		C9404B821E82E19D00BAE0FA /* libPods-SidebarDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E96FFB9B311D2301AEC43891 /* libPods-SidebarDemo.a */; };
+		C9404B841E82E19D00BAE0FA /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B01EB7C1D98E96B005310AE /* OpenSans-Regular.ttf */; };
+		C9404B851E82E19D00BAE0FA /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BE524391D956712006202FB /* OpenSans-Semibold.ttf */; };
+		C9404B861E82E19D00BAE0FA /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BE5243C1D956738006202FB /* OpenSans-Light.ttf */; };
+		C9404B871E82E19D00BAE0FA /* AppDownloadTableViewCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A5A111CCE4A4100584579 /* AppDownloadTableViewCell_iPad.xib */; };
+		C9404B881E82E19D00BAE0FA /* AMC.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3931E6D8BE800221307 /* AMC.png */; };
+		C9404B891E82E19D00BAE0FA /* MTV.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3AD1E6D8BE800221307 /* MTV.png */; };
+		C9404B8A1E82E19D00BAE0FA /* ipad_sales_modal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A798D1E6EA687006324AF /* ipad_sales_modal.png */; };
+		C9404B8B1E82E19D00BAE0FA /* OnDemand_Grid_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEC6D7F1D66C009003CA0CB /* OnDemand_Grid_Cell_Ipad.xib */; };
+		C9404B8C1E82E19D00BAE0FA /* subscriptionCustomCollectionCell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A01DFAE7A6009CE773 /* subscriptionCustomCollectionCell_Ipad.xib */; };
+		C9404B8D1E82E19D00BAE0FA /* Epix.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F2F031E6D95DE00A6531E /* Epix.png */; };
+		C9404B8E1E82E19D00BAE0FA /* CBS-ALL-ACCESS.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3961E6D8BE800221307 /* CBS-ALL-ACCESS.png */; };
+		C9404B8F1E82E19D00BAE0FA /* sho_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94AE1DFAE8E9009CE773 /* sho_active.png */; };
+		C9404B901E82E19D00BAE0FA /* NBC.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3AE1E6D8BE800221307 /* NBC.png */; };
+		C9404B911E82E19D00BAE0FA /* ThumbnailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F21E6EAB86006324AF /* ThumbnailVC.xib */; };
+		C9404B921E82E19D00BAE0FA /* OverTheAirCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CDACB91D9521D700942839 /* OverTheAirCustomCell.xib */; };
+		C9404B931E82E19D00BAE0FA /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFB3DC81C6B2ED800A63B65 /* bg.png */; };
+		C9404B941E82E19D00BAE0FA /* netflix_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94AC1DFAE8E9009CE773 /* netflix_active.png */; };
+		C9404B951E82E19D00BAE0FA /* Disney-Junior.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D39D1E6D8BE800221307 /* Disney-Junior.png */; };
+		C9404B961E82E19D00BAE0FA /* HBO-Now.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3A41E6D8BE800221307 /* HBO-Now.png */; };
+		C9404B971E82E19D00BAE0FA /* vr--app-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3C01E6D8BE800221307 /* vr--app-image.png */; };
+		C9404B981E82E19D00BAE0FA /* sho.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94AD1DFAE8E9009CE773 /* sho.png */; };
+		C9404B991E82E19D00BAE0FA /* CBS.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3971E6D8BE800221307 /* CBS.png */; };
+		C9404B9A1E82E19D00BAE0FA /* cbsImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A797F1E6EA687006324AF /* cbsImage.jpeg */; };
+		C9404B9B1E82E19D00BAE0FA /* Feeln.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3A01E6D8BE800221307 /* Feeln.png */; };
+		C9404B9C1E82E19D00BAE0FA /* abcImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A797B1E6EA687006324AF /* abcImage.jpeg */; };
+		C9404B9D1E82E19D00BAE0FA /* MAX-GO.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3AC1E6D8BE800221307 /* MAX-GO.png */; };
+		C9404B9E1E82E19D00BAE0FA /* Netflix.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3B01E6D8BE800221307 /* Netflix.png */; };
+		C9404B9F1E82E19D00BAE0FA /* huluImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79871E6EA687006324AF /* huluImage.png */; };
+		C9404BA01E82E19D00BAE0FA /* Nick-Jr.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3B11E6D8BE800221307 /* Nick-Jr.png */; };
+		C9404BA11E82E19D00BAE0FA /* TBS.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3BA1E6D8BE800221307 /* TBS.png */; };
+		C9404BA21E82E19D00BAE0FA /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFB3DBE1C6B2E8E00A63B65 /* bar.png */; };
+		C9404BA31E82E19D00BAE0FA /* TruTV.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3BC1E6D8BE800221307 /* TruTV.png */; };
+		C9404BA41E82E19D00BAE0FA /* TNT.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3BB1E6D8BE800221307 /* TNT.png */; };
+		C9404BA51E82E19D00BAE0FA /* button_getitnow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFB3DCA1C6B2F8900A63B65 /* button_getitnow.png */; };
+		C9404BA61E82E19D00BAE0FA /* button_start.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFB3DCB1C6B2F8900A63B65 /* button_start.png */; };
+		C9404BA71E82E19D00BAE0FA /* FX-Networks.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3A31E6D8BE800221307 /* FX-Networks.png */; };
+		C9404BA81E82E19D00BAE0FA /* Email icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79831E6EA687006324AF /* Email icon.png */; };
+		C9404BA91E82E19D00BAE0FA /* plusmenu_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79991E6EA687006324AF /* plusmenu_back.png */; };
+		C9404BAA1E82E19D00BAE0FA /* Popcorn-Flix.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3B41E6D8BE800221307 /* Popcorn-Flix.png */; };
+		C9404BAB1E82E19D00BAE0FA /* reloadButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1A11C3FF77E006F0992 /* reloadButton.png */; };
+		C9404BAC1E82E19D00BAE0FA /* rewindButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD19F1C3FF4F4006F0992 /* rewindButton.png */; };
+		C9404BAD1E82E19D00BAE0FA /* crakleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79801E6EA687006324AF /* crakleImage.png */; };
+		C9404BAE1E82E19D00BAE0FA /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1981C3FEE7B006F0992 /* pause.png */; };
+		C9404BAF1E82E19D00BAE0FA /* Season_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4347991CD1D2C000FE70B7 /* Season_Ipad.xib */; };
+		C9404BB01E82E19D00BAE0FA /* lifetime.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3AB1E6D8BE800221307 /* lifetime.png */; };
+		C9404BB11E82E19D00BAE0FA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79921E6EA687006324AF /* logo.png */; };
+		C9404BB21E82E19D00BAE0FA /* film_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79851E6EA687006324AF /* film_icon.png */; };
+		C9404BB31E82E19D00BAE0FA /* MyAccountCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79D31E6EA85D006324AF /* MyAccountCustomCell.xib */; };
+		C9404BB41E82E19D00BAE0FA /* CRANCKLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D39A1E6D8BE800221307 /* CRANCKLE.png */; };
+		C9404BB51E82E19D00BAE0FA /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1991C3FEE7B006F0992 /* play.png */; };
+		C9404BB61E82E19D00BAE0FA /* AppDownloadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A5A041CCE31EB00584579 /* AppDownloadTableViewCell.xib */; };
+		C9404BB71E82E19D00BAE0FA /* appManagerStaticCustomCollectionCell_IPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A78E21E6E8767006324AF /* appManagerStaticCustomCollectionCell_IPhone.xib */; };
+		C9404BB81E82E19D00BAE0FA /* track.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD19A1C3FEE7B006F0992 /* track.png */; };
+		C9404BB91E82E19D00BAE0FA /* Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478B1CD1C37E00FE70B7 /* Cell_Ipad.xib */; };
+		C9404BBA1E82E19D00BAE0FA /* Land_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4347921CD1C37E00FE70B7 /* Land_Cell.xib */; };
+		C9404BBB1E82E19D00BAE0FA /* NKArticleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BDCE84A1CC2728800DDCD7A /* NKArticleCollectionViewCell.xib */; };
+		C9404BBC1E82E19D00BAE0FA /* wifi_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD18F1C3FDCF4006F0992 /* wifi_off.png */; };
+		C9404BBD1E82E19D00BAE0FA /* myInterestsCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF769911D1BFB920087179F /* myInterestsCell_IPad.xib */; };
+		C9404BBE1E82E19D00BAE0FA /* SubscriptTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79E01E6EA9A0006324AF /* SubscriptTableViewCell.xib */; };
+		C9404BBF1E82E19D00BAE0FA /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79CD1E6EA7B0006324AF /* MenuView.xib */; };
+		C9404BC01E82E19D00BAE0FA /* Nick.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A78E41E6E8874006324AF /* Nick.png */; };
+		C9404BC11E82E19D00BAE0FA /* installBtnImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A798C1E6EA687006324AF /* installBtnImage.png */; };
+		C9404BC21E82E19D00BAE0FA /* MobileLandingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843491D92C98800297F5C /* MobileLandingView.xib */; };
+		C9404BC31E82E19D00BAE0FA /* wifi1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1901C3FDCF4006F0992 /* wifi1.png */; };
+		C9404BC41E82E19D00BAE0FA /* wifi2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1911C3FDCF4006F0992 /* wifi2.png */; };
+		C9404BC51E82E19D00BAE0FA /* wifi3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD1921C3FDCF4006F0992 /* wifi3.png */; };
+		C9404BC61E82E19D00BAE0FA /* icon_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A798B1E6EA687006324AF /* icon_logo.png */; };
+		C9404BC71E82E19D00BAE0FA /* slider-metal-handle-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A751A1C3EA71F0090CBEA /* slider-metal-handle-highlighted.png */; };
+		C9404BC81E82E19D00BAE0FA /* red_back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A799C1E6EA687006324AF /* red_back_arrow.png */; };
+		C9404BC91E82E19D00BAE0FA /* slider-metal-handle-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A751B1C3EA71F0090CBEA /* slider-metal-handle-highlighted@2x.png */; };
+		C9404BCA1E82E19D00BAE0FA /* slider-metal-track.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A751C1C3EA71F0090CBEA /* slider-metal-track.png */; };
+		C9404BCB1E82E19D00BAE0FA /* LoginBgNew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B55AB831E406869004C9A10 /* LoginBgNew.jpg */; };
+		C9404BCC1E82E19D00BAE0FA /* slider-metal-track@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A751D1C3EA71F0090CBEA /* slider-metal-track@2x.png */; };
+		C9404BCD1E82E19D00BAE0FA /* Cartoon-Network.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3941E6D8BE800221307 /* Cartoon-Network.png */; };
+		C9404BCE1E82E19D00BAE0FA /* CW.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D39B1E6D8BE800221307 /* CW.png */; };
+		C9404BCF1E82E19D00BAE0FA /* slider-metal-trackBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A751E1C3EA71F0090CBEA /* slider-metal-trackBackground.png */; };
+		C9404BD01E82E19D00BAE0FA /* hulu_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94AA1DFAE8E9009CE773 /* hulu_active.png */; };
+		C9404BD11E82E19D00BAE0FA /* amazon-prime.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3921E6D8BE800221307 /* amazon-prime.png */; };
+		C9404BD21E82E19D00BAE0FA /* Email icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79841E6EA687006324AF /* Email icon@2x.png */; };
+		C9404BD31E82E19D00BAE0FA /* backgroud_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A797D1E6EA687006324AF /* backgroud_BG.png */; };
+		C9404BD41E82E19D00BAE0FA /* Vudu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3C11E6D8BE800221307 /* Vudu.png */; };
+		C9404BD51E82E19D00BAE0FA /* icon_hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A798A1E6EA687006324AF /* icon_hamburger.png */; };
+		C9404BD61E82E19D00BAE0FA /* Klick_LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F611E7158F400E26163 /* Klick_LaunchScreenView.xib */; };
+		C9404BD71E82E19D00BAE0FA /* slider-metal-trackBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A751F1C3EA71F0090CBEA /* slider-metal-trackBackground@2x.png */; };
+		C9404BD81E82E19D00BAE0FA /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3A71E6D8BE800221307 /* hulu.png */; };
+		C9404BD91E82E19D00BAE0FA /* volume_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A75201C3EA71F0090CBEA /* volume_icon.png */; };
+		C9404BDA1E82E19D00BAE0FA /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478E1CD1C37E00FE70B7 /* Cell.xib */; };
+		C9404BDB1E82E19D00BAE0FA /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 514DCB721D24DEB600B858EF /* IQKeyboardManager.bundle */; };
+		C9404BDC1E82E19D00BAE0FA /* Viceland.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3BF1E6D8BE800221307 /* Viceland.png */; };
+		C9404BDD1E82E19D00BAE0FA /* volume_IconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A75211C3EA71F0090CBEA /* volume_IconImage.png */; };
+		C9404BDE1E82E19D00BAE0FA /* volume_mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A752A1C3EC3A40090CBEA /* volume_mute.png */; };
+		C9404BDF1E82E19D00BAE0FA /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F541E71566300E26163 /* LaunchScreenView.xib */; };
+		C9404BE01E82E19D00BAE0FA /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */; };
+		C9404BE11E82E19D00BAE0FA /* volume_mute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A752B1C3EC3A40090CBEA /* volume_mute@2x.png */; };
+		C9404BE21E82E19D00BAE0FA /* amazon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A31DFAE8E9009CE773 /* amazon.png */; };
+		C9404BE31E82E19D00BAE0FA /* volume_mute@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A752C1C3EC3A40090CBEA /* volume_mute@3x.png */; };
+		C9404BE41E82E19D00BAE0FA /* volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A752D1C3EC3A40090CBEA /* volume.png */; };
+		C9404BE51E82E19D00BAE0FA /* cwImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79811E6EA687006324AF /* cwImage.jpg */; };
+		C9404BE61E82E19D00BAE0FA /* kodi-11-300x3001.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3AA1E6D8BE800221307 /* kodi-11-300x3001.png */; };
+		C9404BE71E82E19D00BAE0FA /* blueBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A797E1E6EA687006324AF /* blueBtn.png */; };
+		C9404BE81E82E19D00BAE0FA /* volume@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A752E1C3EC3A40090CBEA /* volume@2x.png */; };
+		C9404BE91E82E19D00BAE0FA /* NKArticleCollectionViewCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFE37F41D924FA100AC2937 /* NKArticleCollectionViewCell_iPad.xib */; };
+		C9404BEA1E82E19D00BAE0FA /* startwatching_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79A11E6EA687006324AF /* startwatching_button.png */; };
+		C9404BEB1E82E19D00BAE0FA /* NKContainerCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BDCE84F1CC2728800DDCD7A /* NKContainerCellView.xib */; };
+		C9404BEC1E82E19D00BAE0FA /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79931E6EA687006324AF /* logout.png */; };
+		C9404BED1E82E19D00BAE0FA /* fox-sports-go-app.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3A11E6D8BE800221307 /* fox-sports-go-app.png */; };
+		C9404BEE1E82E19D00BAE0FA /* OnDemand_Grid_Cell_Subsc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D450F1E3C9DA3002CF719 /* OnDemand_Grid_Cell_Subsc.xib */; };
+		C9404BEF1E82E19D00BAE0FA /* volume@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 061A752F1C3EC3A40090CBEA /* volume@3x.png */; };
+		C9404BF01E82E19D00BAE0FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F4EECF23177C99F400778578 /* Default.png */; };
+		C9404BF11E82E19D00BAE0FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4EECF25177C99F400778578 /* Default@2x.png */; };
+		C9404BF21E82E19D00BAE0FA /* ABC.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3911E6D8BE800221307 /* ABC.png */; };
+		C9404BF31E82E19D00BAE0FA /* FOX.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3A21E6D8BE800221307 /* FOX.png */; };
+		C9404BF41E82E19D00BAE0FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4EECF27177C99F400778578 /* Default-568h@2x.png */; };
+		C9404BF51E82E19D00BAE0FA /* potraitPlace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A799B1E6EA687006324AF /* potraitPlace.jpg */; };
+		C9404BF61E82E19D00BAE0FA /* mobilepromo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79961E6EA687006324AF /* mobilepromo.png */; };
+		C9404BF71E82E19D00BAE0FA /* PBS.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3B21E6D8BE800221307 /* PBS.png */; };
+		C9404BF81E82E19D00BAE0FA /* cbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A51DFAE8E9009CE773 /* cbs.png */; };
+		C9404BF91E82E19D00BAE0FA /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDB05F1C720420006C28BB /* fontawesome-webfont.ttf */; };
+		C9404BFA1E82E19D00BAE0FA /* MainContentGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B3C6F7A1C88517000ED991C /* MainContentGridCell.xib */; };
+		C9404BFB1E82E19D00BAE0FA /* myInterestsCell_IPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF769921D1BFB920087179F /* myInterestsCell_IPhone.xib */; };
+		C9404BFC1E82E19D00BAE0FA /* hbo_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A81DFAE8E9009CE773 /* hbo_active.png */; };
+		C9404BFD1E82E19D00BAE0FA /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B94EB871C5B6ECF009D0755 /* Montserrat-Bold.otf */; };
+		C9404BFE1E82E19D00BAE0FA /* hbo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A71DFAE8E9009CE773 /* hbo.png */; };
+		C9404BFF1E82E19D00BAE0FA /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A799E1E6EA687006324AF /* safari.png */; };
+		C9404C001E82E19D00BAE0FA /* VH1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3BE1E6D8BE800221307 /* VH1.png */; };
+		C9404C011E82E19D00BAE0FA /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B94EB881C5B6ECF009D0755 /* Montserrat-Regular.ttf */; };
+		C9404C021E82E19D00BAE0FA /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A799F1E6EA687006324AF /* selected.png */; };
+		C9404C031E82E19D00BAE0FA /* OnDemand_Grid_Cell_IPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF0977C1DA7BCE900DA3098 /* OnDemand_Grid_Cell_IPhone.xib */; };
+		C9404C041E82E19D00BAE0FA /* OnDemandSliderCarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEE01301D6AB9D900709AD7 /* OnDemandSliderCarouselView.xib */; };
+		C9404C051E82E19D00BAE0FA /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B94EB7B1C5B293E009D0755 /* OpenSans-Bold.ttf */; };
+		C9404C061E82E19D00BAE0FA /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B94EB7D1C5B293E009D0755 /* Roboto-Bold.ttf */; };
+		C9404C071E82E19D00BAE0FA /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B94EB7E1C5B293E009D0755 /* Roboto-Light.ttf */; };
+		C9404C081E82E19D00BAE0FA /* AppDownloadListCell_IPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA934581D379849008640FF /* AppDownloadListCell_IPhone.xib */; };
+		C9404C091E82E19D00BAE0FA /* NKContainerCellView_AppManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5144DDC11D465415006C2952 /* NKContainerCellView_AppManager.xib */; };
+		C9404C0A1E82E19D00BAE0FA /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B94EB7F1C5B293E009D0755 /* Roboto-Medium.ttf */; };
+		C9404C0B1E82E19D00BAE0FA /* Disney-Channel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F2F011E6D95D000A6531E /* Disney-Channel.png */; };
+		C9404C0C1E82E19D00BAE0FA /* subscriptionCustomCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B20997A1DF965290039B019 /* subscriptionCustomCollectionCell.xib */; };
+		C9404C0D1E82E19D00BAE0FA /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B94EB801C5B293E009D0755 /* Roboto-Regular.ttf */; };
+		C9404C0E1E82E19D00BAE0FA /* splash_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79A01E6EA687006324AF /* splash_logo.png */; };
+		C9404C0F1E82E19D00BAE0FA /* nbsImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79971E6EA687006324AF /* nbsImage.jpeg */; };
+		C9404C101E82E19D00BAE0FA /* KlickTV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BC77F1C1E710F9C00E26163 /* KlickTV-Info.plist */; };
+		C9404C111E82E19D00BAE0FA /* icon_apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79881E6EA687006324AF /* icon_apple.png */; };
+		C9404C121E82E19D00BAE0FA /* Starz.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3B81E6D8BE800221307 /* Starz.png */; };
+		C9404C131E82E19D00BAE0FA /* HISTORY.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3A61E6D8BE800221307 /* HISTORY.png */; };
+		C9404C141E82E19D00BAE0FA /* New_Land_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDF6BB1CD4899F00495544 /* New_Land_Cell.xib */; };
+		C9404C151E82E19D00BAE0FA /* hulu.webp in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79861E6EA687006324AF /* hulu.webp */; };
+		C9404C161E82E19D00BAE0FA /* Lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79911E6EA687006324AF /* Lock@2x.png */; };
+		C9404C171E82E19D00BAE0FA /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9352601CAD560C0027BF8A /* SearchCell.xib */; };
+		C9404C181E82E19D00BAE0FA /* RadioGenreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8D79131C6DC164005B54A1 /* RadioGenreTableViewCell.xib */; };
+		C9404C191E82E19D00BAE0FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4EECF1A177C99F400778578 /* InfoPlist.strings */; };
+		C9404C1A1E82E19D00BAE0FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0881431B54522300669799 /* Images.xcassets */; };
+		C9404C1B1E82E19D00BAE0FA /* AppListGridCell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCCBCCA1CDB1FA8005ED3BB /* AppListGridCell_Ipad.xib */; };
+		C9404C1C1E82E19D00BAE0FA /* landscapePlace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A798F1E6EA687006324AF /* landscapePlace.jpg */; };
+		C9404C1D1E82E19D00BAE0FA /* Comedy-Central.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3981E6D8BE800221307 /* Comedy-Central.png */; };
+		C9404C1E1E82E19D00BAE0FA /* A_E.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3901E6D8BE800221307 /* A_E.png */; };
+		C9404C1F1E82E19D00BAE0FA /* AppListGridCell_Iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCCBCCB1CDB1FA8005ED3BB /* AppListGridCell_Iphone.xib */; };
+		C9404C201E82E19D00BAE0FA /* amazon_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A41DFAE8E9009CE773 /* amazon_active.png */; };
+		C9404C211E82E19D00BAE0FA /* icon_fullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79891E6EA687006324AF /* icon_fullscreen.png */; };
+		C9404C221E82E19D00BAE0FA /* 540x960.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18D5C2F41B8D13C0009F2127 /* 540x960.mp4 */; };
+		C9404C231E82E19D00BAE0FA /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A402D1C68AF8E0078B251 /* LoginStoryboard.storyboard */; };
+		C9404C241E82E19D00BAE0FA /* OnDemand_Grid_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEC6D821D66C009003CA0CB /* OnDemand_Grid_Cell.xib */; };
+		C9404C251E82E19D00BAE0FA /* MainContentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B3C6F761C8810BE00ED991C /* MainContentViewCell.xib */; };
+		C9404C261E82E19D00BAE0FA /* AddButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A797C1E6EA687006324AF /* AddButton.png */; };
+		C9404C271E82E19D00BAE0FA /* RadioListByGenreGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDB05D1C71A50C006C28BB /* RadioListByGenreGridCell.xib */; };
+		C9404C281E82E19D00BAE0FA /* 92013291.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D38F1E6D8BE800221307 /* 92013291.png */; };
+		C9404C291E82E19D00BAE0FA /* orangeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79981E6EA687006324AF /* orangeBtn.png */; };
+		C9404C2A1E82E19D00BAE0FA /* Spike.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3B71E6D8BE800221307 /* Spike.png */; };
+		C9404C2B1E82E19D00BAE0FA /* landscapeLoader_show.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A798E1E6EA687006324AF /* landscapeLoader_show.jpg */; };
+		C9404C2C1E82E19D00BAE0FA /* main_frm_bar_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79951E6EA687006324AF /* main_frm_bar_2.png */; };
+		C9404C2D1E82E19D00BAE0FA /* main_frm_bar_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79941E6EA687006324AF /* main_frm_bar_1.png */; };
+		C9404C2E1E82E19D00BAE0FA /* NKContainerCellView_Subscription.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B76E6961E3B722E00F97FF8 /* NKContainerCellView_Subscription.xib */; };
+		C9404C2F1E82E19D00BAE0FA /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B11B3096B900D5F579 /* SimpleTableCell.xib */; };
+		C9404C301E82E19D00BAE0FA /* Redbull-TV.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3B51E6D8BE800221307 /* Redbull-TV.png */; };
+		C9404C311E82E19D00BAE0FA /* seeso.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3B61E6D8BE800221307 /* seeso.png */; };
+		C9404C321E82E19D00BAE0FA /* CastCellIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78DA2F1BB5AE9100D69701 /* CastCellIpad.xib */; };
+		C9404C331E82E19D00BAE0FA /* SubscriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABC494D1B49CF5500696382 /* SubscriptionCell.xib */; };
+		C9404C341E82E19D00BAE0FA /* Xfinity.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3C21E6D8BE800221307 /* Xfinity.png */; };
+		C9404C351E82E19D00BAE0FA /* Lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79901E6EA687006324AF /* Lock.png */; };
+		C9404C361E82E19D00BAE0FA /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
+		C9404C371E82E19D00BAE0FA /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
+		C9404C381E82E19D00BAE0FA /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
+		C9404C391E82E19D00BAE0FA /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
+		C9404C3A1E82E19D00BAE0FA /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
+		C9404C3B1E82E19D00BAE0FA /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
+		C9404C3C1E82E19D00BAE0FA /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
+		C9404C3D1E82E19D00BAE0FA /* Sundance-Now.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3B91E6D8BE800221307 /* Sundance-Now.png */; };
+		C9404C3E1E82E19D00BAE0FA /* cbs_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A61DFAE8E9009CE773 /* cbs_active.png */; };
+		C9404C3F1E82E19D00BAE0FA /* default_safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79821E6EA687006324AF /* default_safari.png */; };
+		C9404C401E82E19D00BAE0FA /* appManagerStaticCustomCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D38C1E6D6D5C00221307 /* appManagerStaticCustomCollectionCell.xib */; };
+		C9404C411E82E19D00BAE0FA /* vudu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79A21E6EA687006324AF /* vudu.png */; };
+		C9404C421E82E19D00BAE0FA /* IFC.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3A81E6D8BE800221307 /* IFC.png */; };
+		C9404C431E82E19D00BAE0FA /* AppDownloadListCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA934571D379849008640FF /* AppDownloadListCell_IPad.xib */; };
+		C9404C441E82E19D00BAE0FA /* CastCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79DB1E6EA928006324AF /* CastCustomCell.xib */; };
+		C9404C451E82E19D00BAE0FA /* imdb-app-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3A91E6D8BE800221307 /* imdb-app-image.png */; };
+		C9404C461E82E19D00BAE0FA /* HGTV.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3A51E6D8BE800221307 /* HGTV.png */; };
+		C9404C471E82E19D00BAE0FA /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94AF1DFAE8E9009CE773 /* tick.png */; };
+		C9404C481E82E19D00BAE0FA /* CastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABC494B1B47307800696382 /* CastCell.xib */; };
+		C9404C491E82E19D00BAE0FA /* netflix.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94AB1DFAE8E9009CE773 /* netflix.png */; };
+		C9404C4A1E82E19D00BAE0FA /* New_Land_Cell_IPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF0977E1DA7BEC200DA3098 /* New_Land_Cell_IPhone.xib */; };
+		C9404C4B1E82E19D00BAE0FA /* refresh-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A799D1E6EA687006324AF /* refresh-icon.png */; };
+		C9404C4C1E82E19D00BAE0FA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B15FA431C637ED90084558E /* MainStoryboard.storyboard */; };
+		C9404C4D1E82E19D00BAE0FA /* USA.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D3BD1E6D8BE800221307 /* USA.png */; };
+		C9404C4E1E82E19D00BAE0FA /* potraitLoader_network.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A799A1E6EA687006324AF /* potraitLoader_network.jpg */; };
+		C9404C4F1E82E19D00BAE0FA /* RentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A9B7641BA362B90005232C /* RentCell.xib */; };
+		C9404C501E82E19D00BAE0FA /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
+		C9404C511E82E19D00BAE0FA /* New_Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDF6B81CD4899F00495544 /* New_Land_Cell_Ipad.xib */; };
+		C9404C521E82E19D00BAE0FA /* RadioListByGenreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDB0571C71A0B4006C28BB /* RadioListByGenreCell.xib */; };
+		C9404C531E82E19D00BAE0FA /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FD3761B8D328100280C02 /* iPadStoryboard.storyboard */; };
+		C9404C5F1E82E76B00BAE0FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9404C5E1E82E76B00BAE0FA /* Images.xcassets */; };
 		C9E507361E811F0B00ACE279 /* H5WebKitBugsManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0F7A61BAF599A00BE590B /* H5WebKitBugsManager.h */; };
 		C9E507371E811F0B00ACE279 /* CustomIOS7AlertView.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A7A211E6EAE64006324AF /* CustomIOS7AlertView.h */; };
 		C9E507381E811F0B00ACE279 /* ResgisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A40411C68AF8E0078B251 /* ResgisterTableViewController.m */; };
@@ -5117,6 +5490,16 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9404C541E82E19D00BAE0FA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9E5089D1E811F0B00ACE279 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5630,6 +6013,11 @@
 		C9358F9A1E6FCF8800064818 /* RabbitTVPlus-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RabbitTVPlus-Header.h"; sourceTree = "<group>"; };
 		C93591121E702BB000064818 /* KlickTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlickTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93591141E702CC400064818 /* KlickTV-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KlickTV-Header.h"; sourceTree = "<group>"; };
+		C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg.jpg; sourceTree = "<group>"; };
+		C9404C5B1E82E19E00BAE0FA /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9404C5C1E82E1A600BAE0FA /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Demo-Info.plist"; path = "/Users/ocs.mac/Desktop/MohanRaj/WhiteLabels-SelectTV-IOS/SelectTV/Demo-Info.plist"; sourceTree = "<absolute>"; };
+		C9404C5D1E82E24900BAE0FA /* Demo-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Demo-Header.h"; sourceTree = "<group>"; };
+		C9404C5E1E82E76B00BAE0FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Demo/Images.xcassets; sourceTree = "<group>"; };
 		C9E508A41E811F0B00ACE279 /* HughesNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HughesNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E508A51E811F0E00ACE279 /* HughesNet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HughesNet-Info.plist"; path = "/Users/ocs.mac/Desktop/MohanRaj/WhiteLabels-SelectTV-IOS/SelectTV/HughesNet-Info.plist"; sourceTree = "<absolute>"; };
 		C9E508A61E8120CB00ACE279 /* HughesNet-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HughesNet-Header.h"; sourceTree = "<group>"; };
@@ -6092,6 +6480,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9404B621E82E19D00BAE0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9404B631E82E19D00BAE0FA /* GoogleMobileAds.framework in Frameworks */,
+				C9404B641E82E19D00BAE0FA /* libz.tbd in Frameworks */,
+				C9404B651E82E19D00BAE0FA /* libc++.tbd in Frameworks */,
+				C9404B661E82E19D00BAE0FA /* CoreTelephony.framework in Frameworks */,
+				C9404B671E82E19D00BAE0FA /* CoreMotion.framework in Frameworks */,
+				C9404B681E82E19D00BAE0FA /* GLKit.framework in Frameworks */,
+				C9404B691E82E19D00BAE0FA /* SafariServices.framework in Frameworks */,
+				C9404B6A1E82E19D00BAE0FA /* WebP.framework in Frameworks */,
+				C9404B6B1E82E19D00BAE0FA /* StoreKit.framework in Frameworks */,
+				C9404B6C1E82E19D00BAE0FA /* MessageUI.framework in Frameworks */,
+				C9404B6D1E82E19D00BAE0FA /* EventKitUI.framework in Frameworks */,
+				C9404B6E1E82E19D00BAE0FA /* NewRelicAgent.framework in Frameworks */,
+				C9404B6F1E82E19D00BAE0FA /* EventKit.framework in Frameworks */,
+				C9404B701E82E19D00BAE0FA /* CoreMedia.framework in Frameworks */,
+				C9404B711E82E19D00BAE0FA /* AdSupport.framework in Frameworks */,
+				C9404B721E82E19D00BAE0FA /* SystemConfiguration.framework in Frameworks */,
+				C9404B731E82E19D00BAE0FA /* MediaToolbox.framework in Frameworks */,
+				C9404B741E82E19D00BAE0FA /* MediaAccessibility.framework in Frameworks */,
+				C9404B751E82E19D00BAE0FA /* CoreText.framework in Frameworks */,
+				C9404B761E82E19D00BAE0FA /* CoreBluetooth.framework in Frameworks */,
+				C9404B771E82E19D00BAE0FA /* AVFoundation.framework in Frameworks */,
+				C9404B781E82E19D00BAE0FA /* AudioToolbox.framework in Frameworks */,
+				C9404B791E82E19D00BAE0FA /* Accelerate.framework in Frameworks */,
+				C9404B7A1E82E19D00BAE0FA /* MediaPlayer.framework in Frameworks */,
+				C9404B7B1E82E19D00BAE0FA /* MapKit.framework in Frameworks */,
+				C9404B7C1E82E19D00BAE0FA /* CoreLocation.framework in Frameworks */,
+				C9404B7D1E82E19D00BAE0FA /* UIKit.framework in Frameworks */,
+				C9404B7E1E82E19D00BAE0FA /* libc++.dylib in Frameworks */,
+				C9404B7F1E82E19D00BAE0FA /* Foundation.framework in Frameworks */,
+				C9404B801E82E19D00BAE0FA /* libz.dylib in Frameworks */,
+				C9404B811E82E19D00BAE0FA /* CoreGraphics.framework in Frameworks */,
+				C9404B821E82E19D00BAE0FA /* libPods-SidebarDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9E507AC1E811F0B00ACE279 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -6356,6 +6783,7 @@
 				C93591141E702CC400064818 /* KlickTV-Header.h */,
 				C9E508A61E8120CB00ACE279 /* HughesNet-Header.h */,
 				C9E50A1A1E81479100ACE279 /* Mohawk-Header.h */,
+				C9404C5D1E82E24900BAE0FA /* Demo-Header.h */,
 			);
 			path = Prefix;
 			sourceTree = "<group>";
@@ -6393,6 +6821,7 @@
 				2B2C94A31DFAE8E9009CE773 /* amazon.png */,
 				2B2C94A41DFAE8E9009CE773 /* amazon_active.png */,
 				2B2C94A51DFAE8E9009CE773 /* cbs.png */,
+				C9404ADA1E82A9CE00BAE0FA /* login_bg.jpg */,
 				2B2C94A61DFAE8E9009CE773 /* cbs_active.png */,
 				2B2C94A71DFAE8E9009CE773 /* hbo.png */,
 				2B2C94A81DFAE8E9009CE773 /* hbo_active.png */,
@@ -6981,6 +7410,7 @@
 		F4EECF05177C99F400778578 = {
 			isa = PBXGroup;
 			children = (
+				C9404C5E1E82E76B00BAE0FA /* Images.xcassets */,
 				F4EECF17177C99F400778578 /* SidebarDemo */,
 				F4EECF10177C99F400778578 /* Frameworks */,
 				F4EECF0F177C99F400778578 /* Products */,
@@ -7005,6 +7435,7 @@
 				C93591121E702BB000064818 /* KlickTV.app */,
 				C9E508A41E811F0B00ACE279 /* HughesNet.app */,
 				C9E50A181E8146E900ACE279 /* Mohawk.app */,
+				C9404C5B1E82E19E00BAE0FA /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -7095,6 +7526,7 @@
 				2BC77F351E71136F00E26163 /* Evolution-Info.plist */,
 				C9E508A51E811F0E00ACE279 /* HughesNet-Info.plist */,
 				C9E50A191E8146EA00ACE279 /* Mohawk-Info.plist */,
+				C9404C5C1E82E1A600BAE0FA /* Demo-Info.plist */,
 				F4EECF1A177C99F400778578 /* InfoPlist.strings */,
 				F4EECF1D177C99F400778578 /* main.m */,
 				F4EECF1F177C99F400778578 /* SidebarDemo-Prefix.pch */,
@@ -7357,6 +7789,28 @@
 			productReference = C93591121E702BB000064818 /* KlickTV.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C9404AE91E82E19D00BAE0FA /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9404C581E82E19D00BAE0FA /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				C9404AEA1E82E19D00BAE0FA /* [CP] Check Pods Manifest.lock */,
+				C9404AEB1E82E19D00BAE0FA /* Sources */,
+				C9404B621E82E19D00BAE0FA /* Frameworks */,
+				C9404B831E82E19D00BAE0FA /* Resources */,
+				C9404C541E82E19D00BAE0FA /* Embed Frameworks */,
+				C9404C551E82E19D00BAE0FA /* ShellScript */,
+				C9404C561E82E19D00BAE0FA /* [CP] Embed Pods Frameworks */,
+				C9404C571E82E19D00BAE0FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = SidebarDemo;
+			productReference = C9404C5B1E82E19E00BAE0FA /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C9E507331E811F0B00ACE279 /* HughesNet */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9E508A11E811F0B00ACE279 /* Build configuration list for PBXNativeTarget "HughesNet" */;
@@ -7465,6 +7919,9 @@
 					C9358FA31E702BAF00064818 = {
 						DevelopmentTeam = S56VX68W2B;
 					};
+					C9404AE91E82E19D00BAE0FA = {
+						DevelopmentTeam = S56VX68W2B;
+					};
 					C9E507331E811F0B00ACE279 = {
 						DevelopmentTeam = S56VX68W2B;
 					};
@@ -7503,6 +7960,7 @@
 				C9358FA31E702BAF00064818 /* KlickTV */,
 				C9E507331E811F0B00ACE279 /* HughesNet */,
 				C9E508A71E8146E900ACE279 /* Mohawk */,
+				C9404AE91E82E19D00BAE0FA /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -7699,6 +8157,7 @@
 				2B1A7E5E1E6ECB22006324AF /* Sundance-Now.png in Resources */,
 				2B1A7E5F1E6ECB22006324AF /* cbs_active.png in Resources */,
 				2B1A7E601E6ECB22006324AF /* default_safari.png in Resources */,
+				C9404ADC1E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				2B1A7E611E6ECB22006324AF /* appManagerStaticCustomCollectionCell.xib in Resources */,
 				2B1A7E621E6ECB22006324AF /* vudu.png in Resources */,
 				2B1A7E631E6ECB22006324AF /* IFC.png in Resources */,
@@ -7912,6 +8371,7 @@
 				2B1A7FD51E6EDA05006324AF /* cbs_active.png in Resources */,
 				2B1A7FD61E6EDA05006324AF /* default_safari.png in Resources */,
 				2B1A7FD71E6EDA05006324AF /* appManagerStaticCustomCollectionCell.xib in Resources */,
+				C9404ADD1E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				2B1A7FD81E6EDA05006324AF /* vudu.png in Resources */,
 				2B1A7FD91E6EDA05006324AF /* IFC.png in Resources */,
 				2B1A7FDA1E6EDA05006324AF /* AppDownloadListCell_IPad.xib in Resources */,
@@ -8125,6 +8585,7 @@
 				2B1A814C1E6EE152006324AF /* cbs_active.png in Resources */,
 				2B1A814D1E6EE152006324AF /* default_safari.png in Resources */,
 				2B1A814E1E6EE152006324AF /* appManagerStaticCustomCollectionCell.xib in Resources */,
+				C9404ADE1E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				2B1A814F1E6EE152006324AF /* vudu.png in Resources */,
 				2B1A81501E6EE152006324AF /* IFC.png in Resources */,
 				2BC77F2F1E71124300E26163 /* Century-Info.plist in Resources */,
@@ -8338,6 +8799,7 @@
 				2B1A82BD1E6EE344006324AF /* Sundance-Now.png in Resources */,
 				2B1A82BE1E6EE344006324AF /* cbs_active.png in Resources */,
 				2B1A82BF1E6EE344006324AF /* default_safari.png in Resources */,
+				C9404ADF1E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				2B1A82C01E6EE344006324AF /* appManagerStaticCustomCollectionCell.xib in Resources */,
 				2B1A82C11E6EE344006324AF /* vudu.png in Resources */,
 				2B1A82C21E6EE344006324AF /* IFC.png in Resources */,
@@ -8551,6 +9013,7 @@
 				2B1A843A1E6EFA9D006324AF /* Sundance-Now.png in Resources */,
 				2B1A843B1E6EFA9D006324AF /* cbs_active.png in Resources */,
 				2B1A843C1E6EFA9D006324AF /* default_safari.png in Resources */,
+				C9404AE01E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				2B1A843D1E6EFA9D006324AF /* appManagerStaticCustomCollectionCell.xib in Resources */,
 				2B1A843E1E6EFA9D006324AF /* vudu.png in Resources */,
 				2B1A843F1E6EFA9D006324AF /* IFC.png in Resources */,
@@ -8764,6 +9227,7 @@
 				2B44A4601E6FB6A400281B5B /* Sundance-Now.png in Resources */,
 				2B44A4611E6FB6A400281B5B /* cbs_active.png in Resources */,
 				2B44A4621E6FB6A400281B5B /* default_safari.png in Resources */,
+				C9404AE11E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				2B44A4631E6FB6A400281B5B /* appManagerStaticCustomCollectionCell.xib in Resources */,
 				2B44A4641E6FB6A400281B5B /* vudu.png in Resources */,
 				2B44A4651E6FB6A400281B5B /* IFC.png in Resources */,
@@ -8977,6 +9441,7 @@
 				2B44A5D21E6FB79D00281B5B /* Sundance-Now.png in Resources */,
 				2B44A5D31E6FB79D00281B5B /* cbs_active.png in Resources */,
 				2B44A5D41E6FB79D00281B5B /* default_safari.png in Resources */,
+				C9404AE21E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				2B44A5D51E6FB79D00281B5B /* appManagerStaticCustomCollectionCell.xib in Resources */,
 				2B44A5D61E6FB79D00281B5B /* vudu.png in Resources */,
 				2B44A5D71E6FB79D00281B5B /* IFC.png in Resources */,
@@ -9190,6 +9655,7 @@
 				2B44A7431E6FB7A700281B5B /* Sundance-Now.png in Resources */,
 				2B44A7441E6FB7A700281B5B /* cbs_active.png in Resources */,
 				2B44A7451E6FB7A700281B5B /* default_safari.png in Resources */,
+				C9404AE31E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				2B44A7461E6FB7A700281B5B /* appManagerStaticCustomCollectionCell.xib in Resources */,
 				2B44A7471E6FB7A700281B5B /* vudu.png in Resources */,
 				2B44A7481E6FB7A700281B5B /* IFC.png in Resources */,
@@ -9403,6 +9869,7 @@
 				2B44A8B51E6FB9BF00281B5B /* Sundance-Now.png in Resources */,
 				2B44A8B61E6FB9BF00281B5B /* cbs_active.png in Resources */,
 				2B44A8B71E6FB9BF00281B5B /* default_safari.png in Resources */,
+				C9404AE41E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				2B44A8B81E6FB9BF00281B5B /* appManagerStaticCustomCollectionCell.xib in Resources */,
 				2B44A8B91E6FB9BF00281B5B /* vudu.png in Resources */,
 				2B44A8BA1E6FB9BF00281B5B /* IFC.png in Resources */,
@@ -9616,6 +10083,7 @@
 				C9358F791E6FCD9700064818 /* Sundance-Now.png in Resources */,
 				C9358F7A1E6FCD9700064818 /* cbs_active.png in Resources */,
 				C9358F7B1E6FCD9700064818 /* default_safari.png in Resources */,
+				C9404AE51E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				C9358F7C1E6FCD9700064818 /* appManagerStaticCustomCollectionCell.xib in Resources */,
 				C9358F7D1E6FCD9700064818 /* vudu.png in Resources */,
 				C9358F7E1E6FCD9700064818 /* IFC.png in Resources */,
@@ -9734,6 +10202,7 @@
 				C93590981E702BAF00064818 /* volume_IconImage.png in Resources */,
 				C93590991E702BAF00064818 /* volume_mute.png in Resources */,
 				2BC77F601E71566300E26163 /* LaunchScreenView.xib in Resources */,
+				C9404AE61E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				C935909A1E702BAF00064818 /* volume_mute@2x.png in Resources */,
 				C935909B1E702BAF00064818 /* amazon.png in Resources */,
 				C935909C1E702BAF00064818 /* volume_mute@3x.png in Resources */,
@@ -9852,6 +10321,222 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9404B831E82E19D00BAE0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9404B841E82E19D00BAE0FA /* OpenSans-Regular.ttf in Resources */,
+				C9404B851E82E19D00BAE0FA /* OpenSans-Semibold.ttf in Resources */,
+				C9404B861E82E19D00BAE0FA /* OpenSans-Light.ttf in Resources */,
+				C9404B871E82E19D00BAE0FA /* AppDownloadTableViewCell_iPad.xib in Resources */,
+				C9404B881E82E19D00BAE0FA /* AMC.png in Resources */,
+				C9404B891E82E19D00BAE0FA /* MTV.png in Resources */,
+				C9404B8A1E82E19D00BAE0FA /* ipad_sales_modal.png in Resources */,
+				C9404B8B1E82E19D00BAE0FA /* OnDemand_Grid_Cell_Ipad.xib in Resources */,
+				C9404B8C1E82E19D00BAE0FA /* subscriptionCustomCollectionCell_Ipad.xib in Resources */,
+				C9404B8D1E82E19D00BAE0FA /* Epix.png in Resources */,
+				C9404B8E1E82E19D00BAE0FA /* CBS-ALL-ACCESS.png in Resources */,
+				C9404B8F1E82E19D00BAE0FA /* sho_active.png in Resources */,
+				C9404B901E82E19D00BAE0FA /* NBC.png in Resources */,
+				C9404B911E82E19D00BAE0FA /* ThumbnailVC.xib in Resources */,
+				C9404B921E82E19D00BAE0FA /* OverTheAirCustomCell.xib in Resources */,
+				C9404C5F1E82E76B00BAE0FA /* Images.xcassets in Resources */,
+				C9404B931E82E19D00BAE0FA /* bg.png in Resources */,
+				C9404B941E82E19D00BAE0FA /* netflix_active.png in Resources */,
+				C9404B951E82E19D00BAE0FA /* Disney-Junior.png in Resources */,
+				C9404B961E82E19D00BAE0FA /* HBO-Now.png in Resources */,
+				C9404B971E82E19D00BAE0FA /* vr--app-image.png in Resources */,
+				C9404B981E82E19D00BAE0FA /* sho.png in Resources */,
+				C9404B991E82E19D00BAE0FA /* CBS.png in Resources */,
+				C9404B9A1E82E19D00BAE0FA /* cbsImage.jpeg in Resources */,
+				C9404B9B1E82E19D00BAE0FA /* Feeln.png in Resources */,
+				C9404B9C1E82E19D00BAE0FA /* abcImage.jpeg in Resources */,
+				C9404B9D1E82E19D00BAE0FA /* MAX-GO.png in Resources */,
+				C9404B9E1E82E19D00BAE0FA /* Netflix.png in Resources */,
+				C9404B9F1E82E19D00BAE0FA /* huluImage.png in Resources */,
+				C9404BA01E82E19D00BAE0FA /* Nick-Jr.png in Resources */,
+				C9404BA11E82E19D00BAE0FA /* TBS.png in Resources */,
+				C9404BA21E82E19D00BAE0FA /* bar.png in Resources */,
+				C9404BA31E82E19D00BAE0FA /* TruTV.png in Resources */,
+				C9404BA41E82E19D00BAE0FA /* TNT.png in Resources */,
+				C9404BA51E82E19D00BAE0FA /* button_getitnow.png in Resources */,
+				C9404BA61E82E19D00BAE0FA /* button_start.png in Resources */,
+				C9404BA71E82E19D00BAE0FA /* FX-Networks.png in Resources */,
+				C9404BA81E82E19D00BAE0FA /* Email icon.png in Resources */,
+				C9404BA91E82E19D00BAE0FA /* plusmenu_back.png in Resources */,
+				C9404BAA1E82E19D00BAE0FA /* Popcorn-Flix.png in Resources */,
+				C9404BAB1E82E19D00BAE0FA /* reloadButton.png in Resources */,
+				C9404BAC1E82E19D00BAE0FA /* rewindButton.png in Resources */,
+				C9404BAD1E82E19D00BAE0FA /* crakleImage.png in Resources */,
+				C9404BAE1E82E19D00BAE0FA /* pause.png in Resources */,
+				C9404BAF1E82E19D00BAE0FA /* Season_Ipad.xib in Resources */,
+				C9404BB01E82E19D00BAE0FA /* lifetime.png in Resources */,
+				C9404BB11E82E19D00BAE0FA /* logo.png in Resources */,
+				C9404BB21E82E19D00BAE0FA /* film_icon.png in Resources */,
+				C9404BB31E82E19D00BAE0FA /* MyAccountCustomCell.xib in Resources */,
+				C9404BB41E82E19D00BAE0FA /* CRANCKLE.png in Resources */,
+				C9404BB51E82E19D00BAE0FA /* play.png in Resources */,
+				C9404BB61E82E19D00BAE0FA /* AppDownloadTableViewCell.xib in Resources */,
+				C9404BB71E82E19D00BAE0FA /* appManagerStaticCustomCollectionCell_IPhone.xib in Resources */,
+				C9404BB81E82E19D00BAE0FA /* track.png in Resources */,
+				C9404BB91E82E19D00BAE0FA /* Cell_Ipad.xib in Resources */,
+				C9404BBA1E82E19D00BAE0FA /* Land_Cell.xib in Resources */,
+				C9404BBB1E82E19D00BAE0FA /* NKArticleCollectionViewCell.xib in Resources */,
+				C9404BBC1E82E19D00BAE0FA /* wifi_off.png in Resources */,
+				C9404BBD1E82E19D00BAE0FA /* myInterestsCell_IPad.xib in Resources */,
+				C9404BBE1E82E19D00BAE0FA /* SubscriptTableViewCell.xib in Resources */,
+				C9404BBF1E82E19D00BAE0FA /* MenuView.xib in Resources */,
+				C9404BC01E82E19D00BAE0FA /* Nick.png in Resources */,
+				C9404BC11E82E19D00BAE0FA /* installBtnImage.png in Resources */,
+				C9404BC21E82E19D00BAE0FA /* MobileLandingView.xib in Resources */,
+				C9404BC31E82E19D00BAE0FA /* wifi1.png in Resources */,
+				C9404BC41E82E19D00BAE0FA /* wifi2.png in Resources */,
+				C9404BC51E82E19D00BAE0FA /* wifi3.png in Resources */,
+				C9404BC61E82E19D00BAE0FA /* icon_logo.png in Resources */,
+				C9404BC71E82E19D00BAE0FA /* slider-metal-handle-highlighted.png in Resources */,
+				C9404BC81E82E19D00BAE0FA /* red_back_arrow.png in Resources */,
+				C9404BC91E82E19D00BAE0FA /* slider-metal-handle-highlighted@2x.png in Resources */,
+				C9404BCA1E82E19D00BAE0FA /* slider-metal-track.png in Resources */,
+				C9404BCB1E82E19D00BAE0FA /* LoginBgNew.jpg in Resources */,
+				C9404BCC1E82E19D00BAE0FA /* slider-metal-track@2x.png in Resources */,
+				C9404BCD1E82E19D00BAE0FA /* Cartoon-Network.png in Resources */,
+				C9404BCE1E82E19D00BAE0FA /* CW.png in Resources */,
+				C9404BCF1E82E19D00BAE0FA /* slider-metal-trackBackground.png in Resources */,
+				C9404BD01E82E19D00BAE0FA /* hulu_active.png in Resources */,
+				C9404BD11E82E19D00BAE0FA /* amazon-prime.png in Resources */,
+				C9404BD21E82E19D00BAE0FA /* Email icon@2x.png in Resources */,
+				C9404BD31E82E19D00BAE0FA /* backgroud_BG.png in Resources */,
+				C9404BD41E82E19D00BAE0FA /* Vudu.png in Resources */,
+				C9404BD51E82E19D00BAE0FA /* icon_hamburger.png in Resources */,
+				C9404BD61E82E19D00BAE0FA /* Klick_LaunchScreenView.xib in Resources */,
+				C9404BD71E82E19D00BAE0FA /* slider-metal-trackBackground@2x.png in Resources */,
+				C9404BD81E82E19D00BAE0FA /* hulu.png in Resources */,
+				C9404BD91E82E19D00BAE0FA /* volume_icon.png in Resources */,
+				C9404BDA1E82E19D00BAE0FA /* Cell.xib in Resources */,
+				C9404BDB1E82E19D00BAE0FA /* IQKeyboardManager.bundle in Resources */,
+				C9404BDC1E82E19D00BAE0FA /* Viceland.png in Resources */,
+				C9404BDD1E82E19D00BAE0FA /* volume_IconImage.png in Resources */,
+				C9404BDE1E82E19D00BAE0FA /* volume_mute.png in Resources */,
+				C9404BDF1E82E19D00BAE0FA /* LaunchScreenView.xib in Resources */,
+				C9404BE01E82E19D00BAE0FA /* login_bg.jpg in Resources */,
+				C9404BE11E82E19D00BAE0FA /* volume_mute@2x.png in Resources */,
+				C9404BE21E82E19D00BAE0FA /* amazon.png in Resources */,
+				C9404BE31E82E19D00BAE0FA /* volume_mute@3x.png in Resources */,
+				C9404BE41E82E19D00BAE0FA /* volume.png in Resources */,
+				C9404BE51E82E19D00BAE0FA /* cwImage.jpg in Resources */,
+				C9404BE61E82E19D00BAE0FA /* kodi-11-300x3001.png in Resources */,
+				C9404BE71E82E19D00BAE0FA /* blueBtn.png in Resources */,
+				C9404BE81E82E19D00BAE0FA /* volume@2x.png in Resources */,
+				C9404BE91E82E19D00BAE0FA /* NKArticleCollectionViewCell_iPad.xib in Resources */,
+				C9404BEA1E82E19D00BAE0FA /* startwatching_button.png in Resources */,
+				C9404BEB1E82E19D00BAE0FA /* NKContainerCellView.xib in Resources */,
+				C9404BEC1E82E19D00BAE0FA /* logout.png in Resources */,
+				C9404BED1E82E19D00BAE0FA /* fox-sports-go-app.png in Resources */,
+				C9404BEE1E82E19D00BAE0FA /* OnDemand_Grid_Cell_Subsc.xib in Resources */,
+				C9404BEF1E82E19D00BAE0FA /* volume@3x.png in Resources */,
+				C9404BF01E82E19D00BAE0FA /* Default.png in Resources */,
+				C9404BF11E82E19D00BAE0FA /* Default@2x.png in Resources */,
+				C9404BF21E82E19D00BAE0FA /* ABC.png in Resources */,
+				C9404BF31E82E19D00BAE0FA /* FOX.png in Resources */,
+				C9404BF41E82E19D00BAE0FA /* Default-568h@2x.png in Resources */,
+				C9404BF51E82E19D00BAE0FA /* potraitPlace.jpg in Resources */,
+				C9404BF61E82E19D00BAE0FA /* mobilepromo.png in Resources */,
+				C9404BF71E82E19D00BAE0FA /* PBS.png in Resources */,
+				C9404BF81E82E19D00BAE0FA /* cbs.png in Resources */,
+				C9404BF91E82E19D00BAE0FA /* fontawesome-webfont.ttf in Resources */,
+				C9404BFA1E82E19D00BAE0FA /* MainContentGridCell.xib in Resources */,
+				C9404BFB1E82E19D00BAE0FA /* myInterestsCell_IPhone.xib in Resources */,
+				C9404BFC1E82E19D00BAE0FA /* hbo_active.png in Resources */,
+				C9404BFD1E82E19D00BAE0FA /* Montserrat-Bold.otf in Resources */,
+				C9404BFE1E82E19D00BAE0FA /* hbo.png in Resources */,
+				C9404BFF1E82E19D00BAE0FA /* safari.png in Resources */,
+				C9404C001E82E19D00BAE0FA /* VH1.png in Resources */,
+				C9404C011E82E19D00BAE0FA /* Montserrat-Regular.ttf in Resources */,
+				C9404C021E82E19D00BAE0FA /* selected.png in Resources */,
+				C9404C031E82E19D00BAE0FA /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
+				C9404C041E82E19D00BAE0FA /* OnDemandSliderCarouselView.xib in Resources */,
+				C9404C051E82E19D00BAE0FA /* OpenSans-Bold.ttf in Resources */,
+				C9404C061E82E19D00BAE0FA /* Roboto-Bold.ttf in Resources */,
+				C9404C071E82E19D00BAE0FA /* Roboto-Light.ttf in Resources */,
+				C9404C081E82E19D00BAE0FA /* AppDownloadListCell_IPhone.xib in Resources */,
+				C9404C091E82E19D00BAE0FA /* NKContainerCellView_AppManager.xib in Resources */,
+				C9404C0A1E82E19D00BAE0FA /* Roboto-Medium.ttf in Resources */,
+				C9404C0B1E82E19D00BAE0FA /* Disney-Channel.png in Resources */,
+				C9404C0C1E82E19D00BAE0FA /* subscriptionCustomCollectionCell.xib in Resources */,
+				C9404C0D1E82E19D00BAE0FA /* Roboto-Regular.ttf in Resources */,
+				C9404C0E1E82E19D00BAE0FA /* splash_logo.png in Resources */,
+				C9404C0F1E82E19D00BAE0FA /* nbsImage.jpeg in Resources */,
+				C9404C101E82E19D00BAE0FA /* KlickTV-Info.plist in Resources */,
+				C9404C111E82E19D00BAE0FA /* icon_apple.png in Resources */,
+				C9404C121E82E19D00BAE0FA /* Starz.png in Resources */,
+				C9404C131E82E19D00BAE0FA /* HISTORY.png in Resources */,
+				C9404C141E82E19D00BAE0FA /* New_Land_Cell.xib in Resources */,
+				C9404C151E82E19D00BAE0FA /* hulu.webp in Resources */,
+				C9404C161E82E19D00BAE0FA /* Lock@2x.png in Resources */,
+				C9404C171E82E19D00BAE0FA /* SearchCell.xib in Resources */,
+				C9404C181E82E19D00BAE0FA /* RadioGenreTableViewCell.xib in Resources */,
+				C9404C191E82E19D00BAE0FA /* InfoPlist.strings in Resources */,
+				C9404C1A1E82E19D00BAE0FA /* Images.xcassets in Resources */,
+				C9404C1B1E82E19D00BAE0FA /* AppListGridCell_Ipad.xib in Resources */,
+				C9404C1C1E82E19D00BAE0FA /* landscapePlace.jpg in Resources */,
+				C9404C1D1E82E19D00BAE0FA /* Comedy-Central.png in Resources */,
+				C9404C1E1E82E19D00BAE0FA /* A_E.png in Resources */,
+				C9404C1F1E82E19D00BAE0FA /* AppListGridCell_Iphone.xib in Resources */,
+				C9404C201E82E19D00BAE0FA /* amazon_active.png in Resources */,
+				C9404C211E82E19D00BAE0FA /* icon_fullscreen.png in Resources */,
+				C9404C221E82E19D00BAE0FA /* 540x960.mp4 in Resources */,
+				C9404C231E82E19D00BAE0FA /* LoginStoryboard.storyboard in Resources */,
+				C9404C241E82E19D00BAE0FA /* OnDemand_Grid_Cell.xib in Resources */,
+				C9404C251E82E19D00BAE0FA /* MainContentViewCell.xib in Resources */,
+				C9404C261E82E19D00BAE0FA /* AddButton.png in Resources */,
+				C9404C271E82E19D00BAE0FA /* RadioListByGenreGridCell.xib in Resources */,
+				C9404C281E82E19D00BAE0FA /* 92013291.png in Resources */,
+				C9404C291E82E19D00BAE0FA /* orangeBtn.png in Resources */,
+				C9404C2A1E82E19D00BAE0FA /* Spike.png in Resources */,
+				C9404C2B1E82E19D00BAE0FA /* landscapeLoader_show.jpg in Resources */,
+				C9404C2C1E82E19D00BAE0FA /* main_frm_bar_2.png in Resources */,
+				C9404C2D1E82E19D00BAE0FA /* main_frm_bar_1.png in Resources */,
+				C9404C2E1E82E19D00BAE0FA /* NKContainerCellView_Subscription.xib in Resources */,
+				C9404C2F1E82E19D00BAE0FA /* SimpleTableCell.xib in Resources */,
+				C9404C301E82E19D00BAE0FA /* Redbull-TV.png in Resources */,
+				C9404C311E82E19D00BAE0FA /* seeso.png in Resources */,
+				C9404C321E82E19D00BAE0FA /* CastCellIpad.xib in Resources */,
+				C9404C331E82E19D00BAE0FA /* SubscriptionCell.xib in Resources */,
+				C9404C341E82E19D00BAE0FA /* Xfinity.png in Resources */,
+				C9404C351E82E19D00BAE0FA /* Lock.png in Resources */,
+				C9404C361E82E19D00BAE0FA /* TrailerMovieView.xib in Resources */,
+				C9404C371E82E19D00BAE0FA /* SubscriptionCell_IPad.xib in Resources */,
+				C9404C381E82E19D00BAE0FA /* Season.xib in Resources */,
+				C9404C391E82E19D00BAE0FA /* hulu.png in Resources */,
+				C9404C3A1E82E19D00BAE0FA /* Cast_Grid_Cell_iPhone.xib in Resources */,
+				C9404C3B1E82E19D00BAE0FA /* Land_Cell_Ipad.xib in Resources */,
+				C9404C3C1E82E19D00BAE0FA /* StreamTableViewCell.xib in Resources */,
+				C9404C3D1E82E19D00BAE0FA /* Sundance-Now.png in Resources */,
+				C9404C3E1E82E19D00BAE0FA /* cbs_active.png in Resources */,
+				C9404C3F1E82E19D00BAE0FA /* default_safari.png in Resources */,
+				C9404C401E82E19D00BAE0FA /* appManagerStaticCustomCollectionCell.xib in Resources */,
+				C9404C411E82E19D00BAE0FA /* vudu.png in Resources */,
+				C9404C421E82E19D00BAE0FA /* IFC.png in Resources */,
+				C9404C431E82E19D00BAE0FA /* AppDownloadListCell_IPad.xib in Resources */,
+				C9404C441E82E19D00BAE0FA /* CastCustomCell.xib in Resources */,
+				C9404C451E82E19D00BAE0FA /* imdb-app-image.png in Resources */,
+				C9404C461E82E19D00BAE0FA /* HGTV.png in Resources */,
+				C9404C471E82E19D00BAE0FA /* tick.png in Resources */,
+				C9404C481E82E19D00BAE0FA /* CastCell.xib in Resources */,
+				C9404C491E82E19D00BAE0FA /* netflix.png in Resources */,
+				C9404C4A1E82E19D00BAE0FA /* New_Land_Cell_IPhone.xib in Resources */,
+				C9404C4B1E82E19D00BAE0FA /* refresh-icon.png in Resources */,
+				C9404C4C1E82E19D00BAE0FA /* MainStoryboard.storyboard in Resources */,
+				C9404C4D1E82E19D00BAE0FA /* USA.png in Resources */,
+				C9404C4E1E82E19D00BAE0FA /* potraitLoader_network.jpg in Resources */,
+				C9404C4F1E82E19D00BAE0FA /* RentCell.xib in Resources */,
+				C9404C501E82E19D00BAE0FA /* IntroBackGroundImage.png in Resources */,
+				C9404C511E82E19D00BAE0FA /* New_Land_Cell_Ipad.xib in Resources */,
+				C9404C521E82E19D00BAE0FA /* RadioListByGenreCell.xib in Resources */,
+				C9404C531E82E19D00BAE0FA /* iPadStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9E507CD1E811F0B00ACE279 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -9948,6 +10633,7 @@
 				C9E508271E811F0B00ACE279 /* volume_IconImage.png in Resources */,
 				C9E508281E811F0B00ACE279 /* volume_mute.png in Resources */,
 				C9E508291E811F0B00ACE279 /* LaunchScreenView.xib in Resources */,
+				C9404AE71E82A9CF00BAE0FA /* login_bg.jpg in Resources */,
 				C9E5082A1E811F0B00ACE279 /* volume_mute@2x.png in Resources */,
 				C9E5082B1E811F0B00ACE279 /* amazon.png in Resources */,
 				C9E5082C1E811F0B00ACE279 /* volume_mute@3x.png in Resources */,
@@ -10162,6 +10848,7 @@
 				C9E5099B1E8146E900ACE279 /* volume_IconImage.png in Resources */,
 				C9E5099C1E8146E900ACE279 /* volume_mute.png in Resources */,
 				C9E5099D1E8146E900ACE279 /* LaunchScreenView.xib in Resources */,
+				C9404AE81E82A9CF00BAE0FA /* login_bg.jpg in Resources */,
 				C9E5099E1E8146E900ACE279 /* volume_mute@2x.png in Resources */,
 				C9E5099F1E8146E900ACE279 /* amazon.png in Resources */,
 				C9E509A01E8146E900ACE279 /* volume_mute@3x.png in Resources */,
@@ -10471,6 +11158,7 @@
 				2B2C94B31DFAE8E9009CE773 /* cbs_active.png in Resources */,
 				2B1A79AA1E6EA687006324AF /* default_safari.png in Resources */,
 				2BC77F331E71127900E26163 /* Arvig-Info.plist in Resources */,
+				C9404ADB1E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				2B59D38D1E6D6D5C00221307 /* appManagerStaticCustomCollectionCell.xib in Resources */,
 				2B1A79CA1E6EA687006324AF /* vudu.png in Resources */,
 				2B59D3DC1E6D8BE800221307 /* IFC.png in Resources */,
@@ -11163,6 +11851,64 @@
 			showEnvVarsInLog = 0;
 		};
 		C935910E1E702BAF00064818 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SidebarDemo/Pods-SidebarDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9404AEA1E82E19D00BAE0FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9404C551E82E19D00BAE0FA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT=`/usr/bin/find \"${SRCROOT}\" -name newrelic_postbuild.sh | head -n 1`\n\n/bin/sh \"${SCRIPT}\" \"AA65c8e5df95fa18c7885d03bc1569cac2e94d2965\"";
+		};
+		C9404C561E82E19D00BAE0FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SidebarDemo/Pods-SidebarDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9404C571E82E19D00BAE0FA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -12686,6 +13432,131 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9404AEB1E82E19D00BAE0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9404AEC1E82E19D00BAE0FA /* H5WebKitBugsManager.h in Sources */,
+				C9404AED1E82E19D00BAE0FA /* CustomIOS7AlertView.h in Sources */,
+				C9404AEE1E82E19D00BAE0FA /* ResgisterTableViewController.m in Sources */,
+				C9404AEF1E82E19D00BAE0FA /* IQUIWindow+Hierarchy.m in Sources */,
+				C9404AF01E82E19D00BAE0FA /* UIImage+WebP.m in Sources */,
+				C9404AF11E82E19D00BAE0FA /* IQNSArray+Sort.m in Sources */,
+				C9404AF21E82E19D00BAE0FA /* PlayerViewController.m in Sources */,
+				C9404AF31E82E19D00BAE0FA /* IQBarButtonItem.m in Sources */,
+				C9404AF41E82E19D00BAE0FA /* FTWCache.m in Sources */,
+				C9404AF51E82E19D00BAE0FA /* UIGridView.m in Sources */,
+				C9404AF61E82E19D00BAE0FA /* SubScriptionsViewController.m in Sources */,
+				C9404AF71E82E19D00BAE0FA /* UIGridViewRow.m in Sources */,
+				C9404AF81E82E19D00BAE0FA /* LoginViewController.m in Sources */,
+				C9404AF91E82E19D00BAE0FA /* MyInterestsViewController.m in Sources */,
+				C9404AFA1E82E19D00BAE0FA /* Cell.m in Sources */,
+				C9404AFB1E82E19D00BAE0FA /* myInterestsCell.m in Sources */,
+				C9404AFC1E82E19D00BAE0FA /* NkContainerCellView.m in Sources */,
+				C9404AFD1E82E19D00BAE0FA /* UIImage+ImageResize.m in Sources */,
+				C9404AFE1E82E19D00BAE0FA /* main.m in Sources */,
+				C9404AFF1E82E19D00BAE0FA /* IQUIView+Hierarchy.m in Sources */,
+				C9404B001E82E19D00BAE0FA /* AppDelegate.m in Sources */,
+				C9404B011E82E19D00BAE0FA /* PhotoViewController.m in Sources */,
+				C9404B021E82E19D00BAE0FA /* MobileLandingView.m in Sources */,
+				C9404B031E82E19D00BAE0FA /* PWParallaxScrollView.m in Sources */,
+				C9404B041E82E19D00BAE0FA /* PayMovieViewController.m in Sources */,
+				C9404B051E82E19D00BAE0FA /* StreamTableViewCell.m in Sources */,
+				C9404B061E82E19D00BAE0FA /* AppListGridCell.m in Sources */,
+				C9404B071E82E19D00BAE0FA /* Cast_Grid_Cell.m in Sources */,
+				C9404B081E82E19D00BAE0FA /* Category.m in Sources */,
+				C9404B091E82E19D00BAE0FA /* CastCell.m in Sources */,
+				C9404B0A1E82E19D00BAE0FA /* New_Land_Cell.m in Sources */,
+				C9404B0B1E82E19D00BAE0FA /* IQToolbar.m in Sources */,
+				C9404B0C1E82E19D00BAE0FA /* CastCustomCell.m in Sources */,
+				C9404B0D1E82E19D00BAE0FA /* SearchRadioViewController.m in Sources */,
+				C9404B0E1E82E19D00BAE0FA /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				C9404B0F1E82E19D00BAE0FA /* SearchCell.m in Sources */,
+				C9404B101E82E19D00BAE0FA /* MainContentViewCell.m in Sources */,
+				C9404B111E82E19D00BAE0FA /* IQSegmentedNextPrevious.m in Sources */,
+				C9404B121E82E19D00BAE0FA /* ChanelObj.m in Sources */,
+				C9404B131E82E19D00BAE0FA /* OnDemand_Grid_Cell.m in Sources */,
+				C9404B141E82E19D00BAE0FA /* SearchViewController.m in Sources */,
+				C9404B151E82E19D00BAE0FA /* MyScrollableGridRowView.m in Sources */,
+				C9404B161E82E19D00BAE0FA /* StartScreenViewController.m in Sources */,
+				C9404B171E82E19D00BAE0FA /* OverTheAirDetailController.m in Sources */,
+				C9404B181E82E19D00BAE0FA /* UIImage+ProportionalFill.m in Sources */,
+				C9404B191E82E19D00BAE0FA /* subscriptionCustomCollectionCell.m in Sources */,
+				C9404B1A1E82E19D00BAE0FA /* NSString+validations.m in Sources */,
+				C9404B1B1E82E19D00BAE0FA /* AppCommon.m in Sources */,
+				C9404B1C1E82E19D00BAE0FA /* SearchDetailViewController.m in Sources */,
+				C9404B1D1E82E19D00BAE0FA /* RadioListByGenreCell.m in Sources */,
+				C9404B1E1E82E19D00BAE0FA /* NetworkViewController.m in Sources */,
+				C9404B1F1E82E19D00BAE0FA /* IQUITextFieldView+Additions.m in Sources */,
+				C9404B201E82E19D00BAE0FA /* NIDropDown.m in Sources */,
+				C9404B211E82E19D00BAE0FA /* AppDownloadTableViewCell.m in Sources */,
+				C9404B221E82E19D00BAE0FA /* Queue.m in Sources */,
+				C9404B231E82E19D00BAE0FA /* SubscriptionCell.m in Sources */,
+				C9404B241E82E19D00BAE0FA /* MovieViewController.m in Sources */,
+				C9404B251E82E19D00BAE0FA /* MBProgressHUD.m in Sources */,
+				C9404B261E82E19D00BAE0FA /* TTTAttributedLabel.m in Sources */,
+				C9404B271E82E19D00BAE0FA /* PlusViewController.m in Sources */,
+				C9404B281E82E19D00BAE0FA /* HomeViewController.m in Sources */,
+				C9404B291E82E19D00BAE0FA /* NKArticleCollectionViewCell.m in Sources */,
+				C9404B2A1E82E19D00BAE0FA /* StartVideoViewController.m in Sources */,
+				C9404B2B1E82E19D00BAE0FA /* OverTheAirCustomCell.m in Sources */,
+				C9404B2C1E82E19D00BAE0FA /* NSString+FontAwesome.m in Sources */,
+				C9404B2D1E82E19D00BAE0FA /* SidebarViewController.m in Sources */,
+				C9404B2E1E82E19D00BAE0FA /* SimpleTableCell.m in Sources */,
+				C9404B2F1E82E19D00BAE0FA /* HKKScrollableGridView.m in Sources */,
+				C9404B301E82E19D00BAE0FA /* IQUIViewController+Additions.m in Sources */,
+				C9404B311E82E19D00BAE0FA /* AppDownloadListCell.m in Sources */,
+				C9404B321E82E19D00BAE0FA /* RentCell.m in Sources */,
+				C9404B331E82E19D00BAE0FA /* NewShowDetailViewController.m in Sources */,
+				C9404B341E82E19D00BAE0FA /* ThumbnailVC.m in Sources */,
+				C9404B351E82E19D00BAE0FA /* RadioListByGenreGridCell.m in Sources */,
+				C9404B361E82E19D00BAE0FA /* FavTableViewCell.m in Sources */,
+				C9404B371E82E19D00BAE0FA /* ChanelManager.m in Sources */,
+				C9404B381E82E19D00BAE0FA /* GamesViewController.m in Sources */,
+				C9404B391E82E19D00BAE0FA /* TrailerMovieView.m in Sources */,
+				C9404B3A1E82E19D00BAE0FA /* AsyncImage.m in Sources */,
+				C9404B3B1E82E19D00BAE0FA /* iCarousel.m in Sources */,
+				C9404B3C1E82E19D00BAE0FA /* RegisterViewController.m in Sources */,
+				C9404B3D1E82E19D00BAE0FA /* LDProgressView.m in Sources */,
+				C9404B3E1E82E19D00BAE0FA /* MenuCell.m in Sources */,
+				C9404B3F1E82E19D00BAE0FA /* CustomIOS7AlertView.m in Sources */,
+				C9404B401E82E19D00BAE0FA /* IntroViewController.m in Sources */,
+				C9404B411E82E19D00BAE0FA /* RabbitTVManager.m in Sources */,
+				C9404B421E82E19D00BAE0FA /* A3GridTableView.m in Sources */,
+				C9404B431E82E19D00BAE0FA /* UIColor+RGBValues.m in Sources */,
+				C9404B441E82E19D00BAE0FA /* OnDemandSliderCarouselView.m in Sources */,
+				C9404B451E82E19D00BAE0FA /* RadioGenreTableViewCell.m in Sources */,
+				C9404B461E82E19D00BAE0FA /* UIGridViewCell.m in Sources */,
+				C9404B471E82E19D00BAE0FA /* OverTheAirViewController.m in Sources */,
+				C9404B481E82E19D00BAE0FA /* SWRevealViewController.m in Sources */,
+				C9404B491E82E19D00BAE0FA /* SubscriptTableViewCell.m in Sources */,
+				C9404B4A1E82E19D00BAE0FA /* MainContentGridCell.m in Sources */,
+				C9404B4B1E82E19D00BAE0FA /* A3GridTableViewCell.m in Sources */,
+				C9404B4C1E82E19D00BAE0FA /* MenuView.m in Sources */,
+				C9404B4D1E82E19D00BAE0FA /* appManagerStaticCustomCollectionCell.m in Sources */,
+				C9404B4E1E82E19D00BAE0FA /* UIImage+Tint.m in Sources */,
+				C9404B4F1E82E19D00BAE0FA /* PromoViewController.m in Sources */,
+				C9404B501E82E19D00BAE0FA /* RadioViewController.m in Sources */,
+				C9404B511E82E19D00BAE0FA /* NKContainerCellTableViewCell.m in Sources */,
+				C9404B521E82E19D00BAE0FA /* NewMovieDetailViewController.m in Sources */,
+				C9404B531E82E19D00BAE0FA /* H5WebKitBugsManager.m in Sources */,
+				C9404B541E82E19D00BAE0FA /* IQKeyboardReturnKeyHandler.m in Sources */,
+				C9404B551E82E19D00BAE0FA /* HMSegmentedControl.m in Sources */,
+				C9404B561E82E19D00BAE0FA /* MainViewController.m in Sources */,
+				C9404B571E82E19D00BAE0FA /* IQKeyboardManager.m in Sources */,
+				C9404B581E82E19D00BAE0FA /* Land_Cell.m in Sources */,
+				C9404B591E82E19D00BAE0FA /* Packet.m in Sources */,
+				C9404B5A1E82E19D00BAE0FA /* MyScrollableGridHeaderView.m in Sources */,
+				C9404B5B1E82E19D00BAE0FA /* MyAccountCustomCell.m in Sources */,
+				C9404B5C1E82E19D00BAE0FA /* ForgotPasswordViewController.m in Sources */,
+				C9404B5D1E82E19D00BAE0FA /* IQTitleBarButtonItem.m in Sources */,
+				C9404B5E1E82E19D00BAE0FA /* MyAccountViewController.m in Sources */,
+				C9404B5F1E82E19D00BAE0FA /* Season.m in Sources */,
+				C9404B601E82E19D00BAE0FA /* IQTextView.m in Sources */,
+				C9404B611E82E19D00BAE0FA /* Radio.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9E507351E811F0B00ACE279 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -13090,7 +13961,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = ETV_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = ETV_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -13106,8 +13977,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.etv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f6065d7d-8b7f-471d-a0a1-4e8b7e600e89";
-				PROVISIONING_PROFILE_SPECIFIER = "ETV InHouse";
+				PROVISIONING_PROFILE = "eba9d8b8-f858-47a9-8150-aa7043eafbb3";
+				PROVISIONING_PROFILE_SPECIFIER = "ETV Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -13120,7 +13991,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = ETV_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = ETV_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -13136,8 +14007,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.etv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f6065d7d-8b7f-471d-a0a1-4e8b7e600e89";
-				PROVISIONING_PROFILE_SPECIFIER = "ETV InHouse";
+				PROVISIONING_PROFILE = "eba9d8b8-f858-47a9-8150-aa7043eafbb3";
+				PROVISIONING_PROFILE_SPECIFIER = "ETV Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -13749,6 +14620,68 @@
 			};
 			name = Release;
 		};
+		C9404C591E82E19D00BAE0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAE1E0974B277306AFFDE9A /* Pods-SidebarDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Demo_AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Demo_LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = S56VX68W2B;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SidebarDemo",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/Demo-Header.h";
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0546204c-fb1b-45df-8fbb-d3e248d2602b";
+				PROVISIONING_PROFILE_SPECIFIER = "Demo InHouse";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9404C5A1E82E19D00BAE0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F12EB8A4A479C28556383C /* Pods-SidebarDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Demo_AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Demo_LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = S56VX68W2B;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SidebarDemo",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SidebarDemo/Prefix/Demo-Header.h";
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0546204c-fb1b-45df-8fbb-d3e248d2602b";
+				PROVISIONING_PROFILE_SPECIFIER = "Demo InHouse";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		C9E508A21E811F0B00ACE279 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FEAE1E0974B277306AFFDE9A /* Pods-SidebarDemo.debug.xcconfig */;
@@ -13756,7 +14689,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = HughesNet_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = HughesNet_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -13773,8 +14706,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.hughesnet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6bd12f79-a301-4a44-9413-4badafeca458";
-				PROVISIONING_PROFILE_SPECIFIER = "HughesNet Development";
+				PROVISIONING_PROFILE = "eb43def1-2f9b-4f79-804e-337e9f7f3092";
+				PROVISIONING_PROFILE_SPECIFIER = "HughesNet InHouse";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -13787,7 +14720,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = HughesNet_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = HughesNet_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -13804,8 +14737,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.hughesnet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6bd12f79-a301-4a44-9413-4badafeca458";
-				PROVISIONING_PROFILE_SPECIFIER = "HughesNet Development";
+				PROVISIONING_PROFILE = "eb43def1-2f9b-4f79-804e-337e9f7f3092";
+				PROVISIONING_PROFILE_SPECIFIER = "HughesNet InHouse";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -14094,6 +15027,15 @@
 			buildConfigurations = (
 				C93591101E702BAF00064818 /* Debug */,
 				C93591111E702BAF00064818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9404C581E82E19D00BAE0FA /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9404C591E82E19D00BAE0FA /* Debug */,
+				C9404C5A1E82E19D00BAE0FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -17,7 +17,7 @@
 
 #define splashNewImage                      @"BroadView_CustomLaunchIcon"
 
-
+#define Link                                @"https://broadview.live/support_selection/"
 
 
 //#ifndef BroadView_Header_h

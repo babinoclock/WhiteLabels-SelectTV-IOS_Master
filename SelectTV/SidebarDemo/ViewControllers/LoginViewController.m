@@ -14,7 +14,7 @@
 #import "StartScreenViewController.h"
 #import "IntroViewController.h"
 
-@interface LoginViewController (){
+@interface LoginViewController ()<UIAlertViewDelegate>{
     CGFloat screenWidth;
     CGFloat screenHeight;
     NSString * currentAppLanguage;
@@ -24,6 +24,8 @@
     NSString *helpStr;
     NSString *helpStrPart_One;
     NSString *helpStrPart_Two;
+    
+    UIView *helpAlert;
     
 }
 
@@ -319,9 +321,51 @@
     
 }
 -(void)needHelpAction{
-    NSString *url= @"http://support.selecttv.com/";
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+//    NSString *url= @"http://support.selecttv.com/";
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:APP_TITLE
+                                                    message:@""
+                                                   delegate:self
+                                          cancelButtonTitle:nil
+                                          otherButtonTitles:@"Billing",@"Customer Support",nil];
+    [alert show];
+    
+   
+    
 }
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+   
+    if (buttonIndex == 0)
+    {
+        NSString *url= Link;
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+    }
+    
+    
+    
+    if (buttonIndex == 1) {
+        
+        NSString *url= @"http://support.freecast.com/";
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+
+    }
+}
+
+
+//-(void)setupHelpFrame
+//{
+//    //[helpAlert removeFromSuperview];
+//    helpAlert = [[UIView alloc]init];
+//    
+//   CGFloat topViewXPos = screenWidth/2;
+//   CGFloat topViewYPos =screenHeight/2;
+//  CGFloat  topViewWidth =((screenWidth)-(topViewXPos*2));
+//   CGFloat topViewHeight =((screenHeight)-(topViewYPos*2));
+//    
+//    [helpAlert setFrame:CGRectMake(topViewXPos, topViewYPos, topViewWidth, topViewHeight)];
+//    [self.view addSubview:helpAlert];
+//}
 
 #pragma mark - setAttributedTextForAppNote
 -(NSMutableAttributedString *)setAttributedTextForAppNote:movieString{

@@ -16,3 +16,4 @@
 
 #define splashNewImage                      @"HughesNet_CustomLaunchIcon"
 
+#define Link                                @"https://hughesnet.freecast.com/support_selection/"
