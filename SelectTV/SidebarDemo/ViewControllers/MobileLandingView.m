@@ -205,36 +205,36 @@ int nMobileCellHeight = 200;
     }
     CGSize sloganLabelStrSize = [termsStr sizeWithAttributes:@{ NSFontAttributeName : [COMMON getResizeableFont:OpenSans_Bold(fontSize)]}];
     CGFloat termsLabelWidth = sloganLabelStrSize.width+5;
+//    
+//    UILabel *termsLabel = [[UILabel alloc]initWithFrame:CGRectMake(10,10 , termsLabelWidth, 30)];
+//    termsLabel.text = termsStr;
+//    termsLabel.textColor = [UIColor colorWithRed:58.0f/255.0f green:156.0f/255.0f blue:219.0f/255.0f alpha:1];
+//    termsLabel.font = OpenSans_Bold(fontSize);
+//    termsLabel.textAlignment = NSTextAlignmentCenter;
     
-    UILabel *termsLabel = [[UILabel alloc]initWithFrame:CGRectMake(10,10 , termsLabelWidth, 30)];
-    termsLabel.text = termsStr;
-    termsLabel.textColor = [UIColor colorWithRed:58.0f/255.0f green:156.0f/255.0f blue:219.0f/255.0f alpha:1];
-    termsLabel.font = OpenSans_Bold(fontSize);
-    termsLabel.textAlignment = NSTextAlignmentCenter;
+    //CGRect termsLabelRect = termsLabel.frame;
+    //CGFloat termsLabelRectMaxX = CGRectGetMaxX(termsLabelRect);
     
-    CGRect termsLabelRect = termsLabel.frame;
-    CGFloat termsLabelRectMaxX = CGRectGetMaxX(termsLabelRect);
-    
-    UILabel *supportLabel = [[UILabel alloc]initWithFrame:CGRectMake(termsLabelRectMaxX,10 , subtitleWidth, 30)];
+    UILabel *supportLabel = [[UILabel alloc]initWithFrame:CGRectMake(10,10 , subtitleWidth, 30)];
     supportLabel.text = supportStr;//APOYO
     supportLabel.textAlignment = NSTextAlignmentCenter;
     supportLabel.textColor = [UIColor colorWithRed:58.0f/255.0f green:156.0f/255.0f blue:219.0f/255.0f alpha:1];
     supportLabel.font = OpenSans_Bold(fontSize);
     
     
-    termsLabel.textColor = [UIColor whiteColor];
+    //termsLabel.textColor = [UIColor whiteColor];
     supportLabel.textColor = [UIColor whiteColor];
     
-    [footerView addSubview:termsLabel];
+   // [footerView addSubview:termsLabel];
     [footerView addSubview:supportLabel];
     
-    termsLabel.backgroundColor = [UIColor clearColor];
+    //termsLabel.backgroundColor = [UIColor clearColor];
     supportLabel.backgroundColor = [UIColor clearColor];
     
-    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(termsAction:)];
-    tapGestureRecognizer.numberOfTapsRequired = 1;
-    [termsLabel addGestureRecognizer:tapGestureRecognizer];
-    termsLabel.userInteractionEnabled = YES;
+//    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(termsAction:)];
+//    tapGestureRecognizer.numberOfTapsRequired = 1;
+    //[termsLabel addGestureRecognizer:tapGestureRecognizer];
+   // termsLabel.userInteractionEnabled = YES;
     
     UITapGestureRecognizer *tapGestureRecognizer1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(supportAction:)];
     tapGestureRecognizer1.numberOfTapsRequired = 1;
@@ -256,7 +256,7 @@ int nMobileCellHeight = 200;
     
 }
 - (void)supportAction:(UITapGestureRecognizer *)tap {
-    NSString *url= @"http://support.freecast.com/"; //http://support.selecttv.com/
+    NSString *url= Link; //http://support.selecttv.com/
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
     
 }
