@@ -160,6 +160,8 @@
     
     topImageView.image =[UIImage imageNamed:homeLogoImageName];//homeLogo
     
+    topImageView.contentMode = UIViewContentModeScaleAspectFill;
+    
     
 
 }
