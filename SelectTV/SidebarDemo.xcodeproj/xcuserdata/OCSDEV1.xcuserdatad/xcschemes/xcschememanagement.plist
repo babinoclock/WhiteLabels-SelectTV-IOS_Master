@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>Demo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>ETV.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +43,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
+		</dict>
+		<key>HughesNet.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>Mohawk.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
 		</dict>
 		<key>SelectTV.xcscheme</key>
 		<dict>
@@ -118,6 +133,21 @@
 			<true/>
 		</dict>
 		<key>C9358FA31E702BAF00064818</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9404AE91E82E19D00BAE0FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9E507331E811F0B00ACE279</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9E508A71E8146E900ACE279</key>
 		<dict>
 			<key>primary</key>
 			<true/>
