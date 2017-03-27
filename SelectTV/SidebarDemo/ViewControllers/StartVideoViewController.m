@@ -143,15 +143,22 @@
     
     [self.navigationController.navigationBar setHidden:YES];
     
-    NSBundle *bundle = [NSBundle mainBundle];
-    NSString *moviePath = [bundle pathForResource:@"540x960" ofType:@"mp4"];
-    NSURL *movieURL = [[NSURL alloc] initFileURLWithPath:moviePath];
+    //removed default video by raji
+    //    NSBundle *bundle = [NSBundle mainBundle];
+    //    NSString *moviePath = [bundle pathForResource:@"540x960" ofType:@"mp4"];
+    //    NSURL *movieURL = [[NSURL alloc] initFileURLWithPath:moviePath];
+    
     
     //new change
-   // NSURL *movieNewURL = [NSURL URLWithString:@"http://freecast.s3.amazonaws.com/Videos/Welcome.mp4"];
+    // NSURL *movieNewURL = [NSURL URLWithString:@"http://freecast.s3.amazonaws.com/Videos/Welcome.mp4"];
     
-    theMoviPlayer = [[MPMoviePlayerController alloc] initWithContentURL:movieURL];
+    //new change told to change now
+    NSURL *movieNewURL = [NSURL URLWithString:@"http://freecast.s3.amazonaws.com/Video/540x960_Phone.mp4"];
+    
+    theMoviPlayer = [[MPMoviePlayerController alloc] initWithContentURL:movieNewURL];
+
     theMoviPlayer.controlStyle = MPMovieControlStyleNone;
+    
     // theMoviPlayer.view.transform = CGAffineTransformConcat(theMoviPlayer.view.transform, CGAffineTransformMakeRotation(M_PI_2));
     //UIWindow *backgroundWindow = [[UIApplication sharedApplication] keyWindow];
     [theMoviPlayer.view setFrame:self.view.frame];

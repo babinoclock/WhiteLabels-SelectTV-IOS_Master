@@ -4636,7 +4636,6 @@
 		C9404C511E82E19D00BAE0FA /* New_Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDF6B81CD4899F00495544 /* New_Land_Cell_Ipad.xib */; };
 		C9404C521E82E19D00BAE0FA /* RadioListByGenreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDB0571C71A0B4006C28BB /* RadioListByGenreCell.xib */; };
 		C9404C531E82E19D00BAE0FA /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FD3761B8D328100280C02 /* iPadStoryboard.storyboard */; };
-		C9404C5F1E82E76B00BAE0FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9404C5E1E82E76B00BAE0FA /* Images.xcassets */; };
 		C9E507361E811F0B00ACE279 /* H5WebKitBugsManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0F7A61BAF599A00BE590B /* H5WebKitBugsManager.h */; };
 		C9E507371E811F0B00ACE279 /* CustomIOS7AlertView.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A7A211E6EAE64006324AF /* CustomIOS7AlertView.h */; };
 		C9E507381E811F0B00ACE279 /* ResgisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A40411C68AF8E0078B251 /* ResgisterTableViewController.m */; };
@@ -6017,7 +6016,6 @@
 		C9404C5B1E82E19E00BAE0FA /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9404C5C1E82E1A600BAE0FA /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Demo-Info.plist"; path = "/Users/ocs.mac/Desktop/MohanRaj/WhiteLabels-SelectTV-IOS/SelectTV/Demo-Info.plist"; sourceTree = "<absolute>"; };
 		C9404C5D1E82E24900BAE0FA /* Demo-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Demo-Header.h"; sourceTree = "<group>"; };
-		C9404C5E1E82E76B00BAE0FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Demo/Images.xcassets; sourceTree = "<group>"; };
 		C9E508A41E811F0B00ACE279 /* HughesNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HughesNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E508A51E811F0E00ACE279 /* HughesNet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HughesNet-Info.plist"; path = "/Users/ocs.mac/Desktop/MohanRaj/WhiteLabels-SelectTV-IOS/SelectTV/HughesNet-Info.plist"; sourceTree = "<absolute>"; };
 		C9E508A61E8120CB00ACE279 /* HughesNet-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HughesNet-Header.h"; sourceTree = "<group>"; };
@@ -7410,7 +7408,6 @@
 		F4EECF05177C99F400778578 = {
 			isa = PBXGroup;
 			children = (
-				C9404C5E1E82E76B00BAE0FA /* Images.xcassets */,
 				F4EECF17177C99F400778578 /* SidebarDemo */,
 				F4EECF10177C99F400778578 /* Frameworks */,
 				F4EECF0F177C99F400778578 /* Products */,
@@ -10340,7 +10337,6 @@
 				C9404B901E82E19D00BAE0FA /* NBC.png in Resources */,
 				C9404B911E82E19D00BAE0FA /* ThumbnailVC.xib in Resources */,
 				C9404B921E82E19D00BAE0FA /* OverTheAirCustomCell.xib in Resources */,
-				C9404C5F1E82E76B00BAE0FA /* Images.xcassets in Resources */,
 				C9404B931E82E19D00BAE0FA /* bg.png in Resources */,
 				C9404B941E82E19D00BAE0FA /* netflix_active.png in Resources */,
 				C9404B951E82E19D00BAE0FA /* Disney-Junior.png in Resources */,
