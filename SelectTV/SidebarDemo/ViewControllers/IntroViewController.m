@@ -167,7 +167,7 @@
     [itemDetailsView setBackgroundColor:[UIColor clearColor]];
     [currentVideoView setUserInteractionEnabled:YES];
     
-    NSString* m_strVideoUrl = @"mIqzgd0yse0";
+  //  NSString* m_strVideoUrl = @"mIqzgd0yse0";
     
     NSDictionary *playerVars = @{
                                  @"playsinline" : @1,
@@ -178,9 +178,10 @@
                                  @"origin" : @"https://www.example.com", // this is critical
                                  @"modestbranding" : @1
                                  };
-    //[self. playerView loadWithPlaylistId:@"PLNT1r49jsn3niUNZcxO1Vyj86oxuxmi7R"];//playlist id
     
-    [introPlayer loadWithVideoId:m_strVideoUrl playerVars:playerVars];
+    [introPlayer loadWithPlaylistId:@"PLNT1r49jsn3ke-nQ3NRSTnFCi5AlMkpyB"];//playlist id
+    
+   // [introPlayer loadWithVideoId:m_strVideoUrl playerVars:playerVars];
     [introPlayer playVideo];
     
     //  UIButton* closeBtn = [[UIButton alloc] initWithFrame:CGRectMake(itemDetailsView.frame.origin.x + (itemDetailsView.frame.size.width-25), itemDetailsView.frame.origin.y - 25, 40, 40)];

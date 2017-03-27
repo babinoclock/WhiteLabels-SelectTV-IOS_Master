@@ -3204,7 +3204,7 @@ UITableView* tableChannelList;
 
    //new link https://youtu.be/mIqzgd0yse0
     
-    NSString* m_strVideoUrl = @"mIqzgd0yse0";
+ //  NSString* m_strVideoUrl = @"mIqzgd0yse0";
     
     //@"EN6sXw41Lis";//@"PLNT1r49jsn3niUNZcxO1Vyj86oxuxmi7R";//@"K0kvNDE0lNw";//@"TeUt1aK-Fic";
     
@@ -3219,9 +3219,9 @@ UITableView* tableChannelList;
                                  @"origin" : @"https://www.example.com", // this is critical
                                  @"modestbranding" : @1
                                  };
-    //[self. playerView loadWithPlaylistId:@"PLNT1r49jsn3niUNZcxO1Vyj86oxuxmi7R"];//playlist id
+    [self. playerView loadWithPlaylistId:@"PLNT1r49jsn3kMgZo6GRcBbMIz6NHiZM_9"];//playlist id
     
-    [self.playerView loadWithVideoId:m_strVideoUrl playerVars:playerVars];
+    //[self.playerView loadWithVideoId:m_strVideoUrl playerVars:playerVars];
     [self.playerView playVideo];
     
     [_playerViewContinueBtn setFrame:CGRectMake(_playerViewContinueBtn.frame.origin.x, _playerViewContinueBtn.frame.origin.y-10, _playerViewContinueBtn.frame.size.width, _playerViewContinueBtn.frame.size.height+10)];
