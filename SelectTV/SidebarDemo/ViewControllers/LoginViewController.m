@@ -100,8 +100,10 @@
     
     if(bPortrait){
        
+       
     }
     else{
+        
     
     }
 
@@ -151,16 +153,56 @@
         }
     }
     
-   
-    topViewXPos = (screenWidth/2)-(topViewWidth/2);
-    topViewYPos = 40;
-    topViewHeight = 62;//55
+//   
+//    topViewXPos = (screenWidth/2)-(topViewWidth/2);
+//    topViewYPos = 40;
+//    topViewHeight = 62;//55
+//    
+//    [topImageView setFrame:CGRectMake(topViewXPos, topViewYPos, topViewWidth, topViewHeight)];
+//    topImageView.image =[UIImage imageNamed:homeLogoImageName];//homeLogo
+//    topImageView.backgroundColor = [UIColor redColor];
+//    topImageView.contentMode = UIViewContentModeScaleAspectFill;
     
-    [topImageView setFrame:CGRectMake(topViewXPos, topViewYPos, topViewWidth, topViewHeight)];
+     UIDevice* device = [UIDevice currentDevice];
+    if(device.orientation == UIDeviceOrientationLandscapeLeft || device.orientation == UIDeviceOrientationLandscapeRight){
+        if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
+            
+            topViewXPos = (screenWidth/1.8)-(topViewWidth/1.8);
+            topViewYPos = 40;
+            topViewHeight = 62;//55
+            topViewWidth= screenWidth/2.5;
+           
+        }
+        else{
+           
+            topViewXPos = (screenWidth/2)-(topViewWidth/2);
+            topViewYPos = 40;
+            topViewHeight = 62;//55
+            topViewWidth= screenWidth/2.5;
+        }
+    }else{
+        if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
+            
+            topViewXPos = (screenWidth/2)-(topViewWidth/2);
+                topViewYPos = 40;
+                topViewHeight = 62;///55
+            
+                  }
+        else{
+            
+            topViewXPos = (screenWidth/2)-(topViewWidth/2);
+            topViewYPos = 40;
+            topViewHeight = 62;//55
+
+            
+                    }
+    }
+
+    
     
     topImageView.image =[UIImage imageNamed:homeLogoImageName];//homeLogo
-    
     topImageView.contentMode = UIViewContentModeScaleAspectFill;
+    [topImageView setFrame:CGRectMake(topViewXPos, topViewYPos, topViewWidth, topViewHeight)];
     
     
 
@@ -168,7 +210,7 @@
 
 #pragma mark - setUpViews
 -(void) setUpViews{
-     
+    
     if(IS_IPHONE4||IS_IPHONE5||IS_IPHONE6||IS_IPHONE6_Plus){
         //[self IPhoneFrame];
          createAccBtn.titleLabel.font = [COMMON getResizeableFont:Roboto_Regular(14)];
