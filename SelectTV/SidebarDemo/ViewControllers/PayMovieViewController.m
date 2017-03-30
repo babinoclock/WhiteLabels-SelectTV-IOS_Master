@@ -232,6 +232,9 @@ UITableView* tableChannelList;
         payPerRightMenuLabel.attributedText = roboAttrString1;
     }
     
+    [_payTableView setHidden:YES];
+    [_payPerGridView setHidden:YES];
+    
     if(isPayPerView==NO) {
 //        [self loadMovieLatestAppListScrollViewData];
          [payLabel setUserInteractionEnabled:NO];

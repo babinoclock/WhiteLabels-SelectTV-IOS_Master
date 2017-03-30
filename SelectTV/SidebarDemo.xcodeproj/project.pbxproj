@@ -436,7 +436,6 @@
 		2B1A7E571E6ECB22006324AF /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		2B1A7E581E6ECB22006324AF /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		2B1A7E591E6ECB22006324AF /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		2B1A7E5A1E6ECB22006324AF /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		2B1A7E5B1E6ECB22006324AF /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		2B1A7E5C1E6ECB22006324AF /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		2B1A7E5D1E6ECB22006324AF /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -789,7 +788,6 @@
 		2B1A7FCD1E6EDA05006324AF /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		2B1A7FCE1E6EDA05006324AF /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		2B1A7FCF1E6EDA05006324AF /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		2B1A7FD01E6EDA05006324AF /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		2B1A7FD11E6EDA05006324AF /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		2B1A7FD21E6EDA05006324AF /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		2B1A7FD31E6EDA05006324AF /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -1142,7 +1140,6 @@
 		2B1A81441E6EE152006324AF /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		2B1A81451E6EE152006324AF /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		2B1A81461E6EE152006324AF /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		2B1A81471E6EE152006324AF /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		2B1A81481E6EE152006324AF /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		2B1A81491E6EE152006324AF /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		2B1A814A1E6EE152006324AF /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -1495,7 +1492,6 @@
 		2B1A82B61E6EE344006324AF /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		2B1A82B71E6EE344006324AF /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		2B1A82B81E6EE344006324AF /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		2B1A82B91E6EE344006324AF /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		2B1A82BA1E6EE344006324AF /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		2B1A82BB1E6EE344006324AF /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		2B1A82BC1E6EE344006324AF /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -1848,7 +1844,6 @@
 		2B1A84331E6EFA9D006324AF /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		2B1A84341E6EFA9D006324AF /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		2B1A84351E6EFA9D006324AF /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		2B1A84361E6EFA9D006324AF /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		2B1A84371E6EFA9D006324AF /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		2B1A84381E6EFA9D006324AF /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		2B1A84391E6EFA9D006324AF /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -1887,7 +1882,6 @@
 		2B2C94B31DFAE8E9009CE773 /* cbs_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A61DFAE8E9009CE773 /* cbs_active.png */; };
 		2B2C94B41DFAE8E9009CE773 /* hbo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A71DFAE8E9009CE773 /* hbo.png */; };
 		2B2C94B51DFAE8E9009CE773 /* hbo_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A81DFAE8E9009CE773 /* hbo_active.png */; };
-		2B2C94B61DFAE8E9009CE773 /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		2B2C94B71DFAE8E9009CE773 /* hulu_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94AA1DFAE8E9009CE773 /* hulu_active.png */; };
 		2B2C94B81DFAE8E9009CE773 /* netflix.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94AB1DFAE8E9009CE773 /* netflix.png */; };
 		2B2C94B91DFAE8E9009CE773 /* netflix_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94AC1DFAE8E9009CE773 /* netflix_active.png */; };
@@ -2244,7 +2238,6 @@
 		2B44A4591E6FB6A400281B5B /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		2B44A45A1E6FB6A400281B5B /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		2B44A45B1E6FB6A400281B5B /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		2B44A45C1E6FB6A400281B5B /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		2B44A45D1E6FB6A400281B5B /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		2B44A45E1E6FB6A400281B5B /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		2B44A45F1E6FB6A400281B5B /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -2597,7 +2590,6 @@
 		2B44A5CB1E6FB79D00281B5B /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		2B44A5CC1E6FB79D00281B5B /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		2B44A5CD1E6FB79D00281B5B /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		2B44A5CE1E6FB79D00281B5B /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		2B44A5CF1E6FB79D00281B5B /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		2B44A5D01E6FB79D00281B5B /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		2B44A5D11E6FB79D00281B5B /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -2950,7 +2942,6 @@
 		2B44A73C1E6FB7A700281B5B /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		2B44A73D1E6FB7A700281B5B /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		2B44A73E1E6FB7A700281B5B /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		2B44A73F1E6FB7A700281B5B /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		2B44A7401E6FB7A700281B5B /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		2B44A7411E6FB7A700281B5B /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		2B44A7421E6FB7A700281B5B /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -3303,7 +3294,6 @@
 		2B44A8AE1E6FB9BF00281B5B /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		2B44A8AF1E6FB9BF00281B5B /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		2B44A8B01E6FB9BF00281B5B /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		2B44A8B11E6FB9BF00281B5B /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		2B44A8B21E6FB9BF00281B5B /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		2B44A8B31E6FB9BF00281B5B /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		2B44A8B41E6FB9BF00281B5B /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -3342,6 +3332,21 @@
 		2B4D033C1E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
 		2B4D033D1E72D9E200BACB4B /* IntroBackGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */; };
 		2B55AB841E406869004C9A10 /* LoginBgNew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B55AB831E406869004C9A10 /* LoginBgNew.jpg */; };
+		2B5982FC1E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5982FD1E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5982FE1E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5982FF1E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5983001E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5983011E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5983021E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5983031E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5983041E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5983051E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5983061E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5983071E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5983081E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B5983091E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
+		2B59830A1E8CD12E0004A61A /* hulu_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5982FB1E8CD12E0004A61A /* hulu_gray.png */; };
 		2B59D3871E6D680C00221307 /* appManagerStaticCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */; };
 		2B59D38D1E6D6D5C00221307 /* appManagerStaticCustomCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D38C1E6D6D5C00221307 /* appManagerStaticCustomCollectionCell.xib */; };
 		2B59D3C31E6D8BE800221307 /* 92013291.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B59D38F1E6D8BE800221307 /* 92013291.png */; };
@@ -3885,7 +3890,6 @@
 		C9358F721E6FCD9700064818 /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		C9358F731E6FCD9700064818 /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		C9358F741E6FCD9700064818 /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		C9358F751E6FCD9700064818 /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		C9358F761E6FCD9700064818 /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		C9358F771E6FCD9700064818 /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		C9358F781E6FCD9700064818 /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -4238,7 +4242,6 @@
 		C93590EE1E702BAF00064818 /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		C93590EF1E702BAF00064818 /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		C93590F01E702BAF00064818 /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		C93590F11E702BAF00064818 /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		C93590F21E702BAF00064818 /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		C93590F31E702BAF00064818 /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		C93590F41E702BAF00064818 /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -4609,7 +4612,6 @@
 		C9404C361E82E19D00BAE0FA /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		C9404C371E82E19D00BAE0FA /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		C9404C381E82E19D00BAE0FA /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		C9404C391E82E19D00BAE0FA /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		C9404C3A1E82E19D00BAE0FA /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		C9404C3B1E82E19D00BAE0FA /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		C9404C3C1E82E19D00BAE0FA /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -4966,7 +4968,6 @@
 		C9E5087F1E811F0B00ACE279 /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		C9E508801E811F0B00ACE279 /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		C9E508811E811F0B00ACE279 /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		C9E508821E811F0B00ACE279 /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		C9E508831E811F0B00ACE279 /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		C9E508841E811F0B00ACE279 /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		C9E508851E811F0B00ACE279 /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -5323,7 +5324,6 @@
 		C9E509F31E8146E900ACE279 /* TrailerMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1A79F61E6EAB86006324AF /* TrailerMovieView.xib */; };
 		C9E509F41E8146E900ACE279 /* SubscriptionCell_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4277B1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib */; };
 		C9E509F51E8146E900ACE279 /* Season.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E78661C58F3790053051C /* Season.xib */; };
-		C9E509F61E8146E900ACE279 /* hulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C94A91DFAE8E9009CE773 /* hulu.png */; };
 		C9E509F71E8146E900ACE279 /* Cast_Grid_Cell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF246B41DA625070004733C /* Cast_Grid_Cell_iPhone.xib */; };
 		C9E509F81E8146E900ACE279 /* Land_Cell_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B43478F1CD1C37E00FE70B7 /* Land_Cell_Ipad.xib */; };
 		C9E509F91E8146E900ACE279 /* StreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACCE1B81B317A6D00D5F579 /* StreamTableViewCell.xib */; };
@@ -5653,7 +5653,6 @@
 		2B2C94A61DFAE8E9009CE773 /* cbs_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbs_active.png; sourceTree = "<group>"; };
 		2B2C94A71DFAE8E9009CE773 /* hbo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hbo.png; sourceTree = "<group>"; };
 		2B2C94A81DFAE8E9009CE773 /* hbo_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hbo_active.png; sourceTree = "<group>"; };
-		2B2C94A91DFAE8E9009CE773 /* hulu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulu.png; sourceTree = "<group>"; };
 		2B2C94AA1DFAE8E9009CE773 /* hulu_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulu_active.png; sourceTree = "<group>"; };
 		2B2C94AB1DFAE8E9009CE773 /* netflix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = netflix.png; sourceTree = "<group>"; };
 		2B2C94AC1DFAE8E9009CE773 /* netflix_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = netflix_active.png; sourceTree = "<group>"; };
@@ -5710,6 +5709,7 @@
 		2B44A8D91E6FC12400281B5B /* SmartCity-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartCity-Header.h"; sourceTree = "<group>"; };
 		2B4D03311E72D9E100BACB4B /* IntroBackGroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IntroBackGroundImage.png; sourceTree = "<group>"; };
 		2B55AB831E406869004C9A10 /* LoginBgNew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoginBgNew.jpg; sourceTree = "<group>"; };
+		2B5982FB1E8CD12E0004A61A /* hulu_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulu_gray.png; sourceTree = "<group>"; };
 		2B59D3831E6D680C00221307 /* appManagerStaticCustomCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appManagerStaticCustomCollectionCell.h; sourceTree = "<group>"; };
 		2B59D3841E6D680C00221307 /* appManagerStaticCustomCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appManagerStaticCustomCollectionCell.m; sourceTree = "<group>"; };
 		2B59D38C1E6D6D5C00221307 /* appManagerStaticCustomCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = appManagerStaticCustomCollectionCell.xib; sourceTree = "<group>"; };
@@ -6823,7 +6823,7 @@
 				2B2C94A61DFAE8E9009CE773 /* cbs_active.png */,
 				2B2C94A71DFAE8E9009CE773 /* hbo.png */,
 				2B2C94A81DFAE8E9009CE773 /* hbo_active.png */,
-				2B2C94A91DFAE8E9009CE773 /* hulu.png */,
+				2B5982FB1E8CD12E0004A61A /* hulu_gray.png */,
 				2B2C94AA1DFAE8E9009CE773 /* hulu_active.png */,
 				2B2C94AB1DFAE8E9009CE773 /* netflix.png */,
 				2B2C94AC1DFAE8E9009CE773 /* netflix_active.png */,
@@ -8095,6 +8095,7 @@
 				2B1A7E231E6ECB22006324AF /* Montserrat-Regular.ttf in Resources */,
 				2B1A7E241E6ECB22006324AF /* selected.png in Resources */,
 				2B1A7E251E6ECB22006324AF /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
+				2B5982FD1E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				2B1A7E261E6ECB22006324AF /* OnDemandSliderCarouselView.xib in Resources */,
 				2B1A7E271E6ECB22006324AF /* OpenSans-Bold.ttf in Resources */,
 				2B1A7E281E6ECB22006324AF /* Roboto-Bold.ttf in Resources */,
@@ -8147,7 +8148,6 @@
 				2B1A7E571E6ECB22006324AF /* TrailerMovieView.xib in Resources */,
 				2B1A7E581E6ECB22006324AF /* SubscriptionCell_IPad.xib in Resources */,
 				2B1A7E591E6ECB22006324AF /* Season.xib in Resources */,
-				2B1A7E5A1E6ECB22006324AF /* hulu.png in Resources */,
 				2B1A7E5B1E6ECB22006324AF /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				2B1A7E5C1E6ECB22006324AF /* Land_Cell_Ipad.xib in Resources */,
 				2B1A7E5D1E6ECB22006324AF /* StreamTableViewCell.xib in Resources */,
@@ -8309,6 +8309,7 @@
 				2B1A7F9A1E6EDA05006324AF /* selected.png in Resources */,
 				2B1A7F9B1E6EDA05006324AF /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
 				2B1A7F9C1E6EDA05006324AF /* OnDemandSliderCarouselView.xib in Resources */,
+				2B5982FE1E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				2B1A7F9D1E6EDA05006324AF /* OpenSans-Bold.ttf in Resources */,
 				2B1A7F9E1E6EDA05006324AF /* Roboto-Bold.ttf in Resources */,
 				2B1A7F9F1E6EDA05006324AF /* Roboto-Light.ttf in Resources */,
@@ -8360,7 +8361,6 @@
 				2B1A7FCD1E6EDA05006324AF /* TrailerMovieView.xib in Resources */,
 				2B1A7FCE1E6EDA05006324AF /* SubscriptionCell_IPad.xib in Resources */,
 				2B1A7FCF1E6EDA05006324AF /* Season.xib in Resources */,
-				2B1A7FD01E6EDA05006324AF /* hulu.png in Resources */,
 				2B1A7FD11E6EDA05006324AF /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				2B1A7FD21E6EDA05006324AF /* Land_Cell_Ipad.xib in Resources */,
 				2B1A7FD31E6EDA05006324AF /* StreamTableViewCell.xib in Resources */,
@@ -8523,6 +8523,7 @@
 				2B1A81111E6EE152006324AF /* selected.png in Resources */,
 				2B1A81121E6EE152006324AF /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
 				2B1A81131E6EE152006324AF /* OnDemandSliderCarouselView.xib in Resources */,
+				2B5982FF1E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				2B1A81141E6EE152006324AF /* OpenSans-Bold.ttf in Resources */,
 				2B1A81151E6EE152006324AF /* Roboto-Bold.ttf in Resources */,
 				2B1A81161E6EE152006324AF /* Roboto-Light.ttf in Resources */,
@@ -8574,7 +8575,6 @@
 				2B1A81441E6EE152006324AF /* TrailerMovieView.xib in Resources */,
 				2B1A81451E6EE152006324AF /* SubscriptionCell_IPad.xib in Resources */,
 				2B1A81461E6EE152006324AF /* Season.xib in Resources */,
-				2B1A81471E6EE152006324AF /* hulu.png in Resources */,
 				2B1A81481E6EE152006324AF /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				2B1A81491E6EE152006324AF /* Land_Cell_Ipad.xib in Resources */,
 				2B1A814A1E6EE152006324AF /* StreamTableViewCell.xib in Resources */,
@@ -8737,6 +8737,7 @@
 				2B1A82821E6EE344006324AF /* Montserrat-Regular.ttf in Resources */,
 				2B1A82831E6EE344006324AF /* selected.png in Resources */,
 				2B1A82841E6EE344006324AF /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
+				2B5983001E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				2B1A82851E6EE344006324AF /* OnDemandSliderCarouselView.xib in Resources */,
 				2B1A82861E6EE344006324AF /* OpenSans-Bold.ttf in Resources */,
 				2B1A82871E6EE344006324AF /* Roboto-Bold.ttf in Resources */,
@@ -8789,7 +8790,6 @@
 				2B1A82B61E6EE344006324AF /* TrailerMovieView.xib in Resources */,
 				2B1A82B71E6EE344006324AF /* SubscriptionCell_IPad.xib in Resources */,
 				2B1A82B81E6EE344006324AF /* Season.xib in Resources */,
-				2B1A82B91E6EE344006324AF /* hulu.png in Resources */,
 				2B1A82BA1E6EE344006324AF /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				2B1A82BB1E6EE344006324AF /* Land_Cell_Ipad.xib in Resources */,
 				2B1A82BC1E6EE344006324AF /* StreamTableViewCell.xib in Resources */,
@@ -8951,6 +8951,7 @@
 				2B1A84001E6EFA9D006324AF /* selected.png in Resources */,
 				2B1A84011E6EFA9D006324AF /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
 				2B1A84021E6EFA9D006324AF /* OnDemandSliderCarouselView.xib in Resources */,
+				2B5983011E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				2B1A84031E6EFA9D006324AF /* OpenSans-Bold.ttf in Resources */,
 				2B1A84041E6EFA9D006324AF /* Roboto-Bold.ttf in Resources */,
 				2B1A84051E6EFA9D006324AF /* Roboto-Light.ttf in Resources */,
@@ -9003,7 +9004,6 @@
 				2B1A84331E6EFA9D006324AF /* TrailerMovieView.xib in Resources */,
 				2B1A84341E6EFA9D006324AF /* SubscriptionCell_IPad.xib in Resources */,
 				2B1A84351E6EFA9D006324AF /* Season.xib in Resources */,
-				2B1A84361E6EFA9D006324AF /* hulu.png in Resources */,
 				2B1A84371E6EFA9D006324AF /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				2B1A84381E6EFA9D006324AF /* Land_Cell_Ipad.xib in Resources */,
 				2B1A84391E6EFA9D006324AF /* StreamTableViewCell.xib in Resources */,
@@ -9165,6 +9165,7 @@
 				2B44A4251E6FB6A400281B5B /* Montserrat-Regular.ttf in Resources */,
 				2B44A4261E6FB6A400281B5B /* selected.png in Resources */,
 				2B44A4271E6FB6A400281B5B /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
+				2B5983021E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				2B44A4281E6FB6A400281B5B /* OnDemandSliderCarouselView.xib in Resources */,
 				2B44A4291E6FB6A400281B5B /* OpenSans-Bold.ttf in Resources */,
 				2B44A42A1E6FB6A400281B5B /* Roboto-Bold.ttf in Resources */,
@@ -9217,7 +9218,6 @@
 				2B44A4591E6FB6A400281B5B /* TrailerMovieView.xib in Resources */,
 				2B44A45A1E6FB6A400281B5B /* SubscriptionCell_IPad.xib in Resources */,
 				2B44A45B1E6FB6A400281B5B /* Season.xib in Resources */,
-				2B44A45C1E6FB6A400281B5B /* hulu.png in Resources */,
 				2B44A45D1E6FB6A400281B5B /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				2B44A45E1E6FB6A400281B5B /* Land_Cell_Ipad.xib in Resources */,
 				2B44A45F1E6FB6A400281B5B /* StreamTableViewCell.xib in Resources */,
@@ -9379,6 +9379,7 @@
 				2B44A5971E6FB79D00281B5B /* Montserrat-Regular.ttf in Resources */,
 				2B44A5981E6FB79D00281B5B /* selected.png in Resources */,
 				2B44A5991E6FB79D00281B5B /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
+				2B5983031E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				2B44A59A1E6FB79D00281B5B /* OnDemandSliderCarouselView.xib in Resources */,
 				2B44A59B1E6FB79D00281B5B /* OpenSans-Bold.ttf in Resources */,
 				2B44A59C1E6FB79D00281B5B /* Roboto-Bold.ttf in Resources */,
@@ -9431,7 +9432,6 @@
 				2B44A5CB1E6FB79D00281B5B /* TrailerMovieView.xib in Resources */,
 				2B44A5CC1E6FB79D00281B5B /* SubscriptionCell_IPad.xib in Resources */,
 				2B44A5CD1E6FB79D00281B5B /* Season.xib in Resources */,
-				2B44A5CE1E6FB79D00281B5B /* hulu.png in Resources */,
 				2B44A5CF1E6FB79D00281B5B /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				2B44A5D01E6FB79D00281B5B /* Land_Cell_Ipad.xib in Resources */,
 				2B44A5D11E6FB79D00281B5B /* StreamTableViewCell.xib in Resources */,
@@ -9593,6 +9593,7 @@
 				2B44A7081E6FB7A700281B5B /* Montserrat-Regular.ttf in Resources */,
 				2B44A7091E6FB7A700281B5B /* selected.png in Resources */,
 				2B44A70A1E6FB7A700281B5B /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
+				2B5983041E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				2B44A70B1E6FB7A700281B5B /* OnDemandSliderCarouselView.xib in Resources */,
 				2B44A70C1E6FB7A700281B5B /* OpenSans-Bold.ttf in Resources */,
 				2B44A70D1E6FB7A700281B5B /* Roboto-Bold.ttf in Resources */,
@@ -9645,7 +9646,6 @@
 				2B44A73C1E6FB7A700281B5B /* TrailerMovieView.xib in Resources */,
 				2B44A73D1E6FB7A700281B5B /* SubscriptionCell_IPad.xib in Resources */,
 				2B44A73E1E6FB7A700281B5B /* Season.xib in Resources */,
-				2B44A73F1E6FB7A700281B5B /* hulu.png in Resources */,
 				2B44A7401E6FB7A700281B5B /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				2B44A7411E6FB7A700281B5B /* Land_Cell_Ipad.xib in Resources */,
 				2B44A7421E6FB7A700281B5B /* StreamTableViewCell.xib in Resources */,
@@ -9807,6 +9807,7 @@
 				2B44A87A1E6FB9BF00281B5B /* Montserrat-Regular.ttf in Resources */,
 				2B44A87B1E6FB9BF00281B5B /* selected.png in Resources */,
 				2B44A87C1E6FB9BF00281B5B /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
+				2B5983051E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				2B44A87D1E6FB9BF00281B5B /* OnDemandSliderCarouselView.xib in Resources */,
 				2B44A87E1E6FB9BF00281B5B /* OpenSans-Bold.ttf in Resources */,
 				2B44A87F1E6FB9BF00281B5B /* Roboto-Bold.ttf in Resources */,
@@ -9859,7 +9860,6 @@
 				2B44A8AE1E6FB9BF00281B5B /* TrailerMovieView.xib in Resources */,
 				2B44A8AF1E6FB9BF00281B5B /* SubscriptionCell_IPad.xib in Resources */,
 				2B44A8B01E6FB9BF00281B5B /* Season.xib in Resources */,
-				2B44A8B11E6FB9BF00281B5B /* hulu.png in Resources */,
 				2B44A8B21E6FB9BF00281B5B /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				2B44A8B31E6FB9BF00281B5B /* Land_Cell_Ipad.xib in Resources */,
 				2B44A8B41E6FB9BF00281B5B /* StreamTableViewCell.xib in Resources */,
@@ -10021,6 +10021,7 @@
 				C9358F3E1E6FCD9700064818 /* Montserrat-Regular.ttf in Resources */,
 				C9358F3F1E6FCD9700064818 /* selected.png in Resources */,
 				C9358F401E6FCD9700064818 /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
+				2B5983061E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				C9358F411E6FCD9700064818 /* OnDemandSliderCarouselView.xib in Resources */,
 				C9358F421E6FCD9700064818 /* OpenSans-Bold.ttf in Resources */,
 				C9358F431E6FCD9700064818 /* Roboto-Bold.ttf in Resources */,
@@ -10073,7 +10074,6 @@
 				C9358F721E6FCD9700064818 /* TrailerMovieView.xib in Resources */,
 				C9358F731E6FCD9700064818 /* SubscriptionCell_IPad.xib in Resources */,
 				C9358F741E6FCD9700064818 /* Season.xib in Resources */,
-				C9358F751E6FCD9700064818 /* hulu.png in Resources */,
 				C9358F761E6FCD9700064818 /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				C9358F771E6FCD9700064818 /* Land_Cell_Ipad.xib in Resources */,
 				C9358F781E6FCD9700064818 /* StreamTableViewCell.xib in Resources */,
@@ -10199,6 +10199,7 @@
 				C93590981E702BAF00064818 /* volume_IconImage.png in Resources */,
 				C93590991E702BAF00064818 /* volume_mute.png in Resources */,
 				2BC77F601E71566300E26163 /* LaunchScreenView.xib in Resources */,
+				2B5983071E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				C9404AE61E82A9CE00BAE0FA /* login_bg.jpg in Resources */,
 				C935909A1E702BAF00064818 /* volume_mute@2x.png in Resources */,
 				C935909B1E702BAF00064818 /* amazon.png in Resources */,
@@ -10288,7 +10289,6 @@
 				C93590EE1E702BAF00064818 /* TrailerMovieView.xib in Resources */,
 				C93590EF1E702BAF00064818 /* SubscriptionCell_IPad.xib in Resources */,
 				C93590F01E702BAF00064818 /* Season.xib in Resources */,
-				C93590F11E702BAF00064818 /* hulu.png in Resources */,
 				C93590F21E702BAF00064818 /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				C93590F31E702BAF00064818 /* Land_Cell_Ipad.xib in Resources */,
 				C93590F41E702BAF00064818 /* StreamTableViewCell.xib in Resources */,
@@ -10414,6 +10414,7 @@
 				C9404BDD1E82E19D00BAE0FA /* volume_IconImage.png in Resources */,
 				C9404BDE1E82E19D00BAE0FA /* volume_mute.png in Resources */,
 				C9404BDF1E82E19D00BAE0FA /* LaunchScreenView.xib in Resources */,
+				2B59830A1E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				C9404BE01E82E19D00BAE0FA /* login_bg.jpg in Resources */,
 				C9404BE11E82E19D00BAE0FA /* volume_mute@2x.png in Resources */,
 				C9404BE21E82E19D00BAE0FA /* amazon.png in Resources */,
@@ -10503,7 +10504,6 @@
 				C9404C361E82E19D00BAE0FA /* TrailerMovieView.xib in Resources */,
 				C9404C371E82E19D00BAE0FA /* SubscriptionCell_IPad.xib in Resources */,
 				C9404C381E82E19D00BAE0FA /* Season.xib in Resources */,
-				C9404C391E82E19D00BAE0FA /* hulu.png in Resources */,
 				C9404C3A1E82E19D00BAE0FA /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				C9404C3B1E82E19D00BAE0FA /* Land_Cell_Ipad.xib in Resources */,
 				C9404C3C1E82E19D00BAE0FA /* StreamTableViewCell.xib in Resources */,
@@ -10629,6 +10629,7 @@
 				C9E508271E811F0B00ACE279 /* volume_IconImage.png in Resources */,
 				C9E508281E811F0B00ACE279 /* volume_mute.png in Resources */,
 				C9E508291E811F0B00ACE279 /* LaunchScreenView.xib in Resources */,
+				2B5983081E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				C9404AE71E82A9CF00BAE0FA /* login_bg.jpg in Resources */,
 				C9E5082A1E811F0B00ACE279 /* volume_mute@2x.png in Resources */,
 				C9E5082B1E811F0B00ACE279 /* amazon.png in Resources */,
@@ -10718,7 +10719,6 @@
 				C9E5087F1E811F0B00ACE279 /* TrailerMovieView.xib in Resources */,
 				C9E508801E811F0B00ACE279 /* SubscriptionCell_IPad.xib in Resources */,
 				C9E508811E811F0B00ACE279 /* Season.xib in Resources */,
-				C9E508821E811F0B00ACE279 /* hulu.png in Resources */,
 				C9E508831E811F0B00ACE279 /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				C9E508841E811F0B00ACE279 /* Land_Cell_Ipad.xib in Resources */,
 				C9E508851E811F0B00ACE279 /* StreamTableViewCell.xib in Resources */,
@@ -10844,6 +10844,7 @@
 				C9E5099B1E8146E900ACE279 /* volume_IconImage.png in Resources */,
 				C9E5099C1E8146E900ACE279 /* volume_mute.png in Resources */,
 				C9E5099D1E8146E900ACE279 /* LaunchScreenView.xib in Resources */,
+				2B5983091E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				C9404AE81E82A9CF00BAE0FA /* login_bg.jpg in Resources */,
 				C9E5099E1E8146E900ACE279 /* volume_mute@2x.png in Resources */,
 				C9E5099F1E8146E900ACE279 /* amazon.png in Resources */,
@@ -10933,7 +10934,6 @@
 				C9E509F31E8146E900ACE279 /* TrailerMovieView.xib in Resources */,
 				C9E509F41E8146E900ACE279 /* SubscriptionCell_IPad.xib in Resources */,
 				C9E509F51E8146E900ACE279 /* Season.xib in Resources */,
-				C9E509F61E8146E900ACE279 /* hulu.png in Resources */,
 				C9E509F71E8146E900ACE279 /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				C9E509F81E8146E900ACE279 /* Land_Cell_Ipad.xib in Resources */,
 				C9E509F91E8146E900ACE279 /* StreamTableViewCell.xib in Resources */,
@@ -11095,6 +11095,7 @@
 				2B1A79C71E6EA687006324AF /* selected.png in Resources */,
 				2BF0977D1DA7BCE900DA3098 /* OnDemand_Grid_Cell_IPhone.xib in Resources */,
 				2BEE01321D6AB9D900709AD7 /* OnDemandSliderCarouselView.xib in Resources */,
+				2B5982FC1E8CD12E0004A61A /* hulu_gray.png in Resources */,
 				2B94EB811C5B2E19009D0755 /* OpenSans-Bold.ttf in Resources */,
 				2B94EB831C5B2E19009D0755 /* Roboto-Bold.ttf in Resources */,
 				2B94EB841C5B2E19009D0755 /* Roboto-Light.ttf in Resources */,
@@ -11146,7 +11147,6 @@
 				2B1A79FA1E6EAB86006324AF /* TrailerMovieView.xib in Resources */,
 				2BC4277C1D59F77F00BD6C08 /* SubscriptionCell_IPad.xib in Resources */,
 				2B5E78681C58F3790053051C /* Season.xib in Resources */,
-				2B2C94B61DFAE8E9009CE773 /* hulu.png in Resources */,
 				2BF246B71DA625070004733C /* Cast_Grid_Cell_iPhone.xib in Resources */,
 				2B4347961CD1C37E00FE70B7 /* Land_Cell_Ipad.xib in Resources */,
 				BACCE1BA1B317A6D00D5F579 /* StreamTableViewCell.xib in Resources */,
@@ -14377,7 +14377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = SelectTV_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = SelectTV_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -14393,8 +14393,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.selecttvapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3d0bfe76-0f16-4656-ac84-96da0309aac3";
-				PROVISIONING_PROFILE_SPECIFIER = "SelectTV In House";
+				PROVISIONING_PROFILE = "9f79a143-289f-43df-916e-8fffcf714c21";
+				PROVISIONING_PROFILE_SPECIFIER = "SelectTV Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

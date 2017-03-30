@@ -161,6 +161,8 @@ GCKDeviceScannerListener, GCKDeviceManagerDelegate, GCKMediaControlChannelDelega
     UIView *previousView;
     NSInteger myIndex;
     
+    UIView *previousVideoView;
+    
     CGFloat port_heightView;
     CGFloat land_heightView;
     
@@ -901,8 +903,19 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         //new color change
        // [_headerScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
         
-        showHeaderView.backgroundColor = [COMMON Common_Gray_BG_Color];
-        _headerScroll.backgroundColor = [COMMON Common_Gray_BG_Color];
+       //raji changed
+      
+        //showHeaderView.backgroundColor = [COMMON Common_Gray_BG_Color];
+        //_headerScroll.backgroundColor = [COMMON Common_Gray_BG_Color];
+        
+       // [showHeaderView setBackgroundColor :[UIColor colorWithRed:59.0f/255.0f green:60.0f/255.0f blue:64.0f/255.0f alpha:1.0f]];
+        
+       // [_headerScroll setBackgroundColor : [UIColor colorWithRed:59.0f/255.0f green:60.0f/255.0f blue:64.0f/255.0f alpha:1.0f]];
+
+        _headerScroll.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
+        
+        showHeaderView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
+
         
         _headerScroll.sectionTitles = titleArray;
         _headerScroll.segmentEdgeInset = UIEdgeInsetsMake(0, 10, 0, 10);
@@ -1436,22 +1449,30 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
                 if(i==0 & j==0){
                     myIndex=0;
                     previousView = ChannelBackgroundView;
-                    //new clor change
+                    //new color change
                     ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:15.0f/255.0f green:95.0f/255.0f blue:166.0f/255.0f alpha:1];
                     //ChannelBackgroundView.backgroundColor = [UIColor lightGrayColor];
                     //[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
                 }
+
                 
                 else{
                     //ChannelBackgroundView.backgroundColor=[UIColor blackColor];
                    //ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1];
                     
-                     ChannelBackgroundView.backgroundColor = GRAY_BG_COLOR;
+                    //ChannelBackgroundView.backgroundColor =[UIColor colorWithRed:59.0f/255.0f green:60.0f/255.0f blue:64.0f/255.0f alpha:1.0f];
+                   // GRAY_BG_COLOR;
+                    
+                    ChannelBackgroundView.backgroundColor=[COMMON Common_Top_Navigation_Color];
+
                 }
                  titleLabel.textAlignment = NSTextAlignmentLeft;
                 
             }
             else{
+            
+                ChannelBackgroundView.backgroundColor =[UIColor colorWithRed:59.0f/255.0f green:60.0f/255.0f blue:64.0f/255.0f alpha:1.0f];
+
                 
                 touchLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, ChannelBackgroundView.frame.size.width, ChannelBackgroundView.frame.size.height)];
                 touchLabel.text = strVideoTitle;
@@ -1477,8 +1498,15 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
                     k++;
                 }
                 if(StreamTitle == strVideoTitle){
-                    ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
+                    ChannelBackgroundView.backgroundColor=[UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
+                    //[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
                     //ChannelBackgroundView.backgroundColor = GRAY_BG_COLOR;
+                }
+                
+                if(i==0 & j==1){
+                    ChannelBackgroundView.backgroundColor= [UIColor colorWithRed:0.2f green:0.71f blue:0.9f alpha:1.0f];
+                    //[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1];
+                    
                 }
                 UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapActionVideoTitle:)];
                 tapGestureRecognizer.numberOfTapsRequired = 1;
@@ -1601,7 +1629,10 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     NSInteger selectedIndex = currentView.tag;
     
     if(prevTappedTag!=selectedIndex){
-         previousView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1];
+        
+        previousView.backgroundColor = [COMMON Common_Top_Navigation_Color];
+        
+        // previousView.backgroundColor=[UIColor colorWithRed:0.0f/255.0f green:74.0f/255.0f blue:124.0f/255.0f alpha:1];
         // previousView.backgroundColor = GRAY_BG_COLOR;
         
     }

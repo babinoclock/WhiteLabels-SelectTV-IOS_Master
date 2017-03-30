@@ -132,7 +132,11 @@ int nGamesCellHeight = 200;
     [_topSegmentView addSubview:_gamesHeaderScroll];
     
     //[_gamesHeaderScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
-    _gamesHeaderScroll.backgroundColor = [COMMON Common_Gray_BG_Color];;
+    //_gamesHeaderScroll.backgroundColor = [COMMON Common_Gray_BG_Color];;
+    
+    _topSegmentView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
+    
+    _gamesHeaderScroll.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
     
     _gamesHeaderScroll.sectionTitles = titleArray;
     _gamesHeaderScroll.segmentEdgeInset = UIEdgeInsetsMake(0, 10, 0, 10);
