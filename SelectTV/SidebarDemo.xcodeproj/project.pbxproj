@@ -14623,7 +14623,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = Demo_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Demo_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -14640,8 +14640,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "cd3eb3f1-2b09-475a-97de-f119880502e3";
-				PROVISIONING_PROFILE_SPECIFIER = "Demo Development";
+				PROVISIONING_PROFILE = "0546204c-fb1b-45df-8fbb-d3e248d2602b";
+				PROVISIONING_PROFILE_SPECIFIER = "Demo InHouse";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -14654,7 +14654,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = Demo_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Demo_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -14671,8 +14671,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "cd3eb3f1-2b09-475a-97de-f119880502e3";
-				PROVISIONING_PROFILE_SPECIFIER = "Demo Development";
+				PROVISIONING_PROFILE = "0546204c-fb1b-45df-8fbb-d3e248d2602b";
+				PROVISIONING_PROFILE_SPECIFIER = "Demo InHouse";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
