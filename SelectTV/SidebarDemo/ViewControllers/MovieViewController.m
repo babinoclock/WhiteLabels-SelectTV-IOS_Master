@@ -967,7 +967,9 @@ UITableView* tableChannelList;
         [_tvMovieView addSubview:_headerScroll];
     
     //[_headerScroll setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
-    _headerScroll.backgroundColor = [COMMON Common_Gray_BG_Color];
+    //_headerScroll.backgroundColor = [COMMON Common_Gray_BG_Color];
+    
+    _headerScroll.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
 
      _headerScroll.sectionTitles = titleArray;
     _headerScroll.segmentEdgeInset = UIEdgeInsetsMake(0, 10, 0, 10);
@@ -2615,8 +2617,10 @@ UITableView* tableChannelList;
     
    // [appHeaderScrollView setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
     
-    appHeaderScrollView.backgroundColor = [COMMON Common_Gray_BG_Color];
+    //appHeaderScrollView.backgroundColor = [COMMON Common_Gray_BG_Color];
     
+    appHeaderScrollView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
+
     
     appHeaderScrollView.sectionTitles = headerTitleArray;//menuArray;
     appHeaderScrollView.segmentEdgeInset = UIEdgeInsetsMake(0, 10, 0, 10);
@@ -2926,7 +2930,10 @@ UITableView* tableChannelList;
     
     
   //  [appHeaderScrollView setBackgroundColor:[UIColor colorWithRed:0.0f/255.0f green:103.0f/255.0f blue:183.0f/255.0f alpha:1]];
-    appHeaderScrollView.backgroundColor = GRAY_BG_COLOR;
+   // appHeaderScrollView.backgroundColor = GRAY_BG_COLOR;
+    
+    appHeaderScrollView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
+
     
     appHeaderScrollView.sectionTitles = headerTitleArray;//menuArray;
     appHeaderScrollView.segmentEdgeInset = UIEdgeInsetsMake(0, 10, 0, 10);

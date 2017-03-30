@@ -518,7 +518,7 @@ int nRadioHeight=160;
         }
     }
    // currentSelectTitle.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_navigation"]];
-    currentSelectTitle.backgroundColor = GRAY_BG_COLOR;
+    currentSelectTitle.backgroundColor = [COMMON Common_Top_Navigation_Color];
     currentSelectTitle.text = buttonTitle;
     currentSelectTitle.textColor = [UIColor whiteColor];
     currentSelectTitle.textAlignment = NSTextAlignmentCenter ;
