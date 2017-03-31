@@ -297,6 +297,8 @@ CustomIOS7AlertView * mainChannelView;
 {
     [super viewDidLoad];
     
+  
+    
     //new color change
     _mainBackgroundImage.image=nil;
     _mainBackgroundImage.backgroundColor = GRAY_BG_COLOR;
@@ -1027,6 +1029,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 
 #pragma mark - loadLatestChannelData
 -(void)loadLatestChannelData{
+
     [newScrollGridView setHidden:NO];
     if(CommonChannelId==nil){
         CommonChannelId =@"145";
@@ -1038,6 +1041,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     strChannelVideoFileName     = [NSString stringWithFormat:YOULIVE_CHANNELS,CommonChannelId];
     
     latestNewsArray = [[COMMON retrieveContentsFromFile:strChannelVideoFileName dataType:DataTypeArray] mutableCopy];
+   
     [self loadDataArray:latestNewsArray];
     if ([latestNewsArray count] == 0) {
        // [AppCommon showSimpleAlertWithMessage:@"check Dataload latest"];
@@ -1059,6 +1063,54 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         
        
         NSLog(@"check here loadDataArray");
+    }
+}
+-(void)loadVideoStream{
+    if(CommonChannelId==nil){
+        CommonChannelId =@"145";
+        previousCommonChannelId=@"145";
+    }
+    NSString *strChannelVideoFileName;
+    NSLog(@"CommonChannelId-->%@",CommonChannelId);
+    
+    strChannelVideoFileName     = [NSString stringWithFormat:YOULIVE_CHANNELS,CommonChannelId];
+    
+    latestNewsArray = [[COMMON retrieveContentsFromFile:strChannelVideoFileName dataType:DataTypeArray] mutableCopy];
+    
+    [self loadDataArray:latestNewsArray];
+    for(int i = 0; i < [latestNewsArray count]; i++)
+    {
+        NSLog(@"check here for latestNewsArray");
+        NSString *strCategoryId;// = [NSString stringWithFormat:@"%@",[[latestNewsArray objectAtIndex:i] objectForKey:@"id"]];
+        if(isTitleAction==YES){
+            strCategoryId = [NSString stringWithFormat:@"%@",[[channelTitleLabelArray objectAtIndex:i]objectForKey:@"id"]];
+        }
+        else{
+            strCategoryId = [NSString stringWithFormat:@"%@",[[latestNewsArray objectAtIndex:i] objectForKey:@"id"]];
+        }
+        NSMutableArray *channelVideosArray = [self getChannelVideosForCategoryId:strCategoryId];
+        NSMutableArray *channelVideosTitleArray;
+        if ([channelVideosArray count] == 0) {
+            break;
+        }
+        else{
+            NSDictionary *resDict = (NSDictionary *) channelVideosArray;
+            NSDictionary *resChannel = resDict[strCategoryId];
+            if(resChannel==nil){
+                isResChannelNil=YES;
+                break;
+            }
+            channelVideosTitleArray =  [NSMutableArray arrayWithArray:resChannel[@"videos"]];
+            
+            if(isFirstChannelView==YES){
+                if(i==0){
+                    arrayStreams =  [channelVideosTitleArray mutableCopy];
+                    [self loadTableStreamsData];
+                    isFirstChannelView=NO;
+                }
+            }
+        }
+        break;
     }
 }
 #pragma mark - loadDataArray
@@ -1173,6 +1225,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     for (int i = 0; i<[categoryArray count]; i++) {
         NSMutableDictionary *dictItem = [[NSMutableDictionary alloc] initWithDictionary:categoryArray[i]];
         int nChannelID = [dictItem[@"id"] intValue];
+        
         [[RabbitTVManager sharedManager] getStreamsLimit:^(AFHTTPRequestOperation * request, id responseObject) {
             NSString *subCatchannelId =[NSString stringWithFormat:@"%d",nChannelID];;
             NSString *strSubcategoryFile = [NSString stringWithFormat:YOULIVE_CHANNELS_SUB_CATEGORIES,subCatchannelId];
@@ -1292,7 +1345,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
                 if(i==0){
                     arrayStreams =  [channelVideosTitleArray mutableCopy];
                     //[self loadTableStreamsData];
-                    [self performSelector:@selector(loadTableStreamsData) withObject:nil afterDelay:0.5];
+                    //new change raji
+                    //[self performSelector:@selector(loadTableStreamsData) withObject:nil afterDelay:0.5];
                     isFirstChannelView=NO;
                 }
             }
@@ -1539,8 +1593,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         m++;
         
     }
+    
     [self setScrollToChannel:ChannelBackgroundView];
-
     
 }
 
@@ -1616,6 +1670,11 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     newScrollGridView.backgroundColor =GRAY_BG_COLOR;
 
     
+    //load video
+    
+    if(isFirstTimeChannelView==NO){
+        [self loadTableStreamsData];
+    }
 }
 
 
@@ -3239,9 +3298,6 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         port_heightView = SCREEN_HEIGHT;
         port_MainViewHeight=SCREEN_HEIGHT;
         
-        if(port_MainViewHeight!=land_MainViewHeight){
-            [self onChannelViewTopMenuList:YES];
-        }
         
         nMainColumn = 8;
         CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
@@ -3287,6 +3343,10 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
                 self.nowView.frame = CGRectMake(0, size.height +90, size.width, 50);
             }
             [self.playerContainer setTranslatesAutoresizingMaskIntoConstraints:YES];
+        }
+        
+        if(port_MainViewHeight!=land_MainViewHeight){
+            [self onChannelViewTopMenuList:YES];
         }
        
         
@@ -3410,7 +3470,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     
     
     
-    NSLog(@"check here for latestNewsArray");
+    NSLog(@"loadVideoWhenAppInLandscapeModeForFirstTime");
     if([latestNewsArray count]!=0){
         
         NSDictionary *temp= [latestNewsArray objectAtIndex:0];
@@ -3477,35 +3537,12 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         [ondemandView close];
         [self showVideoOnDemandDialog:curTitle URL:curVideoUrl];
     }
-   // if ([latestNewsArray count] == 0) { //if(port_heightView != land_heightView){
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
-            dispatch_async(dispatch_get_main_queue(), ^{
-                
-                
-                if(isFirstTimeChannelView==YES){
-                    for(UIView *view in newScrollGridView.subviews){
-                        [view removeFromSuperview];
-                    }
-                    [self LoadIndicator:newScrollGridView];
-                    [newScrollGridView setHidden:NO];
-                    [self performSelector:@selector(loadLatestChannelData) withObject:nil afterDelay:0.80];
-                    isFirstTimeChannelView=NO;
-                    NSLog(@"if");
-                }
-                else{
-                    NSLog(@"else");
-                    for(UIView *view in newScrollGridView.subviews){
-                        [view removeFromSuperview];
-                    }
-                    [self LoadIndicator:newScrollGridView];
-                    [newScrollGridView setHidden:NO];
-                    [self performSelector:@selector(loadLatestChannelData) withObject:nil afterDelay:0.50];
-                    NSLog(@"condition");
-                   
-                }
-                
-            });
-        });
+   // if ([latestNewsArray count] == 0) {
+    //if(port_heightView != land_heightView){
+    
+    [self performSelector:@selector(callChannelPageByPerformSelector) withObject:nil afterDelay:1.0];
+    
+    
    // }
     
     if(portraitBool==YES){
@@ -3515,6 +3552,89 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         port_MainViewHeight  = land_MainViewHeight;
     }
 
+
+}
+-(void)callChannelPageByPerformSelector{
+    
+//    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+//    dispatch_async(queue, ^{
+//        
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            // perform on main
+//            
+//        });
+//    });
+    
+    dispatch_group_t group = dispatch_group_create();
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+        for(UIView *view in newScrollGridView.subviews){
+            [view removeFromSuperview];
+        }
+        [self LoadIndicator:newScrollGridView];
+        [newScrollGridView setHidden:NO];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+            if(isFirstTimeChannelView==YES){
+                [self loadLatestChannelData];
+                
+                //[self performSelector:@selector(loadLatestChannelData) withObject:nil afterDelay:0.80];
+                
+                //new change
+                //[self performSelector:@selector(callChannelPageByPerformSelector) withObject:nil afterDelay:0.80];
+                
+                //[self callChannelPageByPerformSelector];
+                
+                isFirstTimeChannelView=NO;
+                NSLog(@"if");
+            }
+            else{
+                NSLog(@"else");
+                //                    for(UIView *view in newScrollGridView.subviews){
+                //                        [view removeFromSuperview];
+                //                    }
+                //                    [self LoadIndicator:newScrollGridView];
+                //
+                //                    [newScrollGridView setHidden:NO];
+                
+                [self loadLatestChannelData];
+               // [self performSelector:@selector(loadLatestChannelData) withObject:nil afterDelay:0.50];
+                //new change
+                
+                // [self performSelector:@selector(callChannelPageByPerformSelector) withObject:nil afterDelay:0.50];
+                // [self callChannelPageByPerformSelector];
+                
+                NSLog(@"condition");
+                
+                [self removeIndicator];
+                
+            }
+            
+        });
+        NSLog(@"Completed");
+    });
+    
+    
+//    dispatch_queue_t main = dispatch_get_main_queue();
+//    dispatch_block_t block = ^
+//    {
+//         [self loadLatestChannelData];
+//    };
+//    if (dispatch_get_current_queue() == main)
+//        block(); // execute the block directly, as main is already the current active queue
+//    else
+//        dispatch_sync(main, block);
+    
+    
+    // ask the main queue, which is not the current queue, to execute the block, and wait for it to be executed before continuing
+    
+//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//              [self loadLatestChannelData];
+//            
+//        });
+//    });
 
 }
 -(BOOL)isDeviceIpad
@@ -4123,20 +4243,20 @@ didReceiveStatusForApplication:(GCKApplicationMetadata *)applicationMetadata {
     if (position == FrontViewPositionLeftSide) {               // Menu will get revealed
         self.tapGestureRecognizer.enabled = YES;                 // Enable the tap gesture Recognizer
 //        self.interactivePopGestureRecognizer.enabled = NO;        // Prevents the iOS7's pan gesture
-        self.view.userInteractionEnabled = NO;       // Disable the topViewController's interaction
+        //self.view.userInteractionEnabled = NO;       // Disable the topViewController's interaction
     }
     else if (position == FrontViewPositionLeft){      // Menu will close
         self.tapGestureRecognizer.enabled = NO;
 //        self.interactivePopGestureRecognizer.enabled = YES;
-        self.view.userInteractionEnabled = YES;
+        //self.view.userInteractionEnabled = YES;
     }
 }
 - (void)revealController:(SWRevealViewController *)revealController didMoveToPosition:(FrontViewPosition)position
 {
     if(position == FrontViewPositionLeft) {
-        self.view.userInteractionEnabled = YES;
+        //self.view.userInteractionEnabled = YES;
     } else {
-        self.view.userInteractionEnabled = NO;
+        //self.view.userInteractionEnabled = NO;
     }
 }
 //TESTING

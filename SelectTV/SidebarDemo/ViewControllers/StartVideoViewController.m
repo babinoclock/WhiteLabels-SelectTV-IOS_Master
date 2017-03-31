@@ -257,10 +257,17 @@
 #pragma mark - pushToLoginScreen
 -(void)pushToLoginScreen{
     
+    [theMoviPlayer stop];
+    [myTimer invalidate];
+    myTimer = nil;
+    [theMoviPlayer stop];
+    [theMoviPlayer.view removeFromSuperview];
+    
     [self.navigationController.navigationBar setHidden:YES];
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"LoginStoryboard" bundle:nil];
     LoginViewController *viewController = (LoginViewController *)[storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
     [self.navigationController pushViewController:viewController animated:NO];
+    
 
 }
 -(UIInterfaceOrientationMask)supportedInterfaceOrientations{

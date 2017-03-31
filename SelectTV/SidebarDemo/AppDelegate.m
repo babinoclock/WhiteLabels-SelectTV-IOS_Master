@@ -15,6 +15,7 @@
 #import "StartScreenViewController.h"
 
 
+
 @implementation UINavigationController (navrotations)
 
 - (BOOL)shouldAutorotate
@@ -57,8 +58,8 @@ static AppDelegate * appDelegate;
     } else {
         NSLog(@"Not Found");
     }
-    [COMMON removeFileFromLocalCache];
-    [COMMON removeAppManagerManualNotification];
+//    [COMMON removeFileFromLocalCache];
+//    [COMMON removeAppManagerManualNotification];
 
     
     appDelegate = self;
@@ -79,7 +80,7 @@ static AppDelegate * appDelegate;
     [[NSUserDefaults standardUserDefaults] removeObjectForKey:ENTER_FOREGROUND];
     [[NSUserDefaults standardUserDefaults] synchronize];
    
-    
+       
     
     // Change the background color of navigation bar
     [[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];

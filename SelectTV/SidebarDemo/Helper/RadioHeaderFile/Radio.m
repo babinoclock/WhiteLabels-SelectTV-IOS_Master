@@ -118,7 +118,6 @@
 	
 	return YES;
 }
-
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
 	NSHTTPURLResponse *u = (NSHTTPURLResponse *)response;
     if (DEBUG_LOG) {

@@ -167,6 +167,7 @@ CustomIOS7AlertView *appListFullPopUpView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [_addToFavBtn setTitle:@"Add To Favorites" forState:UIControlStateNormal];
     isTrailerHidden=NO;
     isMoreClicked=NO;
     isAddBtnClicked=NO;
@@ -657,7 +658,7 @@ CustomIOS7AlertView *appListFullPopUpView;
         [_watchNowBtn setBackgroundImage:[UIImage imageNamed:@"orangeBtn"] forState:UIControlStateNormal];
         addFavEntityName = @"movie";
         [_watchNowBtn setTitle:@"Watch Now" forState:UIControlStateNormal];
-        [_addToFavBtn setTitle:@"Add To Favourites" forState:UIControlStateNormal];
+        [_addToFavBtn setTitle:@"Add To Favorites" forState:UIControlStateNormal];
         [_addToFavBtn setBackgroundImage:[UIImage imageNamed:@"blueBtn.png"] forState:UIControlStateNormal];
         [_addToFavBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _addToFavBtn.titleLabel.font =[COMMON getResizeableFont:Roboto_Regular(13)];
@@ -670,13 +671,13 @@ CustomIOS7AlertView *appListFullPopUpView;
         [_showDetailAddFavBtn setHidden:NO];
         [_addToFavBtn setHidden:YES];
         addFavEntityName = @"show";
-        [_watchNowBtn setTitle:@"Add To Favourites" forState:UIControlStateNormal];
+        [_watchNowBtn setTitle:@"Add To Favorites" forState:UIControlStateNormal];
         [_watchNowBtn setBackgroundImage:[UIImage imageNamed:@"blueBtn.png"] forState:UIControlStateNormal];
         [_watchNowBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _watchNowBtn.titleLabel.font =[COMMON getResizeableFont:Roboto_Regular(13)];
         if([self isDeviceIpad]!=YES){
              [_watchNowBtn setHidden:YES];
-            [_showDetailAddFavBtn setTitle:@"Add To Favourites" forState:UIControlStateNormal];
+            [_showDetailAddFavBtn setTitle:@"Add To Favorites" forState:UIControlStateNormal];
             [_showDetailAddFavBtn setBackgroundImage:[UIImage imageNamed:@"blueBtn.png"] forState:UIControlStateNormal];
             [_showDetailAddFavBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
             _showDetailAddFavBtn.titleLabel.font =[COMMON getResizeableFont:Roboto_Regular(13)];
@@ -1170,7 +1171,11 @@ CustomIOS7AlertView *appListFullPopUpView;
             [_watchLatestLabel setHidden:YES];
             [MBProgressHUD hideHUDForView:[[UIApplication sharedApplication] keyWindow] animated:YES];
         }failureBlock:^(AFHTTPRequestOperation *operation, NSError *error) {
-            [AppCommon showSimpleAlertWithMessage:@"No Data"];
+            [_addToFavBtn setHidden:YES];
+            [_watchNowBtn setHidden:YES];
+            [_watchTrailerBtn setHidden:YES];
+            [_showDetailAddFavBtn setHidden:YES];
+            [self errorAlertWithErrorDictForDetail:error];
             [MBProgressHUD hideHUDForView:[[UIApplication sharedApplication] keyWindow] animated:YES];
         } nMovieID:nMovieID nPPV:nPPV];
     } else {
@@ -1190,10 +1195,28 @@ CustomIOS7AlertView *appListFullPopUpView;
            
             
         }failureBlock:^(AFHTTPRequestOperation *operation, NSError *error) {
-            [AppCommon showSimpleAlertWithMessage:@"No Data"];
+            [_addToFavBtn setHidden:YES];
+            [_watchNowBtn setHidden:YES];
+            [_watchTrailerBtn setHidden:YES];
+            [_showDetailAddFavBtn setHidden:YES];
+            [self errorAlertWithErrorDictForDetail:error];
             [MBProgressHUD hideHUDForView:[[UIApplication sharedApplication] keyWindow] animated:YES];
             
         }nShowID:nMovieID];
+    }
+}
+-(void)errorAlertWithErrorDictForDetail:(NSError *)error{
+    //NSDictionary *userInfo = [error userInfo];
+    NSString *getError = error.localizedDescription;
+    
+    if ((NSString *)[NSNull null] == getError||getError == nil) {
+        getError=@"";
+    }
+    if([getError containsString:@"The request timed out"]&&error.code==kCFURLErrorTimedOut){
+        [AppCommon showSimpleAlertWithMessage:@"Failed To Get Data"];
+    }
+    else{
+        [AppCommon showSimpleAlertWithMessage:@"Failed To Get Data"];
     }
 }
 -(void)removeLoadingIconInShowView{
@@ -1716,7 +1739,7 @@ CustomIOS7AlertView *appListFullPopUpView;
                 else{
                     [_watchTrailerBtn setHidden:NO];
                     [_addToFavBtn setHidden:YES];
-                    [_watchTrailerBtn setTitle:@"Add To Favourites" forState:UIControlStateNormal];
+                    [_watchTrailerBtn setTitle:@"Add To Favorites" forState:UIControlStateNormal];
                     [_watchTrailerBtn setBackgroundImage:[UIImage imageNamed:@"blueBtn.png"] forState:UIControlStateNormal];
                     [_watchTrailerBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
                     _watchTrailerBtn.titleLabel.font =[COMMON getResizeableFont:Roboto_Regular(13)];
@@ -1801,7 +1824,7 @@ CustomIOS7AlertView *appListFullPopUpView;
     else{
         [_watchTrailerBtn setHidden:NO];
         [_addToFavBtn setHidden:YES];
-        [_watchTrailerBtn setTitle:@"Add To Favourites" forState:UIControlStateNormal];
+        [_watchTrailerBtn setTitle:@"Add To Favorites" forState:UIControlStateNormal];
         [_watchTrailerBtn setBackgroundImage:[UIImage imageNamed:@"blueBtn.png"] forState:UIControlStateNormal];
         [_watchTrailerBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _watchTrailerBtn.titleLabel.font =[COMMON getResizeableFont:Roboto_Regular(13)];
@@ -1821,7 +1844,7 @@ CustomIOS7AlertView *appListFullPopUpView;
             [_watchNowBtn setHidden:YES];
             [_watchTrailerBtn setHidden:YES];
             [_addToFavBtn setHidden:YES];
-            [_showDetailAddFavBtn setTitle:@"Add To Favourites" forState:UIControlStateNormal];
+            [_showDetailAddFavBtn setTitle:@"Add To Favorites" forState:UIControlStateNormal];
             [_showDetailAddFavBtn setBackgroundImage:[UIImage imageNamed:@"blueBtn.png"] forState:UIControlStateNormal];
             [_showDetailAddFavBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
             _showDetailAddFavBtn.titleLabel.font =[COMMON getResizeableFont:Roboto_Regular(13)];

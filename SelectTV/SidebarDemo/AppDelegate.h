@@ -19,6 +19,7 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate,SWRevealViewControllerDelegate>
 {
     NSString* _vcCurrentID;
+    
 }
 @property (strong, nonatomic) IBOutlet UIView *launchScreen;
 

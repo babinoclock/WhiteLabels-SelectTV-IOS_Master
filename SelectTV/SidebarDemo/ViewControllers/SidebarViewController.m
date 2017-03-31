@@ -1216,7 +1216,7 @@ NSArray* arraySubItems = nil;
         mainVC.youtubeTitle =strTitle;
         
     }else{
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"udpatestream" object:dictItem];
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"updatestream" object:dictItem];
     }
     
     [[AppDelegate sharedAppDelegate] setVcCurrentID:@"mainNavController"];

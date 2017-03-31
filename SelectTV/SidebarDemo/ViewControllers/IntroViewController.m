@@ -49,6 +49,9 @@
     
     isPortraitFirst=true;
     isLandScapeFirst=true;
+    
+   // [COMMON removeFileFromLocalCache];
+   // [COMMON removeAppManagerManualNotification];
 
     if([COMMON isSpanishLanguage]==YES){
         [self loadArrayTranslations];
@@ -58,10 +61,12 @@
         [COMMON removeSideBarStaticArrayList];
     }
     
+    
+    
      [_splashImage setHidden:NO];
     _splashImage.image =[UIImage imageNamed:SplashScreenImageName];
     
-    syncAPIDataCount = 14.0f;
+    syncAPIDataCount = 13.0f;
     currentProgress = 0.0f;
     progressView = [[LDProgressView alloc] init];
     progressLabel = [[UILabel alloc] init];
@@ -817,6 +822,7 @@
     
     SWRevealViewController *destinationController= (SWRevealViewController *)[storyboard instantiateViewControllerWithIdentifier:@"SWRevealViewController"];
     
+    
 //    CATransition* transition = [CATransition animation];
 //    transition.duration = 0.5;
     //    transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
@@ -825,6 +831,7 @@
     
 //    [self.view.layer addAnimation:transition forKey:kCATransition];
     
+   // [[self navigationController]pushViewController:destinationController animated:NO];
     
     [self presentViewController:destinationController animated:NO completion:nil];
     
