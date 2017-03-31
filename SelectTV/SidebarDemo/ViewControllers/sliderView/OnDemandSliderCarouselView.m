@@ -164,6 +164,7 @@
                              isCache:YES];
         
         [infoImage setImageWithURL:[NSURL URLWithString:strPosterUrl]];
+       // infoImage.contentMode = UIViewContentModeScaleAspectFill;
        // [infoImage addSubview:asyncImage];
         
         UIView *overlay = [[UIView alloc] initWithFrame:CGRectMake(0, 0, infoImage.frame.size.width, infoImage.frame.size.height)];
@@ -221,20 +222,31 @@
         sliderTitle.textAlignment=NSTextAlignmentLeft;
         [infoImage addSubview:sliderTitle];
         
-        CGFloat  sliderDescYPos = sliderTitle.frame.origin.y+sliderTitle.frame.size.height+5;
-        UILabel *sliderDesc = [[UILabel alloc]initWithFrame:CGRectMake(commonXPosition, sliderDescYPos, (infoImage.frame.size.width)-commonXPosition, infoImage.frame.size.height/4)];
-        [sliderDesc setTextColor:[UIColor whiteColor]];
-        [sliderDesc setText:strDesc];
-        sliderDesc.numberOfLines= 0;
-        [sliderDesc setFont:[COMMON getResizeableFont:Roboto_Regular(sliderDescSize)]];
-        sliderDesc.textAlignment=NSTextAlignmentLeft;
-        [infoImage addSubview:sliderDesc];
+//edited by mohan
+        
+//        CGFloat  sliderDescYPos = sliderTitle.frame.origin.y+sliderTitle.frame.size.height+5;
+//        UILabel *sliderDesc = [[UILabel alloc]initWithFrame:CGRectMake(commonXPosition, sliderDescYPos, (infoImage.frame.size.width)-commonXPosition, infoImage.frame.size.height/4)];
+//        [sliderDesc setTextColor:[UIColor whiteColor]];
+//        [sliderDesc setText:strDesc];
+//        sliderDesc.numberOfLines= 0;
+//        [sliderDesc setFont:[COMMON getResizeableFont:Roboto_Regular(sliderDescSize)]];
+//        sliderDesc.textAlignment=NSTextAlignmentLeft;
+//        [infoImage addSubview:sliderDesc];
         
         //CGFloat  sliderWatchBtnYPos = sliderDesc.frame.origin.y+sliderDesc.frame.size.height+5;//infoImage.frame.size.height-80;
         NSString *watchButtonTittle = @"WATCH NOW";
-        CGSize stringsize = [watchButtonTittle sizeWithAttributes:@{ NSFontAttributeName : [COMMON getResizeableFont:Roboto_Regular(17)] }];
-        CGFloat  sliderWatchBtnYPos = sliderDesc.frame.origin.y+sliderDesc.frame.size.height+5;//infoImage.frame.size.height-80;
-        UIButton *sliderWatchBtn = [[UIButton alloc]initWithFrame:CGRectMake(commonXPosition, sliderWatchBtnYPos, stringsize.width+20, sliderWatchBtnHeight)];
+        CGSize stringsize = [watchButtonTittle sizeWithAttributes:@{ NSFontAttributeName : [COMMON getResizeableFont:Roboto_Regular(15)] }];
+        
+        CGFloat  sliderWatchBtnYPos = CGRectGetMidY(infoImage.frame)+sliderWatchBtnHeight;//infoImage.frame.size.height-80;
+        CGFloat watchBtnWidth =stringsize.width;
+        
+         if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+        {
+             CGSize stringsize = [watchButtonTittle sizeWithAttributes:@{ NSFontAttributeName : [COMMON getResizeableFont:Roboto_Regular(17)] }];
+            watchBtnWidth =stringsize.width+20;
+        }
+        
+        UIButton *sliderWatchBtn = [[UIButton alloc]initWithFrame:CGRectMake(commonXPosition, sliderWatchBtnYPos, watchBtnWidth, sliderWatchBtnHeight)];
         [sliderWatchBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [sliderWatchBtn setTitle:@"WATCH NOW" forState:UIControlStateNormal];
         sliderWatchBtn.titleLabel.font = [COMMON getResizeableFont:Roboto_Regular(sliderWatchBtnSize)];
