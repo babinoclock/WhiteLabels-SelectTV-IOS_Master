@@ -1671,10 +1671,10 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 
     
     //load video
-    
-    if(isFirstTimeChannelView==NO){
-        [self loadTableStreamsData];
-    }
+//    
+//    if(isFirstTimeChannelView==NO){
+//        [self loadTableStreamsData];
+//    }
 }
 
 
@@ -3612,7 +3612,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
             }
             
         });
-        NSLog(@"Completed");
+        NSLog(@"condition");
     });
     
     

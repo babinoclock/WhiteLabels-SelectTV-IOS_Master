@@ -419,6 +419,19 @@
             strPosterUrl=@"";
         }
     }
+    
+    _leftFullBtn.tag = indexPath.row;
+    _rightFullBtn.tag = indexPath.row;
+    
+    [_leftFullBtn  addTarget:self
+                      action:@selector(setActionLeft:)
+            forControlEvents:UIControlEventTouchUpInside];
+    
+    [_rightFullBtn  addTarget:self
+                       action:@selector(setActionRight:)
+             forControlEvents:UIControlEventTouchUpInside];
+
+    
     [cell.spinner setHidden:YES];
     //[cell.spinner startAnimating];
     
@@ -604,16 +617,64 @@
 
 
 -(IBAction)actionRight:(UIButton *)sender {
+    NSInteger index = sender.tag;
+    NSDictionary *cellData = [self.collectionData objectAtIndex:index];
+    
+    NSString *type = [cellData valueForKey:@"type"];
+    
+    if ((NSString *)[NSNull null] == type || type==nil) {
+        type=@"";
+    }
+    
     //    NSInteger currentIndex = self.collectionView.contentOffset.x / self.collectionView.frame.size.width;
     CGRect visibleRect = (CGRect){.origin = self.collectionView.contentOffset, .size = self.collectionView.bounds.size};
-    CGPoint visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
+    
+    CGPoint visiblePoint;// = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect)+10);
+    
+    if([self isDeviceIpad]!=YES){
+        if([type isEqualToString:@"S"]){
+            visiblePoint = CGPointMake(CGRectGetMaxX(visibleRect), CGRectGetMidY(visibleRect));
+        }
+        else{
+            visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
+        }
+    }
+    else{
+        visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
+
+    }
+    
     NSIndexPath *visibleIndexPath = [self.collectionView indexPathForItemAtPoint:visiblePoint];
+    
     [self.collectionView scrollToItemAtIndexPath:visibleIndexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:YES];
     
 }
 -(IBAction)actionLeft:(UIButton *)sender {
+    NSInteger index = sender.tag;
+    NSDictionary *cellData = [self.collectionData objectAtIndex:index];
+    
+    NSString *type = [cellData valueForKey:@"type"];
+    
+    if ((NSString *)[NSNull null] == type || type==nil) {
+        type=@"";
+    }
     CGRect visibleRect = (CGRect){.origin = self.collectionView.contentOffset, .size = self.collectionView.bounds.size};
-    CGPoint visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
+    
+    CGPoint visiblePoint;// = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect)+10);
+    
+    if([self isDeviceIpad]!=YES){
+        if([type isEqualToString:@"S"]){
+            visiblePoint = CGPointMake(CGRectGetMaxX(visibleRect), CGRectGetMidY(visibleRect));
+        }
+        else{
+            visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
+        }
+    }
+    else{
+        visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
+    }
+    
+    
     NSIndexPath *visibleIndexPath = [self.collectionView indexPathForItemAtPoint:visiblePoint];
     
     [self.collectionView scrollToItemAtIndexPath:visibleIndexPath atScrollPosition:UICollectionViewScrollPositionRight animated:YES];
@@ -629,4 +690,25 @@
     NSIndexPath *prevItem = [NSIndexPath indexPathForItem:index inSection:currentSection];
     [_collectionView scrollToItemAtIndexPath:prevItem atScrollPosition:UICollectionViewScrollPositionLeft animated:animated];
 }
+-(void)setActionRight:(UIButton*)sender{
+//    NSInteger index = sender.tag;
+//    NSDictionary *cellData = [self.collectionData objectAtIndex:index];
+    
+}
+-(void)setActionLeft:(UIButton*)sender{
+//    NSInteger index = sender.tag;
+//    NSDictionary *cellData = [self.collectionData objectAtIndex:index];
+    
+}
+
+-(BOOL)isDeviceIpad
+{
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+        
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
 @end

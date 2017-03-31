@@ -104,7 +104,9 @@
             <connections>
                 <outlet property="collectionView" destination="suJ-16-mkd" id="xWE-27-1Ex"/>
                 <outlet property="leftBtnArrow" destination="Ie6-jV-tlT" id="8gG-cR-EMS"/>
+                <outlet property="leftFullBtn" destination="n59-Ka-rV9" id="neN-xz-i85"/>
                 <outlet property="rightBtnArrow" destination="xJm-OI-EtB" id="Fxm-t0-pdl"/>
+                <outlet property="rightFullBtn" destination="0k2-aD-qTM" id="q0Q-7u-7FC"/>
             </connections>
             <point key="canvasLocation" x="295.5" y="72.5"/>
         </view>
