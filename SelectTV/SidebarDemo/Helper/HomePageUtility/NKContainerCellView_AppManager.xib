@@ -173,7 +173,9 @@
                 <outlet property="collectionView" destination="suJ-16-mkd" id="xWE-27-1Ex"/>
                 <outlet property="headerImageButton" destination="GJD-XC-WsY" id="Web-NC-ViD"/>
                 <outlet property="leftBtnArrow" destination="Ie6-jV-tlT" id="C8z-ac-jvN"/>
+                <outlet property="leftFullBtn" destination="n59-Ka-rV9" id="3uX-YU-ynl"/>
                 <outlet property="rightBtnArrow" destination="xJm-OI-EtB" id="3JI-zR-BWG"/>
+                <outlet property="rightFullBtn" destination="0k2-aD-qTM" id="otv-Vx-c23"/>
                 <outlet property="viewAllBtn" destination="45h-V9-arB" id="tQM-Ne-5b7"/>
             </connections>
             <point key="canvasLocation" x="184.5" y="91.5"/>

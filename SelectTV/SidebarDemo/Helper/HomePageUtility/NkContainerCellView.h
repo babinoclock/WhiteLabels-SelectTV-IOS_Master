@@ -25,4 +25,9 @@
 @property (strong, nonatomic) IBOutlet UIButton *leftBtnArrow;
 @property (strong, nonatomic) IBOutlet UIButton *rightBtnArrow;
 - (void)setCollectionImageData:(NSArray *)collectionData currentViewStr:(NSString *)currentViewStr;
+
+
+@property (strong, nonatomic) IBOutlet UIButton *leftFullBtn;
+@property (strong, nonatomic) IBOutlet UIButton *rightFullBtn;
+
 @end
