@@ -54,8 +54,8 @@
 //    screenWidth = [UIScreen mainScreen].bounds.size.width;
 //    screenHeight = [UIScreen mainScreen].bounds.size.height;
     
-    
-    [createAccBtn setHidden:NO];
+    [self showCreateAccBtn];
+   
     [_loginLabel setHidden:YES];
     
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
@@ -430,6 +430,7 @@
     [loginBtn setTranslatesAutoresizingMaskIntoConstraints:NO];
     [forgotPwdBtn setTranslatesAutoresizingMaskIntoConstraints:NO];
      createAccBtn.titleLabel.font = [COMMON getResizeableFont:Roboto_Regular(14)];
+      [createAccBtn setTranslatesAutoresizingMaskIntoConstraints:YES];
 
 }
 #pragma mark - IPadFrame
@@ -439,6 +440,7 @@
     [passwordTF setTranslatesAutoresizingMaskIntoConstraints:YES];
     [loginBtn setTranslatesAutoresizingMaskIntoConstraints:YES];
     [forgotPwdBtn setTranslatesAutoresizingMaskIntoConstraints:YES];
+     [createAccBtn setTranslatesAutoresizingMaskIntoConstraints:YES];
     
     CGFloat Xpos=30;
     if( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
@@ -457,15 +459,27 @@
     CGFloat forgotPwdBtnYpos=0.0;
     if([self isDeviceIpad]==YES){
         forgotPwdBtnYpos =loginBtn.frame.origin.y+loginBtn.frame.size.height+15;
+        
+         [createAccBtn setFrame:CGRectMake(Xpos+110, CGRectGetMaxY(forgotPwdBtn.frame)+180, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
     }
     else{
         forgotPwdBtnYpos =loginBtn.frame.origin.y+loginBtn.frame.size.height+3;
+        
+         [createAccBtn setFrame:CGRectMake(Xpos+30, CGRectGetMaxY(forgotPwdBtn.frame)+30, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
     }
     //new change color white to black
     [forgotPwdBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [forgotPwdBtn setFrame:CGRectMake(10 ,forgotPwdBtnYpos, screenWidth-20, 55)];
     
-    [createAccBtn setFrame:CGRectMake(Xpos+110, CGRectGetMaxY(forgotPwdBtn.frame)+180, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
+      if( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
+          [createAccBtn setFrame:CGRectMake(Xpos+110, CGRectGetMaxY(forgotPwdBtn.frame)+180, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
+     }
+     else{
+    
+     [createAccBtn setFrame:CGRectMake(Xpos+20, CGRectGetMaxY(forgotPwdBtn.frame)+30, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
+     }
+    
+
 
 }
 -(BOOL)isDeviceIpad
@@ -655,5 +669,29 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)createBtnAction:(id)sender {
+    
+    NSString *url= @"http://selecttv.com/?utm_source=Ios&amp;utm_medium=register&amp;utm_campaign=MobileSignupA";
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+}
+
+-(void)showCreateAccBtn
+{
+
+    if([APP_TITLE isEqualToString:@"SelectTV"])
+    {
+   [helpBtn setHidden:YES];
+   [helpLabel setHidden:YES];
+         [createAccBtn setHidden:NO];
+    }
+    else{
+        [helpBtn setHidden:NO];
+        [helpLabel setHidden:NO];
+         [createAccBtn setHidden:YES];
+    
+    }
+    
+
 }
 @end
