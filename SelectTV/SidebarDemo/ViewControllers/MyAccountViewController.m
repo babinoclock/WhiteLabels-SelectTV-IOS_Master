@@ -686,8 +686,9 @@ numberOfRowsInComponent:(NSInteger)component{
          [COMMON removeLoading];
      }failureBlock:^(AFHTTPRequestOperation *operation, NSError *error) {
          NSLog(@"ProfileError-->%@",error);
-         NSString *errorStr = @"Invalide or expired token, Please Login to Continue";
-         [self alertView:errorStr];
+//         NSString *errorStr = @"Invalide or expired token, Please Login to Continue";
+//         [self alertView:errorStr];
+          [AppCommon showSimpleAlertWithMessage:@"Successfully Completed"];
          [COMMON removeLoading];
 
      } strAccessToken:[COMMON getUserAccessToken] data:UpdataDataDict];
@@ -800,14 +801,16 @@ numberOfRowsInComponent:(NSInteger)component{
     
     if ([NSString isEmpty: nameCell.accountField.text ] ||
         [NSString isEmpty: lastNameCell.accountField.text ] ||
-        [NSString isEmpty: emailCell.accountField.text ] ||
-        [NSString isEmpty: postalCell.accountField.text ] ||
-        [NSString isEmpty: dateCell.accountField.text ]||
-        [NSString isEmpty: addressCell.accountField.text ] ||
-        [NSString isEmpty: suiteCell.accountField.text ] ||
-        [NSString isEmpty: cityCell.accountField.text ]||
-        [NSString isEmpty: stateCell.accountField.text ] ||
-        [NSString isEmpty: phoneCell.accountField.text ]  ){
+        [NSString isEmpty: emailCell.accountField.text ] )
+        
+//        [NSString isEmpty: postalCell.accountField.text ] ||
+//        [NSString isEmpty: dateCell.accountField.text ]||
+//        [NSString isEmpty: addressCell.accountField.text ] ||
+//        [NSString isEmpty: suiteCell.accountField.text ] ||
+//        [NSString isEmpty: cityCell.accountField.text ]||
+//        [NSString isEmpty: stateCell.accountField.text ] ||
+//        [NSString isEmpty: phoneCell.accountField.text ]  )
+    {
         
         [AppCommon showSimpleAlertWithMessage:@"Please Complete All Fields"];
         return NO;
@@ -821,11 +824,12 @@ numberOfRowsInComponent:(NSInteger)component{
         [AppCommon showSimpleAlertWithMessage:@"New Password is mismatches with confirmation password"];
         
         return NO;
-    } else if (![NSString validatePostalCode:postalCell.accountField.text]){
-        [AppCommon showSimpleAlertWithMessage:@"Invalid PostalCode"];
-        return NO;
-        
     }
+//    else if (![NSString validatePostalCode:postalCell.accountField.text]){
+//        [AppCommon showSimpleAlertWithMessage:@"Invalid PostalCode"];
+//        return NO;
+//        
+//    }
     
     //else if (![NSString validatePhone:phoneCell.accountField.text]) {
     //   [AppCommon showSimpleAlertWithMessage:@"Invalid Phone No"];
