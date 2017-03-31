@@ -55,7 +55,7 @@
 //    screenHeight = [UIScreen mainScreen].bounds.size.height;
     
     
-    [createAccBtn setHidden:YES];
+    [createAccBtn setHidden:NO];
     [_loginLabel setHidden:YES];
     
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
@@ -464,6 +464,8 @@
     //new change color white to black
     [forgotPwdBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [forgotPwdBtn setFrame:CGRectMake(10 ,forgotPwdBtnYpos, screenWidth-20, 55)];
+    
+    [createAccBtn setFrame:CGRectMake(Xpos+110, CGRectGetMaxY(forgotPwdBtn.frame)+180, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
 
 }
 -(BOOL)isDeviceIpad
