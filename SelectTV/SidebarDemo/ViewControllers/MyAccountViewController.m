@@ -388,8 +388,19 @@
     cell.accountField.delegate = self;
 
     NSString *fieldString = [[[[jsonArray objectAtIndex:indexPath.section] valueForKey:@"fields"]objectAtIndex:indexPath.row] valueForKey:@"title"];
+   
+    if ((NSString *)[NSNull null] == fieldString||fieldString == nil) {
+        fieldString =@"";
+    }
+    
+    
     cell.accountLabel.text = fieldString;
     NSString *valueString = [[[[jsonArray objectAtIndex:indexPath.section] valueForKey:@"fields"]objectAtIndex:indexPath.row] valueForKey:@"Value"];
+    
+    
+    if([fieldString isEqualToString:@"Old Password"]||[fieldString isEqualToString:@"New Password"]||[fieldString isEqualToString:@"New Password Confirmation"]){
+         cell.accountField.secureTextEntry=YES;
+    }
     
     [cell.accountLabel setTextColor:[UIColor colorWithRed:255.0f/255.0f green:255.0f/255.0f blue:255.0f/255.0f alpha:0.5]];
     if (indexPath.section == 1 && indexPath.row == 0 ) {
@@ -420,7 +431,7 @@
    
     [cell setBackgroundColor:[UIColor clearColor]];
     
-         return cell;
+    return cell;
     
     
 }
@@ -660,7 +671,7 @@ numberOfRowsInComponent:(NSInteger)component{
     NSLog(@"SAVED");
     
         if ([self isValidEntry]) {
-             [self updateUserProfileDetails:userDetailsDictionary];
+             //[self updateUserProfileDetails:userDetailsDictionary];
             if(isOldPasswordTyped==YES){
                 [self changeUserPassword];
             }
@@ -700,6 +711,9 @@ numberOfRowsInComponent:(NSInteger)component{
         
     } failureBlock:^(AFHTTPRequestOperation *operation, NSError *error) {
         [COMMON removeLoading];
+        NSLog(@"ProfileError-->%@",error);
+        NSString *errorStr = @"Invalide or expired token, Please Login to Continue";
+        [self alertView:errorStr];
     } strAccessToken: [COMMON getUserAccessToken]];
 }
 
@@ -751,6 +765,9 @@ numberOfRowsInComponent:(NSInteger)component{
             [COMMON removeLoading];
             [AppCommon showSimpleAlertWithMessage:@"Successfully Completed"];
         } failureBlock:^(AFHTTPRequestOperation *operation, NSError *error) {
+            NSString *errorStr = @"Invalide or expired token, Please Login to Continue";
+            [self alertView:errorStr];
+            [COMMON removeLoading];
             
         }strAccessToken:[COMMON getUserAccessToken] oldPassword:userOldPassword newPassword:userNewPassword];
 
