@@ -14,13 +14,45 @@
             <rect key="frame" x="0.0" y="0.0" width="389" height="205"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n59-Ka-rV9">
-                    <rect key="frame" x="8" y="40" width="25" height="150"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ie6-jV-tlT">
+                    <rect key="frame" x="8" y="92" width="24" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="25" id="sHt-en-6rq"/>
+                        <constraint firstAttribute="height" constant="25" id="ShM-7X-M6Z"/>
+                        <constraint firstAttribute="width" constant="24" id="ZKv-to-MN8"/>
+                    </constraints>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="actionLeft:" destination="iN0-l3-epB" eventType="touchUpInside" id="vuy-t8-Nq7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJm-OI-EtB">
+                    <rect key="frame" x="358" y="92" width="24" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="Aco-oX-9rV"/>
+                        <constraint firstAttribute="height" constant="25" id="OZx-FZ-6cH"/>
+                    </constraints>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="actionRight:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ll0-ow-XhH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n59-Ka-rV9">
+                    <rect key="frame" x="5" y="30" width="31" height="150"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="31" id="QMx-Fs-aoP"/>
+                        <constraint firstAttribute="height" constant="150" id="Rqn-Rw-jvi"/>
                     </constraints>
                     <state key="normal">
-                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="actionLeft:" destination="iN0-l3-epB" eventType="touchUpInside" id="QAU-sJ-DmE"/>
@@ -43,6 +75,7 @@
                 </collectionView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0k2-aD-qTM">
                     <rect key="frame" x="356" y="30" width="31" height="150"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="150" id="4vi-23-ArM"/>
                         <constraint firstAttribute="width" constant="31" id="KIu-ar-Ld3"/>
@@ -51,44 +84,16 @@
                         <action selector="actionRight:" destination="iN0-l3-epB" eventType="touchUpInside" id="czi-cl-nIc"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJm-OI-EtB">
-                    <rect key="frame" x="358" y="92" width="24" height="25"/>
-                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="24" id="Aco-oX-9rV"/>
-                        <constraint firstAttribute="height" constant="25" id="OZx-FZ-6cH"/>
-                    </constraints>
-                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal">
-                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </state>
-                    <connections>
-                        <action selector="actionRight:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ll0-ow-XhH"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ie6-jV-tlT">
-                    <rect key="frame" x="8" y="92" width="24" height="25"/>
-                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="25" id="ShM-7X-M6Z"/>
-                        <constraint firstAttribute="width" constant="24" id="ZKv-to-MN8"/>
-                    </constraints>
-                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal">
-                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                    </state>
-                    <connections>
-                        <action selector="actionLeft:" destination="iN0-l3-epB" eventType="touchUpInside" id="vuy-t8-Nq7"/>
-                    </connections>
-                </button>
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
             <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="n59-Ka-rV9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="6Cl-yM-zCC"/>
                 <constraint firstAttribute="trailing" secondItem="0k2-aD-qTM" secondAttribute="trailing" constant="2" id="8iM-Gr-zPd"/>
                 <constraint firstItem="suJ-16-mkd" firstAttribute="leading" secondItem="Ie6-jV-tlT" secondAttribute="trailing" constant="8" id="BTN-lW-4A9"/>
-                <constraint firstAttribute="bottom" secondItem="n59-Ka-rV9" secondAttribute="bottom" constant="15" id="Ebt-ti-8MC"/>
                 <constraint firstItem="xJm-OI-EtB" firstAttribute="leading" secondItem="suJ-16-mkd" secondAttribute="trailing" constant="8" id="Hbc-kl-fDa"/>
+                <constraint firstAttribute="bottom" secondItem="n59-Ka-rV9" secondAttribute="bottom" constant="25" id="Hue-Q4-Quf"/>
+                <constraint firstItem="suJ-16-mkd" firstAttribute="leading" secondItem="n59-Ka-rV9" secondAttribute="trailing" constant="4" id="Lbx-Ci-FoC"/>
                 <constraint firstItem="Ie6-jV-tlT" firstAttribute="centerY" secondItem="suJ-16-mkd" secondAttribute="centerY" id="P4q-r4-2vg"/>
                 <constraint firstItem="xJm-OI-EtB" firstAttribute="centerY" secondItem="suJ-16-mkd" secondAttribute="centerY" id="PAg-8V-bya"/>
                 <constraint firstItem="0k2-aD-qTM" firstAttribute="leading" secondItem="suJ-16-mkd" secondAttribute="trailing" constant="6" id="TX7-Z5-WKp"/>
@@ -96,8 +101,7 @@
                 <constraint firstItem="suJ-16-mkd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="gD9-X6-hVv"/>
                 <constraint firstAttribute="bottom" secondItem="suJ-16-mkd" secondAttribute="bottom" constant="8" id="gmT-du-t5o"/>
                 <constraint firstItem="suJ-16-mkd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="iUB-Em-A7T"/>
-                <constraint firstItem="n59-Ka-rV9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="nAL-ea-zCp"/>
-                <constraint firstItem="n59-Ka-rV9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="pvk-6G-a78"/>
+                <constraint firstItem="n59-Ka-rV9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="vEg-b5-D6i"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

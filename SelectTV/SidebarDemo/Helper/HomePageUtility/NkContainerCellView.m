@@ -620,6 +620,12 @@
     NSInteger index = sender.tag;
     NSDictionary *cellData = [self.collectionData objectAtIndex:index];
     
+    
+//    CGRect visibleRect = (CGRect){.origin = self.collectionView.contentOffset, .size = self.collectionView.bounds.size};
+//    CGPoint visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
+//    NSIndexPath *visibleIndexPath = [self.collectionView indexPathForItemAtPoint:visiblePoint];
+//    [self.collectionView scrollToItemAtIndexPath:visibleIndexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:YES];
+    
     NSString *type = [cellData valueForKey:@"type"];
     
     if ((NSString *)[NSNull null] == type || type==nil) {
@@ -627,6 +633,7 @@
     }
     
     //    NSInteger currentIndex = self.collectionView.contentOffset.x / self.collectionView.frame.size.width;
+    
     CGRect visibleRect = (CGRect){.origin = self.collectionView.contentOffset, .size = self.collectionView.bounds.size};
     
     CGPoint visiblePoint;// = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect)+10);
@@ -653,6 +660,12 @@
     NSInteger index = sender.tag;
     NSDictionary *cellData = [self.collectionData objectAtIndex:index];
     
+//    CGRect visibleRect = (CGRect){.origin = self.collectionView.contentOffset, .size = self.collectionView.bounds.size};
+//    CGPoint visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
+//    NSIndexPath *visibleIndexPath = [self.collectionView indexPathForItemAtPoint:visiblePoint];
+//    
+//    [self.collectionView scrollToItemAtIndexPath:visibleIndexPath atScrollPosition:UICollectionViewScrollPositionRight animated:YES];
+    
     NSString *type = [cellData valueForKey:@"type"];
     
     if ((NSString *)[NSNull null] == type || type==nil) {
@@ -664,7 +677,7 @@
     
     if([self isDeviceIpad]!=YES){
         if([type isEqualToString:@"S"]){
-            visiblePoint = CGPointMake(CGRectGetMaxX(visibleRect), CGRectGetMidY(visibleRect));
+            visiblePoint = CGPointMake(CGRectGetMinX(visibleRect), CGRectGetMidY(visibleRect));
         }
         else{
             visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));

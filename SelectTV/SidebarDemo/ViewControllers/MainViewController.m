@@ -69,6 +69,11 @@ GCKDeviceScannerListener, GCKDeviceManagerDelegate, GCKMediaControlChannelDelega
     UIView *videoContainerView;
     UIView *loadingView;
     UIActivityIndicatorView *indicator;
+    
+    
+    UIView *videoLoadingView;
+    UIActivityIndicatorView *videoIndicator;
+    
     UIView *backgroundView ;
     UILabel *indicateLabel;
     CGFloat scrollButtonWidth;
@@ -177,6 +182,9 @@ GCKDeviceScannerListener, GCKDeviceManagerDelegate, GCKMediaControlChannelDelega
 
     NSTimer *toPlayVideo;
     BOOL isGoogleCastShown;
+    
+    BOOL isVideoTimerLoader;
+
     
 }
 
@@ -305,6 +313,7 @@ CustomIOS7AlertView * mainChannelView;
     
     isGoogleCastShown = NO;
   
+    isVideoTimerLoader =NO;
     
     //new color change
     _mainBackgroundImage.image=nil;
@@ -1819,6 +1828,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     
     [self startPlay];
     isFirstChannelView=NO;
+    
 }
 
 #pragma mark - Custom7AlertDialog Delegate
@@ -2651,6 +2661,10 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     
     //[self.playerView setHidden:isCast];
     loadedWebView = YES;
+    
+    [self removeVideoIndicator];
+    
+    [self.mainActivityIndicator setHidden:true];
 }
 
 
@@ -3713,16 +3727,25 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 //        });
     //}
     
+    isVideoTimerLoader =NO;
+    
+    if(isVideoTimerLoader==NO){
+        [_playerView setHidden:NO];
+        [self VideoIndicator:_playerView];
+        isVideoTimerLoader =YES;
+    }
+    
     toPlayVideo = [NSTimer scheduledTimerWithTimeInterval:7 target:self selector:@selector(getPerforSelecter) userInfo:nil repeats:YES];
-
+   
 }
 -(void)getPerforSelecter{
+    
     
     if(isDispatchCompleted==YES){
         [NSTimer cancelPreviousPerformRequestsWithTarget:self];
         [toPlayVideo invalidate];
         toPlayVideo =nil;
-        
+    
         [self loadTableStreamsData];
         NSLog(@"isFirstChannelView");
     }
@@ -3740,6 +3763,29 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         return NO;
     }
 }
+-(void)VideoIndicator:(UIView *)view
+{
+    [self removeVideoIndicator];
+    
+    videoLoadingView = [[UIView alloc] initWithFrame:CGRectMake((view.frame.size.width-50)/2, (view.frame.size.height-50)/2, 80, 80)];
+    [videoLoadingView.layer setCornerRadius:5.0];
+    [videoLoadingView setBackgroundColor:[UIColor clearColor]];
+    [videoLoadingView.layer setMasksToBounds:YES];
+    [self.view setUserInteractionEnabled:YES];
+    
+    videoIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    [videoIndicator setFrame:CGRectMake(1, 1, 60, 60)];
+    [videoIndicator setHidesWhenStopped:YES];
+    [videoIndicator startAnimating];
+    [videoLoadingView addSubview:videoIndicator];
+    [view addSubview:videoLoadingView];
+}
+
+-(void)removeVideoIndicator {
+    [videoIndicator stopAnimating];
+    [videoLoadingView removeFromSuperview];
+}
+
 
 -(void)LoadIndicator:(UIView *)view
 {
