@@ -686,9 +686,8 @@ numberOfRowsInComponent:(NSInteger)component{
          [COMMON removeLoading];
      }failureBlock:^(AFHTTPRequestOperation *operation, NSError *error) {
          NSLog(@"ProfileError-->%@",error);
-//         NSString *errorStr = @"Invalide or expired token, Please Login to Continue";
-//         [self alertView:errorStr];
-          [AppCommon showSimpleAlertWithMessage:@"Successfully Completed"];
+         NSString *errorStr = @"Invalide or expired token, Please Login to Continue";
+         [self alertView:errorStr];
          [COMMON removeLoading];
 
      } strAccessToken:[COMMON getUserAccessToken] data:UpdataDataDict];
@@ -750,6 +749,7 @@ numberOfRowsInComponent:(NSInteger)component{
         [[RabbitTVManager sharedManager]changeUserPassword:^(AFHTTPRequestOperation *request, id responseObject) {
             NSLog(@"Password-->%@",responseObject);
             [COMMON removeLoading];
+            [AppCommon showSimpleAlertWithMessage:@"Successfully Completed"];
         } failureBlock:^(AFHTTPRequestOperation *operation, NSError *error) {
             
         }strAccessToken:[COMMON getUserAccessToken] oldPassword:userOldPassword newPassword:userNewPassword];
