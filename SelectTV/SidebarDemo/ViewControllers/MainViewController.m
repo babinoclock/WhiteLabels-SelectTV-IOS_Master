@@ -560,6 +560,8 @@ CustomIOS7AlertView * mainChannelView;
 }
 #pragma mark - setUpSearchBarInNavigation
 -(void) setUpSearchBarInNavigation{
+    searchBarView = [[UISearchBar alloc] init];
+                     
     searchBarView = [[UISearchBar alloc] initWithFrame:CGRectMake(5, -5, self.view.frame.size.width-10, 48)];
     searchBarView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     [searchBarView setShowsCancelButton:YES];
@@ -3320,6 +3322,15 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     [[UIApplication sharedApplication] sendAction:@selector(resignFirstResponder) to:nil from:nil forEvent:nil];
     [_searchButton setHidden:NO];
     [[self.navigationController.navigationBar viewWithTag:1001] removeFromSuperview];
+    
+    
+    if(isGoogleCastShown==YES){
+        [_googleCastButton setHidden:NO];
+    }
+    else{
+        [_googleCastButton setHidden:YES];
+    }
+
    
     //old
     //[self setTitleScrollBar];
@@ -4295,6 +4306,14 @@ didReceiveStatusForApplication:(GCKApplicationMetadata *)applicationMetadata {
     [[UIApplication sharedApplication] sendAction:@selector(resignFirstResponder) to:nil from:nil forEvent:nil];
     [MBProgressHUD hideHUDForView:[[UIApplication sharedApplication] keyWindow] animated:YES];
     
+    
+    if(isGoogleCastShown==YES){
+        [_googleCastButton setHidden:NO];
+    }
+    else{
+        [_googleCastButton setHidden:YES];
+    }
+
 }
 
 #pragma mark - misc
