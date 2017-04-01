@@ -50,8 +50,8 @@
     isPortraitFirst=true;
     isLandScapeFirst=true;
     
-   // [COMMON removeFileFromLocalCache];
-   // [COMMON removeAppManagerManualNotification];
+    [COMMON removeFileFromLocalCache];
+    [COMMON removeAppManagerManualNotification];
 
     if([COMMON isSpanishLanguage]==YES){
         [self loadArrayTranslations];

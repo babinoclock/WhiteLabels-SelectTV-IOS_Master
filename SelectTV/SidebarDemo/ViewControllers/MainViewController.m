@@ -172,7 +172,11 @@ GCKDeviceScannerListener, GCKDeviceManagerDelegate, GCKMediaControlChannelDelega
     
     
     MPMoviePlayerController *theMoviPlayer;
+    
+    BOOL isDispatchCompleted;
 
+    NSTimer *toPlayVideo;
+    BOOL isGoogleCastShown;
     
 }
 
@@ -297,6 +301,9 @@ CustomIOS7AlertView * mainChannelView;
 {
     [super viewDidLoad];
     
+    isDispatchCompleted = NO;
+    
+    isGoogleCastShown = NO;
   
     
     //new color change
@@ -631,6 +638,7 @@ CustomIOS7AlertView * mainChannelView;
     searchBarView.tag =1001;
     [self.navigationController.navigationBar addSubview:searchBarView];
     [_searchButton setHidden:YES];
+    [_googleCastButton setHidden:YES];
 }
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText{
     searchString = searchText;
@@ -701,10 +709,24 @@ CustomIOS7AlertView * mainChannelView;
     [searchBarView setHidden:YES];
     [_searchButton setHidden:NO];
     [[UIApplication sharedApplication] sendAction:@selector(resignFirstResponder) to:nil from:nil forEvent:nil];
+    
+    if(isGoogleCastShown==YES){
+        [_googleCastButton setHidden:NO];
+    }
+    else{
+        [_googleCastButton setHidden:YES];
+    }
 }
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBarPush{
    
     [_searchButton setHidden:NO];
+    
+    if(isGoogleCastShown==YES){
+        [_googleCastButton setHidden:NO];
+    }
+    else{
+        [_googleCastButton setHidden:YES];
+    }
     
     if(searchString!=nil && ![searchString isEqualToString:@""]){
         [searchBarView setHidden:YES];
@@ -1080,7 +1102,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     [self loadDataArray:latestNewsArray];
     for(int i = 0; i < [latestNewsArray count]; i++)
     {
-        NSLog(@"check here for latestNewsArray");
+        NSLog(@" VIDEO latestNewsArray");
         NSString *strCategoryId;// = [NSString stringWithFormat:@"%@",[[latestNewsArray objectAtIndex:i] objectForKey:@"id"]];
         if(isTitleAction==YES){
             strCategoryId = [NSString stringWithFormat:@"%@",[[channelTitleLabelArray objectAtIndex:i]objectForKey:@"id"]];
@@ -1105,7 +1127,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
             if(isFirstChannelView==YES){
                 if(i==0){
                     arrayStreams =  [channelVideosTitleArray mutableCopy];
-                    [self loadTableStreamsData];
+                    [self loadTableStreamsData];                    
                     isFirstChannelView=NO;
                 }
             }
@@ -1341,12 +1363,16 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
             }
             channelVideosTitleArray =  [NSMutableArray arrayWithArray:resChannel[@"videos"]];
             
+            if(i==0){
+                arrayStreams =  [channelVideosTitleArray mutableCopy];
+            }
+            
             if(isFirstChannelView==YES){
                 if(i==0){
                     arrayStreams =  [channelVideosTitleArray mutableCopy];
                     //[self loadTableStreamsData];
                     //new change raji
-                    //[self performSelector:@selector(loadTableStreamsData) withObject:nil afterDelay:0.5];
+                    [self performSelector:@selector(loadTableStreamsData) withObject:nil afterDelay:0.5];
                     isFirstChannelView=NO;
                 }
             }
@@ -1596,6 +1622,12 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     
     [self setScrollToChannel:ChannelBackgroundView];
     
+    
+//    if(isDispatchCompleted==YES){
+//        NSLog(@"isDispatchCompleted");
+//        [self performSelector:@selector(loadTableStreamsData) withObject:nil afterDelay:0.5];
+//    }
+    
 }
 
 #pragma mark - setScrollToChannel
@@ -1776,6 +1808,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 -(void)loadTableStreamsData{
     [self.tableStreams reloadData];
     
+    NSLog(@" PLAY VIDEO");
+    
     if(self.playerView != nil)
     {
         [self.playerView stopVideo];
@@ -1892,7 +1926,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         }
 
             tableYPosition = 60;
-            tableHeight = tvShowView.frame.size.height-tableYPosition;//190;
+            tableHeight = tvShowView.frame.size.height-tableYPosition*2;//190;
         
         tableChannelList = [[UITableView alloc] initWithFrame:CGRectMake(0, tableYPosition, tvShowView.frame.size.width, tableHeight)];
     }else{
@@ -1906,7 +1940,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         }
 
             tableYPosition = 60;
-            tableHeight = tvShowView.frame.size.height-tableYPosition;//390;
+            tableHeight = tvShowView.frame.size.height-tableYPosition*2;//390;
       
         tableChannelList = [[UITableView alloc] initWithFrame:CGRectMake(0, tableYPosition, tvShowView.frame.size.width, tableHeight)];
 
@@ -1924,7 +1958,20 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     [tvLabel setFont:[COMMON getResizeableFont:Roboto_Light(15)]];
     [tvLabel setTextAlignment:NSTextAlignmentCenter];
     [tvLabel setBackgroundColor:[UIColor clearColor]];
-    UILabel* labelTitle = [[UILabel alloc] initWithFrame:CGRectMake(15, 10,tvShowView.frame.size.width-30, 50)];
+    
+    UIButton *backToCategoryBtn = [[UIButton alloc] initWithFrame:CGRectMake(5, 10, 40, 50)];
+    //[selectionButton setBackgroundColor:[UIColor blueColor]];
+   // [backToCategoryBtn setTitle:@"< back" forState:UIControlStateNormal];//previousImage
+    [backToCategoryBtn setImage:[UIImage imageNamed:@"previousImage"] forState:UIControlStateNormal];
+
+    backToCategoryBtn.titleLabel.font =[COMMON getResizeableFont:Roboto_Regular(14)];
+    [backToCategoryBtn setTitleColor:[UIColor colorWithRed:103/255.0f green:200/255.0f blue:246/255.0f alpha:1.0f] forState:UIControlStateNormal];
+    backToCategoryBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+    [backToCategoryBtn addTarget:self action:@selector(backToCategoryBtn) forControlEvents:UIControlEventTouchUpInside];
+    
+    CGFloat labelMaxX = CGRectGetMaxX(backToCategoryBtn.frame)+2;
+    
+    UILabel* labelTitle = [[UILabel alloc] initWithFrame:CGRectMake(labelMaxX, 10,tvShowView.frame.size.width-labelMaxX, 50)];
     [labelTitle setText:@"Channels"];//new change //Genre
     [labelTitle setTextColor:[UIColor colorWithRed:103/255.0f green:200/255.0f blue:246/255.0f alpha:1.0f]];
     [labelTitle setFont:[COMMON getResizeableFont:Roboto_Light(15)]];
@@ -1944,12 +1991,25 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
    // else{
         [selectionButton setHidden:YES];
     //}
+    CGFloat cancelBtnWidth = (tvShowView.frame.size.width/2);
+    
+    CGFloat cancelBtnXPos = (tvShowView.frame.size.width/2)-10;
+    
+    UIButton *cancelBtn = [[UIButton alloc] initWithFrame:CGRectMake(cancelBtnXPos,CGRectGetMaxY(tableChannelList.frame),cancelBtnWidth, 50)];
+    [cancelBtn setBackgroundColor:[UIColor clearColor]];
+    [cancelBtn setTitle:@"Cancel" forState:UIControlStateNormal];//previousImage
+    cancelBtn.titleLabel.font =[COMMON getResizeableFont:Roboto_Regular(14)];
+    [cancelBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    cancelBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
+    [cancelBtn addTarget:self action:@selector(cancelBtnAction) forControlEvents:UIControlEventTouchUpInside];
     
     [tvShowView setBackgroundColor : [UIColor whiteColor]];
     [tvShowView addSubview:tvLabel];
     [tvShowView addSubview:labelTitle];
     [tvShowView addSubview:labelTitleline];
     [tvShowView addSubview:selectionButton];
+    [tvShowView addSubview:backToCategoryBtn]; // new code backToCategoryBtn
+    [tvShowView addSubview:cancelBtn];
     [tvShowView addSubview:tableChannelList];
     [mainChannelView setContainerView:tvShowView];
     [mainChannelView show];
@@ -1957,6 +2017,28 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     bTitleCagtegoryShown = false;
     bMenuCategoryShown = true;
 }
+
+-(void)backToCategoryBtn{
+    
+    bTitleCagtegoryShown = true;
+    bMenuCategoryShown = false;
+   
+    if(bTitleCagtegoryShown){
+        [mainChannelView removeFromSuperview];
+        [mainChannelView close];
+        mainChannelView = nil;
+        [self showCategoryList:arrCategoriesTempArray];
+        
+    }
+}
+-(void)cancelBtnAction{
+    bTitleCagtegoryShown = false;
+    bMenuCategoryShown = false;
+    [mainChannelView removeFromSuperview];
+    [mainChannelView close];
+    mainChannelView = nil;
+}
+
 #pragma mark - checkLetterAMusic
 -(void) checkLetterArtist:(NSString *)letterString{
     NSString *selectedLetter = letterString;
@@ -2301,7 +2383,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 
 - (void)updateChannelData:(NSDictionary *)dictItem
 {
-    isCurVideo = true;
+   // isCurVideo = true;
     NSDictionary* dicInfo = dictItem;
     int nID = [[dicInfo valueForKey:@"id"] intValue];
     NSString* title = dicInfo[@"name"];
@@ -2312,7 +2394,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 #pragma mark - Stream Update Module
 - (void) loadStream: (NSNotification*) notification
 {
-    isCurVideo = true;
+   // isCurVideo = true;
     if(isReloadTable==true){
         [self.tableStreams scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
     }
@@ -3298,7 +3380,10 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         port_heightView = SCREEN_HEIGHT;
         port_MainViewHeight=SCREEN_HEIGHT;
         
-        
+        if(port_MainViewHeight!=land_MainViewHeight){
+            [self onChannelViewTopMenuList:YES];
+        }
+
         nMainColumn = 8;
         CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
         CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
@@ -3345,10 +3430,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
             [self.playerContainer setTranslatesAutoresizingMaskIntoConstraints:YES];
         }
         
-        if(port_MainViewHeight!=land_MainViewHeight){
-            [self onChannelViewTopMenuList:YES];
-        }
-       
+        
         
     }else{
         
@@ -3540,6 +3622,12 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
    // if ([latestNewsArray count] == 0) {
     //if(port_heightView != land_heightView){
     
+    for(UIView *view in newScrollGridView.subviews){
+        [view removeFromSuperview];
+    }
+    [self LoadIndicator:newScrollGridView];
+    [newScrollGridView setHidden:NO];
+    
     [self performSelector:@selector(callChannelPageByPerformSelector) withObject:nil afterDelay:1.0];
     
     
@@ -3556,55 +3644,47 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
 }
 -(void)callChannelPageByPerformSelector{
     
-//    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-//    dispatch_async(queue, ^{
-//        
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            // perform on main
-//            
-//        });
-//    });
+
     
-    dispatch_group_t group = dispatch_group_create();
-    
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
-        for(UIView *view in newScrollGridView.subviews){
-            [view removeFromSuperview];
-        }
-        [self LoadIndicator:newScrollGridView];
-        [newScrollGridView setHidden:NO];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
         
+         NSLog(@"first");
+       
         dispatch_async(dispatch_get_main_queue(), ^{
+            NSLog(@"main");
             
             if(isFirstTimeChannelView==YES){
+                isFirstChannelView =NO;
+                
+                 isDispatchCompleted=NO;
+                
                 [self loadLatestChannelData];
                 
                 //[self performSelector:@selector(loadLatestChannelData) withObject:nil afterDelay:0.80];
                 
-                //new change
-                //[self performSelector:@selector(callChannelPageByPerformSelector) withObject:nil afterDelay:0.80];
-                
-                //[self callChannelPageByPerformSelector];
-                
+                isFirstChannelView =YES;
                 isFirstTimeChannelView=NO;
+
                 NSLog(@"if");
+                isDispatchCompleted=YES;
+                
+                
             }
             else{
                 NSLog(@"else");
-                //                    for(UIView *view in newScrollGridView.subviews){
-                //                        [view removeFromSuperview];
-                //                    }
-                //                    [self LoadIndicator:newScrollGridView];
-                //
-                //                    [newScrollGridView setHidden:NO];
+               
+                
+                isDispatchCompleted=NO;
+                
+                isFirstChannelView =NO;
                 
                 [self loadLatestChannelData];
                // [self performSelector:@selector(loadLatestChannelData) withObject:nil afterDelay:0.50];
                 //new change
+                isDispatchCompleted =YES;
                 
-                // [self performSelector:@selector(callChannelPageByPerformSelector) withObject:nil afterDelay:0.50];
-                // [self callChannelPageByPerformSelector];
-                
+                isFirstChannelView =YES;
+                                
                 NSLog(@"condition");
                 
                 [self removeIndicator];
@@ -3612,30 +3692,33 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
             }
             
         });
-        NSLog(@"condition");
+        NSLog(@"Completed");
     });
     
-    
-//    dispatch_queue_t main = dispatch_get_main_queue();
-//    dispatch_block_t block = ^
-//    {
-//         [self loadLatestChannelData];
-//    };
-//    if (dispatch_get_current_queue() == main)
-//        block(); // execute the block directly, as main is already the current active queue
-//    else
-//        dispatch_sync(main, block);
-    
-    
-    // ask the main queue, which is not the current queue, to execute the block, and wait for it to be executed before continuing
-    
-//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//              [self loadLatestChannelData];
-//            
+   // if(isDispatchCompleted==YES){
+//        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
+//                NSLog(@"VIDEO");
+//                [self loadTableStreamsData];
 //        });
-//    });
+    //}
+    
+    toPlayVideo = [NSTimer scheduledTimerWithTimeInterval:7 target:self selector:@selector(getPerforSelecter) userInfo:nil repeats:YES];
 
+}
+-(void)getPerforSelecter{
+    
+    if(isDispatchCompleted==YES){
+        [NSTimer cancelPreviousPerformRequestsWithTarget:self];
+        [toPlayVideo invalidate];
+        toPlayVideo =nil;
+        
+        [self loadTableStreamsData];
+        NSLog(@"isFirstChannelView");
+    }
+    else{
+        NSLog(@"TIMER");
+    }
+    
 }
 -(BOOL)isDeviceIpad
 {
@@ -3747,6 +3830,8 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
     
     _googleCastButton.hidden = YES;  //myself changed to No for test
     
+    isGoogleCastShown = NO;
+    
     // Establish filter criteria.
     GCKFilterCriteria *filterCriteria = [GCKFilterCriteria
                                          criteriaForAvailableApplicationWithID:kReceiverAppID];
@@ -3848,6 +3933,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         // Show the Cast button.
         //self.navigationItem.rightBarButtonItems = @[_googleCastButton];
         _googleCastButton.hidden = NO;
+        isGoogleCastShown = YES;
         
         if (_deviceManager && _deviceManager.connectionState == GCKConnectionStateConnected) {
             // Show the Cast button in the enabled state.
@@ -3864,6 +3950,7 @@ commonWidth = [UIScreen mainScreen].bounds.size.width;
         //Don't show cast button.
         //self.navigationItem.rightBarButtonItems = @[];
         _googleCastButton.hidden = YES;
+        isGoogleCastShown = NO;
     }
 }
 

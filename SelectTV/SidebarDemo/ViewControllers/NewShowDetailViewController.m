@@ -232,6 +232,7 @@ CustomIOS7AlertView *appListFullPopUpView;
     [super viewWillAppear:animated];
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroud_BG.png"]];
      self.view.backgroundColor = GRAY_BG_COLOR;
+   
 }
 -(void) viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
@@ -1121,6 +1122,10 @@ CustomIOS7AlertView *appListFullPopUpView;
             [_BottomFullView setHidden:YES];
             [_watchLatestLabel setHidden:YES];
             [COMMON removeLoading];
+            if([showFullEpisodesArray count]==0 && [showFullSeasonsArray count]==0){
+                [_LatestEpisodesLabel setHidden:YES];
+                [AppCommon showSimpleAlertWithMessage:@"No Episodes"];
+            }
         }
         else if([currentShowGridArray count]==0 || currentShowGridArray==nil){
             [_BottomFullView setHidden:NO];
@@ -1131,6 +1136,11 @@ CustomIOS7AlertView *appListFullPopUpView;
             [_AllSeasonBtn setTitle:@"" forState:UIControlStateNormal];
             [_AllSeasonBtn setUserInteractionEnabled:NO];
             [self setShowScrollHeight];
+            
+            if([showFullEpisodesArray count]==0 && [showFullSeasonsArray count]==0){
+                [_LatestEpisodesLabel setHidden:YES];
+                [AppCommon showSimpleAlertWithMessage:@"No Episodes"];
+            }
         }
     }failureBlock:^(AFHTTPRequestOperation *operation, NSError *error) {
          [self hideBottomViewFreeCountEmpty];
