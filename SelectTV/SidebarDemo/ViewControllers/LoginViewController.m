@@ -459,13 +459,9 @@
     CGFloat forgotPwdBtnYpos=0.0;
     if([self isDeviceIpad]==YES){
         forgotPwdBtnYpos =loginBtn.frame.origin.y+loginBtn.frame.size.height+15;
-        
-         [createAccBtn setFrame:CGRectMake(Xpos+110, CGRectGetMaxY(forgotPwdBtn.frame)+180, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
     }
     else{
         forgotPwdBtnYpos =loginBtn.frame.origin.y+loginBtn.frame.size.height+3;
-        
-         [createAccBtn setFrame:CGRectMake(Xpos+30, CGRectGetMaxY(forgotPwdBtn.frame)+30, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
     }
     //new change color white to black
     [forgotPwdBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];

@@ -186,7 +186,7 @@
         int sliderNameSize,sliderTitleSize,sliderWatchBtnSize,sliderDescSize=0.0f;
         CGFloat sliderTitleYPosExtra=0.0f;
         if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
-            sliderNameYPos=20;
+            sliderNameYPos=180;//20
             sliderWatchBtnHeight=50;
             sliderNameSize =20;
             sliderTitleSize = 19;
@@ -195,7 +195,7 @@
             sliderTitleYPosExtra =10;
         }
         else{
-            sliderNameYPos=10;
+            sliderNameYPos=100;//10
             sliderWatchBtnHeight=40;
             sliderNameSize=15;
             sliderTitleSize= 13;
