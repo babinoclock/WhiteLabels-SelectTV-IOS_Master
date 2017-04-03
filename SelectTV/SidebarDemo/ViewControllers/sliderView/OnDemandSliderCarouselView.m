@@ -103,10 +103,10 @@
     }
     else{
         if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
-            slideScrollHeight = SCREEN_HEIGHT/2.3;
+            slideScrollHeight = SCREEN_HEIGHT/2.3;//2.3
         }
         else{
-            slideScrollHeight = SCREEN_HEIGHT/2.5;
+            slideScrollHeight = SCREEN_HEIGHT/3.2;//2.5
         }
         
     }
@@ -195,7 +195,7 @@
             sliderTitleYPosExtra =10;
         }
         else{
-            sliderNameYPos=100;//10
+            sliderNameYPos=70;//10
             sliderWatchBtnHeight=40;
             sliderNameSize=15;
             sliderTitleSize= 13;
@@ -274,7 +274,7 @@
          pageControlViewHeight = 60;
      }
      else{
-         pageControlViewHeight = 40;
+         pageControlViewHeight = 60;//40
      }
     pageControlView = [[UIView alloc]initWithFrame:CGRectMake(0, (slideScroll.frame.origin.y+slideScroll.frame.size.height)-(pageControlViewYPos), SCREEN_WIDTH, pageControlViewHeight)];
     [fullSlideScrollView addSubview:pageControlView];
