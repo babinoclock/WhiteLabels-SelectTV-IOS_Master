@@ -640,10 +640,16 @@
     
     if([self isDeviceIpad]!=YES){
         if([type isEqualToString:@"S"]){
+            visiblePoint = CGPointMake(CGRectGetMaxX(visibleRect)+110, CGRectGetMidY(visibleRect));
+        }
+        else if([type isEqualToString:@"M"])
+        {
             visiblePoint = CGPointMake(CGRectGetMaxX(visibleRect), CGRectGetMidY(visibleRect));
         }
+        
         else{
-            visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
+             visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
+            //visiblePoint = CGPointMake(CGRectGetMaxX(visibleRect), CGRectGetMidY(visibleRect));
         }
     }
     else{
@@ -677,8 +683,10 @@
     
     if([self isDeviceIpad]!=YES){
         if([type isEqualToString:@"S"]){
-            visiblePoint = CGPointMake(CGRectGetMinX(visibleRect), CGRectGetMidY(visibleRect));
+            visiblePoint = CGPointMake(CGRectGetMinX(visibleRect)-110, CGRectGetMidY(visibleRect));
         }
+        else if([type isEqualToString:@"M"]){
+            visiblePoint = CGPointMake(CGRectGetMinX(visibleRect), CGRectGetMidY(visibleRect));        }
         else{
             visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
         }
