@@ -777,7 +777,7 @@
         NSDictionary *cellData = [appListArrayItems objectAtIndex:[indexPath section]] ;
         BlockData = [cellData objectForKey:@"items"];
         
-
+       
         [cell setCollectionImageData:BlockData currentViewStr:currentViewString];
 
     }

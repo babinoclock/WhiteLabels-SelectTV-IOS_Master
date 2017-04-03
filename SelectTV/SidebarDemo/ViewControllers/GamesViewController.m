@@ -257,6 +257,16 @@ int nGamesCellHeight = 200;
     titleArray = [[COMMON retrieveContentsFromFile:GAMES_TOP_MENU_WORDS dataType:DataTypeArray] mutableCopy];
     
 }
+-(BOOL)isDeviceIpad
+{
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+        
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
 #pragma mark - getMoreDataList
 -(void)getMoreDataList{
     [COMMON LoadIcon:self.view];
@@ -303,16 +313,32 @@ int nGamesCellHeight = 200;
                                                      documentAttributes:nil
                                                                   error:nil];
     strChannelName = [attr string];
+    
     headerView = [[UIView alloc] initWithFrame:CGRectMake(0,0,tableView.frame.size.width,30)];
-    UILabel *headerLabel = [[UILabel alloc] initWithFrame:CGRectMake(10,5,headerView.frame.size.width/2,30)];
+    
+    UILabel *headerLabel;
+    UILabel *viewAllLabel;
+    
+    if([self isDeviceIpad]!=YES){
+        
+       headerLabel = [[UILabel alloc] initWithFrame:CGRectMake(10,5,headerView.frame.size.width/2,30)];
+       viewAllLabel = [[UILabel alloc] initWithFrame:CGRectMake(headerView.frame.size.width-(130),2,130,30)];
+
+    }
+    else{
+        
+        headerLabel = [[UILabel alloc] initWithFrame:CGRectMake(10,15,headerView.frame.size.width/2,30)];
+       viewAllLabel = [[UILabel alloc] initWithFrame:CGRectMake(headerView.frame.size.width-(130),12,130,30)];
+        
+    }
+   
     headerLabel.textAlignment = NSTextAlignmentLeft;
     headerLabel.text = strChannelName;
-    
     headerLabel.textColor=[UIColor whiteColor];//BORDER_BLUE;
     headerLabel.backgroundColor = [UIColor clearColor];
     [headerView addSubview:headerLabel];
     
-    UILabel *viewAllLabel = [[UILabel alloc] initWithFrame:CGRectMake(headerView.frame.size.width-(130),2,130,30)];
+    
     viewAllLabel.textAlignment = NSTextAlignmentLeft;
     NSString *viewAllStr = @"VIEW ALL";
     if([COMMON isSpanishLanguage]==YES){
@@ -348,8 +374,17 @@ int nGamesCellHeight = 200;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 40.0;
-}
+    if([self isDeviceIpad]!=YES){
+        
+        return 40.0;
+    }
+    else{
+        
+        return 60.0;
+        
+    }
+
+    }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     if([topTitleCarouselArray count]!=0){
@@ -361,7 +396,7 @@ int nGamesCellHeight = 200;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    return 195.0;//170//160
+    return 130.0;//195.0//170//160
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -381,7 +416,7 @@ int nGamesCellHeight = 200;
     if (nil == cell) {
 
         cell = [[NKContainerCellTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier appManagerStr :@"NO"];
-        
+       
         NSDictionary *cellData = [topTitleCarouselArray objectAtIndex:[indexPath section]] ;
         BlockData = [cellData objectForKey:@"items"];
         
@@ -390,6 +425,7 @@ int nGamesCellHeight = 200;
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     [cell setBackgroundColor:[UIColor clearColor]];
+    //cell.backgroundColor = [UIColor redColor];
     return cell;
     
     
