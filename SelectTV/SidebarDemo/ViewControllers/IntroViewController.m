@@ -14,6 +14,7 @@
 #import "RabbitTVManager.h"
 #import "AppCommon.h"
 #import "AppConfig.h"
+#import "AsyncImage.h"
 
 @interface IntroViewController ()<UIGestureRecognizerDelegate,YTPlayerViewDelegate>{//SWRevealViewControllerDelegate
     
@@ -749,6 +750,25 @@
     for (int i = 0; i<[categoryArray count]; i++) {
         NSMutableDictionary *dictItem = [[NSMutableDictionary alloc] initWithDictionary:categoryArray[i]];
         int nChannelID = [dictItem[@"id"] intValue];
+        
+        NSString* strPosterUrl = [[categoryArray objectAtIndex:i]valueForKey:@"big_logo_url"];
+        if ((NSString *)[NSNull null] == strPosterUrl||strPosterUrl==nil) {
+            strPosterUrl=@"";
+        }
+        UIImageView *titleImage;
+        if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
+        {
+            titleImage = [[UIImageView alloc]initWithFrame:CGRectMake(8, 10, 40, 40)];
+        }
+        else{
+            titleImage = [[UIImageView alloc]initWithFrame:CGRectMake(5, 5, 30, 30)];
+        }
+       AsyncImage* asyncImage = [[AsyncImage alloc]initWithFrame:CGRectMake(0, 0,titleImage.frame.size.width, titleImage.frame.size.height)];
+        [asyncImage setLoadingImage];
+        [asyncImage loadImageFromURL:[NSURL URLWithString:strPosterUrl]
+                                type:AsyncImageResizeTypeCrop
+                             isCache:YES];
+        
         [[RabbitTVManager sharedManager] getStreamsLimit:^(AFHTTPRequestOperation * request, id responseObject) {
               NSString *subCatchannelId =[NSString stringWithFormat:@"%d",nChannelID];
             NSString *strSubcategoryFile = [NSString stringWithFormat:YOULIVE_CHANNELS_SUB_CATEGORIES,subCatchannelId];
