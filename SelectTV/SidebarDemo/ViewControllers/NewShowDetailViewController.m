@@ -1185,6 +1185,8 @@ CustomIOS7AlertView *appListFullPopUpView;
             [_watchNowBtn setHidden:YES];
             [_watchTrailerBtn setHidden:YES];
             [_showDetailAddFavBtn setHidden:YES];
+            [_TopFullView setHidden:YES];
+            [_LatestEpisodesLabel setHidden:YES];
             [self errorAlertWithErrorDictForDetail:error];
             [MBProgressHUD hideHUDForView:[[UIApplication sharedApplication] keyWindow] animated:YES];
         } nMovieID:nMovieID nPPV:nPPV];
@@ -1205,10 +1207,12 @@ CustomIOS7AlertView *appListFullPopUpView;
            
             
         }failureBlock:^(AFHTTPRequestOperation *operation, NSError *error) {
+            [_TopFullView setHidden:YES];
             [_addToFavBtn setHidden:YES];
             [_watchNowBtn setHidden:YES];
             [_watchTrailerBtn setHidden:YES];
             [_showDetailAddFavBtn setHidden:YES];
+            [_LatestEpisodesLabel setHidden:YES];
             [self errorAlertWithErrorDictForDetail:error];
             [MBProgressHUD hideHUDForView:[[UIApplication sharedApplication] keyWindow] animated:YES];
             
