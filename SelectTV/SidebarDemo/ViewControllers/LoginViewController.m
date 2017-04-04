@@ -468,11 +468,11 @@
     [forgotPwdBtn setFrame:CGRectMake(10 ,forgotPwdBtnYpos, screenWidth-20, 55)];
     
       if( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
-          [createAccBtn setFrame:CGRectMake(Xpos+110, CGRectGetMaxY(forgotPwdBtn.frame)+180, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
+          [createAccBtn setFrame:CGRectMake(screenWidth/2 - createAccBtn.frame.size.width/2 , CGRectGetMaxY(forgotPwdBtn.frame)+180, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
      }
      else{
     
-     [createAccBtn setFrame:CGRectMake(Xpos+20, CGRectGetMaxY(forgotPwdBtn.frame)+30, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
+     [createAccBtn setFrame:CGRectMake(screenWidth/2 - createAccBtn.frame.size.width/2, CGRectGetMaxY(forgotPwdBtn.frame)+30, createAccBtn.frame.size.width, createAccBtn.frame.size.height)];
      }
     
 
