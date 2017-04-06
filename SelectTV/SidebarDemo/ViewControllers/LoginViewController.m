@@ -14,7 +14,7 @@
 #import "StartScreenViewController.h"
 #import "IntroViewController.h"
 
-@interface LoginViewController ()<UIAlertViewDelegate>{
+@interface LoginViewController ()<UIAlertViewDelegate,UIGestureRecognizerDelegate>{
     CGFloat screenWidth;
     CGFloat screenHeight;
     NSString * currentAppLanguage;
@@ -26,6 +26,8 @@
     NSString *helpStrPart_Two;
     
     UIView *helpAlert;
+    
+    UIAlertView *alert;
     
 }
 
@@ -368,16 +370,25 @@
 //    NSString *url= @"http://support.selecttv.com/";
 //    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:APP_TITLE
+    alert = [[UIAlertView alloc] initWithTitle:APP_TITLE
                                                     message:@""
                                                    delegate:self
                                           cancelButtonTitle:nil
                                           otherButtonTitles:@"Billing",@"Customer Support",nil];
     [alert show];
     
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapOut:)];
+    tap.cancelsTouchesInView = NO;
+    [alert.window addGestureRecognizer:tap];
    
     
 }
+-(void)tapOut:(UIGestureRecognizer *)gestureRecognizer {
+    
+    NSLog(@"clicked");
+      [alert dismissWithClickedButtonIndex:2 animated:YES];
+}
+
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
    
     if (buttonIndex == 0)
