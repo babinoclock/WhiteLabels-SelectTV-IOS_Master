@@ -7885,6 +7885,7 @@
 				TargetAttributes = {
 					2B1A7D0D1E6ECB22006324AF = {
 						DevelopmentTeam = S56VX68W2B;
+						ProvisioningStyle = Manual;
 					};
 					2B1A7E821E6EDA05006324AF = {
 						DevelopmentTeam = S56VX68W2B;

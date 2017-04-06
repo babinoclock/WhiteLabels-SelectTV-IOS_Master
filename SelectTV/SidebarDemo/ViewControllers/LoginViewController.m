@@ -390,8 +390,17 @@
     
     if (buttonIndex == 1) {
         
-        NSString *url= @"http://support.freecast.com/";
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+         if([APP_TITLE isEqualToString:@"ETV"])
+         {
+         
+             NSString *url= @"https://etvanywhere.net/support_selection/";
+             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+         }
+         else{
+         
+              NSString *url= @"http://support.freecast.com/";
+             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+         }
 
     }
 }
@@ -683,6 +692,12 @@
     }
     else{
         [helpBtn setHidden:NO];
+        
+        
+        
+        
+        
+        
         [helpLabel setHidden:NO];
          [createAccBtn setHidden:YES];
     

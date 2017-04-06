@@ -17,5 +17,5 @@
 
 #define splashNewImage                      @"ETV_CustomLaunchIcon"
 
-#define Link                                @"https://etv.freecast.com/support_selection/"
+#define Link                                @"https://www.etvanywhere.com/billing-support"
 
