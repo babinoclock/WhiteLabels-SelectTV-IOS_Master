@@ -7885,6 +7885,7 @@
 				TargetAttributes = {
 					2B1A7D0D1E6ECB22006324AF = {
 						DevelopmentTeam = S56VX68W2B;
+						ProvisioningStyle = Manual;
 					};
 					2B1A7E821E6EDA05006324AF = {
 						DevelopmentTeam = S56VX68W2B;
@@ -13957,7 +13958,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = ETV_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = ETV_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -13973,8 +13974,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.etv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "eba9d8b8-f858-47a9-8150-aa7043eafbb3";
-				PROVISIONING_PROFILE_SPECIFIER = "ETV Development";
+				PROVISIONING_PROFILE = "f6065d7d-8b7f-471d-a0a1-4e8b7e600e89";
+				PROVISIONING_PROFILE_SPECIFIER = "ETV InHouse";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -13987,7 +13988,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = ETV_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = ETV_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -14003,8 +14004,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.etv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "eba9d8b8-f858-47a9-8150-aa7043eafbb3";
-				PROVISIONING_PROFILE_SPECIFIER = "ETV Development";
+				PROVISIONING_PROFILE = "f6065d7d-8b7f-471d-a0a1-4e8b7e600e89";
+				PROVISIONING_PROFILE_SPECIFIER = "ETV InHouse";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
