@@ -17,3 +17,5 @@
 #define splashNewImage                      @"SelectTV_CustomLaunchIcon"
 
 #define Link                                @"http://support.selecttv.com/"
+
+#define SLUG_NAME                          @"selecttv"

@@ -19,3 +19,5 @@
 #define splashNewImage                      @"Mohawk_CustomLaunchIcon"
 
 #define Link                                @"https://mohawk.freecast.com/support_selection/"
+
+#define SLUG_NAME                          @"mohawk"

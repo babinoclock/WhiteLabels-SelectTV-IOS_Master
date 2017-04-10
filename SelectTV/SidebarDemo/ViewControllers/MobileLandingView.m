@@ -12,6 +12,7 @@
 #import "OverTheAirViewController.h"
 #import "SWRevealViewController.h"
 #import "AppDelegate.h"
+#import "STWebService.h"
 
 
 @interface MobileLandingView ()<UIScrollViewDelegate,UIGestureRecognizerDelegate,UIGridViewDelegate,SWRevealViewControllerDelegate>{
@@ -20,6 +21,7 @@
      NSMutableArray * imageArray;
      UIDevice* homeDevice;
     NSString * currentAppLanguage ;
+    NSString *needHelpLink;
 }
 @end
 
@@ -256,8 +258,18 @@ int nMobileCellHeight = 200;
     
 }
 - (void)supportAction:(UITapGestureRecognizer *)tap {
-    NSString *url= Link; //http://support.selecttv.com/
+    
+    if ([APP_TITLE isEqualToString:@"SelectTV"])
+    {
+    NSString *url= Link;     
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+    }
+    else{
+//        NSString *url= needHelpLink;
+//        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+        [self getNeedHelp];
+    
+    }
     
 }
 -(id)loadTranslation:(NSString *)currentEnglishText{
@@ -484,6 +496,24 @@ int nMobileCellHeight = 200;
     return UIInterfaceOrientationMaskAll;
     
 }
+-(void)getNeedHelp
+{
+    
+    [[STWebService sharedWebService]getNeedHelpLink:^(id responseObject) {
+        
+        NSLog(@"RESponse====>%@",responseObject);
+        NSLog(@"APPPPPPSSSSS===>%@",[[responseObject objectAtIndex:0] valueForKey:SLUG_NAME]);
+        needHelpLink =[[responseObject objectAtIndex:0] valueForKey:SLUG_NAME];
+       
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:needHelpLink]];
+        
+    } failure:^(NSError *error) {
+        
+        NSLog(@"RESponse====>errrrroooorrr");
+    }];
+}
+
+
 
 
 @end

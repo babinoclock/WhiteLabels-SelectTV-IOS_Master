@@ -18,3 +18,5 @@
 #define splashNewImage                      @"Endeavor_CustomLaunchIcon"
 
 #define Link                                @"https://endeavor.freecast.com/support_selection/"
+
+#define SLUG_NAME                          @"endeavor"

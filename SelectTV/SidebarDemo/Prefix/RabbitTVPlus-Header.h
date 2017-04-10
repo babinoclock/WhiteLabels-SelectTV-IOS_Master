@@ -17,3 +17,5 @@
 #define splashNewImage                 @"RabbitTVPlus_CustomLaunchIcon"
 
 #define Link                                @"https://rabbittvplus.freecast.com/support_selection/"
+
+#define SLUG_NAME                          @"rabbittvplus"

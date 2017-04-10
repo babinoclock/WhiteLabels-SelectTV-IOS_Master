@@ -19,6 +19,8 @@
 
 #define Link                                @"https://broadview.live/support_selection/"
 
+#define SLUG_NAME                          @"broadview"
+
 
 //#ifndef BroadView_Header_h
 //#define BroadView_Header_h

@@ -21,3 +21,4 @@
 
 #define Link                                @"https://arvig.freecast.com/support_selection/"
 
+#define SLUG_NAME                          @"klicktv"

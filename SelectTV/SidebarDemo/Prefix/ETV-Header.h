@@ -19,3 +19,4 @@
 
 #define Link                                @"https://www.etvanywhere.com/billing-support"
 
+#define SLUG_NAME                          @"etv"

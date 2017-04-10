@@ -17,3 +17,5 @@
 #define splashNewImage                      @"Demo_CustomLaunchIcon"
 
 #define Link                                @"https://demo.freecast.com/support_selection/"
+
+#define SLUG_NAME                          @"demo"

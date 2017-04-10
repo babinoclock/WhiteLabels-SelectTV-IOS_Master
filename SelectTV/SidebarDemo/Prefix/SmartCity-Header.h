@@ -17,3 +17,5 @@
 #define splashNewImage                      @"SmartCity_CustomLaunchIcon"
 
 #define Link                                @"https://smartcity.freecast.com/support_selection/"
+
+#define SLUG_NAME                          @"smartcity"

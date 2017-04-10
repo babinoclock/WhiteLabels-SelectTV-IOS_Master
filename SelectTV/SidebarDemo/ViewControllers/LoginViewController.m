@@ -13,6 +13,7 @@
 #import "ForgotPasswordViewController.h"
 #import "StartScreenViewController.h"
 #import "IntroViewController.h"
+#import "STWebService.h"
 
 @interface LoginViewController ()<UIAlertViewDelegate,UIGestureRecognizerDelegate>{
     CGFloat screenWidth;
@@ -28,6 +29,7 @@
     UIView *helpAlert;
     
     UIAlertView *alert;
+    NSString *needHelpLink;
     
 }
 
@@ -38,6 +40,9 @@
 @synthesize loginBtn,forgotPwdBtn,createAccBtn,signUpLabel,helpLabel,helpBtn;
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self getNeedHelp];
+    
     currentAppLanguage = [[NSLocale preferredLanguages] objectAtIndex:0];
     
     NSString *loginStr = @"Login";
@@ -367,54 +372,55 @@
     
 }
 -(void)needHelpAction{
-//    NSString *url= @"http://support.selecttv.com/";
-//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
     
-    alert = [[UIAlertView alloc] initWithTitle:APP_TITLE
-                                                    message:@""
-                                                   delegate:self
-                                          cancelButtonTitle:nil
-                                          otherButtonTitles:@"Billing",@"Customer Support",nil];
-    [alert show];
+    NSString *url = needHelpLink;         
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
     
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapOut:)];
-    tap.cancelsTouchesInView = NO;
-    [alert.window addGestureRecognizer:tap];
+//    alert = [[UIAlertView alloc] initWithTitle:APP_TITLE
+//                                                    message:@""
+//                                                   delegate:self
+//                                          cancelButtonTitle:nil
+//                                          otherButtonTitles:@"Billing",@"Customer Support",nil];
+//    [alert show];
+//    
+//    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapOut:)];
+//    tap.cancelsTouchesInView = NO;
+//    [alert.window addGestureRecognizer:tap];
    
     
 }
--(void)tapOut:(UIGestureRecognizer *)gestureRecognizer {
-    
-    NSLog(@"clicked");
-      [alert dismissWithClickedButtonIndex:2 animated:YES];
-}
-
-- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
-   
-    if (buttonIndex == 0)
-    {
-        NSString *url= Link;
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
-    }
-    
-    
-    
-    if (buttonIndex == 1) {
-        
-         if([APP_TITLE isEqualToString:@"ETV"])
-         {
-         
-             NSString *url= @"https://etvanywhere.net/support_selection/";
-             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
-         }
-         else{
-         
-              NSString *url= @"http://support.freecast.com/";
-             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
-         }
-
-    }
-}
+//-(void)tapOut:(UIGestureRecognizer *)gestureRecognizer {
+//    
+//    NSLog(@"clicked");
+//      [alert dismissWithClickedButtonIndex:2 animated:YES];
+//}
+//
+//- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+//   
+//    if (buttonIndex == 0)
+//    {
+//        NSString *url= Link;
+//        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+//    }
+//    
+//    
+//    
+//    if (buttonIndex == 1) {
+//        
+//         if([APP_TITLE isEqualToString:@"ETV"])
+//         {
+//         
+//             NSString *url= @"https://etvanywhere.net/support_selection/";
+//             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+//         }
+//         else{
+//         
+//              NSString *url= @"http://support.freecast.com/";
+//             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+//         }
+//
+//    }
+//}
 
 
 //-(void)setupHelpFrame
@@ -716,4 +722,36 @@
     
 
 }
+-(void)getNeedHelp
+{
+//    NSURL *URL = [NSURL URLWithString:@"http://indiawebcoders.com/urls.php"];
+//    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+//    
+//    NSURLSession *session = [NSURLSession sharedSession];
+//    NSURLSessionDataTask *task = [session dataTaskWithRequest:request
+//                                            completionHandler:
+//                                  ^(NSData *data, NSURLResponse *response, NSError *error) {
+//                                      
+//                                      NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
+//                                      
+//                                      NSLog(@"responseObj--->%@",dict);
+//                                      NSLog(@"APPLink---->%@",[dict valueForKey:APP_TITLE]);
+//                                  }];
+//    
+//    [task resume];
+//
+    
+    [[STWebService sharedWebService]getNeedHelpLink:^(id responseObject) {
+        
+        NSLog(@"RESponse====>%@",responseObject);
+        NSLog(@"APPPPPPSSSSS===>%@",[[responseObject objectAtIndex:0] valueForKey:SLUG_NAME]);
+        needHelpLink =[[responseObject objectAtIndex:0] valueForKey:SLUG_NAME];
+       
+    } failure:^(NSError *error) {
+        
+        NSLog(@"RESponse====>errrrroooorrr");
+    }];
+}
+
+
 @end

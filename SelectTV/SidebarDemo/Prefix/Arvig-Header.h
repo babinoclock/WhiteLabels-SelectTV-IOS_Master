@@ -19,6 +19,10 @@
 
 #define Link                                @"https://arvig.freecast.com/support_selection/"
 
+#define SLUG_NAME                          @"arvig"
+
+
+
 //#ifndef SideBarDemo_Header_h
 //#define SideBarDemo_Header_h
 //#endif /* SideBarDemo_Header_h */

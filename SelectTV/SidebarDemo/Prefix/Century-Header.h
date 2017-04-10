@@ -18,3 +18,5 @@
 #define splashNewImage                      @"Century_CustomLaunchIcon"
 
 #define Link                                @"https://centurylinkdemo.freecast.com/support_selection/"
+
+#define SLUG_NAME                          @"centurylinkdemo"

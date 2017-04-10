@@ -19,3 +19,5 @@
 #define splashNewImage                      @"Evolution_CustomLaunchIcon"
 
 #define Link                                @"https://evolution.freecast.com/support_selection/"
+
+#define SLUG_NAME                          @"evolution"

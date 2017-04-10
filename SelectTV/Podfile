@@ -13,8 +13,8 @@ target 'SidebarDemo' do
 pod 'XCDYouTubeKit'
 pod 'AFJSONRPCClient'
 pod 'youtube-ios-player-helper', '~> 0.1.4'
-pod ‘google-cast-sdk’
-pod ‘HCYoutubeParser’
+pod 'google-cast-sdk'
+pod 'HCYoutubeParser'
 pod 'AFNetworking'
 pod 'AFNetworkActivityLogger'
 end
