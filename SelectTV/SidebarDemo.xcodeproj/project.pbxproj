@@ -15559,7 +15559,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = MCG_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = MCG_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -15576,8 +15576,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.mcg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "edd69654-067e-4a55-be05-60e6ccec53fa";
-				PROVISIONING_PROFILE_SPECIFIER = "MCG Development";
+				PROVISIONING_PROFILE = "ca18fbb5-156f-4f31-b974-dcd0534e9e05";
+				PROVISIONING_PROFILE_SPECIFIER = "MCG InHouse";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -15683,7 +15683,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = Mohawk_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Mohawk_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -15700,8 +15700,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.mohawk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "823c6d88-4668-48e5-bfda-50003fb88d1f";
-				PROVISIONING_PROFILE_SPECIFIER = "Mohawk Development";
+				PROVISIONING_PROFILE = "69c89f38-31f7-43ce-b57a-86287ea13173";
+				PROVISIONING_PROFILE_SPECIFIER = "Mohawk InHouse";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -15714,7 +15714,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = Mohawk_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Mohawk_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -15731,8 +15731,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.mohawk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "823c6d88-4668-48e5-bfda-50003fb88d1f";
-				PROVISIONING_PROFILE_SPECIFIER = "Mohawk Development";
+				PROVISIONING_PROFILE = "69c89f38-31f7-43ce-b57a-86287ea13173";
+				PROVISIONING_PROFILE_SPECIFIER = "Mohawk InHouse";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
