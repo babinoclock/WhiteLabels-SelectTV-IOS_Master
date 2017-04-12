@@ -45,7 +45,7 @@
 - (void)getNeedHelpLink:(void(^)(id responseObject))success
                      failure:(void(^)(NSError *error))failure {
     
-    NSString *url = @"http://indiawebcoders.com/urls.php";
+    NSString *url = @"http://ec2-54-226-136-197.compute-1.amazonaws.com/selecttv/push_admin/urls.php";
 
     url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     

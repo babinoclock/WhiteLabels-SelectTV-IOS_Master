@@ -15251,7 +15251,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = SelectTV_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = SelectTV_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -15267,8 +15267,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.selecttvapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9f79a143-289f-43df-916e-8fffcf714c21";
-				PROVISIONING_PROFILE_SPECIFIER = "SelectTV Development";
+				PROVISIONING_PROFILE = "3d0bfe76-0f16-4656-ac84-96da0309aac3";
+				PROVISIONING_PROFILE_SPECIFIER = "SelectTV In House";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -15559,7 +15559,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = MCG_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = MCG_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -15576,8 +15576,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.mcg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ca18fbb5-156f-4f31-b974-dcd0534e9e05";
-				PROVISIONING_PROFILE_SPECIFIER = "MCG InHouse";
+				PROVISIONING_PROFILE = "edd69654-067e-4a55-be05-60e6ccec53fa";
+				PROVISIONING_PROFILE_SPECIFIER = "MCG Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -15590,7 +15590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = MCG_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = MCG_LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -15607,8 +15607,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.mcg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ca18fbb5-156f-4f31-b974-dcd0534e9e05";
-				PROVISIONING_PROFILE_SPECIFIER = "MCG InHouse";
+				PROVISIONING_PROFILE = "edd69654-067e-4a55-be05-60e6ccec53fa";
+				PROVISIONING_PROFILE_SPECIFIER = "MCG Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -15808,7 +15808,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Freecast, Inc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S56VX68W2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -15824,8 +15824,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freecast.arvigapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "77e6bfce-64f7-496d-8801-daf5c90f133a";
-				PROVISIONING_PROFILE_SPECIFIER = "Arvig Development";
+				PROVISIONING_PROFILE = "c3694aeb-ecbf-4c9b-a5b6-644e77f4cc36";
+				PROVISIONING_PROFILE_SPECIFIER = "Arvig InHouse";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
